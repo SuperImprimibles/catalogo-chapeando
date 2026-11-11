@@ -208,7 +208,16 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 const WA = "5492657640076";
 const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
 
-var current = null;
+// Fondos aleatorios para el modal
+var fondos = [
+  // Agregá acá los nombres de tus imágenes a medida que las ponés en la carpeta Fondos/
+  // Ejemplo: 'Fondos/fondo1.jpg', 'Fondos/fondo2.jpg'
+];
+
+function fondoAleatorio() {
+  if (!fondos.length) return null;
+  return fondos[Math.floor(Math.random() * fondos.length)];
+}
 var cart = [];
 
 // Restaurar carrito desde localStorage
@@ -278,6 +287,16 @@ function openModal(item) {
   } else {
     priceRow.style.display = 'none';
   }
+  var fondo = fondoAleatorio();
+  var modalLeft = document.querySelector('.modal-left');
+  if (fondo) {
+    modalLeft.style.backgroundImage = 'url(' + fondo + ')';
+    modalLeft.style.backgroundSize = 'cover';
+    modalLeft.style.backgroundPosition = 'center';
+  } else {
+    modalLeft.style.backgroundImage = 'none';
+    modalLeft.style.backgroundColor = '#111';
+  }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
   document.getElementById('m-perfs').style.display = item.cat === 'ilustraciones' ? 'block' : 'none';
@@ -339,6 +358,16 @@ function openModal(item) {
     priceRow.style.display = 'flex';
   } else {
     priceRow.style.display = 'none';
+  }
+  var fondo = fondoAleatorio();
+  var modalLeft = document.querySelector('.modal-left');
+  if (fondo) {
+    modalLeft.style.backgroundImage = 'url(' + fondo + ')';
+    modalLeft.style.backgroundSize = 'cover';
+    modalLeft.style.backgroundPosition = 'center';
+  } else {
+    modalLeft.style.backgroundImage = 'none';
+    modalLeft.style.backgroundColor = '#111';
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';

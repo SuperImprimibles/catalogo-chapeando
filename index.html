@@ -176,7 +176,7 @@ main{padding:20px;max-width:1600px;margin:0 auto}
         </div>
       </div>
       <div class="modal-actions">
-        <button class="btn btn-gray" onclick="addCart()"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg> Agregar al Pedido</button>
+        <button class="btn btn-gray" onclick="addCart()"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg> Agregar al carrito</button>
         <button class="btn btn-green" onclick="waProduct()"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.306A9.943 9.943 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.049-1.106l-.29-.173-3.005.788.803-2.927-.19-.302A7.952 7.952 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg> Realizar Pedido</button>
       </div>
     </div>
@@ -188,14 +188,12 @@ main{padding:20px;max-width:1600px;margin:0 auto}
   <div id="cart-bg" onclick="closeCart()"></div>
   <div id="cart-panel">
     <div class="cart-head">
-      <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:6px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>Tu Pedido</h3>
+      <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:6px"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>Carrito de Compras</h3>
       <button class="cart-xbtn" onclick="closeCart()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
     </div>
     <div id="cart-items"></div>
     <div class="cart-foot">
-      <div class="cart-tot"><span>Total:</span><span id="cart-total">0</span></div>
-      <button class="btn btn-green" onclick="waCart()"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.306A9.943 9.943 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.049-1.106l-.29-.173-3.005.788.803-2.927-.19-.302A7.952 7.952 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg> Enviar Pedido por WhatsApp</button>
-      <button class="btn btn-gray" style="margin-top:8px" onclick="clearCart()">🗑️ Vaciar carrito</button>
+      <button class="btn btn-green" onclick="waCart()"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.306A9.943 9.943 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.049-1.106l-.29-.173-3.005.788.803-2.927-.19-.302A7.952 7.952 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg> Enviar por WhatsApp</button>
     </div>
   </div>
 </div>
@@ -209,6 +207,31 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 <script>
 const WA = "5492657640076";
 const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
+
+// Calculadora de tamaño óptimo basada en proporción real de la imagen
+var PRINT_W_MM = 198;
+var PRINT_H_MM = 285;
+var MIN_MM = 100;
+
+function calcTamanioOptimo(imgSrc, callback) {
+  var img = new Image();
+  img.onload = function() {
+    var pw = img.naturalWidth;
+    var ph = img.naturalHeight;
+    var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
+    var wMm = pw * escala;
+    var hMm = ph * escala;
+    if (wMm < MIN_MM || hMm < MIN_MM) {
+      var escalaMin = Math.max(MIN_MM / wMm, MIN_MM / hMm);
+      wMm *= escalaMin; hMm *= escalaMin;
+    }
+    var wCm = Math.round(wMm / 10 * 10) / 10;
+    var hCm = Math.round(hMm / 10 * 10) / 10;
+    callback(wCm + ' x ' + hCm + ' cm');
+  };
+  img.onerror = function() { callback(null); };
+  img.src = imgSrc;
+}
 
 // Fondos aleatorios para el modal
 var fondos = {
@@ -301,7 +324,7 @@ function openModal(item) {
   document.getElementById('m-title').textContent = item.title;
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
-  document.getElementById('m-size').textContent  = item.size  !== '-' ? item.size  : 'Consultar';
+  document.getElementById('m-size').textContent  = item.size  !== '-' ? item.size  : 'Calculando...';
   document.getElementById('m-mat').textContent   = item.mat   !== '-' ? item.mat   : 'Consultar';
   document.getElementById('m-unit').textContent  = item.unit  !== '-' ? item.unit  : '1 pieza';
   var priceRow = document.getElementById('price-row');
@@ -333,6 +356,16 @@ function openModal(item) {
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
   document.getElementById('m-perfs').style.display = item.cat === 'ilustraciones' ? 'block' : 'none';
+  // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
+  if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
+    calcTamanioOptimo(item.img, function(tam) {
+      if (tam) {
+        document.getElementById('m-size').textContent = tam;
+        // También actualizar el item en memoria para WhatsApp
+        item._calcSize = tam;
+      }
+    });
+  }
 }
 
 function render(list) {
@@ -382,7 +415,7 @@ function openModal(item) {
   document.getElementById('m-title').textContent = item.title;
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
-  document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Consultar';
+  document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Calculando...';
   document.getElementById('m-mat').textContent  = item.mat  !== '-' ? item.mat  : 'Aluminio';
   document.getElementById('m-unit').textContent = item.unit !== '-' ? item.unit : '1 pieza';
   var priceRow = document.getElementById('price-row');
@@ -414,6 +447,16 @@ function openModal(item) {
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
   document.getElementById('m-perfs').style.display = item.cat === 'ilustraciones' ? 'block' : 'none';
+  // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
+  if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
+    calcTamanioOptimo(item.img, function(tam) {
+      if (tam) {
+        document.getElementById('m-size').textContent = tam;
+        // También actualizar el item en memoria para WhatsApp
+        item._calcSize = tam;
+      }
+    });
+  }
 }
 
 function closeModal() {
@@ -431,7 +474,7 @@ function quickWa(id) {
   if (!item) return;
   var t = '¡Hola! Me interesa:\n\n'
     + '*' + item.title + '*\n'
-    + '📐 Tamaño: ' + item.size + '\n'
+    + '📐 Tamaño: ' + (item._calcSize || item.size) + '\n'
     + '💲 Precio: ' + item.price + '\n'
     + '🧱 Material: ' + item.mat + '\n\n'
     + '¿Me podés brindar más información?';
@@ -464,7 +507,7 @@ function waProduct() {
   if (!current) return;
   var t = '¡Hola! Me interesa:\n\n'
     + '*' + current.title + '*\n'
-    + '📐 Tamaño: ' + current.size + '\n'
+    + '📐 Tamaño: ' + (current._calcSize || current.size) + '\n'
     + '💲 Precio: ' + current.price + '\n'
     + '🧱 Material: ' + current.mat + '\n\n'
     + '¿Me podés brindar más información?';

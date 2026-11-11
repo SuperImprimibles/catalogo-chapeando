@@ -328,7 +328,6 @@ function quickWa(id) {
     + '📐 Tamaño: ' + item.size + '\n'
     + '💲 Precio: ' + item.price + '\n'
     + '🧱 Material: ' + item.mat + '\n\n'
-    + SITE + '/' + item.img + '\n\n'
     + '¿Me podés brindar más información?';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
@@ -360,7 +359,6 @@ function waProduct() {
     + '📐 Tamaño: ' + current.size + '\n'
     + '💲 Precio: ' + current.price + '\n'
     + '🧱 Material: ' + current.mat + '\n\n'
-    + SITE + '/' + current.img + '\n\n'
     + '¿Me podés brindar más información?';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
@@ -409,8 +407,7 @@ function waCart() {
     t += (i+1) + '. *' + item.title + '*\n'
       + '   📐 ' + item.size + '\n'
       + '   💲 ' + item.price + '\n'
-      + '   Cantidad: ' + item.qty + '\n'
-      + '   ' + SITE + '/' + item.img + '\n\n';
+      + '   Cantidad: ' + item.qty + '\n\n';
   });
   t += '¡Muchas gracias!';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');

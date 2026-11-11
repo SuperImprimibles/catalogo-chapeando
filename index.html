@@ -210,20 +210,20 @@ const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
 
 // Fondos aleatorios para el modal
 var fondos = [
-  'Fondos/fondo-naranja.jpg',
-  'Fondos/fondo-amarillo-plantas.jpg',
-  'Fondos/fondo-beige.jpg',
-  'Fondos/fondo-pampas.jpg',
-  'Fondos/fondo-blanco.jpg',
-  'Fondos/fondo-pared-beige.jpg',
-  'Fondos/fondo-texturas.jpg',
-  'Fondos/fondo-verde.jpg',
-  'Fondos/fondo-01.jpg',
-  'Fondos/fondo-02.jpg',
-  'Fondos/fondo-03.jpg',
-  'Fondos/fondo-04.jpg',
-  'Fondos/fondo-05.jpg',
-  'Fondos/fondo-06.jpg',
+  { img:'Fondos/fondo-naranja.jpg',         pos:'5% center'     },
+  { img:'Fondos/fondo-amarillo-plantas.jpg', pos:'10% center'    },
+  { img:'Fondos/fondo-beige.jpg',            pos:'15% center'    },
+  { img:'Fondos/fondo-pampas.jpg',           pos:'5% 70%'        },
+  { img:'Fondos/fondo-blanco.jpg',           pos:'center center' },
+  { img:'Fondos/fondo-pared-beige.jpg',      pos:'center 80%'    },
+  { img:'Fondos/fondo-texturas.jpg',         pos:'center center' },
+  { img:'Fondos/fondo-verde.jpg',            pos:'15% 30%'       },
+  { img:'Fondos/fondo-01.jpg',               pos:'10% center'    },
+  { img:'Fondos/fondo-02.jpg',               pos:'center center' },
+  { img:'Fondos/fondo-03.jpg',               pos:'40% center'    },
+  { img:'Fondos/fondo-04.jpg',               pos:'50% center'    },
+  { img:'Fondos/fondo-05.jpg',               pos:'55% center'    },
+  { img:'Fondos/fondo-06.jpg',               pos:'center center' },
 ];
 
 function fondoAleatorio() {
@@ -302,9 +302,9 @@ function openModal(item) {
   var fondo = fondoAleatorio();
   var modalLeft = document.querySelector('.modal-left');
   if (fondo) {
-    modalLeft.style.backgroundImage = 'url(' + fondo + ')';
+    modalLeft.style.backgroundImage = 'url(' + fondo.img + ')';
     modalLeft.style.backgroundSize = 'cover';
-    modalLeft.style.backgroundPosition = 'center';
+    modalLeft.style.backgroundPosition = fondo.pos;
   } else {
     modalLeft.style.backgroundImage = 'none';
     modalLeft.style.backgroundColor = '#111';
@@ -374,9 +374,9 @@ function openModal(item) {
   var fondo = fondoAleatorio();
   var modalLeft = document.querySelector('.modal-left');
   if (fondo) {
-    modalLeft.style.backgroundImage = 'url(' + fondo + ')';
+    modalLeft.style.backgroundImage = 'url(' + fondo.img + ')';
     modalLeft.style.backgroundSize = 'cover';
-    modalLeft.style.backgroundPosition = 'center';
+    modalLeft.style.backgroundPosition = fondo.pos;
   } else {
     modalLeft.style.backgroundImage = 'none';
     modalLeft.style.backgroundColor = '#111';

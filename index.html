@@ -43,7 +43,12 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .card-btn-detail:hover{background:#f3f3f3}
 
 /* Perforaciones sobre ilustraciones */
-.perforaciones{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:16px}
+.perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px}
+.perf{position:absolute;width:10px;height:10px;border-radius:50%;background:#fff;border:1px solid #bbb;transform:translate(-50%,-50%)}
+.perf-tl{top:8px;left:8px;transform:none}
+.perf-tr{top:8px;right:8px;transform:none}
+.perf-bl{bottom:8px;left:8px;transform:none}
+.perf-br{bottom:8px;right:8px;transform:none}
 #modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);align-items:center;justify-content:center;padding:12px}
 .modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;max-height:92vh;overflow:hidden;display:flex;flex-direction:column;position:relative}
 @media(min-width:650px){.modal-box{flex-direction:row;max-height:85vh}}
@@ -131,12 +136,12 @@ main{padding:20px;max-width:1600px;margin:0 auto}
     </button>
     <div class="modal-left">
       <img id="m-img" src="" alt="">
-      <svg id="m-perfs" style="display:none;position:absolute;inset:16px;pointer-events:none" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="4" cy="4" r="2.5" fill="white" stroke="#aaa" stroke-width="0.5"/>
-        <circle cx="96" cy="4" r="2.5" fill="white" stroke="#aaa" stroke-width="0.5"/>
-        <circle cx="4" cy="96" r="2.5" fill="white" stroke="#aaa" stroke-width="0.5"/>
-        <circle cx="96" cy="96" r="2.5" fill="white" stroke="#aaa" stroke-width="0.5"/>
-      </svg>
+      <div id="m-perfs" style="display:none;position:absolute;inset:0;pointer-events:none">
+        <div class="perf perf-tl"></div>
+        <div class="perf perf-tr"></div>
+        <div class="perf perf-bl"></div>
+        <div class="perf perf-br"></div>
+      </div>
     </div>
     <div class="modal-right">
       <div>
@@ -223,12 +228,7 @@ function render(list) {
     var d = document.createElement('div');
     d.className = 'card';
     var perfs = item.cat === 'ilustraciones'
-      ? '<svg class="perforaciones" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'
-        + '<circle cx="5" cy="5" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="95" cy="5" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="5" cy="95" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="95" cy="95" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '</svg>'
+      ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
       : '';
 
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy">'
@@ -290,12 +290,7 @@ function render(list) {
     var d = document.createElement('div');
     d.className = 'card';
     var perfs = item.cat === 'ilustraciones'
-      ? '<svg class="perforaciones" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'
-        + '<circle cx="5" cy="5" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="95" cy="5" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="5" cy="95" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '<circle cx="95" cy="95" r="2.2" fill="white" stroke="#ccc" stroke-width="0.4"/>'
-        + '</svg>'
+      ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
       : '';
 
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy">'

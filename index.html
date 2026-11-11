@@ -220,31 +220,6 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 const WA = "5492657640076";
 const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
 
-// Calculadora de tamaño óptimo basada en proporción real de la imagen
-var PRINT_W_MM = 198;
-var PRINT_H_MM = 285;
-var MIN_MM = 100;
-
-function calcTamanioOptimo(imgSrc, callback) {
-  var img = new Image();
-  img.onload = function() {
-    var pw = img.naturalWidth;
-    var ph = img.naturalHeight;
-    var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
-    var wMm = pw * escala;
-    var hMm = ph * escala;
-    if (wMm < MIN_MM || hMm < MIN_MM) {
-      var escalaMin = Math.max(MIN_MM / wMm, MIN_MM / hMm);
-      wMm *= escalaMin; hMm *= escalaMin;
-    }
-    var wCm = Math.round(wMm / 10 * 10) / 10;
-    var hCm = Math.round(hMm / 10 * 10) / 10;
-    callback(wCm + ' x ' + hCm + ' cm');
-  };
-  img.onerror = function() { callback(null); };
-  img.src = imgSrc;
-}
-
 // Fondos aleatorios para el modal
 var fondos = {
   ilustraciones: [
@@ -339,7 +314,7 @@ function openModal(item) {
   document.getElementById('m-title').textContent = item.title;
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
-  document.getElementById('m-size').textContent  = item.size  !== '-' ? item.size  : 'Calculando...';
+  document.getElementById('m-size').textContent  = item.size  !== '-' ? item.size  : 'Consultar';
   document.getElementById('m-mat').textContent   = item.mat   !== '-' ? item.mat   : 'Consultar';
   document.getElementById('m-unit').textContent  = item.unit  !== '-' ? item.unit  : '1 pieza';
   var priceRow = document.getElementById('price-row');
@@ -352,29 +327,6 @@ function openModal(item) {
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
-  if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
-    var mImgEl = gallerySlides[0] ? gallerySlides[0].querySelector('img') : null;
-    if (!mImgEl) return;
-    var doCalc = function() {
-      var pw = mImgEl.naturalWidth;
-      var ph = mImgEl.naturalHeight;
-      if (!pw || !ph) return;
-      var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
-      var wMm = pw * escala;
-      var hMm = ph * escala;
-      if (wMm < MIN_MM || hMm < MIN_MM) {
-        var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
-        wMm *= em; hMm *= em;
-      }
-      var wCm = Math.round(wMm / 10 * 10) / 10;
-      var hCm = Math.round(hMm / 10 * 10) / 10;
-      var tam = wCm + ' x ' + hCm + ' cm';
-      document.getElementById('m-size').textContent = tam;
-      item._calcSize = tam;
-    };
-    if (mImgEl.complete && mImgEl.naturalWidth) { doCalc(); }
-    else { mImgEl.onload = doCalc; }
   }
 }
 
@@ -425,7 +377,7 @@ function openModal(item) {
   document.getElementById('m-title').textContent = item.title;
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
-  document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Calculando...';
+  document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Consultar';
   document.getElementById('m-mat').textContent  = item.mat  !== '-' ? item.mat  : 'Aluminio';
   document.getElementById('m-unit').textContent = item.unit !== '-' ? item.unit : '1 pieza';
   var priceRow = document.getElementById('price-row');
@@ -438,29 +390,6 @@ function openModal(item) {
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
-  if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
-    var mImgEl = gallerySlides[0] ? gallerySlides[0].querySelector('img') : null;
-    if (!mImgEl) return;
-    var doCalc = function() {
-      var pw = mImgEl.naturalWidth;
-      var ph = mImgEl.naturalHeight;
-      if (!pw || !ph) return;
-      var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
-      var wMm = pw * escala;
-      var hMm = ph * escala;
-      if (wMm < MIN_MM || hMm < MIN_MM) {
-        var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
-        wMm *= em; hMm *= em;
-      }
-      var wCm = Math.round(wMm / 10 * 10) / 10;
-      var hCm = Math.round(hMm / 10 * 10) / 10;
-      var tam = wCm + ' x ' + hCm + ' cm';
-      document.getElementById('m-size').textContent = tam;
-      item._calcSize = tam;
-    };
-    if (mImgEl.complete && mImgEl.naturalWidth) { doCalc(); }
-    else { mImgEl.onload = doCalc; }
   }
 }
 
@@ -756,10 +685,9 @@ function precalcTamanios(lista, done) {
   });
 }
 
-precalcTamanios(items, function() {
-  render(items);
-  renderCart();
-});
+// Renderizar inmediatamente sin precalcular
+render(items);
+renderCart();
 </script>
 </body>
 </html>

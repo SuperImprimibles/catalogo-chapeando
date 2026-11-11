@@ -324,12 +324,12 @@ function quickWa(id) {
   var item = items.find(function(x) { return x.id === id; });
   if (!item) return;
   var t = '¡Hola! Me interesa:\n\n'
-    + '*' + item.title + '* (' + item.id + ')\n'
+    + '*' + item.title + '*\n'
     + '📐 Tamaño: ' + item.size + '\n'
     + '💲 Precio: ' + item.price + '\n'
-    + '🧱 Material: ' + item.mat + '\n'
-    + '🖼️ ' + SITE + '/' + item.img + '\n'
-    + '\n¿Me podés brindar más información?';
+    + '🧱 Material: ' + item.mat + '\n\n'
+    + SITE + '/' + item.img + '\n\n'
+    + '¿Me podés brindar más información?';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
 
@@ -356,12 +356,12 @@ function addCart() {
 function waProduct() {
   if (!current) return;
   var t = '¡Hola! Me interesa:\n\n'
-    + '*' + current.title + '* (' + current.id + ')\n'
+    + '*' + current.title + '*\n'
     + '📐 Tamaño: ' + current.size + '\n'
     + '💲 Precio: ' + current.price + '\n'
-    + '🧱 Material: ' + current.mat + '\n'
-    + '🖼️ ' + SITE + '/' + current.img + '\n'
-    + '\n¿Me podés brindar más información?';
+    + '🧱 Material: ' + current.mat + '\n\n'
+    + SITE + '/' + current.img + '\n\n'
+    + '¿Me podés brindar más información?';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
 
@@ -406,11 +406,11 @@ function waCart() {
   if (!cart.length) { toast('El carrito está vacío'); return; }
   var t = '¡Hola! Mi pedido:\n\n';
   cart.forEach(function(item, i) {
-    t += (i+1) + '. *' + item.title + '* (' + item.id + ')\n'
-      + '   📐 Tamaño: ' + item.size + '\n'
-      + '   💲 Precio: ' + item.price + '\n'
+    t += (i+1) + '. *' + item.title + '*\n'
+      + '   📐 ' + item.size + '\n'
+      + '   💲 ' + item.price + '\n'
       + '   Cantidad: ' + item.qty + '\n'
-      + '   🖼️ ' + SITE + '/' + item.img + '\n\n';
+      + '   ' + SITE + '/' + item.img + '\n\n';
   });
   t += '¡Muchas gracias!';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');

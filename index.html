@@ -717,6 +717,9 @@ function galleryNav(dir) {
   var next = (galleryIndex + dir + gallerySlides.length) % gallerySlides.length;
   goToSlide(next);
 }
+
+// Tabla de precios según área calculada
+function calcPrecio(wCm, hCm) {
   var area = wCm * hCm;
   if (area <= 95)  return '$4.000';
   if (area <= 270) return '$5.000';
@@ -726,7 +729,7 @@ function galleryNav(dir) {
 // Precalcular tamaños de ilustraciones y vintages antes de renderizar
 function precalcTamanios(lista, done) {
   var pendientes = lista.filter(function(i) {
-    return (i.cat === 'ilustraciones' || i.cat === 'vintages') && i.size === '-';
+    return (i.cat === 'ilustraciones' || i.cat === 'vintages' || i.cat === 'imanes') && i.size === '-';
   });
   if (!pendientes.length) { done(); return; }
   var restantes = pendientes.length;
@@ -735,7 +738,9 @@ function precalcTamanios(lista, done) {
     img.onload = function() {
       var pw = img.naturalWidth, ph = img.naturalHeight;
       if (pw && ph) {
-        var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
+        var maxW = PRINT_W_MM;
+        var maxH = item.cat === 'imanes' ? 80 : PRINT_H_MM; // imanes: max 8cm alto
+        var escala = Math.min(maxW / pw, maxH / ph);
         var wMm = pw * escala, hMm = ph * escala;
         if (wMm < MIN_MM || hMm < MIN_MM) {
           var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);

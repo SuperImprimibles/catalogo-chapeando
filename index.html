@@ -293,7 +293,7 @@ function render(list) {
       + '<div class="card-overlay-info">'
       + '<div class="card-overlay-title">' + item.title + '</div>'
       + '<div class="card-overlay-meta">'
-      + (item.size !== '-' ? '<span class="card-overlay-tag">📐 ' + item.size + '</span>' : '')
+      + (item.size !== '-' ? '<span class="card-overlay-tag">📐 ' + item.size + '</span>' : (item._calcSize ? '<span class="card-overlay-tag">📐 ' + item._calcSize + '</span>' : ''))
       + (item.price !== '-' ? '<span class="card-overlay-tag">💲 ' + item.price + '</span>' : '')
       + (item.mat !== '-' ? '<span class="card-overlay-tag">' + item.mat + '</span>' : '')
       + '</div>'
@@ -358,13 +358,26 @@ function openModal(item) {
   document.getElementById('m-perfs').style.display = item.cat === 'ilustraciones' ? 'block' : 'none';
   // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
   if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
-    calcTamanioOptimo(item.img, function(tam) {
-      if (tam) {
-        document.getElementById('m-size').textContent = tam;
-        // También actualizar el item en memoria para WhatsApp
-        item._calcSize = tam;
+    var mImgEl = document.getElementById('m-img');
+    var doCalc = function() {
+      var pw = mImgEl.naturalWidth;
+      var ph = mImgEl.naturalHeight;
+      if (!pw || !ph) return;
+      var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
+      var wMm = pw * escala;
+      var hMm = ph * escala;
+      if (wMm < MIN_MM || hMm < MIN_MM) {
+        var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
+        wMm *= em; hMm *= em;
       }
-    });
+      var wCm = Math.round(wMm / 10 * 10) / 10;
+      var hCm = Math.round(hMm / 10 * 10) / 10;
+      var tam = wCm + ' x ' + hCm + ' cm';
+      document.getElementById('m-size').textContent = tam;
+      item._calcSize = tam;
+    };
+    if (mImgEl.complete && mImgEl.naturalWidth) { doCalc(); }
+    else { mImgEl.onload = doCalc; }
   }
 }
 
@@ -384,7 +397,7 @@ function render(list) {
       + '<div class="card-overlay-info">'
       + '<div class="card-overlay-title">' + item.title + '</div>'
       + '<div class="card-overlay-meta">'
-      + (item.size !== '-' ? '<span class="card-overlay-tag">📐 ' + item.size + '</span>' : '')
+      + (item.size !== '-' ? '<span class="card-overlay-tag">📐 ' + item.size + '</span>' : (item._calcSize ? '<span class="card-overlay-tag">📐 ' + item._calcSize + '</span>' : ''))
       + (item.price !== '-' ? '<span class="card-overlay-tag">💲 ' + item.price + '</span>' : '')
       + (item.mat !== '-' ? '<span class="card-overlay-tag">' + item.mat + '</span>' : '')
       + '</div>'
@@ -449,13 +462,26 @@ function openModal(item) {
   document.getElementById('m-perfs').style.display = item.cat === 'ilustraciones' ? 'block' : 'none';
   // Calcular tamaño óptimo automáticamente para ilustraciones y vintages
   if ((item.cat === 'ilustraciones' || item.cat === 'vintages') && item.size === '-') {
-    calcTamanioOptimo(item.img, function(tam) {
-      if (tam) {
-        document.getElementById('m-size').textContent = tam;
-        // También actualizar el item en memoria para WhatsApp
-        item._calcSize = tam;
+    var mImgEl = document.getElementById('m-img');
+    var doCalc = function() {
+      var pw = mImgEl.naturalWidth;
+      var ph = mImgEl.naturalHeight;
+      if (!pw || !ph) return;
+      var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
+      var wMm = pw * escala;
+      var hMm = ph * escala;
+      if (wMm < MIN_MM || hMm < MIN_MM) {
+        var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
+        wMm *= em; hMm *= em;
       }
-    });
+      var wCm = Math.round(wMm / 10 * 10) / 10;
+      var hCm = Math.round(hMm / 10 * 10) / 10;
+      var tam = wCm + ' x ' + hCm + ' cm';
+      document.getElementById('m-size').textContent = tam;
+      item._calcSize = tam;
+    };
+    if (mImgEl.complete && mImgEl.naturalWidth) { doCalc(); }
+    else { mImgEl.onload = doCalc; }
   }
 }
 
@@ -516,11 +542,9 @@ function waProduct() {
 
 function renderCart() {
   var badge = document.getElementById('cart-count');
-  var total = document.getElementById('cart-total');
   var box = document.getElementById('cart-items');
   var qty = cart.reduce(function(a, i) { return a + i.qty; }, 0);
   badge.textContent = qty;
-  total.textContent = qty;
   badge.className = qty > 0 ? 'visible' : '';
   if (!cart.length) {
     box.innerHTML = '<div class="empty-cart"><div>📭</div><p>Tu pedido está vacío</p></div>';
@@ -582,8 +606,37 @@ function toast(msg) {
   setTimeout(function() { t.className = ''; }, 3000);
 }
 
-render(items);
-renderCart(); // restaurar badge del carrito al cargar
+// Precalcular tamaños de ilustraciones y vintages antes de renderizar
+function precalcTamanios(lista, done) {
+  var pendientes = lista.filter(function(i) {
+    return (i.cat === 'ilustraciones' || i.cat === 'vintages') && i.size === '-';
+  });
+  if (!pendientes.length) { done(); return; }
+  var restantes = pendientes.length;
+  pendientes.forEach(function(item) {
+    var img = new Image();
+    img.onload = function() {
+      var pw = img.naturalWidth, ph = img.naturalHeight;
+      if (pw && ph) {
+        var escala = Math.min(PRINT_W_MM / pw, PRINT_H_MM / ph);
+        var wMm = pw * escala, hMm = ph * escala;
+        if (wMm < MIN_MM || hMm < MIN_MM) {
+          var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
+          wMm *= em; hMm *= em;
+        }
+        item._calcSize = (Math.round(wMm/10*10)/10) + ' x ' + (Math.round(hMm/10*10)/10) + ' cm';
+      }
+      if (--restantes === 0) done();
+    };
+    img.onerror = function() { if (--restantes === 0) done(); };
+    img.src = item.img;
+  });
+}
+
+precalcTamanios(items, function() {
+  render(items);
+  renderCart();
+});
 </script>
 </body>
 </html>

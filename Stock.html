@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapeando — Gestión de Pedidos</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222;min-height:100vh;padding:24px}
+h1{font-size:20px;font-weight:700;margin-bottom:4px}
+.sub{font-size:13px;color:#999;margin-bottom:24px}
+.paste-area{background:#fff;border:2px dashed #ddd;border-radius:16px;padding:20px;margin-bottom:24px}
+.paste-area:focus-within{border-color:#111}
+.paste-area label{font-size:11px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.06em;display:block;margin-bottom:8px}
+textarea{width:100%;min-height:120px;border:none;outline:none;font-size:13px;color:#333;resize:vertical;font-family:inherit;background:transparent}
+.btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.btn{background:#111;color:#fff;border:none;padding:10px 20px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;transition:background .2s}
+.btn:hover{background:#333}
+.btn-sec{background:#eee;color:#111}
+.btn-sec:hover{background:#ddd}
+.btn-green{background:#25d366;color:#fff}
+.btn-green:hover{background:#1ebe5a}
+#resultado{display:none}
+.resultado-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.resultado-header h2{font-size:16px;font-weight:700}
+.badge-count{background:#111;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px}
+.productos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-bottom:24px}
+.producto-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid #eee;position:relative}
+.producto-img{width:100%;height:180px;object-fit:cover;display:block;background:#eee}
+.producto-body{padding:12px}
+.producto-title{font-size:14px;font-weight:700;margin-bottom:6px}
+.producto-tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:11px;background:#f3f3f3;border-radius:999px;padding:2px 8px;color:#555}
+.tag.price{background:#111;color:#fff;font-weight:700}
+.qty-badge{position:absolute;top:10px;right:10px;background:#111;color:#fff;font-size:12px;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.totales{background:#fff;border-radius:16px;padding:16px;border:1px solid #eee;margin-bottom:20px}
+.totales h3{font-size:11px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.06em;margin-bottom:12px}
+.total-row{display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid #f3f3f3}
+.total-row:last-child{border-bottom:none;font-weight:700;font-size:15px}
+.layout-box{background:#fff;border-radius:16px;padding:16px;border:1px solid #eee;margin-bottom:20px}
+.layout-box h3{font-size:11px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.06em;margin-bottom:12px}
+.layout-info{font-size:13px;color:#555;line-height:1.9}
+.empty{text-align:center;padding:40px;color:#aaa;font-size:14px}
+.empty div{font-size:36px;margin-bottom:10px}
+</style>
+</head>
+<body>
+
+<h1>📋 Gestión de Pedidos</h1>
+<p class="sub">Pegá el mensaje del cliente para ver los productos y generar el PDF de impresión</p>
+
+<div class="paste-area">
+  <label>Mensaje del pedido</label>
+  <textarea id="input" placeholder="Pegá acá el mensaje de WhatsApp del cliente..."></textarea>
+  <div class="btns">
+    <button class="btn" onclick="parsear()">🔍 Buscar productos</button>
+    <button class="btn btn-sec" onclick="limpiar()">Limpiar</button>
+  </div>
+</div>
+
+<div id="resultado">
+  <div class="resultado-header">
+    <h2>Productos encontrados</h2>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <span id="badge-count" class="badge-count">0 productos</span>
+      <button class="btn btn-green" onclick="generarPDF()">⬇ Descargar PDF</button>
+    </div>
+  </div>
+  <div id="totales-box" class="totales" style="display:none">
+    <h3>Resumen del pedido</h3>
+    <div id="totales-filas"></div>
+  </div>
+  <div id="layout-box" class="layout-box" style="display:none">
+    <h3>Plan de impresión</h3>
+    <div id="layout-info" class="layout-info"></div>
+  </div>
+  <div id="productos-grid" class="productos-grid"></div>
+</div>
+
+<script src="productos.js"></script>
+<script>
+
+// Área imprimible Epson L1250 en A4 (mm)
+var MARGIN  = 6;
+var PRINT_W = 210 - MARGIN * 2; // 198mm
+var PRINT_H = 297 - MARGIN * 2; // 285mm
+var GAP     = 2; // separación entre piezas
+
+var encontrados = [];
+
+function parseTamanio(str) {
+  var m = str.match(/([\d,\.]+)\s*x\s*([\d,\.]+)/i);
+  if (!m) return {w:190, h:270};
+  return {
+    w: parseFloat(m[1].replace(',','.')) * 10,
+    h: parseFloat(m[2].replace(',','.')) * 10
+  };
+}
+
+function calcScore(texto, titulo) {
+  var palabras = titulo.toLowerCase().split(/\s+/).filter(function(p){ return p.length > 2; });
+  if (!palabras.length) return 0;
+  var hits = palabras.filter(function(p){ return texto.toLowerCase().includes(p); });
+  return hits.length / palabras.length;
+}
+
+function parsear() {
+  var texto = document.getElementById('input').value.trim();
+  if (!texto) return;
+  encontrados = [];
+  var yaAgregados = {};
+  var lineas = texto.split('\n');
+
+  lineas.forEach(function(linea, idx) {
+    linea = linea.trim().replace(/\*/g,'').replace(/^\d+\.\s*/,'').trim();
+    if (!linea || linea.length < 3) return;
+    if (linea.match(/^(tamaño|precio|material|cantidad|hola|me interesa|mi pedido|gracias|📐|💲|🧱)/i)) return;
+
+    var mejor = null, mejorScore = 0;
+    items.forEach(function(item) {
+      var score = calcScore(linea, item.title);
+      if (score > mejorScore) { mejorScore = score; mejor = item; }
+    });
+
+    if (mejor && mejorScore >= 0.4 && !yaAgregados[mejor.id]) {
+      var qty = 1;
+      for (var i = idx + 1; i < Math.min(idx + 5, lineas.length); i++) {
+        if (!lineas[i]) continue;
+        var qm = lineas[i].match(/cantidad[:\s]+(\d+)/i);
+        if (qm) { qty = parseInt(qm[1]); break; }
+      }
+      yaAgregados[mejor.id] = true;
+      encontrados.push({ item: mejor, qty: qty });
+    }
+  });
+
+  renderResultado();
+}
+
+function renderResultado() {
+  var grid       = document.getElementById('productos-grid');
+  var totalesBox = document.getElementById('totales-box');
+  var totalesF   = document.getElementById('totales-filas');
+  var layoutBox  = document.getElementById('layout-box');
+  var layoutInfo = document.getElementById('layout-info');
+  var badge      = document.getElementById('badge-count');
+  var resultado  = document.getElementById('resultado');
+
+  grid.innerHTML = '';
+  totalesF.innerHTML = '';
+  badge.textContent = encontrados.length + ' producto' + (encontrados.length !== 1 ? 's' : '');
+  resultado.style.display = 'block';
+
+  if (!encontrados.length) {
+    grid.innerHTML = '<div class="empty"><div>🔍</div><p>No se encontraron productos reconocibles.</p></div>';
+    totalesBox.style.display = 'none';
+    layoutBox.style.display = 'none';
+    return;
+  }
+
+  // Cards
+  encontrados.forEach(function(e) {
+    var card = document.createElement('div');
+    card.className = 'producto-card';
+    card.innerHTML =
+      (e.qty > 1 ? '<div class="qty-badge">×' + e.qty + '</div>' : '') +
+      '<img class="producto-img" src="' + e.item.img + '" alt="' + e.item.title + '">' +
+      '<div class="producto-body">' +
+        '<div class="producto-title">' + e.item.title + '</div>' +
+        '<div class="producto-tags">' +
+          '<span class="tag">📐 ' + e.item.size + '</span>' +
+          '<span class="tag price">💲 ' + e.item.price + '</span>' +
+        '</div>' +
+      '</div>';
+    grid.appendChild(card);
+  });
+
+  // Totales
+  var total = 0, okTotal = true, filas = '';
+  encontrados.forEach(function(e) {
+    var num = parseInt((e.item.price||'').replace(/\$|\./g,'')) || 0;
+    if (!num) okTotal = false;
+    total += num * e.qty;
+    filas += '<div class="total-row"><span>' + e.item.title + (e.qty>1?' ×'+e.qty:'') + '</span><span>' + e.item.price + '</span></div>';
+  });
+  if (okTotal) filas += '<div class="total-row"><span>TOTAL</span><span>$' + total.toLocaleString('es-AR') + '</span></div>';
+  totalesF.innerHTML = filas;
+  totalesBox.style.display = 'block';
+
+  // Plan de impresión
+  var plan = calcularLayout();
+  var html = '';
+  plan.forEach(function(pag, i) {
+    html += '<b>Hoja ' + (i+1) + ':</b> ' + pag.length + ' pieza(s)<br>';
+    pag.forEach(function(p) {
+      html += '&nbsp;&nbsp;• ' + p.titulo + ' — ' + Math.round(p.wPdf) + '×' + Math.round(p.hPdf) + ' mm' + (p.rotada ? ' <i>(rotada)</i>' : '') + '<br>';
+    });
+  });
+  html += '<br><b>Total hojas: ' + plan.length + '</b>';
+  layoutInfo.innerHTML = html;
+  layoutBox.style.display = 'block';
+}
+
+// Shelf packing: llena filas de izquierda a derecha, rota si conviene
+function calcularLayout() {
+  // Expandir por cantidad
+  var piezas = [];
+  encontrados.forEach(function(e) {
+    var d = parseTamanio(e.item.size);
+    for (var q = 0; q < e.qty; q++) {
+      piezas.push({ titulo: e.item.title, img: e.item.img, w: d.w, h: d.h });
+    }
+  });
+
+  var paginas = [];
+  var resto = piezas.slice();
+
+  while (resto.length) {
+    var pagina = [];
+    var curY = 0;
+    var usados = {};
+
+    while (true) {
+      var filaResult = llenarFila(resto, usados, curY);
+      if (!filaResult || filaResult.piezas.length === 0) break;
+      filaResult.piezas.forEach(function(p) { pagina.push(p); });
+      filaResult.idxUsados.forEach(function(i) { usados[i] = true; });
+      curY += filaResult.altoFila + GAP;
+      if (curY + 10 > PRINT_H) break;
+    }
+
+    // Remover usados del resto (de mayor a menor índice)
+    var idxArr = Object.keys(usados).map(Number).sort(function(a,b){return b-a;});
+    idxArr.forEach(function(i){ resto.splice(i,1); });
+
+    if (pagina.length) paginas.push(pagina);
+    else break; // pieza demasiado grande — evitar loop infinito
+  }
+
+  return paginas;
+}
+
+function llenarFila(piezas, yaUsados, curY) {
+  var espacioY = PRINT_H - curY;
+  if (espacioY <= 0) return null;
+
+  var fila = { piezas: [], idxUsados: [], altoFila: 0 };
+  var curX = 0;
+
+  for (var i = 0; i < piezas.length; i++) {
+    if (yaUsados[i]) continue;
+    var p = piezas[i];
+    var colocada = false;
+
+    // Intentar normal
+    if (p.w <= PRINT_W - curX && p.h <= espacioY) {
+      fila.piezas.push({ titulo:p.titulo, img:p.img, wPdf:p.w, hPdf:p.h, rotada:false, x:curX, y:curY });
+      fila.altoFila = Math.max(fila.altoFila, p.h);
+      curX += p.w + GAP;
+      fila.idxUsados.push(i);
+      colocada = true;
+    }
+    // Intentar rotada 90°
+    else if (p.h <= PRINT_W - curX && p.w <= espacioY) {
+      fila.piezas.push({ titulo:p.titulo, img:p.img, wPdf:p.h, hPdf:p.w, rotada:true, x:curX, y:curY });
+      fila.altoFila = Math.max(fila.altoFila, p.w);
+      curX += p.h + GAP;
+      fila.idxUsados.push(i);
+      colocada = true;
+    }
+  }
+
+  return fila;
+}
+
+// Generar PDF con jsPDF
+async function generarPDF() {
+  if (!encontrados.length) return;
+  var btn = document.querySelector('.btn-green');
+  btn.textContent = '⏳ Generando...';
+  btn.disabled = true;
+
+  try {
+    var { jsPDF } = window.jspdf;
+    var doc = new jsPDF({ unit:'mm', format:'a4' });
+    var plan = calcularLayout();
+
+    for (var pi = 0; pi < plan.length; pi++) {
+      if (pi > 0) doc.addPage();
+      var pag = plan[pi];
+
+      for (var ci = 0; ci < pag.length; ci++) {
+        var p = pag[ci];
+        var xMm = MARGIN + p.x;
+        var yMm = MARGIN + p.y;
+
+        try {
+          var imgData = await imgToDataURL(p.img, p.wPdf, p.hPdf, p.rotada);
+          doc.addImage(imgData, 'JPEG', xMm, yMm, p.wPdf, p.hPdf);
+        } catch(e) {
+          doc.setDrawColor(200);
+          doc.rect(xMm, yMm, p.wPdf, p.hPdf);
+          doc.setFontSize(7);
+          doc.text(p.titulo, xMm+2, yMm+8);
+        }
+
+        // Borde de corte
+        doc.setDrawColor(160);
+        doc.setLineWidth(0.2);
+        doc.rect(xMm, yMm, p.wPdf, p.hPdf);
+      }
+    }
+
+    doc.save('pedido-chapeando.pdf');
+  } finally {
+    btn.textContent = '⬇ Descargar PDF';
+    btn.disabled = false;
+  }
+}
+
+function imgToDataURL(src, wMm, hMm, rotada) {
+  return new Promise(function(resolve, reject) {
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function() {
+      var dpi = 150;
+      var px = function(mm){ return Math.round(mm * dpi / 25.4); };
+      var canvas = document.createElement('canvas');
+      var ctx = canvas.getContext('2d');
+
+      if (rotada) {
+        canvas.width  = px(hMm);
+        canvas.height = px(wMm);
+        ctx.translate(canvas.width/2, canvas.height/2);
+        ctx.rotate(Math.PI/2);
+        ctx.drawImage(img, -canvas.height/2, -canvas.width/2, canvas.height, canvas.width);
+      } else {
+        canvas.width  = px(wMm);
+        canvas.height = px(hMm);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      }
+      resolve(canvas.toDataURL('image/jpeg', 0.92));
+    };
+    img.onerror = reject;
+    img.src = src;
+  });
+}
+
+function limpiar() {
+  document.getElementById('input').value = '';
+  document.getElementById('resultado').style.display = 'none';
+  encontrados = [];
+}
+
+</script>
+</body>
+</html>

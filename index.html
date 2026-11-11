@@ -53,9 +53,9 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;max-height:92vh;overflow:hidden;display:flex;flex-direction:column;position:relative}
 @media(min-width:650px){.modal-box{flex-direction:row;max-height:85vh}}
 .modal-btn-close{position:absolute;top:10px;left:10px;z-index:10;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.5);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
-.modal-left{background:#111;display:flex;align-items:center;justify-content:center;padding:12px;flex:0 0 auto;max-height:45vh;position:relative;overflow:hidden}
-@media(min-width:650px){.modal-left{flex:1 1 55%;max-height:85vh}}
-.modal-left img{max-width:42%;max-height:55%;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45),0 2px 6px rgba(0,0,0,.3);position:relative;z-index:1}
+.modal-left{background:#111;position:relative;overflow:hidden;flex-shrink:0;width:100%;aspect-ratio:9/16}
+@media(min-width:650px){.modal-left{width:auto;flex:0 0 auto;aspect-ratio:9/16;height:85vh;max-height:85vh}}
+.modal-left img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45),0 2px 6px rgba(0,0,0,.3)}
 .modal-right{flex:1 1 auto;padding:16px;display:flex;flex-direction:column;justify-content:space-between;overflow-y:auto;min-height:0}
 .modal-cat{font-size:10px;text-transform:uppercase;font-weight:700;color:#999;background:#f3f3f3;padding:2px 8px;border-radius:999px;display:inline-block}
 .modal-id{font-size:10px;color:#aaa}
@@ -135,12 +135,14 @@ main{padding:20px;max-width:1600px;margin:0 auto}
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
     <div class="modal-left">
-      <img id="m-img" src="" alt="">
-      <div id="m-perfs" style="display:none;position:absolute;inset:0;pointer-events:none">
-        <div class="perf perf-tl"></div>
-        <div class="perf perf-tr"></div>
-        <div class="perf perf-bl"></div>
-        <div class="perf perf-br"></div>
+      <div id="m-img-wrap" style="position:absolute;z-index:1;transform:translate(-50%,-50%)">
+        <img id="m-img" src="" alt="" style="display:block;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45),0 2px 6px rgba(0,0,0,.3)">
+        <div id="m-perfs" style="display:none;position:absolute;inset:0;pointer-events:none">
+          <div class="perf perf-tl"></div>
+          <div class="perf perf-tr"></div>
+          <div class="perf perf-bl"></div>
+          <div class="perf perf-br"></div>
+        </div>
       </div>
     </div>
     <div class="modal-right">
@@ -209,26 +211,36 @@ const WA = "5492657640076";
 const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
 
 // Fondos aleatorios para el modal
-var fondos = [
-  { img:'Fondos/fondo-naranja.jpg',         pos:'5% center',    ix:'50%', iy:'20%' },
-  { img:'Fondos/fondo-amarillo-plantas.jpg', pos:'10% center',   ix:'50%', iy:'25%' },
-  { img:'Fondos/fondo-beige.jpg',            pos:'15% center',   ix:'55%', iy:'40%' },
-  { img:'Fondos/fondo-pampas.jpg',           pos:'5% 70%',       ix:'65%', iy:'20%' },
-  { img:'Fondos/fondo-blanco.jpg',           pos:'center center',ix:'50%', iy:'45%' },
-  { img:'Fondos/fondo-pared-beige.jpg',      pos:'center 80%',   ix:'65%', iy:'40%' },
-  { img:'Fondos/fondo-texturas.jpg',         pos:'center center',ix:'50%', iy:'50%' },
-  { img:'Fondos/fondo-verde.jpg',            pos:'15% 30%',      ix:'30%', iy:'25%' },
-  { img:'Fondos/fondo-01.jpg',               pos:'10% center',   ix:'55%', iy:'25%' },
-  { img:'Fondos/fondo-02.jpg',               pos:'center center',ix:'50%', iy:'50%' },
-  { img:'Fondos/fondo-03.jpg',               pos:'40% center',   ix:'50%', iy:'45%' },
-  { img:'Fondos/fondo-04.jpg',               pos:'50% center',   ix:'55%', iy:'55%' },
-  { img:'Fondos/fondo-05.jpg',               pos:'55% center',   ix:'50%', iy:'65%' },
-  { img:'Fondos/fondo-06.jpg',               pos:'center center',ix:'50%', iy:'50%' },
-];
+var fondos = {
+  ilustraciones: [
+    { img:'Fondos/Ilustraciones/fondo-04.jpg',        pos:'50% center', ix:'55%', iy:'55%' },
+    { img:'Fondos/Ilustraciones/fondo-beige.jpg',      pos:'15% center', ix:'55%', iy:'40%' },
+    { img:'Fondos/Ilustraciones/fondo-naranja.jpg',    pos:'5% center',  ix:'50%', iy:'20%' },
+    { img:'Fondos/Ilustraciones/fondo-pampas.jpg',     pos:'5% 70%',     ix:'65%', iy:'20%' },
+    { img:'Fondos/Ilustraciones/fondo-pared-beige.jpg',pos:'center 80%', ix:'65%', iy:'40%' },
+    { img:'Fondos/Ilustraciones/fondo-texturas.jpg',   pos:'center',     ix:'50%', iy:'50%' },
+  ],
+  vintages: [
+    { img:'Fondos/Vintage/fondo-02.jpg', pos:'center', ix:'50%', iy:'50%' },
+    { img:'Fondos/Vintage/fondo-03.jpg', pos:'40% center', ix:'50%', iy:'45%' },
+    { img:'Fondos/Vintage/fondo-05.jpg', pos:'55% center', ix:'50%', iy:'65%' },
+    { img:'Fondos/Vintage/fondo-06.jpg', pos:'center', ix:'50%', iy:'50%' },
+    { img:'Fondos/Vintage/fondo-blanco.jpg', pos:'center', ix:'50%', iy:'45%' },
+  ],
+  letreros: [
+    { img:'Fondos/Vintage/fondo-02.jpg', pos:'center', ix:'50%', iy:'50%' },
+    { img:'Fondos/Vintage/fondo-blanco.jpg', pos:'center', ix:'50%', iy:'45%' },
+    { img:'Fondos/Ilustraciones/fondo-texturas.jpg', pos:'center', ix:'50%', iy:'50%' },
+  ],
+  imanes: [
+    { img:'Fondos/Ilustraciones/fondo-naranja.jpg', pos:'5% center', ix:'50%', iy:'20%' },
+    { img:'Fondos/Ilustraciones/fondo-pared-beige.jpg', pos:'center 80%', ix:'65%', iy:'40%' },
+  ],
+};
 
-function fondoAleatorio() {
-  if (!fondos.length) return null;
-  return fondos[Math.floor(Math.random() * fondos.length)];
+function fondoAleatorio(cat) {
+  var lista = fondos[cat] || fondos.ilustraciones;
+  return lista[Math.floor(Math.random() * lista.length)];
 }
 var cart = [];
 
@@ -299,24 +311,24 @@ function openModal(item) {
   } else {
     priceRow.style.display = 'none';
   }
-  var fondo = fondoAleatorio();
+  var fondo = fondoAleatorio(item.cat);
   var modalLeft = document.querySelector('.modal-left');
-  var mImg = document.getElementById('m-img');
+  var wrap = document.getElementById('m-img-wrap');
   if (fondo) {
     modalLeft.style.backgroundImage = 'url(' + fondo.img + ')';
     modalLeft.style.backgroundSize = 'cover';
     modalLeft.style.backgroundPosition = fondo.pos;
-    mImg.style.position = 'absolute';
-    mImg.style.left = fondo.ix;
-    mImg.style.top = fondo.iy;
-    mImg.style.transform = 'translate(-50%, -50%)';
+    wrap.style.left = fondo.ix;
+    wrap.style.top = fondo.iy;
+    wrap.style.maxWidth = '42%';
+    wrap.style.maxHeight = '55%';
   } else {
     modalLeft.style.backgroundImage = 'none';
     modalLeft.style.backgroundColor = '#111';
-    mImg.style.position = 'relative';
-    mImg.style.left = 'auto';
-    mImg.style.top = 'auto';
-    mImg.style.transform = 'none';
+    wrap.style.left = '50%';
+    wrap.style.top = '50%';
+    wrap.style.maxWidth = '80%';
+    wrap.style.maxHeight = '80%';
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
@@ -380,24 +392,24 @@ function openModal(item) {
   } else {
     priceRow.style.display = 'none';
   }
-  var fondo = fondoAleatorio();
+  var fondo = fondoAleatorio(item.cat);
   var modalLeft = document.querySelector('.modal-left');
-  var mImg = document.getElementById('m-img');
+  var wrap = document.getElementById('m-img-wrap');
   if (fondo) {
     modalLeft.style.backgroundImage = 'url(' + fondo.img + ')';
     modalLeft.style.backgroundSize = 'cover';
     modalLeft.style.backgroundPosition = fondo.pos;
-    mImg.style.position = 'absolute';
-    mImg.style.left = fondo.ix;
-    mImg.style.top = fondo.iy;
-    mImg.style.transform = 'translate(-50%, -50%)';
+    wrap.style.left = fondo.ix;
+    wrap.style.top = fondo.iy;
+    wrap.style.maxWidth = '42%';
+    wrap.style.maxHeight = '55%';
   } else {
     modalLeft.style.backgroundImage = 'none';
     modalLeft.style.backgroundColor = '#111';
-    mImg.style.position = 'relative';
-    mImg.style.left = 'auto';
-    mImg.style.top = 'auto';
-    mImg.style.transform = 'none';
+    wrap.style.left = '50%';
+    wrap.style.top = '50%';
+    wrap.style.maxWidth = '80%';
+    wrap.style.maxHeight = '80%';
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapeando - Artesanía & Decoración</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f9fafb;
+            color: #1f2937;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── HEADER ── */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 30;
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #f3f4f6;
+            padding: 10px 24px;
+        }
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .logo { cursor: pointer; }
+        .logo img { height: 48px; width: auto; object-fit: contain; display: block; }
+
+        /* Filtros */
+        .filters {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 4px 0;
+            scrollbar-width: none;
+        }
+        .filters::-webkit-scrollbar { display: none; }
+        .filter-btn {
+            background: #f3f4f6;
+            color: #374151;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s, color 0.2s;
+            font-family: inherit;
+        }
+        .filter-btn:hover { background: #e5e7eb; }
+        .filter-btn.active { background: #111; color: #fff; }
+
+        /* Carrito botón */
+        .cart-btn {
+            position: relative;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 999px;
+            font-size: 20px;
+            transition: background 0.2s;
+        }
+        .cart-btn:hover { background: #f3f4f6; }
+        #cart-count {
+            position: absolute;
+            top: 2px; right: 2px;
+            background: #ef4444;
+            color: #fff;
+            font-size: 10px;
+            font-weight: 700;
+            width: 18px; height: 18px;
+            border-radius: 999px;
+            display: flex; align-items: center; justify-content: center;
+            border: 2px solid #fff;
+            transform: scale(0);
+            transition: transform 0.2s;
+        }
+        #cart-count.visible { transform: scale(1); }
+
+        /* ── GRID MASONRY ── */
+        main {
+            flex-grow: 1;
+            padding: 24px;
+            max-width: 1600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .masonry-grid {
+            column-count: 2;
+            column-gap: 14px;
+        }
+        @media (min-width: 640px)  { .masonry-grid { column-count: 3; } }
+        @media (min-width: 900px)  { .masonry-grid { column-count: 4; } }
+        @media (min-width: 1200px) { .masonry-grid { column-count: 5; } }
+
+        .card {
+            break-inside: avoid;
+            margin-bottom: 14px;
+            border-radius: 20px;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            background: #e5e7eb;
+            box-shadow: none;
+            transform: translateY(0);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow:
+                0 4px 8px rgba(0,0,0,0.12),
+                0 8px 20px rgba(0,0,0,0.14),
+                0 16px 40px rgba(0,0,0,0.10);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 20px;
+            transition: transform 0.4s ease;
+        }
+        .card:hover img { transform: scale(1.04); }
+
+        /* Overlay hover */
+        .card-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.05) 60%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 16px;
+            border-radius: 20px;
+            pointer-events: none;
+        }
+        .card:hover .card-overlay { opacity: 1; }
+        .card-overlay-inner {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 8px;
+            color: #fff;
+        }
+        .card-category {
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(6px);
+            padding: 3px 10px;
+            border-radius: 999px;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+        .card-title {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        .card-expand {
+            width: 36px; height: 36px;
+            border-radius: 999px;
+            background: #fff;
+            color: #111;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+            transform: translateY(10px);
+            transition: transform 0.3s ease;
+        }
+        .card:hover .card-expand { transform: translateY(0); }
+
+        /* ── MODAL ── */
+        #product-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            background: rgba(0,0,0,0.72);
+        }
+        #product-modal.open { display: flex; }
+
+        .modal-backdrop {
+            display: none;
+        }
+
+        .modal-content {
+            position: relative;
+            background: #fff;
+            width: 100%;
+            max-width: 960px;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+            z-index: 51;
+            display: flex;
+            flex-direction: column;
+            max-height: 90vh;
+        }
+        @media (min-width: 700px) { .modal-content { flex-direction: row; } }
+
+        .modal-close {
+            position: absolute;
+            top: 14px; left: 14px;
+            z-index: 10;
+            width: 38px; height: 38px;
+            border-radius: 999px;
+            background: rgba(0,0,0,0.45);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s;
+        }
+        .modal-close:hover { background: rgba(0,0,0,0.65); }
+
+        .modal-img-side {
+            flex: 1 1 55%;
+            background: #0f0f0f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            min-height: 240px;
+        }
+        .modal-img-side img {
+            max-width: 100%;
+            max-height: 70vh;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+
+        .modal-info-side {
+            flex: 1 1 40%;
+            padding: 28px 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-y: auto;
+            scrollbar-width: none;
+        }
+        .modal-info-side::-webkit-scrollbar { display: none; }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .modal-cat-badge {
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: #9ca3af;
+            background: #f3f4f6;
+            padding: 4px 12px;
+            border-radius: 999px;
+        }
+        .modal-id { font-size: 11px; color: #9ca3af; font-family: monospace; }
+        .modal-title { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 20px; line-height: 1.3; }
+
+        /* Specs */
+        .specs { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        .spec-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #f9fafb;
+            border: 1px solid #f3f4f6;
+            border-radius: 16px;
+            padding: 10px 14px;
+        }
+        .spec-icon {
+            width: 36px; height: 36px;
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        .spec-icon.blue   { background: #eff6ff; }
+        .spec-icon.amber  { background: #fffbeb; }
+        .spec-icon.green  { background: #f0fdf4; }
+        .spec-row-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; }
+        .spec-row-value { font-size: 13px; font-weight: 600; color: #1f2937; }
+
+        .spec-row.price-row {
+            background: #111;
+            border-color: #111;
+        }
+        .spec-row.price-row .spec-icon { background: rgba(255,255,255,0.1); }
+        .spec-row.price-row .spec-row-label { color: #6b7280; }
+        .spec-row.price-row .spec-row-value { font-size: 18px; font-weight: 700; color: #fff; }
+
+        .spec-row.d-none { display: none; }
+
+        /* Botones modal */
+        .modal-actions { display: flex; flex-direction: column; gap: 10px; }
+        .btn {
+            width: 100%;
+            border: none;
+            padding: 14px 18px;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            gap: 8px;
+            font-family: inherit;
+            transition: background 0.2s, transform 0.1s;
+        }
+        .btn:active { transform: scale(0.98); }
+        .btn-secondary { background: #f3f4f6; color: #111; }
+        .btn-secondary:hover { background: #e5e7eb; }
+        .btn-whatsapp { background: #25d366; color: #fff; }
+        .btn-whatsapp:hover { background: #1db954; }
+
+        /* ── CARRITO DRAWER ── */
+        #cart-drawer {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            pointer-events: none;
+        }
+        #cart-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: auto;
+        }
+        #cart-panel {
+            position: absolute;
+            top: 0; right: 0;
+            width: 100%; max-width: 420px;
+            height: 100%;
+            background: #fff;
+            box-shadow: -8px 0 32px rgba(0,0,0,0.15);
+            display: flex; flex-direction: column;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            pointer-events: auto;
+        }
+        #cart-drawer.open #cart-backdrop { opacity: 1; }
+        #cart-drawer.open #cart-panel { transform: translateX(0); }
+        #cart-drawer.open { pointer-events: auto; }
+
+        .cart-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid #f3f4f6;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .cart-header h3 { font-size: 17px; font-weight: 700; }
+        .cart-close {
+            background: none; border: none; cursor: pointer;
+            font-size: 18px; color: #9ca3af; padding: 6px;
+            border-radius: 999px; transition: background 0.2s;
+        }
+        .cart-close:hover { background: #f3f4f6; color: #374151; }
+        #cart-items-container { flex-grow: 1; padding: 20px 24px; overflow-y: auto; }
+        .cart-footer { padding: 20px 24px; border-top: 1px solid #f3f4f6; background: #f9fafb; }
+        .cart-total { display: flex; justify-content: space-between; font-size: 13px; color: #6b7280; margin-bottom: 14px; }
+        .cart-total span:last-child { font-weight: 700; color: #111; }
+
+        .cart-item {
+            display: flex; align-items: center; gap: 12px;
+            background: #f9fafb;
+            border: 1px solid #f3f4f6;
+            border-radius: 16px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .cart-item img { width: 60px; height: 60px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
+        .cart-item-info { flex-grow: 1; min-width: 0; }
+        .cart-item-title { font-size: 13px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .cart-item-sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
+        .cart-qty { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+        .qty-btn {
+            width: 24px; height: 24px; border-radius: 6px;
+            background: #fff; border: 1px solid #e5e7eb;
+            font-size: 14px; font-weight: 700; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .qty-btn:hover { background: #f3f4f6; }
+        .qty-num { font-size: 12px; font-weight: 700; min-width: 16px; text-align: center; }
+        .cart-remove { background: none; border: none; cursor: pointer; font-size: 15px; color: #d1d5db; padding: 4px; }
+        .cart-remove:hover { color: #ef4444; }
+
+        .cart-empty { text-align: center; padding: 48px 0; color: #9ca3af; font-size: 13px; }
+        .cart-empty .empty-icon { font-size: 36px; margin-bottom: 10px; opacity: 0.5; }
+
+        /* ── TOAST ── */
+        #toast {
+            position: fixed;
+            bottom: 24px; right: 24px;
+            z-index: 60;
+            background: #111;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            display: flex; align-items: center; gap: 10px;
+            font-size: 13px; font-weight: 500;
+            transform: translateY(80px);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            pointer-events: none;
+        }
+        #toast.show { transform: translateY(0); opacity: 1; }
+        .toast-icon { color: #4ade80; font-size: 16px; }
+        /* Ocultar badge de Netlify */
+        [data-netlify-deploy-id], .netlify-identity-button, #netlify-identity-widget-container { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-inner">
+            <div class="logo" onclick="filterCatalog('all', this)">
+                <img src="logo.png" alt="Chapeando - Artesanía & Decoración">
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" onclick="filterCatalog('all', this)">Todos</button>
+                <button class="filter-btn" onclick="filterCatalog('ilustraciones', this)">Ilustraciones</button>
+                <button class="filter-btn" onclick="filterCatalog('imanes', this)">Imanes</button>
+                <button class="filter-btn" onclick="filterCatalog('letreros', this)">Letreros</button>
+                <button class="filter-btn" onclick="filterCatalog('vintages', this)">Vintages</button>
+            </div>
+
+            <button class="cart-btn" onclick="openCartDrawer()">
+                🛍️
+                <span id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- GRID -->
+    <main>
+        <div id="catalog-grid" class="masonry-grid"></div>
+    </main>
+
+    <!-- MODAL -->
+    <div id="product-modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+
+            <div class="modal-img-side">
+                <img id="modal-img" src="" alt="Vista previa">
+            </div>
+
+            <div class="modal-info-side">
+                <div>
+                    <div class="modal-header">
+                        <span id="modal-category" class="modal-cat-badge">Categoría</span>
+                        <span id="modal-id" class="modal-id">#000</span>
+                    </div>
+                    <h2 id="modal-title" class="modal-title">Título</h2>
+
+                    <div class="specs">
+                        <div id="spec-size-wrap" class="spec-row">
+                            <div class="spec-icon blue">📐</div>
+                            <div>
+                                <div class="spec-row-label">Tamaño</div>
+                                <div id="modal-size" class="spec-row-value">—</div>
+                            </div>
+                        </div>
+                        <div id="spec-material-wrap" class="spec-row">
+                            <div class="spec-icon amber">🧱</div>
+                            <div>
+                                <div class="spec-row-label">Material</div>
+                                <div id="modal-material" class="spec-row-value">—</div>
+                            </div>
+                        </div>
+                        <div id="spec-unit-wrap" class="spec-row">
+                            <div class="spec-icon green">📦</div>
+                            <div>
+                                <div class="spec-row-label">Unidad</div>
+                                <div id="modal-unit" class="spec-row-value">—</div>
+                            </div>
+                        </div>
+                        <div id="spec-price-wrap" class="spec-row price-row">
+                            <div class="spec-icon">💲</div>
+                            <div>
+                                <div class="spec-row-label">Precio</div>
+                                <div id="modal-price" class="spec-row-value">—</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <button class="btn btn-secondary" onclick="addToCartFromModal()">🛒 Agregar al Pedido</button>
+                    <button class="btn btn-whatsapp" onclick="sendDirectWhatsApp()">💬 Realizar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARRITO -->
+    <div id="cart-drawer">
+        <div id="cart-backdrop" onclick="closeCartDrawer()"></div>
+        <aside id="cart-panel">
+            <div class="cart-header">
+                <h3>🛍️ Tu Pedido</h3>
+                <button class="cart-close" onclick="closeCartDrawer()">✕</button>
+            </div>
+            <div id="cart-items-container"></div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total ítems:</span>
+                    <span id="cart-total-count">0</span>
+                </div>
+                <button class="btn btn-whatsapp" onclick="sendCartWhatsApp()">💬 Enviar Pedido por WhatsApp</button>
+            </div>
+        </aside>
+    </div>
+
+    <!-- TOAST -->
+    <div id="toast">
+        <span class="toast-icon">✅</span>
+        <span id="toast-msg">Agregado al pedido</span>
+    </div>
+
+    <script>
+        const WHATSAPP_NUMBER = "5491112345678";
+
+        const catalogItems = [
+            // ── ILUSTRACIONES ──
+            { id: "ILU-01",  title: "Ilustración 01",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/1020135753088033663.jpg" },
+            { id: "ILU-02",  title: "Ilustración 02",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/1086845322608525041.jpg" },
+            { id: "ILU-03",  title: "Ilustración 03",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/358458451615405470.jpg" },
+            { id: "ILU-04",  title: "Ilustración 04",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/493214596717288546.jpg" },
+            { id: "ILU-05",  title: "Ilustración 05",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/536702480617538331.jpg" },
+            { id: "ILU-06",  title: "Ilustración 06",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/565131453256664327.jpg" },
+            { id: "ILU-07",  title: "Ilustración 07",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/592364157279093917.jpg" },
+            { id: "ILU-08",  title: "Ilustración 08",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/677369600242559565.jpg" },
+            { id: "ILU-09",  title: "Ilustración 09",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/714524297181267724.jpg" },
+            { id: "ILU-10",  title: "Ilustración 10",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/728246202290644519.jpg" },
+            { id: "ILU-11",  title: "Ilustración 11",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/748090188164412187.jpg" },
+            { id: "ILU-12",  title: "Ilustración 12",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/796785359111590823.jpg" },
+            { id: "ILU-13",  title: "Ilustración 13",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/813322014000491564.jpg" },
+            { id: "ILU-14",  title: "Ilustración 14",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/859835753923146306.jpg" },
+            { id: "ILU-15",  title: "Ilustración 15",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/86454ea017a48fb06beef47c1a4e895a.jpg" },
+            { id: "ILU-16",  title: "Ilustración 16",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/872079915370304934.jpg" },
+            { id: "ILU-17",  title: "Argentinidad",    category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/argentinidad.jpg" },
+            { id: "ILU-18",  title: "Bolsas con frases", category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/bolsas-con-frases.jpg" },
+            { id: "ILU-19",  title: "Cat 11",          category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/cat-11.jpg" },
+            { id: "ILU-20",  title: "Cuadros Hojas",   category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/cuadros-hojas.jpg" },
+            { id: "ILU-21",  title: "Ilustración 21",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/download (1).jpg" },
+            { id: "ILU-22",  title: "Ilustración 22",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/download (2).jpg" },
+            { id: "ILU-23",  title: "Ilustración 23",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/download (3).jpg" },
+            { id: "ILU-24",  title: "Ilustración 24",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/download (4).jpg" },
+            { id: "ILU-25",  title: "Ilustración 25",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/download.jpg" },
+            { id: "ILU-26",  title: "Ilustración 26",  category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/ebbf07f604398c3793ace513cfd973cc.jpg" },
+            { id: "ILU-27",  title: "Es todo lo que voy a decir", category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/es-todo-lo-que-voy-a-decir.jpg" },
+            { id: "ILU-28",  title: "Floral Typography", category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/floral-typography.jpg" },
+            { id: "ILU-29",  title: "Acuarela Otoñal", category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/acuarela-otonal.jpg" },
+            { id: "ILU-30",  title: "Colores y Relatos", category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/colores-relatos.jpg" },
+            { id: "ILU-31",  title: "Lemon Vase",      category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/lemon-vase.jpg" },
+            { id: "ILU-32",  title: "Botanical",       category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/botanical.jpg" },
+            { id: "ILU-33",  title: "Sun",             category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/sun.jpg" },
+            { id: "ILU-34",  title: "Van Gogh",        category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/van-gogh.jpg" },
+            { id: "ILU-35",  title: "Ilustración W",   category: "ilustraciones", size: "-", material: "-", unit: "-", price: "-", image: "Ilustraciones/W.jpg" },
+
+            // ── IMANES ── (descomentar cuando agregues imágenes a Imanes/)
+            // { id: "IMA-01", title: "Imán Pequeño",     category: "imanes", size: "9,5 x 27,5 cm", material: "Aluminio", unit: "1 pieza", price: "$5.000", image: "Imanes/ima-01.jpg" },
+            // { id: "IMA-02", title: "Imán Mediano",     category: "imanes", size: "19 x 9,5 cm",   material: "Aluminio", unit: "1 pieza", price: "$4.000", image: "Imanes/ima-02.jpg" },
+            // { id: "IMA-03", title: "Imán Mediano Plus",category: "imanes", size: "19 x 13,5 cm",  material: "Aluminio", unit: "1 pieza", price: "$5.000", image: "Imanes/ima-03.jpg" },
+            // { id: "IMA-04", title: "Imán Grande",      category: "imanes", size: "19 x 27 cm",    material: "Aluminio", unit: "1 pieza", price: "$8.000", image: "Imanes/ima-04.jpg" },
+
+            // ── LETREROS ──
+            { id: "LET-01", title: "Letrero 01", category: "letreros", size: "-", material: "-", unit: "-", price: "-", image: "Letreros/011.jpg" },
+            { id: "LET-02", title: "Letrero 02", category: "letreros", size: "-", material: "-", unit: "-", price: "-", image: "Letreros/016.jpg" },
+            { id: "LET-03", title: "Letrero 03", category: "letreros", size: "-", material: "-", unit: "-", price: "-", image: "Letreros/021.jpg" },
+            { id: "LET-04", title: "Letrero 04", category: "letreros", size: "-", material: "-", unit: "-", price: "-", image: "Letreros/024.jpg" },
+            { id: "LET-05", title: "Letrero 05", category: "letreros", size: "-", material: "-", unit: "-", price: "-", image: "Letreros/5fcb721bf443a38e4c2bcad2f650a497.jpg" },
+
+            // ── VINTAGES ──
+            { id: "VIN-01", title: "Vintage 001", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/001.jpg" },
+            { id: "VIN-02", title: "Vintage 002", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/002.jpg" },
+            { id: "VIN-03", title: "Vintage 003", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/003.jpg" },
+            { id: "VIN-04", title: "Vintage 004", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/004.jpg" },
+            { id: "VIN-05", title: "Vintage 005", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/005.jpg" },
+            { id: "VIN-06", title: "Vintage 006", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/006.jpg" },
+            { id: "VIN-07", title: "Vintage 007", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/007.jpg" },
+            { id: "VIN-08", title: "Vintage 008", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/008.jpg" },
+            { id: "VIN-09", title: "Vintage 012", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/012.jpg" },
+            { id: "VIN-10", title: "Vintage 013", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/013.jpg" },
+            { id: "VIN-11", title: "Vintage 014", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/014.jpg" },
+            { id: "VIN-12", title: "Vintage 015", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/015.jpg" },
+            { id: "VIN-13", title: "Vintage 017", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/017.jpg" },
+            { id: "VIN-14", title: "Vintage 019", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/019.jpg" },
+            { id: "VIN-15", title: "Vintage 025", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/025.jpg" },
+            { id: "VIN-16", title: "Vintage 026", category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/026.jpg" },
+            { id: "VIN-17", title: "Vintage 32",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/32.jpg" },
+            { id: "VIN-18", title: "Vintage 33",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/33.jpg" },
+            { id: "VIN-19", title: "Vintage 34",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/34.jpg" },
+            { id: "VIN-20", title: "Vintage 35",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/35.jpg" },
+            { id: "VIN-21", title: "Vintage 37",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/37.jpg" },
+            { id: "VIN-22", title: "Vintage 38",  category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/38.jpg" },
+            { id: "VIN-23", title: "Imagen 27",   category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/Imagen27.jpg" },
+            { id: "VIN-24", title: "Imagen 28",   category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/Imagen28.jpg" },
+            { id: "VIN-25", title: "Imagen 29",   category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/Imagen29.jpg" },
+            { id: "VIN-26", title: "Imagen 30",   category: "vintages", size: "-", material: "-", unit: "-", price: "-", image: "Vintages/Imagen30.jpg" },
+        ];
+
+        let currentItem = null;
+        let cart = [];
+
+        window.onload = () => renderCatalog(catalogItems);
+
+        function renderCatalog(items) {
+            const grid = document.getElementById('catalog-grid');
+            grid.innerHTML = '';
+            items.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.onclick = () => openModal(item);
+                card.innerHTML = `
+                    <img src="${item.image}" alt="${item.title}" loading="lazy">
+                    <div class="card-overlay">
+                        <div class="card-overlay-inner">
+                            <div>
+                                <span class="card-category">${item.category}</span>
+                                <div class="card-title">${item.title}</div>
+                            </div>
+                            <div class="card-expand">⤢</div>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterCatalog(category, btn) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            const items = category === 'all' ? catalogItems : catalogItems.filter(i => i.category === category);
+            renderCatalog(items);
+        }
+
+        function openModal(item) {
+            currentItem = item;
+            document.getElementById('modal-img').src = item.image;
+            document.getElementById('modal-title').textContent = item.title;
+            document.getElementById('modal-category').textContent = item.category;
+            document.getElementById('modal-id').textContent = '#' + item.id;
+
+            setSpec('spec-size-wrap',     'modal-size',     item.size);
+            setSpec('spec-material-wrap', 'modal-material', item.material);
+            setSpec('spec-unit-wrap',     'modal-unit',     item.unit);
+            setSpec('spec-price-wrap',    'modal-price',    item.price);
+
+            const modal = document.getElementById('product-modal');
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function setSpec(wrapId, valId, val) {
+            const wrap = document.getElementById(wrapId);
+            if (val && val !== '-') {
+                document.getElementById(valId).textContent = val;
+                wrap.classList.remove('d-none');
+            } else {
+                wrap.classList.add('d-none');
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('product-modal').style.display = 'none';
+            document.body.style.overflow = '';
+        }
+
+        function addToCartFromModal() {
+            if (!currentItem) return;
+            const idx = cart.findIndex(i => i.id === currentItem.id);
+            if (idx > -1) cart[idx].qty++;
+            else cart.push({ ...currentItem, qty: 1 });
+            updateCartUI();
+            showToast('"' + currentItem.title + '" agregado al pedido');
+        }
+
+        function sendDirectWhatsApp() {
+            if (!currentItem) return;
+            let text = '¡Hola! Me interesa el siguiente producto:\n\n'
+                     + '📌 *' + currentItem.title + '* (' + currentItem.id + ')\n';
+            if (currentItem.size     && currentItem.size     !== '-') text += '📐 *Tamaño:* '   + currentItem.size     + '\n';
+            if (currentItem.material && currentItem.material !== '-') text += '🧱 *Material:* ' + currentItem.material + '\n';
+            if (currentItem.unit     && currentItem.unit     !== '-') text += '📦 *Unidad:* '   + currentItem.unit     + '\n';
+            if (currentItem.price    && currentItem.price    !== '-') text += '💲 *Precio:* '   + currentItem.price    + '\n';
+            text += '\n¿Me podés brindar más información?';
+            window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text), '_blank');
+        }
+
+        function updateCartUI() {
+            const badge = document.getElementById('cart-count');
+            const total = document.getElementById('cart-total-count');
+            const container = document.getElementById('cart-items-container');
+            const qty = cart.reduce((a, i) => a + i.qty, 0);
+
+            badge.textContent = qty;
+            total.textContent = qty;
+            qty > 0 ? badge.classList.add('visible') : badge.classList.remove('visible');
+
+            if (cart.length === 0) {
+                container.innerHTML = '<div class="cart-empty"><div class="empty-icon">📭</div><p>Tu pedido está vacío</p></div>';
+                return;
+            }
+            container.innerHTML = '';
+            cart.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'cart-item';
+                el.innerHTML = `
+                    <img src="${item.image}" alt="${item.title}">
+                    <div class="cart-item-info">
+                        <div class="cart-item-title">${item.title}</div>
+                        <div class="cart-item-sub">${item.size !== '-' ? item.size : ''}</div>
+                        <div class="cart-qty">
+                            <button class="qty-btn" onclick="changeQty('${item.id}',-1)">−</button>
+                            <span class="qty-num">${item.qty}</span>
+                            <button class="qty-btn" onclick="changeQty('${item.id}',1)">+</button>
+                        </div>
+                    </div>
+                    <button class="cart-remove" onclick="removeItem('${item.id}')">🗑️</button>
+                `;
+                container.appendChild(el);
+            });
+        }
+
+        function changeQty(id, delta) {
+            const idx = cart.findIndex(i => i.id === id);
+            if (idx > -1) {
+                cart[idx].qty += delta;
+                if (cart[idx].qty <= 0) cart.splice(idx, 1);
+                updateCartUI();
+            }
+        }
+
+        function removeItem(id) {
+            cart = cart.filter(i => i.id !== id);
+            updateCartUI();
+        }
+
+        function sendCartWhatsApp() {
+            if (!cart.length) { showToast('El carrito está vacío'); return; }
+            let text = '¡Hola! Quisiera realizar el siguiente pedido:\n\n';
+            cart.forEach((item, i) => {
+                text += (i+1) + '. *' + item.title + '* (' + item.id + ')\n';
+                text += '   • Cantidad: ' + item.qty + '\n';
+                if (item.size  && item.size  !== '-') text += '   • Tamaño: '   + item.size    + '\n';
+                if (item.price && item.price !== '-') text += '   • Precio: '   + item.price   + '\n';
+                text += '\n';
+            });
+            text += '¡Muchas gracias!';
+            window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text), '_blank');
+        }
+
+        function openCartDrawer() {
+            document.getElementById('cart-drawer').classList.add('open');
+            document.body.style.overflow = 'hidden';
+            updateCartUI();
+        }
+
+        function closeCartDrawer() {
+            document.getElementById('cart-drawer').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-msg').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+    </script>
+</body>
+</html>

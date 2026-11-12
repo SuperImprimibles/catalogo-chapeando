@@ -290,7 +290,7 @@ const items = [
   {id:"LET-08", title:"Cuidado Con El Perro", cat:"letreros", size:"18.4 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Cuidado Con El Perro.png", gallery:["Letreros/Cuidado Con El Perro.png","Letreros/Cuidado Con El Perro - Ilustracion.jpg"]},
   {id:"LET-09", title:"Abierto", cat:"letreros", size:"19.8 x 8.1 cm", mat:"Aluminio", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Abierto).png"},
   {id:"LET-10", title:"Cerrado", cat:"letreros", size:"19.8 x 8.1 cm", mat:"Aluminio", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Carredo).png"},
-  {id:"LET-11", title:"Salida de Emergencia", cat:"letreros", size:"19.8 x 17.6 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Salida de Emergencia.jpg", gallery:["Letreros/Salida de Emergencia.jpg","Letreros/Salida de Emergencia.png"]},
+  {id:"LET-11", title:"Salida de Emergencia", cat:"letreros", size:"19.8 x 17.6 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Salida de Emergencia.png", gallery:["Letreros/Salida de Emergencia.png","Letreros/Salida de Emergencia - Ilustracion.jpg"]},
 
   // ── VINTAGES
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/malvinas-son-argentinas-texto.jpg"},

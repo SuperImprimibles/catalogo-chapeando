@@ -46,7 +46,11 @@ main{padding:20px;max-width:1600px;margin:0 auto}
   z-index:3;
   border-radius:4px;
   box-shadow:0 4px 20px rgba(0,0,0,.5);
+  opacity:1;
 }
+/* Placeholder invisible que sostiene la altura del card en hover */
+.card.iman .card-img-placeholder{display:block;width:100%;visibility:hidden}
+.card.iman:not(:hover) .card-img-placeholder{display:none}
 /* Hover swap letreros */
 .card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s;z-index:2}
 .card.has-hover:hover .card-img-main{opacity:0}
@@ -351,6 +355,7 @@ function render(list) {
     var hasHover = img2 || item.cat === 'imanes';
     d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
+      + (item.cat === 'imanes' ? '<img src="' + item.img + '" alt="" aria-hidden="true" class="card-img-placeholder">' : '')
       + imanBg
       + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
       + perfs

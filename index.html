@@ -177,13 +177,13 @@ main{padding:20px;max-width:1600px;margin:0 auto}
           </div>
           <div class="spec">
             <div class="spec-icon" style="background:#fffbeb"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-4 0v2"/><path d="M8 7V5a2 2 0 00-4 0v2"/></svg></div>
-            <div><div class="spec-label">Material</div><div id="m-mat" class="spec-val"></div></div>
+            <div><div id="m-mat-label" class="spec-label">Material</div><div id="m-mat" class="spec-val"></div></div>
           </div>
           <div class="spec">
             <div class="spec-icon" style="background:#f0fdf4"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
             <div><div class="spec-label">Unidad</div><div id="m-unit" class="spec-val"></div></div>
           </div>
-          <div class="spec">
+          <div id="spec-perf-wrap" class="spec">
             <div class="spec-icon" style="background:#f5f3ff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="5" r="1.5"/><circle cx="19" cy="5" r="1.5"/><circle cx="5" cy="19" r="1.5"/><circle cx="19" cy="19" r="1.5"/></svg></div>
             <div><div class="spec-label">Perforaciones</div><div class="spec-val">4 (una por esquina)</div></div>
           </div>
@@ -249,7 +249,7 @@ function render(list) {
 
     var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
-      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover" style="display:none;position:absolute;inset:0;width:100%;height:auto">' : '')
+      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
       + perfs
       + '<div class="card-overlay">'
       + '<div class="card-overlay-info">'
@@ -288,8 +288,10 @@ function openModal(item) {
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
   document.getElementById('m-size').textContent  = item.size  !== '-' ? item.size  : 'Consultar';
-  document.getElementById('m-mat').textContent   = item.mat   !== '-' ? item.mat   : 'Consultar';
+  document.getElementById('m-mat').textContent   = item.cat === 'imanes' ? 'Inmantada' : (item.mat !== '-' ? item.mat : 'Consultar');
   document.getElementById('m-unit').textContent  = item.unit  !== '-' ? item.unit  : '1 pieza';
+  document.getElementById('spec-perf-wrap').style.display = item.cat === 'imanes' ? 'none' : 'flex';
+  document.getElementById('m-mat-label').textContent = item.cat === 'imanes' ? 'Base' : 'Material';
   var priceRow = document.getElementById('price-row');
   var precioMostrar = item.price !== '-' ? item.price : item._calcPrice;
   if (precioMostrar) {
@@ -314,7 +316,7 @@ function render(list) {
 
     var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
-      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover" style="display:none;position:absolute;inset:0;width:100%;height:auto">' : '')
+      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
       + perfs
       + '<div class="card-overlay">'
       + '<div class="card-overlay-info">'
@@ -353,8 +355,10 @@ function openModal(item) {
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
   document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Consultar';
-  document.getElementById('m-mat').textContent  = item.mat  !== '-' ? item.mat  : 'Aluminio';
+  document.getElementById('m-mat').textContent  = item.cat === 'imanes' ? 'Inmantada' : (item.mat !== '-' ? item.mat : 'Aluminio');
   document.getElementById('m-unit').textContent = item.unit !== '-' ? item.unit : '1 pieza';
+  document.getElementById('spec-perf-wrap').style.display = item.cat === 'imanes' ? 'none' : 'flex';
+  document.getElementById('m-mat-label').textContent = item.cat === 'imanes' ? 'Base' : 'Material';
   var priceRow = document.getElementById('price-row');
   var precioMostrar = item.price !== '-' ? item.price : item._calcPrice;
   if (precioMostrar) {

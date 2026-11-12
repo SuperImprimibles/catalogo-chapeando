@@ -220,41 +220,6 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 const WA = "5492657640076";
 const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
 
-// Fondos aleatorios para el modal
-var fondos = {
-  ilustraciones: [
-    { img:'Fondos/Ilustraciones/fondo-barro-mate.jpg',  pos:'center', ix:'60%', iy:'35%' },
-    { img:'Fondos/Ilustraciones/fondo-gris-liso.jpg',   pos:'center', ix:'50%', iy:'50%' },
-    { img:'Fondos/Ilustraciones/fondo-madera-rustica.jpg', pos:'center', ix:'50%', iy:'50%' },
-    { img:'Fondos/Ilustraciones/fondo-beige.jpg',       pos:'15% center', ix:'55%', iy:'40%' },
-    { img:'Fondos/Ilustraciones/fondo-pampas.jpg',      pos:'5% 70%',     ix:'65%', iy:'20%' },
-    { img:'Fondos/Ilustraciones/fondo-pared-beige.jpg', pos:'center 80%', ix:'65%', iy:'40%' },
-    { img:'Fondos/Ilustraciones/fondo-texturas.jpg',    pos:'center',     ix:'50%', iy:'50%' },
-  ],
-  vintages: [
-    { img:'Fondos/Vintage/fondo-ladrillo-calido.jpg',   pos:'center',     ix:'50%', iy:'45%' },
-    { img:'Fondos/Vintage/fondo-pared-rustica.jpg',     pos:'center',     ix:'40%', iy:'40%' },
-    { img:'Fondos/Vintage/fondo-02.jpg',                pos:'center',     ix:'50%', iy:'50%' },
-    { img:'Fondos/Vintage/fondo-05.jpg',                pos:'55% center', ix:'50%', iy:'65%' },
-    { img:'Fondos/Vintage/fondo-06.jpg',                pos:'center',     ix:'50%', iy:'50%' },
-  ],
-  letreros: [
-    { img:'Fondos/Vintage/fondo-ladrillo-calido.jpg',   pos:'center',     ix:'50%', iy:'45%' },
-    { img:'Fondos/Vintage/fondo-pared-rustica.jpg',     pos:'center',     ix:'40%', iy:'40%' },
-    { img:'Fondos/Ilustraciones/fondo-gris-liso.jpg',   pos:'center',     ix:'50%', iy:'50%' },
-    { img:'Fondos/Ilustraciones/fondo-madera-rustica.jpg', pos:'center',  ix:'50%', iy:'50%' },
-  ],
-  imanes: [
-    { img:'Fondos/Ilustraciones/fondo-barro-mate.jpg',  pos:'center',     ix:'60%', iy:'35%' },
-    { img:'Fondos/Ilustraciones/fondo-pared-beige.jpg', pos:'center 80%', ix:'65%', iy:'40%' },
-    { img:'Fondos/Ilustraciones/fondo-gris-liso.jpg',   pos:'center',     ix:'50%', iy:'50%' },
-  ],
-};
-
-function fondoAleatorio(cat) {
-  var lista = fondos[cat] || fondos.ilustraciones;
-  return lista[Math.floor(Math.random() * lista.length)];
-}
 var cart = [];
 
 // Restaurar carrito desde localStorage
@@ -327,7 +292,6 @@ function openModal(item) {
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  }
 }
 
 function render(list) {
@@ -390,7 +354,6 @@ function openModal(item) {
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  }
 }
 
 function closeModal() {
@@ -517,8 +480,8 @@ function toast(msg) {
 // ── GALERÍA ──────────────────────────────────────────────────
 var gallerySlides = [];
 var galleryIndex = 0;
-// Extensiones soportadas
-var IMG_EXTS = ['jpg','jpeg','png','webp','gif'];
+// Extensiones soportadas - solo jpg/jpeg para reducir requests
+var IMG_EXTS = ['jpg', 'jpeg'];
 
 // Genera lista de posibles rutas para un producto
 function getGalleryImages(item) {
@@ -547,13 +510,12 @@ function buildGallery(item) {
   galleryIndex = 0;
 
   // Siempre carga la imagen principal primero
-  var mainFondo = fondoAleatorio(item.cat);
-  addSlide(item.img, item, mainFondo, true);
+  addSlide(item.img, item, null, true);
 
   // Luego carga las imágenes de Galeria/[ID]/ probando nombres
   var base = 'Galeria/' + item.id + '/';
   var attempted = 0;
-  var maxAttempts = 20;
+  var maxAttempts = 5;
 
   function tryNext(n, extIdx) {
     if (n > maxAttempts) return;
@@ -562,7 +524,7 @@ function buildGallery(item) {
     var src = base + num + '.' + ext;
     var testImg = new Image();
     testImg.onload = function() {
-      addSlide(src, item, fondoAleatorio(item.cat), false);
+      addSlide(src, item, null, false);
       // Intentar siguiente extensión y número
       var nextExt = extIdx + 1;
       if (nextExt < IMG_EXTS.length) tryNext(n, nextExt);
@@ -585,21 +547,13 @@ function addSlide(src, item, fondo, isMain) {
 
   var slide = document.createElement('div');
   slide.className = 'gallery-slide' + (idx === 0 ? ' active' : '');
-
-  // Fondo
-  if (fondo) {
-    slide.style.backgroundImage = 'url(' + fondo.img + ')';
-    slide.style.backgroundSize = 'cover';
-    slide.style.backgroundPosition = fondo.pos;
-  } else {
-    slide.style.background = '#111';
-  }
+  slide.style.background = '#111';
 
   // Wrapper imagen con perforaciones si aplica
   var wrap = document.createElement('div');
   wrap.style.cssText = 'position:absolute;z-index:1;transform:translate(-50%,-50%);max-width:42%;max-height:55%';
-  if (fondo) { wrap.style.left = fondo.ix; wrap.style.top = fondo.iy; }
-  else { wrap.style.left = '50%'; wrap.style.top = '50%'; }
+  wrap.style.left = '50%';
+  wrap.style.top = '50%';
 
   var img = document.createElement('img');
   img.src = src;

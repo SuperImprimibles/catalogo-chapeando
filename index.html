@@ -666,8 +666,8 @@ function precalcTamanios(lista, done) {
   });
 }
 
-// Renderizar inmediatamente sin precalcular
-render(items);
+// Renderizar inmediatamente sin imanes en "Todos"
+render(items.filter(function(i){ return i.cat !== 'imanes'; }));
 renderCart();
 </script>
 </body>

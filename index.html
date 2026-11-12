@@ -27,15 +27,15 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 @media(min-width:600px){.grid{columns:3}}
 @media(min-width:900px){.grid{columns:4}}
 @media(min-width:1200px){.grid{columns:5}}
-.card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#ddd;transition:transform .2s,box-shadow .2s}
+.card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#000;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
 .card img{width:100%;height:auto;display:block}
 .card-iman-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s}
 .card:hover .card-iman-bg{opacity:1}
 .card-img-main{transition:opacity .25s;width:100%;height:auto;display:block}
+.card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s}
 .card.has-hover:hover .card-img-main{opacity:0}
-.card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
-.card:hover .card-img-hover{display:block !important}
+.card.has-hover:hover .card-img-hover{opacity:1}
 .card-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);opacity:0;transition:opacity .3s;display:flex;flex-direction:column;justify-content:space-between;padding:12px;pointer-events:none}
 .card:hover .card-overlay{opacity:1;pointer-events:auto}
 .card-overlay-info{flex-grow:1;display:flex;flex-direction:column;justify-content:flex-start;gap:4px}

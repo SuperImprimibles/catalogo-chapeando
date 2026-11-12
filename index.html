@@ -560,7 +560,7 @@ function buildGallery(item) {
   gallerySlides = [];
   galleryIndex = 0;
 
-  // Si el item tiene galería predefinida, usarla directamente
+  // Si el item tiene galería predefinida, usarla
   if (item.gallery && item.gallery.length > 0) {
     item.gallery.forEach(function(src, i) {
       addSlide(src, item, null, i === 0);
@@ -568,35 +568,8 @@ function buildGallery(item) {
     return;
   }
 
-  // Si no, mostrar solo la imagen principal + buscar en Galeria/[ID]/
+  // Si no, mostrar solo la imagen principal (sin buscar carpeta Galeria/)
   addSlide(item.img, item, null, true);
-
-  // Luego carga las imágenes de Galeria/[ID]/ probando nombres
-  var base = 'Galeria/' + item.id + '/';
-  var attempted = 0;
-  var maxAttempts = 5;
-
-  function tryNext(n, extIdx) {
-    if (n > maxAttempts) return;
-    var ext = IMG_EXTS[extIdx];
-    var num = n < 10 ? '0' + n : '' + n;
-    var src = base + num + '.' + ext;
-    var testImg = new Image();
-    testImg.onload = function() {
-      addSlide(src, item, null, false);
-      // Intentar siguiente extensión y número
-      var nextExt = extIdx + 1;
-      if (nextExt < IMG_EXTS.length) tryNext(n, nextExt);
-      else tryNext(n + 1, 0);
-    };
-    testImg.onerror = function() {
-      var nextExt = extIdx + 1;
-      if (nextExt < IMG_EXTS.length) tryNext(n, nextExt);
-      else tryNext(n + 1, 0);
-    };
-    testImg.src = src;
-  }
-  tryNext(1, 0);
 }
 
 function addSlide(src, item, fondo, isMain) {
@@ -625,18 +598,10 @@ function addSlide(src, item, fondo, isMain) {
 
   // Perforaciones solo en ilustraciones, y solo en la imagen principal
   if (item.cat === 'ilustraciones' && isMain) {
-    var needsPerfs = true;
-    img.addEventListener('load', function() {
-      imgWrap.style.width = img.offsetWidth + 'px';
-      imgWrap.style.height = img.offsetHeight + 'px';
-      if (needsPerfs) {
-        var perfs = document.createElement('div');
-        perfs.style.cssText = 'position:absolute;inset:0;pointer-events:none';
-        perfs.innerHTML = '<div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div>';
-        imgWrap.appendChild(perfs);
-        needsPerfs = false;
-      }
-    });
+    var perfs = document.createElement('div');
+    perfs.style.cssText = 'position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:2';
+    perfs.innerHTML = '<div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div>';
+    imgWrap.appendChild(perfs);
   }
 
   wrap.appendChild(imgWrap);

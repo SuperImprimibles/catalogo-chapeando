@@ -41,9 +41,9 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .card-overlay-meta{font-size:11px;color:rgba(255,255,255,.8);display:flex;gap:8px;flex-wrap:wrap}
 .card-overlay-tag{background:rgba(255,255,255,.18);backdrop-filter:blur(4px);padding:2px 8px;border-radius:999px;white-space:nowrap}
 .card-overlay-btns{display:flex;flex-direction:column;gap:5px;align-items:flex-end;margin-top:6px;width:100%}
-.card-btn-cart{height:28px;border-radius:999px;background:#111;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:4px;padding:0 10px;box-shadow:0 2px 6px rgba(0,0,0,.3);color:#fff;font-size:11px;font-weight:600;font-family:inherit;white-space:nowrap}
+.card-btn-cart{height:28px;border-radius:999px;background:#111;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:4px;padding:0 8px;box-shadow:0 2px 6px rgba(0,0,0,.3);color:#fff;font-size:clamp(9px,2vw,11px);font-weight:600;font-family:inherit;white-space:nowrap;max-width:100%;overflow:hidden}
 .card-btn-cart:hover{background:#333}
-.card-btn-detail{background:#25d366;border:none;cursor:pointer;padding:0 10px;height:28px;border-radius:999px;font-size:11px;font-weight:600;color:#fff;font-family:inherit;display:flex;align-items:center;gap:4px;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap}
+.card-btn-detail{background:#25d366;border:none;cursor:pointer;padding:0 8px;height:28px;border-radius:999px;font-size:clamp(9px,2vw,11px);font-weight:600;color:#fff;font-family:inherit;display:flex;align-items:center;gap:4px;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap;max-width:100%;overflow:hidden}
 .card-btn-detail:hover{background:#f3f3f3}
 
 /* Perforaciones sobre ilustraciones */
@@ -53,9 +53,9 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .perf-tr{top:5px;right:5px}
 .perf-bl{bottom:5px;left:5px}
 .perf-br{bottom:5px;right:5px}
-#modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);align-items:center;justify-content:center;padding:12px}
-.modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;max-height:92vh;overflow:hidden;display:flex;flex-direction:column;position:relative}
-@media(min-width:650px){.modal-box{flex-direction:row;max-height:85vh}}
+#modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);align-items:center;justify-content:center;padding:8px;overflow-y:auto}
+.modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;max-height:calc(100dvh - 16px);overflow:hidden;display:flex;flex-direction:column;position:relative}
+@media(min-width:650px){.modal-box{flex-direction:row;max-height:calc(100dvh - 16px)}}
 .modal-btn-close{position:absolute;top:10px;left:10px;z-index:10;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.5);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .modal-left{background:#111;position:relative;overflow:hidden;flex-shrink:0;width:100%;aspect-ratio:1/1}
 @media(min-width:650px){.modal-left{width:auto;flex:0 0 auto;aspect-ratio:1/1;height:85vh;max-height:85vh}}

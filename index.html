@@ -600,25 +600,28 @@ function addSlide(src, item, fondo, isMain) {
 
   // Wrapper imagen con perforaciones si aplica
   var wrap = document.createElement('div');
-  wrap.style.cssText = 'position:absolute;z-index:1;transform:translate(-50%,-50%);max-width:80%;max-height:80%;display:flex;align-items:center;justify-content:center';
+  wrap.style.cssText = 'position:absolute;z-index:1;transform:translate(-50%,-50%);max-width:80%;max-height:80%;display:inline-flex;align-items:center;justify-content:center';
   wrap.style.left = '50%';
   wrap.style.top = '50%';
+
+  var imgWrap = document.createElement('div');
+  imgWrap.style.cssText = 'position:relative;display:inline-block;line-height:0';
 
   var img = document.createElement('img');
   img.src = src;
   img.alt = item.title;
   img.style.cssText = 'display:block;max-width:100%;max-height:100%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)';
-  wrap.appendChild(img);
+  imgWrap.appendChild(img);
 
   // Perforaciones solo en ilustraciones, y solo en la imagen principal
   if (item.cat === 'ilustraciones' && isMain) {
     var perfs = document.createElement('div');
     perfs.style.cssText = 'position:absolute;inset:0;pointer-events:none';
     perfs.innerHTML = '<div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div>';
-    wrap.appendChild(perfs);
+    imgWrap.appendChild(perfs);
   }
 
-  slide.appendChild(wrap);
+  wrap.appendChild(imgWrap);
   track.appendChild(slide);
   gallerySlides.push(slide);
 

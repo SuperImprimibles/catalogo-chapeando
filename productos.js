@@ -1,59 +1,15 @@
-﻿// ============================================================
-//  PRODUCTOS
-//  - Ilustraciones y Vintages: size:"-" â†’ el tamaÃ±o se calcula
-//    automÃ¡ticamente segÃºn proporciÃ³n real de la imagen
-//  - Letreros e Imanes: size fijo
-// ============================================================
-
-const items = [
-
-  // â”€â”€ ILUSTRACIONES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-  {id:"ILU-01", title:"Monstera Acuarela",          cat:"ilustraciones", size:"19.8 x 24.7 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/monstera-acuarela.jpg"},
-  {id:"ILU-02", title:"Plantas en Macetas",          cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/plantas-en-macetas.jpg"},
-  {id:"ILU-03", title:"Utensilios de Cocina",        cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/utensilios-de-cocina.jpg"},
-  {id:"ILU-04", title:"Puerta Griega",               cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/puerta-griega.jpg"},
-  {id:"ILU-05", title:"Abstracto Boho",              cat:"ilustraciones", size:"16.2 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/abstracto-boho.jpg"},
-  {id:"ILU-06", title:"Home Sweet Home",             cat:"ilustraciones", size:"19.8 x 19.9 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/home-sweet-home.jpg"},
-  {id:"ILU-07", title:"Casas Coloridas",             cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/casas-coloridas.jpg"},
-  {id:"ILU-08", title:"Mate CafÃ© TÃ©",                cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/mate-cafe-te.jpg"},
-  {id:"ILU-09", title:"Limones Tablero",             cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/limones-tablero.jpg"},
-  {id:"ILU-10", title:"Flores LÃ­nea Rosa",           cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/flores-linea-rosa.jpg"},
-  {id:"ILU-11", title:"HOME Letras BotÃ¡nicas",       cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/home-letras-botanicas.jpg"},
-  {id:"ILU-12", title:"Margarita Retro",             cat:"ilustraciones", size:"19.8 x 28.2 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/margarita-retro.jpg"},
-  {id:"ILU-13", title:"Gatos Sol y Luna",            cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/gatos-sol-luna.jpg"},
-  {id:"ILU-14", title:"Bouquet Floral",              cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/bouquet-floral.jpg"},
-  {id:"ILU-15", title:"Gato en la BaÃ±era",           cat:"ilustraciones", size:"19.8 x 27.1 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/gato-en-banera.jpg"},
-  {id:"ILU-16", title:"Planta de AjÃ­es",             cat:"ilustraciones", size:"16.3 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/planta-de-ajies.jpg"},
-  {id:"ILU-17", title:"Argentinidad",                cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/argentinidad.jpg"},
-  {id:"ILU-18", title:"Bolsas con Frases",           cat:"ilustraciones", size:"19.8 x 28.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/bolsas-con-frases.jpg"},
-  {id:"ILU-19", title:"Cat 11",                      cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/cat-11.jpg"},
-  {id:"ILU-20", title:"Cuadros Hojas",               cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/cuadros-hojas.jpg"},
-  {id:"ILU-21", title:"Cerezas Tablero",             cat:"ilustraciones", size:"19.8 x 28.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/cerezas-tablero.jpg"},
-  {id:"ILU-22", title:"Home Sweet Home Rosas",       cat:"ilustraciones", size:"19.8 x 26.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/home-sweet-home-rosas.jpg"},
-  {id:"ILU-23", title:"Monstera 1763",               cat:"ilustraciones", size:"16.5 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/monstera-1763.jpg"},
-  {id:"ILU-24", title:"Pasta Italia",                cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/pasta-italia.jpg"},
-  {id:"ILU-25", title:"Limoncello",                  cat:"ilustraciones", size:"19.8 x 28.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/limoncello.jpg"},
-  {id:"ILU-26", title:"Lavanda y Vino",              cat:"ilustraciones", size:"19.8 x 28.2 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/lavanda-y-vino.jpg"},
-  {id:"ILU-27", title:"Es todo lo que voy a decir",  cat:"ilustraciones", size:"19.8 x 26.4 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/es-todo-lo-que-voy-a-decir.jpg"},
-  {id:"ILU-28", title:"Floral Typography",           cat:"ilustraciones", size:"19.1 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/floral-typography.jpg"},
-  {id:"ILU-29", title:"Acuarela OtoÃ±al",             cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/acuarela-otonal.jpg"},
-  {id:"ILU-30", title:"Colores y Relatos",           cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/colores-relatos.jpg"},
-  {id:"ILU-31", title:"Lemon Vase",                  cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/lemon-vase.jpg"},
-  {id:"ILU-32", title:"Botanical",                   cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/botanical.jpg"},
-  {id:"ILU-33", title:"Sun",                         cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/sun.jpg"},
-  {id:"ILU-34", title:"Van Gogh",                    cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/van-gogh.jpg"},
-  {id:"ILU-35", title:"IlustraciÃ³n W",               cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Ilustraciones/W.jpg"},
-
-  // â”€â”€ IMANES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-  // TamaÃ±o calculado automÃ¡ticamente (mÃ¡x 8cm de alto)
-
-
-  // â”€â”€ LETREROS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-  {id:"LET-01", title:"NÃºmero de Casa",              cat:"letreros", size:"9,5 x 27,5 cm", mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/numero-de-casa.jpg"},
-  {id:"LET-02", title:"Prohibido Estacionar 24hs",   cat:"letreros", size:"9,5 x 27,5 cm", mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/prohibido-estacionar.jpg"},
-  {id:"LET-03", title:"BaÃ±os Dama y Caballero",      cat:"letreros", size:"19 x 13,5 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/banos-dama-caballero.jpg"},
-  {id:"LET-04", title:"STOP Vintage",                cat:"letreros", size:"19 x 13,5 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/stop-vintage.jpg"},
-  {id:"LET-05", title:"Wi-Fi Vintage",               cat:"letreros", size:"19 x 13,5 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/wifi-vintage.jpg"},
+﻿  // ── LETREROS ──────────────────────────────────────────────
+  {id:"LET-01", title:"Baño Hombres",          cat:"letreros", size:"19.8 x 19.8 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Baño Hombres.jpg", gallery:["Letreros/Baño Hombres.jpg","Letreros/Baño Hombres - Ilustracion.jpg"]},
+  {id:"LET-02", title:"Baño Mujeres",          cat:"letreros", size:"19.8 x 19.8 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Baño Mujeres.jpg", gallery:["Letreros/Baño Mujeres.jpg","Letreros/Baño Mujeres - Ilustracion.jpg"]},
+  {id:"LET-03", title:"Prohibido Estacionar",  cat:"letreros", size:"19.7 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Prohibido Estacionar.jpg", gallery:["Letreros/Prohibido Estacionar.jpg","Letreros/Prohibido Estacionar - Ilustracion.jpg"]},
+  {id:"LET-04", title:"Stop",                  cat:"letreros", size:"19.8 x 19.8 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Stop.png", gallery:["Letreros/Stop.png","Letreros/Stop - Ilustracion.webp"]},
+  {id:"LET-05", title:"Wifi",                  cat:"letreros", size:"19.8 x 12.2 cm", mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/Wifi.png", gallery:["Letreros/Wifi.png","Letreros/Wifi - Ilustracion.jpg"]},
+  {id:"LET-06", title:"Numeracion",            cat:"letreros", size:"9.9 x 28.5 cm",  mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Numeracion.png", gallery:["Letreros/Numeracion.png","Letreros/Numeracion - Ilustracion.jpg"]},
+  {id:"LET-07", title:"Numeracion V2",         cat:"letreros", size:"19.8 x 8.0 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/Numeracion V2.png", gallery:["Letreros/Numeracion V2.png","Letreros/Numeracion V2 - Ilustracion.jpg"]},
+  {id:"LET-08", title:"Cuidado Con El Perro",  cat:"letreros", size:"18.4 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Cuidado Con El Perro.png", gallery:["Letreros/Cuidado Con El Perro.png","Letreros/Cuidado Con El Perro - Ilustracion.jpg"]},
+  {id:"LET-09", title:"Abierto",               cat:"letreros", size:"19.8 x 8.1 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/Abierto y Cerrado (Abierto).png"},
+  {id:"LET-10", title:"Cerrado",               cat:"letreros", size:"19.8 x 8.1 cm",  mat:"Aluminio", unit:"1 pieza", price:"$5.000", img:"Letreros/Abierto y Cerrado (Carredo).png"},
+  {id:"LET-11", title:"Salida de Emergencia",  cat:"letreros", size:"19.8 x 17.6 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Letreros/Salida de Emergencia.jpg", gallery:["Letreros/Salida de Emergencia.jpg","Letreros/Salida de Emergencia.png"]},
 
   // â”€â”€ VINTAGES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$8.000", img:"Vintages/malvinas-son-argentinas-texto.jpg"},

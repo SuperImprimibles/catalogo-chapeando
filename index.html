@@ -525,11 +525,19 @@ function buildGallery(item) {
     item.gallery.forEach(function(src, i) {
       addSlide(src, item, null, i === 0);
     });
+    // Para ilustraciones, agregar slide con mockup de imán
+    if (item.cat === 'ilustraciones') {
+      addSlide('Imanes/imanes-mockup-1.jpg', item, null, false);
+    }
     return;
   }
 
   // Si no, mostrar solo la imagen principal + buscar en Galeria/[ID]/
   addSlide(item.img, item, null, true);
+  // Para ilustraciones, agregar mockup de imán
+  if (item.cat === 'ilustraciones') {
+    addSlide('Imanes/imanes-mockup-1.jpg', item, null, false);
+  }
 
   // Luego carga las imágenes de Galeria/[ID]/ probando nombres
   var base = 'Galeria/' + item.id + '/';

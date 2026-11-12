@@ -30,6 +30,10 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#ddd;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
 .card img{width:100%;height:auto;display:block}
+.card-img-main{transition:opacity .25s}
+.card:hover .card-img-main{opacity:0}
+.card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+.card:hover .card-img-hover{display:block !important}
 .card-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);opacity:0;transition:opacity .3s;display:flex;flex-direction:column;justify-content:space-between;padding:12px;pointer-events:none}
 .card:hover .card-overlay{opacity:1;pointer-events:auto}
 .card-overlay-info{flex-grow:1;display:flex;flex-direction:column;justify-content:flex-start;gap:4px}
@@ -242,7 +246,9 @@ function render(list) {
       ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
       : '';
 
-    d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy">'
+    var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
+    d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
+      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover" style="display:none;position:absolute;inset:0;width:100%;height:auto">' : '')
       + perfs
       + '<div class="card-overlay">'
       + '<div class="card-overlay-info">'
@@ -270,7 +276,8 @@ function render(list) {
 function filter(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
-  render(cat === 'all' ? items : items.filter(function(i) { return i.cat === cat; }));
+  var list = cat === 'all' ? items.filter(function(i){ return i.cat !== 'imanes'; }) : items.filter(function(i) { return i.cat === cat; });
+  render(list);
 }
 
 function openModal(item) {
@@ -304,7 +311,9 @@ function render(list) {
       ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
       : '';
 
-    d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy">'
+    var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
+    d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
+      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover" style="display:none;position:absolute;inset:0;width:100%;height:auto">' : '')
       + perfs
       + '<div class="card-overlay">'
       + '<div class="card-overlay-info">'
@@ -332,7 +341,8 @@ function render(list) {
 function filter(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
-  render(cat === 'all' ? items : items.filter(function(i) { return i.cat === cat; }));
+  var list = cat === 'all' ? items.filter(function(i){ return i.cat !== 'imanes'; }) : items.filter(function(i) { return i.cat === cat; });
+  render(list);
 }
 
 function openModal(item) {

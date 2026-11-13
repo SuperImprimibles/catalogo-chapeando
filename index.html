@@ -32,7 +32,10 @@ header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid
 #cart-count.visible{display:flex}
 
 /* GRID */
-main{padding:20px;max-width:1600px;margin:0 auto}
+main{padding:20px;max-width:1600px;margin:0 auto;position:relative}
+main.vintage-bg::before{content:'';position:fixed;inset:0;background:url('Vintages/FONDO PARA VISTA VINTAGE.jpg') center/cover no-repeat;opacity:.18;pointer-events:none;z-index:0}
+html.dark main.vintage-bg::before{opacity:.12}
+#grid{position:relative;z-index:1}
 .grid{columns:2;column-gap:12px}
 @media(min-width:600px){.grid{columns:3}}
 @media(min-width:900px){.grid{columns:4}}
@@ -526,6 +529,7 @@ function render(list) {
 function filter(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
+  document.querySelector('main').classList.toggle('vintage-bg', cat === 'vintages');
   var list = cat === 'all' ? items.filter(function(i){ return i.cat !== 'imanes'; }) : items.filter(function(i) { return i.cat === cat; });
   render(list);
 }

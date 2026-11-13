@@ -590,29 +590,50 @@ function addSlideIman(item) {
   var track = document.getElementById('gallery-track');
   var dots = document.getElementById('gallery-dots');
 
-  var slide = document.createElement('div');
-  slide.className = 'gallery-slide active';
-  slide.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;';
+  // Slide 1: fondo amarillo + imán flotando
+  var slide1 = document.createElement('div');
+  slide1.className = 'gallery-slide active';
+  slide1.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;';
 
-  // Fondo amarillo con imagen de fondo
   var bg = document.createElement('img');
   bg.src = 'Imanes/Fondo, Ilustracion, Imanes.jpg';
   bg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;';
-  slide.appendChild(bg);
+  slide1.appendChild(bg);
 
-  // Imagen del imán encima
-  var img = document.createElement('img');
-  img.src = item.img;
-  img.alt = item.title;
-  img.style.cssText = 'position:relative;z-index:2;max-width:55%;max-height:70%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.5);';
-  slide.appendChild(img);
+  var img1 = document.createElement('img');
+  img1.src = item.img;
+  img1.alt = item.title;
+  img1.style.cssText = 'position:relative;z-index:2;max-width:55%;max-height:70%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.5);';
+  slide1.appendChild(img1);
 
-  track.appendChild(slide);
-  gallerySlides.push(slide);
+  track.appendChild(slide1);
+  gallerySlides.push(slide1);
 
-  // Sin dots ni nav para imanes (slide único)
-  document.querySelectorAll('.gallery-nav').forEach(function(b){ b.style.display = 'none'; });
-  dots.style.display = 'none';
+  // Slide 2: imán solo sobre fondo oscuro
+  var slide2 = document.createElement('div');
+  slide2.className = 'gallery-slide';
+  slide2.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#111;';
+
+  var img2 = document.createElement('img');
+  img2.src = item.img;
+  img2.alt = item.title;
+  img2.style.cssText = 'max-width:88%;max-height:88%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  slide2.appendChild(img2);
+
+  track.appendChild(slide2);
+  gallerySlides.push(slide2);
+
+  // Dots
+  [0, 1].forEach(function(i) {
+    var dot = document.createElement('button');
+    dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = (function(idx){ return function(e){ e.stopPropagation(); goToSlide(idx); }; })(i);
+    dots.appendChild(dot);
+  });
+
+  // Mostrar nav y dots
+  document.querySelectorAll('.gallery-nav').forEach(function(b){ b.style.display = 'flex'; });
+  dots.style.display = 'flex';
 }
 
 function addSlide(src, item, fondo, isMain) {

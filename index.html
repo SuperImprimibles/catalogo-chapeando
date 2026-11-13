@@ -281,7 +281,7 @@ main{padding:20px;max-width:1600px;margin:0 auto}
             <div><div class="spec-label">Perforaciones</div><div class="spec-val">4 (una por esquina)</div></div>
           </div>
           <div id="price-row" class="spec" style="background:#111;border-color:#111">            <div class="spec-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
-            <div><div class="spec-label" style="color:#666">Precio</div><div id="m-price" class="spec-val" style="font-size:18px;font-weight:700;color:#fff"></div><div id="m-price-min" style="font-size:10px;color:#f59e0b;margin-top:2px;display:none">Pedido mínimo $10.000</div></div>
+            <div><div class="spec-label" style="color:#666">Precio</div><div id="m-price" class="spec-val" style="font-size:18px;font-weight:700;color:#fff"></div></div>
           </div>
         </div>
       </div>
@@ -410,8 +410,7 @@ function openModal(item) {
   } else {
     priceRow.style.display = 'none';
   }
-  var minNote = document.getElementById('m-price-min');
-  minNote.style.display = item.cat === 'imanes' ? 'block' : 'none';
+
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
 }

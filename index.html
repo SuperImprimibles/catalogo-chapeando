@@ -569,6 +569,12 @@ function buildGallery(item) {
   gallerySlides = [];
   galleryIndex = 0;
 
+  // Imanes: slide especial con fondo amarillo + imagen flotando
+  if (item.cat === 'imanes') {
+    addSlideIman(item);
+    return;
+  }
+
   // Si el item tiene galería predefinida, usarla
   if (item.gallery && item.gallery.length > 0) {
     item.gallery.forEach(function(src, i) {
@@ -579,6 +585,35 @@ function buildGallery(item) {
 
   // Si no, mostrar solo la imagen principal (sin buscar carpeta Galeria/)
   addSlide(item.img, item, null, true);
+}
+
+function addSlideIman(item) {
+  var track = document.getElementById('gallery-track');
+  var dots = document.getElementById('gallery-dots');
+
+  var slide = document.createElement('div');
+  slide.className = 'gallery-slide active';
+  slide.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;';
+
+  // Fondo amarillo con imagen de fondo
+  var bg = document.createElement('img');
+  bg.src = 'Imanes/Fondo, Ilustracion, Imanes.jpg';
+  bg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;';
+  slide.appendChild(bg);
+
+  // Imagen del imán encima
+  var img = document.createElement('img');
+  img.src = item.img;
+  img.alt = item.title;
+  img.style.cssText = 'position:relative;z-index:2;max-width:55%;max-height:70%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.5);';
+  slide.appendChild(img);
+
+  track.appendChild(slide);
+  gallerySlides.push(slide);
+
+  // Sin dots ni nav para imanes (slide único)
+  document.querySelectorAll('.gallery-nav').forEach(function(b){ b.style.display = 'none'; });
+  dots.style.display = 'none';
 }
 
 function addSlide(src, item, fondo, isMain) {

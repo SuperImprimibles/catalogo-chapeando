@@ -73,6 +73,7 @@ IGNORE_PATTERNS = [
     r"(?i)ilustracion",
     r"(?i)- Ilustracion",
     r"(?i)-Ilustracion",
+    r"(?i)FONDO PARA VISTA",
 ]
 
 PRODUCTOS_JS = os.path.join(SCRIPT_DIR, "productos.js")

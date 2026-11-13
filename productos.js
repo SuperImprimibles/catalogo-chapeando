@@ -277,7 +277,7 @@ const items = [
   {id:"IMA-236", title:"Imán 236", cat:"imanes", size:"9.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-240.jpeg"},
   {id:"IMA-237", title:"Imán 237", cat:"imanes", size:"7.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-241.jpeg"},
   {id:"IMA-238", title:"Imán 238", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-242.jpeg"},
-  {id:"IMA-239", title:"Imagen6", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Imagen6.png"} // AUTO,
+  {id:"IMA-239", title:"Imagen6", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Imagen6.png"}, // AUTO
 
   // ── LETREROS
   {id:"LET-01", title:"Baño Hombres", cat:"letreros", size:"19.8 x 19.8 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Baño Hombres.jpg", gallery:["Letreros/Baño Hombres.jpg","Letreros/Baño Hombres - Ilustracion.jpg"]},

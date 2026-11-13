@@ -133,7 +133,7 @@ def build_new_entry(cfg, img_path, new_id, title):
     return (
         f'  {{id:"{new_id}", title:"{title}", cat:"{cfg["cat"]}", '
         f'size:"{cfg["size"]}", mat:"{cfg["mat"]}", unit:"{cfg["unit"]}", '
-        f'price:"{cfg["price"]}", img:"{img_js}"}} // AUTO'
+        f'price:"{cfg["price"]}", img:"{img_js}"}}, // AUTO'
     )
 
 
@@ -240,7 +240,7 @@ def sync():
             insert_pos = close_pos + 1
             # Incluye una coma si no hay una después
             tail = js_text[insert_pos:insert_pos + 3].lstrip()
-            insertion = ",\n" + ",\n".join(new_lines)
+            insertion = ",\n" + "\n".join(new_lines)
             js_text = js_text[:insert_pos] + insertion + js_text[insert_pos:]
         else:
             # No hay entradas de esta categoría todavía: busca la sección o inserta al final
@@ -252,7 +252,7 @@ def sync():
                 # Inserta después del comentario de sección
                 eol = js_text.find("\n", section_pos)
                 insert_pos = eol + 1 if eol != -1 else section_pos + len(section_comment)
-                insertion = "\n".join(new_lines) + ",\n"
+                insertion = "\n".join(new_lines) + "\n"
                 js_text = js_text[:insert_pos] + insertion + js_text[insert_pos:]
             else:
                 # No hay sección: agrega antes del cierre del array
@@ -260,7 +260,7 @@ def sync():
                 if close_bracket == -1:
                     close_bracket = js_text.rfind("]")
                 header = f"\n  // ── {cfg['folder'].upper()}\n"
-                insertion = header + ",\n".join(new_lines) + ",\n\n"
+                insertion = header + "\n".join(new_lines) + "\n\n"
                 js_text = js_text[:close_bracket] + insertion + js_text[close_bracket:]
 
     write_js(js_text)

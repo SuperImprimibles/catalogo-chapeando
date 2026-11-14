@@ -40,6 +40,10 @@ html.dark main.vintage-bg::before{opacity:.15}
 @media(min-width:600px){.grid{columns:3}}
 @media(min-width:900px){.grid{columns:4}}
 @media(min-width:1200px){.grid{columns:5}}
+.grid--imanes{columns:3;column-gap:8px}
+@media(min-width:600px){.grid--imanes{columns:4}}
+@media(min-width:900px){.grid--imanes{columns:5}}
+@media(min-width:1200px){.grid--imanes{columns:6}}
 .card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#000;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
 .card img{width:100%;height:auto;display:block}
@@ -544,6 +548,8 @@ function filter(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
   document.querySelector('main').classList.toggle('vintage-bg', cat === 'vintages');
+  var grid = document.getElementById('grid');
+  grid.classList.toggle('grid--imanes', cat === 'imanes');
   var list = cat === 'all' ? items.filter(function(i){ return i.cat !== 'imanes'; }) : items.filter(function(i) { return i.cat === cat; });
   render(list);
 }

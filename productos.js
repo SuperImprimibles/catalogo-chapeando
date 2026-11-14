@@ -37,6 +37,21 @@ const items = [
   {id:"ILU-33", title:"Sun", cat:"ilustraciones", size:"19.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/sun.jpg"},
   {id:"ILU-34", title:"Van Gogh", cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/van-gogh.jpg"},
   {id:"ILU-35", title:"Ilustraci�n W", cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/W.jpg"},
+  {id:"ILU-36", title:"1125970344366445156", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/1125970344366445156.jpg"}, // AUTO
+  {id:"ILU-37", title:"204139795587973256", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/204139795587973256.jpg"}, // AUTO
+  {id:"ILU-38", title:"D Nq Np 2X 750922 Mla74664518164 022024 F", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/D_NQ_NP_2X_750922-MLA74664518164_022024-F.webp"}, // AUTO
+  {id:"ILU-39", title:"Ford 1484566", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Ford 1484566.jpg"}, // AUTO
+  {id:"ILU-40", title:"Lionel Messi", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Lionel Messi.jpg"}, // AUTO
+  {id:"ILU-41", title:"Pin On Motor Casa", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Pin on Motor casa.jpg"}, // AUTO
+  {id:"ILU-42", title:"Download (1)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (1).jpg"}, // AUTO
+  {id:"ILU-43", title:"Download (2)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (2).jpg"}, // AUTO
+  {id:"ILU-44", title:"Download (3)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (3).jpg"}, // AUTO
+  {id:"ILU-45", title:"Download (4)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (4).jpg"}, // AUTO
+  {id:"ILU-46", title:"Download (5)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (5).jpg"}, // AUTO
+  {id:"ILU-47", title:"Download (6)", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (6).jpg"}, // AUTO
+  {id:"ILU-48", title:"Download", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download.jpg"}, // AUTO
+  {id:"ILU-49", title:"Messi", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/messi.jpg"}, // AUTO
+  {id:"ILU-50", title:"🔁", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/🔁.jpg"}, // AUTO,
 
   // -- IMANES
   {id:"IMA-001", title:"Im�n 1", cat:"imanes", size:"10.7 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-001.jpeg"},
@@ -329,5 +344,15 @@ const items = [
   {id:"VIN-34", title:"Bandera Argentina", cat:"vintages", size:"19.8 x 26.2 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Bandera.jpg"},
   {id:"VIN-35", title:"Good Vibes", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Good Vibes.jpg", gallery:["Vintages/Good Vibes.jpg","Vintages/Good Vibes -Ilustracion.jpg"]},
   {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).jpg", gallery:["Vintages/YPF (Redondo).jpg","Vintages/YPF (Redondo - Ilustracion).jpg"]},
+  {id:"VIN-37", title:"352266002129162931", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/352266002129162931.jpg"}, // AUTO
+  {id:"VIN-38", title:"408490628724141463", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/408490628724141463.jpg"}, // AUTO
+  {id:"VIN-39", title:"665125438735687196", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/665125438735687196.jpg"}, // AUTO
+  {id:"VIN-40", title:"6C8A14A3041D3753194581C13Fb900D7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/6c8a14a3041d3753194581c13fb900d7.jpg"}, // AUTO
+  {id:"VIN-41", title:"966725876284272330", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/966725876284272330.jpg"}, // AUTO
+  {id:"VIN-42", title:"Free Customizable Steampunk Furniture Templates   Playground", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Free customizable steampunk furniture templates - Playground.jpg"}, // AUTO
+  {id:"VIN-43", title:"Vintage Coffee Mid Century Poster", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Vintage Coffee Mid-Century Poster.jpg"}, // AUTO
+  {id:"VIN-44", title:"Download (1)", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/download (1).jpg"}, // AUTO
+  {id:"VIN-45", title:"Download (2)", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/download (2).jpg"}, // AUTO
+  {id:"VIN-46", title:"Download", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/download.jpg"}, // AUTO,
 
 ];

@@ -885,6 +885,14 @@ function addSlideIman(item) {
   img1.alt = item.title;
   img1.className = 'iman-img';
   slide1.appendChild(img1);
+
+  // marco encima de todo
+  var marco = document.createElement('img');
+  marco.src = 'Imanes/Marco para imanes.png';
+  marco.alt = '';
+  marco.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:5;';
+  slide1.appendChild(marco);
+
   track.appendChild(slide1);
   gallerySlides.push(slide1);
 

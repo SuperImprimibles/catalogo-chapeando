@@ -54,19 +54,7 @@ html.dark main.imanes-bg::before{opacity:1}
 .card.iman:hover .card-iman-bg{opacity:1}
 /* Imagen principal */
 .card-img-main{width:100%;height:auto;display:block;position:relative;z-index:2;transition:opacity .25s}
-/* En hover de iman: imagen flota centrada encima del fondo */
-.card.iman:hover .card-img-main{
-  position:absolute;
-  width:55%;
-  height:auto;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:3;
-  border-radius:4px;
-  box-shadow:0 4px 20px rgba(0,0,0,.5);
-  opacity:1;
-}
+/* En hover de iman: wrap flota centrada encima del fondo — manejado por .iman-wrap */
 /* Placeholder invisible que sostiene la altura del card en hover */
 .card.iman .card-img-placeholder{display:block;width:100%;visibility:hidden}
 .card.iman:not(:hover) .card-img-placeholder{display:none}
@@ -87,9 +75,14 @@ html.dark main.imanes-bg::before{opacity:1}
 .card-btn-detail{background:#25d366;border:none;cursor:pointer;padding:0 8px;height:28px;border-radius:999px;font-size:clamp(9px,2vw,11px);font-weight:600;color:#fff;font-family:inherit;display:flex;align-items:center;gap:4px;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap;max-width:100%;overflow:hidden}
 .card-btn-detail:hover{background:#f3f3f3}
 
-/* Marco para imanes — automático via ::after */
-.card.iman::after{content:'';position:absolute;inset:0;background:url('Imanes/Marco para imanes.png') center/100% 100% no-repeat;pointer-events:none;z-index:12;border-radius:16px}
-.gallery-slide.iman-slide::after{content:'';position:absolute;inset:0;background:url('Imanes/Marco para imanes.png') center/100% 100% no-repeat;pointer-events:none;z-index:5}
+/* Marco para imanes — sobre la imagen del imán únicamente */
+.iman-wrap{position:relative;display:inline-block}
+.card.iman:hover .iman-wrap{position:absolute;width:55%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3}
+.iman-wrap::after{content:'';position:absolute;inset:0;background:url('Imanes/Marco para imanes.png') center/100% 100% no-repeat;pointer-events:none;z-index:2}
+.iman-wrap img{display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 4px 20px rgba(0,0,0,.5);position:relative;z-index:1}
+/* Modal iman-wrap */
+.gallery-slide .iman-wrap{position:relative;max-width:75%;max-height:75%;z-index:2}
+.gallery-slide .iman-wrap img{max-width:100%;max-height:100%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
 .perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
 .perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
 .perf-tl{top:5px;left:5px}
@@ -525,7 +518,9 @@ function render(list) {
     var imanMarco = '';
     var hasHover = img2 || item.cat === 'imanes';
     d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
-    d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'
+    d.innerHTML = (item.cat === 'imanes'
+        ? '<div class="iman-wrap"><img src="' + item.img + '" alt="' + item.title + '" loading="lazy"></div>'
+        : '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">')
       + (item.cat === 'imanes' ? '<img src="' + item.img + '" alt="" aria-hidden="true" class="card-img-placeholder">' : '')
       + imanBg
       + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
@@ -881,11 +876,13 @@ function addSlideIman(item) {
   slide1.appendChild(bg);
 
   // img1 directo en el slide, flota centrada encima
+  var wrap = document.createElement('div');
+  wrap.className = 'iman-wrap';
   var img1 = document.createElement('img');
   img1.src = item.img;
   img1.alt = item.title;
-  img1.className = 'iman-img';
-  slide1.appendChild(img1);
+  wrap.appendChild(img1);
+  slide1.appendChild(wrap);
 
   track.appendChild(slide1);
   gallerySlides.push(slide1);
@@ -895,11 +892,14 @@ function addSlideIman(item) {
   slide2.className = 'gallery-slide';
   slide2.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#111;overflow:hidden;';
 
+  var wrap2 = document.createElement('div');
+  wrap2.className = 'iman-wrap';
+  wrap2.style.cssText = 'max-width:88%;max-height:88%;';
   var img2 = document.createElement('img');
   img2.src = item.img;
   img2.alt = item.title;
-  img2.style.cssText = 'max-width:88%;max-height:88%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
-  slide2.appendChild(img2);
+  wrap2.appendChild(img2);
+  slide2.appendChild(wrap2);
 
   track.appendChild(slide2);
   gallerySlides.push(slide2);

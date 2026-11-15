@@ -114,7 +114,7 @@ const items = [
   {id:"IMA-027", title:"Im�n 27", cat:"imanes", size:"4.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-030.jpeg"},
   
   {id:"IMA-029", title:"Im�n 29", cat:"imanes", size:"6.7 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-032.jpeg"},
-  {id:"IMA-030", title:"Im�n 30", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-033.jpeg"},
+  
   {id:"IMA-031", title:"Im�n 31", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-034.jpeg"},
   {id:"IMA-032", title:"Im�n 32", cat:"imanes", size:"10.7 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-035.jpeg"},
   {id:"IMA-033", title:"Im�n 33", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-036.jpeg"},
@@ -129,8 +129,8 @@ const items = [
   {id:"IMA-042", title:"Im�n 42", cat:"imanes", size:"6.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-045.jpeg"},
   {id:"IMA-043", title:"Im�n 43", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-046.jpeg"},
   {id:"IMA-044", title:"Im�n 44", cat:"imanes", size:"7.9 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-047.jpeg"},
-  {id:"IMA-045", title:"Im�n 45", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-048.jpeg"},
-  {id:"IMA-046", title:"Im�n 46", cat:"imanes", size:"7.9 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-049.jpeg"},
+  
+  
   {id:"IMA-047", title:"Im�n 47", cat:"imanes", size:"8.1 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-050.jpeg"},
   
   {id:"IMA-049", title:"Im�n 49", cat:"imanes", size:"7.7 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-052.jpeg"},
@@ -182,21 +182,21 @@ const items = [
   {id:"IMA-095", title:"Im�n 95", cat:"imanes", size:"10.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-099.jpeg"},
   {id:"IMA-096", title:"Im�n 96", cat:"imanes", size:"6.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-100.jpeg"},
   {id:"IMA-097", title:"Im�n 97", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-101.jpeg"},
-  {id:"IMA-098", title:"Im�n 98", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-102.jpeg"},
+  
   
   {id:"IMA-100", title:"Im�n 100", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-104.jpeg"},
   {id:"IMA-101", title:"Im�n 101", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-105.jpeg"},
   {id:"IMA-102", title:"Im�n 102", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-106.jpeg"},
-  {id:"IMA-103", title:"Im�n 103", cat:"imanes", size:"8.1 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-107.jpeg"},
+  
   {id:"IMA-104", title:"Im�n 104", cat:"imanes", size:"5.9 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-108.jpeg"},
   {id:"IMA-105", title:"Im�n 105", cat:"imanes", size:"4.8 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-109.jpeg"},
   {id:"IMA-106", title:"Im�n 106", cat:"imanes", size:"5.6 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-110.jpeg"},
   {id:"IMA-107", title:"Im�n 107", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-111.jpeg"},
   {id:"IMA-108", title:"Im�n 108", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-112.jpeg"},
   {id:"IMA-109", title:"Im�n 109", cat:"imanes", size:"4.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-113.jpeg"},
-  {id:"IMA-110", title:"Im�n 110", cat:"imanes", size:"6.4 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-114.jpeg"},
+  
   {id:"IMA-111", title:"Im�n 111", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-115.jpeg"},
-  {id:"IMA-112", title:"Im�n 112", cat:"imanes", size:"6.4 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-116.jpeg"},
+  
   {id:"IMA-113", title:"Im�n 113", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-117.jpeg"},
   {id:"IMA-114", title:"Im�n 114", cat:"imanes", size:"5.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-118.jpeg"},
   {id:"IMA-115", title:"Im�n 115", cat:"imanes", size:"4.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-119.jpeg"},
@@ -249,7 +249,7 @@ const items = [
   {id:"IMA-162", title:"Im�n 162", cat:"imanes", size:"6.4 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-166.jpeg"},
   {id:"IMA-163", title:"Im�n 163", cat:"imanes", size:"5.3 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-167.jpeg"},
   {id:"IMA-164", title:"Im�n 164", cat:"imanes", size:"4.5 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-168.jpeg"},
-  {id:"IMA-165", title:"Im�n 165", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-169.jpeg"},
+  
   
   {id:"IMA-167", title:"Im�n 167", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-171.jpeg"},
   
@@ -336,9 +336,9 @@ const items = [
   {id:"IMA-249", title:"Ima Mate", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-mate.jpg"}, // AUTO
   {id:"IMA-250", title:"Ima Mony", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-mony.jpg"}, // AUTO
   {id:"IMA-251", title:"Ima Musik", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-musik.jpg"}, // AUTO
-  {id:"IMA-252", title:"Ima Novio 2", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-novio-2.jpg"}, // AUTO
-  {id:"IMA-253", title:"Ima Novios", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-novios.jpg"}, // AUTO
-  {id:"IMA-254", title:"Ima Nueva 001", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-001.jpg"}, // AUTO
+   // AUTO
+   // AUTO
+   // AUTO
   {id:"IMA-255", title:"Ima Nueva 002", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-002.jpg"}, // AUTO
   {id:"IMA-256", title:"Ima Nueva 003", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-003.jpg"}, // AUTO
   {id:"IMA-257", title:"Ima Nueva 004", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-004.jpg"}, // AUTO
@@ -350,8 +350,8 @@ const items = [
   {id:"IMA-263", title:"Ima Nueva 010", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-010.jpg"}, // AUTO
   {id:"IMA-264", title:"Ima Nueva 011", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-011.jpg"}, // AUTO
   {id:"IMA-265", title:"Ima Nueva 012", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-012.jpg"}, // AUTO
-  {id:"IMA-266", title:"Ima Nueva 013", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-013.jpg"}, // AUTO
-  {id:"IMA-267", title:"Ima Nueva 014", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-014.jpg"}, // AUTO
+   // AUTO
+   // AUTO
   {id:"IMA-268", title:"Ima Nueva 015", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-015.jpg"}, // AUTO
   {id:"IMA-269", title:"Ima Nueva 016", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-016.jpg"}, // AUTO
   {id:"IMA-270", title:"Ima Nueva 017", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-nueva-017.jpg"}, // AUTO
@@ -375,14 +375,15 @@ const items = [
   {id:"IMA-288", title:"Ima Simpsons", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-simpsons.jpg"}, // AUTO
   {id:"IMA-289", title:"Ima Warning Cats", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-warning-cats.jpg"}, // AUTO
   {id:"IMA-290", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"},
-  {id:"IMA-291", title:"Marco Para Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Marco para imanes.png"}, // AUTO, // AUTO, // AUTO,
+  {id:"IMA-291", title:"Marco Para Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Marco para imanes.png"},
+  {id:"IMA-292", title:"52987733111298558", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/52987733111298558.jpg"}, // AUTO, // AUTO, // AUTO, // AUTO,
 
   // -- LETREROS
   
   
   {id:"LET-03", title:"Prohibido Estacionar", cat:"letreros", size:"19.7 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Prohibido Estacionar.jpg", gallery:["Letreros/Prohibido Estacionar.jpg","Letreros/Prohibido Estacionar - Ilustracion.jpg"]},
   {id:"LET-04", title:"Stop", cat:"letreros", size:"19.8 x 19.8 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Stop.png", gallery:["Letreros/Stop.png","Letreros/Stop - Ilustracion.webp"]},
-  {id:"LET-05", title:"Wifi", cat:"letreros", size:"17.5 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$4.990", img:"Letreros/Wifi.png", gallery:["Letreros/Wifi.png","Letreros/Wifi - Ilustracion.jpg"]},
+  
   {id:"LET-06", title:"Numeracion", cat:"letreros", size:"9.9 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Numeracion.png", gallery:["Letreros/Numeracion.png","Letreros/Numeracion - Ilustracion.jpg"]},
   {id:"LET-07", title:"Numeracion V2", cat:"letreros", size:"11.5 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$3.990", img:"Letreros/Numeracion V2.png", gallery:["Letreros/Numeracion V2.png","Letreros/Numeracion V2 - Ilustracion.jpg"]},
   {id:"LET-08", title:"Cuidado Con El Perro", cat:"letreros", size:"18.4 x 28.5 cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Letreros/Cuidado Con El Perro.png", gallery:["Letreros/Cuidado Con El Perro.png","Letreros/Cuidado Con El Perro - Ilustracion.jpg"]},
@@ -463,7 +464,8 @@ const items = [
   {id:"VIN-77", title:"Vin Nueva 17", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-17.jpg"}, // AUTO
   {id:"VIN-78", title:"Vin Nueva 18", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-18.jpg"}, // AUTO
   {id:"VIN-79", title:"Vin Nueva 19", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-19.jpg"}, // AUTO
-  {id:"VIN-80", title:"Vin Nueva 20", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-20.jpg"}, // AUTO,
+  {id:"VIN-80", title:"Vin Nueva 20", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-20.jpg"},
+  {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"}, // AUTO, // AUTO,
   
   
   

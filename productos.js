@@ -374,7 +374,8 @@ const items = [
   {id:"IMA-287", title:"Ima Rutamate", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-rutamate.jpg"}, // AUTO
   {id:"IMA-288", title:"Ima Simpsons", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-simpsons.jpg"}, // AUTO
   {id:"IMA-289", title:"Ima Warning Cats", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-warning-cats.jpg"}, // AUTO
-  {id:"IMA-290", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"}, // AUTO, // AUTO,
+  {id:"IMA-290", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"},
+  {id:"IMA-291", title:"Marco Para Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Marco para imanes.png"}, // AUTO, // AUTO, // AUTO,
 
   // -- LETREROS
   

@@ -82,7 +82,7 @@ html.dark main.imanes-bg::before{opacity:1}
 .iman-wrap::after{content:'';position:absolute;inset:0;background:url('Imanes/Marco para imanes.png') center/100% 100% no-repeat;pointer-events:none;z-index:2}
 .iman-wrap img{display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 4px 20px rgba(0,0,0,.5);position:relative;z-index:1}
 /* Modal iman-wrap */
-.gallery-slide .iman-wrap{position:relative;width:70%;max-width:70%;flex-shrink:0;z-index:2}
+.gallery-slide .iman-wrap{position:relative;width:62%;flex-shrink:0;z-index:2}
 .gallery-slide .iman-wrap img{display:block;width:100%;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
 .perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
 .perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
@@ -94,7 +94,7 @@ html.dark main.imanes-bg::before{opacity:1}
 .modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;max-height:calc(100dvh - 16px);overflow-y:auto;display:flex;flex-direction:column;position:relative}
 @media(min-width:650px){.modal-box{flex-direction:row;max-height:calc(100dvh - 16px)}}
 .modal-btn-close{position:absolute;top:10px;left:10px;z-index:10;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.5);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
-.modal-left{background:#111;position:relative;overflow:hidden;flex-shrink:0;width:100%;aspect-ratio:1/1;max-height:48vw;display:flex;align-items:center;justify-content:center}@media(min-width:650px){.modal-left{width:auto;flex:0 0 auto;height:85vh;max-height:85vh;max-width:55%;min-width:300px;aspect-ratio:unset;max-height:unset}}
+.modal-left{background:#111;position:relative;overflow:hidden;flex-shrink:0;width:100%;height:52vw;min-height:200px;display:flex;align-items:center;justify-content:center}@media(min-width:650px){.modal-left{width:auto;flex:0 0 auto;height:85vh;max-height:85vh;max-width:55%;min-width:300px;min-height:unset}}
 /* Galería en modal */
 .gallery-track{position:relative;width:100%;height:100%;overflow:hidden}
 .gallery-slide{position:absolute;inset:0;opacity:0;transition:opacity .3s ease;display:flex;align-items:center;justify-content:center;overflow:hidden}
@@ -879,7 +879,7 @@ function addSlideIman(item) {
   // img1 directo en el slide, flota centrada encima
   var wrap = document.createElement('div');
   wrap.className = 'iman-wrap';
-  wrap.style.cssText = 'position:relative;width:65%;max-width:65%;flex-shrink:0;';
+  wrap.style.cssText = 'position:relative;width:62%;flex-shrink:0;z-index:2;';
   var img1 = document.createElement('img');
   img1.src = item.img;
   img1.alt = item.title;
@@ -897,7 +897,7 @@ function addSlideIman(item) {
 
   var wrap2 = document.createElement('div');
   wrap2.className = 'iman-wrap';
-  wrap2.style.cssText = 'position:relative;width:65%;max-width:65%;flex-shrink:0;';
+  wrap2.style.cssText = 'position:relative;width:62%;flex-shrink:0;z-index:2;';
   var img2 = document.createElement('img');
   img2.src = item.img;
   img2.alt = item.title;

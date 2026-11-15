@@ -88,7 +88,8 @@ html.dark main.imanes-bg::before{opacity:1}
 .card-btn-detail:hover{background:#f3f3f3}
 
 /* Marco para imanes */
-.card.iman .card-marco{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:4;border-radius:16px}
+.card.iman .card-marco{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:11;border-radius:16px;opacity:0;transition:opacity .3s}
+.card.iman:hover .card-marco{opacity:1}
 .perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
 .perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
 .perf-tl{top:5px;left:5px}

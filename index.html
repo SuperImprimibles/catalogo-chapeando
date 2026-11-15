@@ -879,9 +879,11 @@ function addSlideIman(item) {
   // img1 directo en el slide, flota centrada encima
   var wrap = document.createElement('div');
   wrap.className = 'iman-wrap';
+  wrap.style.cssText = 'position:relative;width:65%;max-width:65%;flex-shrink:0;';
   var img1 = document.createElement('img');
   img1.src = item.img;
   img1.alt = item.title;
+  img1.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
   wrap.appendChild(img1);
   slide1.appendChild(wrap);
 
@@ -895,10 +897,11 @@ function addSlideIman(item) {
 
   var wrap2 = document.createElement('div');
   wrap2.className = 'iman-wrap';
-  wrap2.style.cssText = 'max-width:88%;max-height:88%;';
+  wrap2.style.cssText = 'position:relative;width:65%;max-width:65%;flex-shrink:0;';
   var img2 = document.createElement('img');
   img2.src = item.img;
   img2.alt = item.title;
+  img2.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
   wrap2.appendChild(img2);
   slide2.appendChild(wrap2);
 

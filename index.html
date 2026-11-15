@@ -85,7 +85,8 @@ html.dark main.vintage-bg::before{opacity:.15}
 .card-btn-detail{background:#25d366;border:none;cursor:pointer;padding:0 8px;height:28px;border-radius:999px;font-size:clamp(9px,2vw,11px);font-weight:600;color:#fff;font-family:inherit;display:flex;align-items:center;gap:4px;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap;max-width:100%;overflow:hidden}
 .card-btn-detail:hover{background:#f3f3f3}
 
-/* Perforaciones sobre ilustraciones */
+/* Marco para imanes */
+.card.iman .card-marco{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:4;border-radius:16px}
 .perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
 .perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
 .perf-tl{top:5px;left:5px}
@@ -517,7 +518,7 @@ function render(list) {
       : '';
 
     var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
-    var imanBg = item.cat === 'imanes' ? '<img src="Imanes/Fondo, Ilustracion, Imanes.jpg" class="card-iman-bg" alt="">' : '';
+    var imanBg = item.cat === 'imanes' ? '<img src="Imanes/Fondo, Ilustracion, Imanes.jpg" class="card-iman-bg" alt=""><img src="Imanes/Marco para imanes.png" class="card-marco" alt="">' : '';
     var hasHover = img2 || item.cat === 'imanes';
     d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
     d.innerHTML = '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">'

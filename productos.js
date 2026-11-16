@@ -475,7 +475,6 @@ const items = [
   {id:"VIN-34", title:"Bandera Argentina", cat:"vintages", size:"19.8 x 26.2 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Bandera.jpg"},
   {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).png", gallery:["Vintages/YPF (Redondo).png","Vintages/YPF (Redondo - Ilustracion).jpg"]},
   {id:"VIN-48", title:"408490628724141463", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/408490628724141463.jpg"}, // AUTO
-  {id:"VIN-49", title:"665125438735687196", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/665125438735687196.jpg"}, // AUTO
    // AUTO
    // AUTO
   {id:"VIN-54", title:"Download (1)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (1).jpg"}, // AUTO
@@ -483,8 +482,7 @@ const items = [
   {id:"VIN-59", title:"Vin Bano Hombres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres.jpg", gallery:["Vintages/vin-bano-hombres.jpg","Vintages/vin-bano-hombres - ilustracion.jpg"]}, // AUTO
   {id:"VIN-61", title:"Vin Bano Mujeres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres.jpg", gallery:["Vintages/vin-bano-mujeres.jpg","Vintages/vin-bano-mujeres- ilustracion.jpg"]}, // AUTO
   {id:"VIN-62", title:"Vin Botellas", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-botellas.jpg"}, // AUTO
-  {id:"VIN-64", title:"Vin Cerveza Quincho", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-cerveza-quincho.jpg"}, // AUTO
-  {id:"VIN-65", title:"Vin Chapa Deco", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-chapa-deco.jpg"}, // AUTO
+  {id:"VIN-64", title:"Vin Cerveza Quincho", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-cerveza-quincho.jpg", gallery:["Vintages/vin-cerveza-quincho.jpg","Vintages/vin-cerveza-quincho - Ilustracion.jpg"]}, // AUTO
   {id:"VIN-66", title:"Vin French Fries", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-french-fries.jpg"}, // AUTO
   {id:"VIN-67", title:"Vin Gas Station", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-gas-station.jpg"}, // AUTO
   {id:"VIN-71", title:"Vin Nueva 11", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-11.jpg"}, // AUTO
@@ -512,4 +510,6 @@ const items = [
   
   
 
+  {id:"VIN-90", title:"Parrella (Blanco)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Parrella (Blanco).jpg"}, // AUTO
+  {id:"VIN-91", title:"Parrella (Negro)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Parrella (Negro).jpg"}, // AUTO
 ];

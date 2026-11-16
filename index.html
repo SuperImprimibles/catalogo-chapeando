@@ -278,7 +278,6 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     </div>
     <div class="filters" id="filters-main">
       <button class="filter-btn active" onclick="filterMain('carteles',this)">Carteles</button>
-      <button class="filter-btn" onclick="filterMain('imanes',this)">Imanes</button>
     </div>
     <div class="filters" id="filters-sub">
       <button class="filter-btn active" onclick="filterSub('all',this)">Todos</button>
@@ -287,9 +286,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
       <button class="filter-btn" onclick="filterSub('numeracion',this)">Numeración</button>
       <button class="filter-btn" onclick="filterSub('vintages',this)">Vintages</button>
       <button class="filter-btn" onclick="filterSub('personalizados',this)">Personalizados</button>
-    </div>
-    <div class="filters" id="filters-imanes" style="display:none;">
-      <button class="filter-btn active" onclick="filterImanes('all',this)">Todos</button>
+      <button class="filter-btn" onclick="filterSub('imanes',this)">Imanes</button>
     </div>
     <button class="cart-btn" onclick="openCart()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span id="cart-count">0</span></button>
   </div>
@@ -593,41 +590,15 @@ function syncImanFrames() {
 
 var _activeMain = 'carteles';
 var _activeSub  = 'all';
-var _activeImanSub = 'all';
-
-function filterImanes(sub, btn) {
-  _activeImanSub = sub;
-  document.querySelectorAll('#filters-imanes .filter-btn').forEach(function(b){ b.classList.remove('active'); });
-  if (btn) btn.classList.add('active');
-  else {
-    // llamado desde tarjeta, marcar el botón correspondiente
-    document.querySelectorAll('#filters-imanes .filter-btn').forEach(function(b){
-      if (b.getAttribute('onclick') && b.getAttribute('onclick').indexOf("'" + sub + "'") !== -1) b.classList.add('active');
-    });
-  }
-  applyFilter();
-}
 
 function filterMain(cat, btn) {
   _activeMain = cat;
   _activeSub  = 'all';
-  _activeImanSub = 'all';
   document.querySelectorAll('#filters-main .filter-btn').forEach(function(b){ b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
 
-  var subBar = document.getElementById('filters-sub');
-  var imanesBar = document.getElementById('filters-imanes');
-  subBar.style.display = cat === 'carteles' ? 'flex' : 'none';
-  imanesBar.style.display = cat === 'imanes' ? 'flex' : 'none';
-
-  if (cat === 'carteles') {
-    document.querySelectorAll('#filters-sub .filter-btn').forEach(function(b){ b.classList.remove('active'); });
-    document.querySelector('#filters-sub .filter-btn').classList.add('active');
-  }
-  if (cat === 'imanes') {
-    document.querySelectorAll('#filters-imanes .filter-btn').forEach(function(b){ b.classList.remove('active'); });
-    document.querySelector('#filters-imanes .filter-btn').classList.add('active');
-  }
+  document.querySelectorAll('#filters-sub .filter-btn').forEach(function(b){ b.classList.remove('active'); });
+  document.querySelector('#filters-sub .filter-btn').classList.add('active');
 
   applyFilter();
 }
@@ -644,21 +615,20 @@ function applyFilter() {
   var sub  = _activeSub;
 
   document.querySelector('main').classList.toggle('vintage-bg', main === 'carteles' && sub === 'vintages');
-  document.querySelector('main').classList.toggle('imanes-bg', main === 'imanes');
+  document.querySelector('main').classList.toggle('imanes-bg', sub === 'imanes');
   var grid = document.getElementById('grid');
-  grid.classList.toggle('grid--imanes', main === 'imanes');
+  grid.classList.toggle('grid--imanes', sub === 'imanes');
 
   var list;
   if (main === 'carteles') {
-    if (sub === 'all')                list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
+    if (sub === 'all')                list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados' || i.cat === 'imanes'; });
     else if (sub === 'ilustraciones') list = items.filter(function(i){ return i.cat === 'ilustraciones'; });
-    else if (sub === 'señalitica')      list = items.filter(function(i){ return i.cat === 'señalitica'; });
+    else if (sub === 'señalitica')    list = items.filter(function(i){ return i.cat === 'señalitica'; });
     else if (sub === 'numeracion')    list = items.filter(function(i){ return i.cat === 'numeracion'; });
     else if (sub === 'vintages')      list = items.filter(function(i){ return i.cat === 'vintages'; });
     else if (sub === 'personalizados') list = items.filter(function(i){ return i.cat === 'personalizados'; });
-    else                              list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
-  } else if (main === 'imanes') {
-    list = items.filter(function(i){ return i.cat === 'imanes'; });
+    else if (sub === 'imanes')        list = items.filter(function(i){ return i.cat === 'imanes'; });
+    else                              list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados' || i.cat === 'imanes'; });
   } else {
     list = items;
   }

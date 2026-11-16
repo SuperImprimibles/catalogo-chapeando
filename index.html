@@ -54,7 +54,7 @@ html.dark main.imanes-bg::before{opacity:1}
 @media(min-width:1200px){.grid--imanes{columns:6}}
 .card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#000;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
-.card img{width:100%;height:auto;display:block}
+.card img:not(.iman-frame){width:100%;height:auto;display:block}
 /* Fondo amarillo imanes */
 .card-iman-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s;z-index:1}
 .card.iman:hover .card-iman-bg{opacity:1}
@@ -64,7 +64,7 @@ html.dark main.imanes-bg::before{opacity:1}
 /* Placeholder invisible que sostiene la altura del card en hover */
 .card.iman .card-img-placeholder{display:block;width:100%;visibility:hidden}
 .card.iman:not(:hover) .card-img-placeholder{display:none}
-/* Hover swap letreros */
+/* Hover swap señalitica */
 .card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s;z-index:2}
 .card.has-hover:hover .card-img-main{opacity:0}
 .card.has-hover:hover .card-img-hover{opacity:1}
@@ -82,13 +82,13 @@ html.dark main.imanes-bg::before{opacity:1}
 .card-btn-detail:hover{background:#f3f3f3}
 
 /* Marco para imanes — sobre la imagen del imán únicamente */
-.iman-wrap{position:relative;display:inline-block}
+.iman-wrap{position:relative;display:block}
 .card.iman:hover .iman-wrap{position:absolute;width:55%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3}
-.iman-wrap::after{content:'';position:absolute;inset:0;background:url('Imanes/Marco para imanes.png') center/100% 100% no-repeat;pointer-events:none;z-index:2}
-.iman-wrap img{display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 4px 20px rgba(0,0,0,.5);position:relative;z-index:1}
+.iman-wrap img:not(.iman-frame){display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.iman-frame{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:2}
 /* Modal iman-wrap */
-.gallery-slide .iman-wrap{position:relative;width:62%;flex-shrink:0;z-index:2}
-.gallery-slide .iman-wrap img{display:block;width:100%;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
+.gallery-slide .iman-wrap{width:62%;flex-shrink:0;z-index:2}
+.gallery-slide .iman-wrap img:not(.iman-frame){display:block;width:100%;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
 .perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
 .perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
 .perf-tl{top:5px;left:5px}
@@ -283,7 +283,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     <div class="filters" id="filters-sub">
       <button class="filter-btn active" onclick="filterSub('all',this)">Todos</button>
       <button class="filter-btn" onclick="filterSub('ilustraciones',this)">Ilustraciones</button>
-      <button class="filter-btn" onclick="filterSub('letreros',this)">Señalización</button>
+      <button class="filter-btn" onclick="filterSub('señalitica',this)">Señalítica</button>
       <button class="filter-btn" onclick="filterSub('numeracion',this)">Numeración</button>
       <button class="filter-btn" onclick="filterSub('vintages',this)">Vintages</button>
       <button class="filter-btn" onclick="filterSub('personalizados',this)">Personalizados</button>
@@ -545,7 +545,7 @@ function render(list) {
     var hasHover = img2 || item.cat === 'imanes';
     d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
     d.innerHTML = (item.cat === 'imanes'
-        ? '<div class="iman-wrap"><img src="' + item.img + '" alt="' + item.title + '" loading="lazy"></div>'
+        ? '<div class="iman-wrap"><img src="' + item.img + '" alt="' + item.title + '" loading="lazy"><img class="iman-frame" src="Imanes/Marco para imanes.png" alt=""></div>'
         : '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">')
       + (item.cat === 'imanes' ? '<img src="' + item.img + '" alt="" aria-hidden="true" class="card-img-placeholder">' : '')
       + imanBg
@@ -572,6 +572,33 @@ function render(list) {
       + imanMarco;
     d.addEventListener('click', function() { openModal(item); });
     g.appendChild(d);
+  });
+  syncImanFrames();
+}
+
+function syncImanFrames() {
+  document.querySelectorAll('.iman-wrap').forEach(function(wrap) {
+    var img = wrap.querySelector('img:not(.iman-frame)');
+    var frame = wrap.querySelector('.iman-frame');
+    if (!img || !frame) return;
+    function doSync() {
+      var h = img.offsetHeight;
+      var w = img.offsetWidth;
+      if (h > 0 && w > 0) {
+        frame.style.width  = w + 'px';
+        frame.style.height = h + 'px';
+        frame.style.left   = '0px';
+        frame.style.top    = '0px';
+      }
+    }
+    if (img.complete && img.naturalHeight > 0) {
+      doSync();
+    } else {
+      img.addEventListener('load', doSync);
+    }
+    if (window.ResizeObserver) {
+      new ResizeObserver(doSync).observe(img);
+    }
   });
 }
 
@@ -634,13 +661,13 @@ function applyFilter() {
 
   var list;
   if (main === 'carteles') {
-    if (sub === 'all')                list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'letreros' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
+    if (sub === 'all')                list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
     else if (sub === 'ilustraciones') list = items.filter(function(i){ return i.cat === 'ilustraciones'; });
-    else if (sub === 'letreros')      list = items.filter(function(i){ return i.cat === 'letreros'; });
+    else if (sub === 'señalitica')      list = items.filter(function(i){ return i.cat === 'señalitica'; });
     else if (sub === 'numeracion')    list = items.filter(function(i){ return i.cat === 'numeracion'; });
     else if (sub === 'vintages')      list = items.filter(function(i){ return i.cat === 'vintages'; });
     else if (sub === 'personalizados') list = items.filter(function(i){ return i.cat === 'personalizados'; });
-    else                              list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'letreros' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
+    else                              list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
   } else if (main === 'imanes') {
     if (_activeImanSub === 'mini-imanes') {
       list = items.filter(function(i){ return i.cat === 'mini-imanes'; });
@@ -671,6 +698,7 @@ function filter(cat, btn) {
 function openModal(item) {
   current = item;
   buildGallery(item);
+  setTimeout(syncImanFrames, 50);
   document.getElementById('m-title').textContent = item.title;
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
@@ -935,12 +963,18 @@ function addSlideIman(item) {
   // img1 directo en el slide, flota centrada encima
   var wrap = document.createElement('div');
   wrap.className = 'iman-wrap';
-  wrap.style.cssText = 'position:relative;width:62%;flex-shrink:0;z-index:2;';
+  wrap.style.cssText = 'display:grid;width:62%;flex-shrink:0;z-index:2;';
   var img1 = document.createElement('img');
   img1.src = item.img;
   img1.alt = item.title;
   img1.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  var frame1 = document.createElement('img');
+  frame1.className = 'iman-frame';
+  frame1.src = 'Imanes/Marco para imanes.png';
+  frame1.alt = '';
+  frame1.style.cssText = 'position:absolute;top:0;left:0;object-fit:fill;pointer-events:none;z-index:2;';
   wrap.appendChild(img1);
+  wrap.appendChild(frame1);
   slide1.appendChild(wrap);
 
   track.appendChild(slide1);
@@ -953,12 +987,18 @@ function addSlideIman(item) {
 
   var wrap2 = document.createElement('div');
   wrap2.className = 'iman-wrap';
-  wrap2.style.cssText = 'position:relative;width:62%;flex-shrink:0;z-index:2;';
+  wrap2.style.cssText = 'display:grid;width:62%;flex-shrink:0;z-index:2;';
   var img2 = document.createElement('img');
   img2.src = item.img;
   img2.alt = item.title;
   img2.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  var frame2 = document.createElement('img');
+  frame2.className = 'iman-frame';
+  frame2.src = 'Imanes/Marco para imanes.png';
+  frame2.alt = '';
+  frame2.style.cssText = 'position:absolute;top:0;left:0;object-fit:fill;pointer-events:none;z-index:2;';
   wrap2.appendChild(img2);
+  wrap2.appendChild(frame2);
   slide2.appendChild(wrap2);
 
   track.appendChild(slide2);

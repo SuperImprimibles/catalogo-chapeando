@@ -1,4 +1,4 @@
-// PRODUCTOS
+﻿// PRODUCTOS
 const items = [
 
   // -- ILUSTRACIONES
@@ -39,7 +39,7 @@ const items = [
   {id:"ILU-35", title:"Ilustración W", cat:"ilustraciones", size:"16.0 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/W.jpg"},
   {id:"ILU-50", title:"1125970344366445156", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/1125970344366445156.jpg"}, // AUTO
   {id:"ILU-51", title:"204139795587973256", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/204139795587973256.jpg"}, // AUTO
-  {id:"ILU-52", title:"D Nq Np 2X 750922 Mla74664518164 022024 F", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/D_NQ_NP_2X_750922-MLA74664518164_022024-F.webp"}, // AUTO
+
   {id:"ILU-53", title:"Ford 1484566", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Ford 1484566.jpg"}, // AUTO
   {id:"ILU-54", title:"Lionel Messi", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Lionel Messi.jpg"}, // AUTO
   {id:"ILU-55", title:"Pin On Motor Casa", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Pin on Motor casa.jpg"}, // AUTO
@@ -376,22 +376,18 @@ const items = [
   {id:"IMA-296", title:"Marco Para Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Marco para imanes.png"}, // AUTO
   {id:"IMA-297", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"}, // AUTO, // AUTO, // AUTO, // AUTO, // AUTO,
 
-  // -- LETREROS
+  // -- SEÑALITICA
   
   
-  {id:"LET-03", title:"Prohibido Estacionar", cat:"letreros", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Prohibido Estacionar.jpg", gallery:["Letreros/Prohibido Estacionar.jpg","Letreros/Prohibido Estacionar - Ilustracion.jpg"]},
-  {id:"LET-04", title:"Stop", cat:"letreros", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Stop.png", gallery:["Letreros/Stop.png","Letreros/Stop - Ilustracion.webp"]},
+  {id:"LET-03", title:"Prohibido Estacionar", cat:"señalitica", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Prohibido Estacionar.jpg", gallery:["Señalitica/Prohibido Estacionar.jpg","Señalitica/Prohibido Estacionar - Ilustracion.jpg"]},
+  {id:"LET-04", title:"Stop", cat:"señalitica", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Stop.png", gallery:["Señalitica/Stop.png","Señalitica/Stop - Ilustracion.webp"]},
   
-  
-  
-  {id:"LET-08", title:"Cuidado Con El Perro", cat:"letreros", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Cuidado Con El Perro.png", gallery:["Letreros/Cuidado Con El Perro.png","Letreros/Cuidado Con El Perro - Ilustracion.jpg"]},
-  {id:"LET-09", title:"Abierto", cat:"letreros", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Abierto).png", gallery:["Letreros/Abierto y Cerrado (Abierto).png","Letreros/Abierto - Ilustracion.jpg"]},
-  {id:"LET-10", title:"Cerrado", cat:"letreros", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Carredo).png", gallery:["Letreros/Abierto y Cerrado (Carredo).png","Letreros/Cerrado - Ilustracion.jpg"]},
-  {id:"LET-11", title:"Salida de Emergencia", cat:"letreros", size:"13.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Letreros/Salida de Emergencia.png", gallery:["Letreros/Salida de Emergencia.png","Letreros/Salida de Emergencia - Ilustracion.jpg"]},
-  {id:"LET-12", title:"Let Nuevo 01", cat:"letreros", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/let-nuevo-01.jpg"}, // AUTO
-  {id:"LET-13", title:"Let Nuevo 02", cat:"letreros", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/let-nuevo-02.jpg"}, // AUTO
-  {id:"LET-14", title:"Let Nuevo 03", cat:"letreros", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/let-nuevo-03.jpg"}, // AUTO,
-
+  {id:"LET-06", title:"Numeracion", cat:"numeracion", size:"9.9 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Numeracion/Numeracion.png", gallery:["Numeracion/Numeracion.png","Numeracion/Numeracion - Ilustracion.jpg"]},
+  {id:"LET-07", title:"Numeracion V2", cat:"numeracion", size:"11.5 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Numeracion/Numeracion V2.png", gallery:["Numeracion/Numeracion V2.png","Numeracion/Numeracion V2 - Ilustracion.jpg"]},
+  {id:"LET-08", title:"Cuidado Con El Perro", cat:"señalitica", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Cuidado Con El Perro.png", gallery:["Señalitica/Cuidado Con El Perro.png","Señalitica/Cuidado Con El Perro - Ilustracion.jpg"]},
+  {id:"LET-09", title:"Abierto", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Abierto).png", gallery:["Señalitica/Abierto y Cerrado (Abierto).png","Señalitica/Abierto - Ilustracion.jpg"]},
+  {id:"LET-10", title:"Cerrado", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Carredo).png", gallery:["Señalitica/Abierto y Cerrado (Carredo).png","Señalitica/Cerrado - Ilustracion.jpg"]},
+  {id:"LET-11", title:"Salida de Emergencia", cat:"señalitica", size:"13.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Salida de Emergencia.png", gallery:["Señalitica/Salida de Emergencia.png","Señalitica/Salida de Emergencia - Ilustracion.jpg"]},
   // -- VINTAGES
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/malvinas-son-argentinas-texto.jpg"},
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/argentina-3-estrellas.jpg"},

@@ -40,9 +40,9 @@ const items = [
   {id:"ILU-50", title:"1125970344366445156", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/1125970344366445156.jpg"}, // AUTO
   {id:"ILU-51", title:"204139795587973256", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/204139795587973256.jpg"}, // AUTO
 
-   // AUTO
+  {id:"ILU-53", title:"Ford 1484566", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Ford 1484566.jpg"}, // AUTO
   {id:"ILU-54", title:"Lionel Messi", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Lionel Messi.jpg"}, // AUTO
-   // AUTO
+  {id:"ILU-55", title:"Pin On Motor Casa", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Pin on Motor casa.jpg"}, // AUTO
   {id:"ILU-56", title:"Download (1)", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (1).jpg"}, // AUTO
   {id:"ILU-57", title:"Download (2)", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (2).jpg"}, // AUTO
   {id:"ILU-58", title:"Download (3)", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (3).jpg"}, // AUTO
@@ -50,7 +50,7 @@ const items = [
   {id:"ILU-60", title:"Download (5)", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (5).jpg"}, // AUTO
   {id:"ILU-61", title:"Download (6)", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download (6).jpg"}, // AUTO
   {id:"ILU-62", title:"Download", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/download.jpg"}, // AUTO
-   // AUTO
+  {id:"ILU-63", title:"Ilu Area51", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-area51.jpg"}, // AUTO
   {id:"ILU-64", title:"Ilu Boho Vase", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-boho-vase.jpg"}, // AUTO
   {id:"ILU-65", title:"Ilu Cacti", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-cacti.jpg"}, // AUTO
   {id:"ILU-66", title:"Ilu Cats Paint", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-cats-paint.jpg"}, // AUTO
@@ -59,7 +59,7 @@ const items = [
   {id:"ILU-69", title:"Ilu Nueva 50", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-50.jpg"}, // AUTO
   {id:"ILU-70", title:"Ilu Nueva 51", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-51.jpg"}, // AUTO
   {id:"ILU-71", title:"Ilu Nueva 52", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-52.jpg"}, // AUTO
-   // AUTO
+  {id:"ILU-72", title:"Ilu Nueva 53", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-53.jpg"}, // AUTO
   {id:"ILU-73", title:"Ilu Nueva 54", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-54.jpg"}, // AUTO
   {id:"ILU-74", title:"Ilu Nueva 55", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-55.jpg"}, // AUTO
   {id:"ILU-75", title:"Ilu Nueva 56", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-56.jpg"}, // AUTO
@@ -68,10 +68,8 @@ const items = [
   {id:"ILU-78", title:"Ilu Nueva 59", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-59.jpg"}, // AUTO
   {id:"ILU-79", title:"Ilu Smiley", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-smiley.jpg"}, // AUTO
   {id:"ILU-80", title:"Messi", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/messi.jpg"}, // AUTO
-  
-  {id:"ILU-82", title:"Heineken Redondo", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Heineken Redondo.png"},
-  {id:"ILU-83", title:"352266002129162931", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/352266002129162931.jpg"}, // AUTO
-  {id:"ILU-84", title:"Vin Nueva 10", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/vin-nueva-10.jpg"}, // AUTO, // AUTO, // AUTO,
+  {id:"ILU-81", title:"🔁", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/🔁.jpg"},
+  {id:"ILU-82", title:"Heineken Redondo", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Heineken Redondo.png"}, // AUTO, // AUTO,
   
   
   
@@ -380,36 +378,36 @@ const items = [
   {id:"IMA-297", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"}, // AUTO, // AUTO, // AUTO, // AUTO, // AUTO,
 
   // -- SEÑALITICA
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  {id:"LET-03", title:"Prohibido Estacionar", cat:"señalitica", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Prohibido Estacionar.jpg", gallery:["Señalitica/Prohibido Estacionar.jpg","Señalitica/Prohibido Estacionar - Ilustracion.jpg"]},
+  {id:"LET-04", title:"Stop", cat:"señalitica", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Stop.png", gallery:["Señalitica/Stop.png","Señalitica/Stop - Ilustracion.webp"]},
+  {id:"LET-06", title:"Numeracion", cat:"numeracion", size:"9.9 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Numeracion/Numeracion.png", gallery:["Numeracion/Numeracion.png","Numeracion/Numeracion - Ilustracion.jpg"]},
+  {id:"LET-07", title:"Numeracion V2", cat:"numeracion", size:"11.5 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Numeracion/Numeracion V2.png", gallery:["Numeracion/Numeracion V2.png","Numeracion/Numeracion V2 - Ilustracion.jpg"]},
+  {id:"LET-08", title:"Cuidado Con El Perro", cat:"señalitica", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Cuidado Con El Perro.png", gallery:["Señalitica/Cuidado Con El Perro.png","Señalitica/Cuidado Con El Perro - Ilustracion.jpg"]},
+  {id:"LET-09", title:"Abierto", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Abierto).png", gallery:["Señalitica/Abierto y Cerrado (Abierto).png","Señalitica/Abierto - Ilustracion.jpg","Señalitica/Abierto y Cerrado - Ilustracion.jpg"]},
+  {id:"LET-10", title:"Cerrado", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Carredo).png", gallery:["Señalitica/Abierto y Cerrado (Carredo).png","Señalitica/Cerrado - Ilustracion.jpg"]},
+  {id:"LET-11", title:"Salida de Emergencia", cat:"señalitica", size:"13.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Salida de Emergencia.png", gallery:["Señalitica/Salida de Emergencia.png","Señalitica/Salida de Emergencia - Ilustracion.jpg"]},
+  {id:"LET-12", title:"Alto Voltaje", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/alto voltaje.jpg", gallery:["Señalitica/alto voltaje.jpg","Señalitica/alto voltaje - Ilustracion.jpg"]},
+  {id:"LET-13", title:"Apague el Equipo si No lo Utiliza", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/apague el equipo si no lo utiliza.jpg", gallery:["Señalitica/apague el equipo si no lo utiliza.jpg","Señalitica/apague el equipo si no lo utiliza - Ilustracion.jpg"]},
+  {id:"LET-14", title:"Apague la Luz Cuando No se Utilice", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/apague la luz cuando no se utilice.jpg", gallery:["Señalitica/apague la luz cuando no se utilice.jpg","Señalitica/apague la luz cuando no se utilice - Ilustracion.jpg"]},
+  {id:"LET-15", title:"Baños", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Baños.png", gallery:["Señalitica/Baños.png","Señalitica/Baños - Ilustracion.jpg"]},
+  {id:"LET-16", title:"Botiquín", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/botiquin.png", gallery:["Señalitica/botiquin.png","Señalitica/botiquin - Ilustracion.png"]},
+  {id:"LET-17", title:"Cámara de Seguridad", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Camara.png", gallery:["Señalitica/Camara.png","Señalitica/Camara - Ilustracion.jpg"]},
+  {id:"LET-18", title:"Conservar Cerrada Esta Puerta", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/concerbar cerrada esta puerta.png", gallery:["Señalitica/concerbar cerrada esta puerta.png","Señalitica/concerbar cerrada esta puerta - Ilustracion.png"]},
+  {id:"LET-19", title:"Entrada y Salida de Vehículos", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/entrada y salida de vehiculos.jpg", gallery:["Señalitica/entrada y salida de vehiculos.jpg","Señalitica/entrada y salida de vehiculos - Ilustracion.jpg"]},
+  {id:"LET-20", title:"Extintor", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/extintor.jpg", gallery:["Señalitica/extintor.jpg","Señalitica/extintor - Ilustracion.jpg"]},
+  {id:"LET-21", title:"Higiene", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/higiene.jpg", gallery:["Señalitica/higiene.jpg","Señalitica/higiene - Ilustracion.jpg"]},
+  {id:"LET-22", title:"Lavarse las Manos", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/lavarse las manos.jpg", gallery:["Señalitica/lavarse las manos.jpg","Señalitica/lavarse las manos - Ilustracion.jpg"]},
+  {id:"LET-23", title:"Mantener Limpio el Entorno", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/mantener limpio el entorno.jpg", gallery:["Señalitica/mantener limpio el entorno.jpg","Señalitica/mantener limpio el entorno - Ilustracion.jpg"]},
+  {id:"LET-24", title:"No Correr", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/no correr.jpg", gallery:["Señalitica/no correr.jpg","Señalitica/no correr - Ilustracion.jpg"]},
+  {id:"LET-25", title:"Obligatorio Mantener Limpieza", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/obligatorio mantener limpieza.jpg", gallery:["Señalitica/obligatorio mantener limpieza.jpg","Señalitica/obligatorio mantener limpieza - Ilustracion.jpg"]},
+  {id:"LET-26", title:"Peligro", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/peligro.jpg", gallery:["Señalitica/peligro.jpg","Señalitica/peligro - Ilustracion.jpg"]},
+  {id:"LET-27", title:"Prohibido Consumir Alimentos en Este Lugar", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Prohibido consumir alimentos en este lugar.jpg", gallery:["Señalitica/Prohibido consumir alimentos en este lugar.jpg","Señalitica/Prohibido consumir alimentos en este lugar - Ilustracion.jpg"]},
+  {id:"LET-28", title:"Prohibido Tirar Papel", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/prohibido tirar papel.png", gallery:["Señalitica/prohibido tirar papel.png","Señalitica/prohibido tirar pape - Ilustracionl.png"]},
+  {id:"LET-29", title:"Propiedad Privada", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/propiedad privada.png", gallery:["Señalitica/propiedad privada.png","Señalitica/propiedad privada - Ilustracion.png"]},
+  {id:"LET-30", title:"Sillas de Rueda", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Sillas de rueda.png", gallery:["Señalitica/Sillas de rueda.png","Señalitica/Sillas de rueda - Ilustracion.jpg"]},
+  {id:"LET-31", title:"Solo Personal Autorizado", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/solo personal autorizado.jpg", gallery:["Señalitica/solo personal autorizado.jpg","Señalitica/solo personal autorizado - Ilustracion.jpg"]},
+  {id:"LET-32", title:"Uso Obligatorio de Equipo de Protección", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/uso obligatorio de equipo de proteccion.jpg", gallery:["Señalitica/uso obligatorio de equipo de proteccion.jpg","Señalitica/uso obligatorio de equipo de proteccion - Ilustracion.jpg"]},
+  {id:"LET-33", title:"Zona Restringida", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/zona restringida.png", gallery:["Señalitica/zona restringida.png","Señalitica/zona restringida - Ilustracion.png"]},
   
   
   
@@ -461,7 +459,7 @@ const items = [
   {id:"VIN-17", title:"Ba�o Floral", cat:"vintages", size:"19.8 x 19.9 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/bano-floral.jpg"},
   {id:"VIN-18", title:"Bagno", cat:"vintages", size:"19.8 x 20.0 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/bagno.jpg"},
   {id:"VIN-19", title:"Ginebra Bols", cat:"vintages", size:"7.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$4.990", img:"Vintages/ginebra-bols.jpg"},
-  {id:"VIN-20", title:"Un Aplauso para el Asador", cat:"vintages", size:"19.8 x 26.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/un-aplauso-para-el-asador.jpg"},
+  {id:"VIN-20", title:"Un Aplauso para el Asador", cat:"vintages", size:"19.8 x 26.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/un-aplauso-para-el-asador.jpg", gallery:["Vintages/un-aplauso-para-el-asador.jpg","Vintages/un-aplauso-para-el-asador - Ilustracion.jpg"]},
   {id:"VIN-21", title:"El Mejor Asado Se Come Ac�", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/el-mejor-asado-se-come-aca.jpg"},
   {id:"VIN-22", title:"Tome Coca-Cola", cat:"vintages", size:"19.8 x 26.3 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/tome-coca-cola.jpg"},
   {id:"VIN-23", title:"Indian Motorcycle 1934", cat:"vintages", size:"19.8 x 26.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/indian-motorcycle-1934.jpg"},
@@ -475,17 +473,15 @@ const items = [
   {id:"VIN-32", title:"IKA Industrias Kaiser Argentina", cat:"vintages", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/39.png"},
   {id:"VIN-33", title:"Coca-Cola Delicious Refreshing", cat:"vintages", size:"19.8 x 28.2 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/40.jpg"},
   {id:"VIN-34", title:"Bandera Argentina", cat:"vintages", size:"19.8 x 26.2 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Bandera.jpg"},
-  {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).png"},
+  {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).png", gallery:["Vintages/YPF (Redondo).png","Vintages/YPF (Redondo - Ilustracion).jpg"]},
   {id:"VIN-48", title:"408490628724141463", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/408490628724141463.jpg"}, // AUTO
   {id:"VIN-49", title:"665125438735687196", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/665125438735687196.jpg"}, // AUTO
    // AUTO
    // AUTO
   {id:"VIN-54", title:"Download (1)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (1).jpg"}, // AUTO
   {id:"VIN-56", title:"Download", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download.jpg"}, // AUTO
-  {id:"VIN-58", title:"Vin Bano Hombres Ilu", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres-ilu.jpg"}, // AUTO
-  {id:"VIN-59", title:"Vin Bano Hombres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres.jpg"}, // AUTO
-  {id:"VIN-60", title:"Vin Bano Mujeres Ilu", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres-ilu.jpg"}, // AUTO
-  {id:"VIN-61", title:"Vin Bano Mujeres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres.jpg"}, // AUTO
+  {id:"VIN-59", title:"Vin Bano Hombres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres.jpg", gallery:["Vintages/vin-bano-hombres.jpg","Vintages/vin-bano-hombres - ilustracion.jpg"]}, // AUTO
+  {id:"VIN-61", title:"Vin Bano Mujeres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres.jpg", gallery:["Vintages/vin-bano-mujeres.jpg","Vintages/vin-bano-mujeres- ilustracion.jpg"]}, // AUTO
   {id:"VIN-62", title:"Vin Botellas", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-botellas.jpg"}, // AUTO
   {id:"VIN-64", title:"Vin Cerveza Quincho", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-cerveza-quincho.jpg"}, // AUTO
   {id:"VIN-65", title:"Vin Chapa Deco", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-chapa-deco.jpg"}, // AUTO
@@ -498,13 +494,13 @@ const items = [
   {id:"VIN-77", title:"Vin Nueva 17", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-17.jpg"}, // AUTO
    // AUTO
   
-  {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"},
+  {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png", gallery:["Vintages/Wifi.png","Vintages/Wifi - Ilustracion.jpg"]},
   {id:"VIN-83", title:"Imagen7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Imagen7.png"},
-  {id:"VIN-84", title:"Coffee Lover", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Coffee lover.jpg"}, // AUTO
-  {id:"VIN-85", title:"Donde Hay Asado Hay Familia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Donde hay asado hay familia.jpg"}, // AUTO
-  {id:"VIN-87", title:"Siempre Que Muera Volvere A Nacer", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Siempre que muera volvere a nacer.jpg"}, // AUTO
-  {id:"VIN-88", title:"Hoy Es Un Buen Dia Para Tener Un Gran Dia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/hoy es un buen dia para tener un gran dia.jpg"},
-  {id:"VIN-89", title:"Ford 1484566", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Ford 1484566.png"}, // AUTO, // AUTO, // AUTO, // AUTO, // AUTO,
+  {id:"VIN-84", title:"Coffee Lover", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Coffee lover.jpg", gallery:["Vintages/Coffee lover.jpg","Vintages/Coffee lover - Ilustracion.jpg","Vintages/Coffee lover - Ilustracion 2.jpg"]}, // AUTO
+  {id:"VIN-85", title:"Donde Hay Asado Hay Familia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Donde hay asado hay familia.jpg", gallery:["Vintages/Donde hay asado hay familia.jpg","Vintages/Donde hay asado hay familia - Ilustracion.jpg"]}, // AUTO
+  {id:"VIN-87", title:"Siempre Que Muera Volvere A Nacer", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Siempre que muera volvere a nacer.jpg", gallery:["Vintages/Siempre que muera volvere a nacer.jpg","Vintages/Siempre que muera volvere a nacer - Ilustracion.jpg"]}, // AUTO
+    {id:"VIN-89", title:"Ford 1484566", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Ford 1484566.png"}, // AUTO
+  {id:"VIN-88", title:"Hoy Es Un Buen Dia Para Tener Un Gran Dia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/hoy es un buen dia para tener un gran dia.jpg"}, // AUTO, // AUTO, // AUTO, // AUTO,
   
   
   

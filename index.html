@@ -28,6 +28,7 @@ header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid
 @media(max-width:500px){.filter-btn{padding:5px 12px;font-size:12px}}
 .filter-btn:hover{background:#ddd}
 .filter-btn.active{background:#111;color:#fff}
+.filter-sep{color:#ccc;font-size:14px;padding:0 2px;user-select:none;align-self:center}
 
 /* Sub-categorías minimalistas — eliminado */
 .cart-btn{background:none;border:none;font-size:22px;cursor:pointer;position:relative;padding:6px}
@@ -187,6 +188,7 @@ html.dark header{background:#161616;border-bottom-color:#2a2a2a}
 html.dark .filter-btn{background:#222;border:1px solid #333;color:#ccc}
 html.dark .filter-btn:hover{background:#2e2e2e;color:#fff}
 html.dark .filter-btn.active{background:#fff;color:#111;border-color:#fff}
+html.dark .filter-sep{color:#444}
 html.dark .cart-btn{color:#e8e8e8}
 html.dark .card{background:#1a1a1a}
 html.dark .card:hover{box-shadow:0 8px 32px rgba(0,0,0,.6)}
@@ -272,12 +274,13 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     </div>
     <div class="filters" id="filters-main">
       <button class="filter-btn active" onclick="filterCat('all',this)">Todos</button>
-      <button class="filter-btn" onclick="filterCat('ilustraciones',this)">Ilustraciones</button>
-      <button class="filter-btn" onclick="filterCat('señalitica',this)">Señalítica</button>
-      <button class="filter-btn" onclick="filterCat('numeracion',this)">Numeración</button>
       <button class="filter-btn" onclick="filterCat('vintages',this)">Vintages</button>
+      <button class="filter-btn" onclick="filterCat('ilustraciones',this)">Ilustraciones</button>
+      <button class="filter-btn" onclick="filterCat('numeracion',this)">Numeración</button>
+      <span class="filter-sep">|</span>
       <button class="filter-btn" onclick="filterCat('personalizados',this)">Personalizados</button>
       <button class="filter-btn" onclick="filterCat('imanes',this)">Imanes</button>
+      <button class="filter-btn" onclick="filterCat('señalitica',this)">Señalítica</button>
     </div>
     <button class="cart-btn" onclick="openCart()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span id="cart-count">0</span></button>
   </div>

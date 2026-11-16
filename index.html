@@ -290,7 +290,6 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     </div>
     <div class="filters" id="filters-imanes" style="display:none;">
       <button class="filter-btn active" onclick="filterImanes('all',this)">Todos</button>
-      <button class="filter-btn" onclick="filterImanes('mini-imanes',this)">Mini Imanes</button>
     </div>
     <button class="cart-btn" onclick="openCart()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span id="cart-count">0</span></button>
   </div>
@@ -527,17 +526,7 @@ function render(list) {
       ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
       : '';
 
-    // Tarjeta especial Mini Imanes
-    if (item._miniImanes) {
-      d.className = 'card mini-imanes-card';
-      d.style.cursor = 'pointer';
-      d.innerHTML = '<img src="' + item.img + '" alt="Mini Imanes" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px;">'
-        + '<div class="card-overlay"><div class="card-overlay-info"><div class="card-overlay-title">Mini Imanes</div></div></div>'
-        + '<div style="text-align:center;padding:6px 4px 4px;font-size:0.78rem;color:#ccc;font-weight:500;">Mini Imanes 4cm x 4cm</div>';
-      d.addEventListener('click', function() { filterImanes('mini-imanes'); });
-      g.appendChild(d);
-      return;
-    }
+    // Tarjeta especial Mini Imanes — eliminada
 
     var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
     var imanBg = item.cat === 'imanes' ? '<img src="Imanes/Fondo, Ilustracion, Imanes.jpg" class="card-iman-bg" alt="">' : '';
@@ -669,16 +658,7 @@ function applyFilter() {
     else if (sub === 'personalizados') list = items.filter(function(i){ return i.cat === 'personalizados'; });
     else                              list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'señalitica' || i.cat === 'vintages' || i.cat === 'numeracion' || i.cat === 'personalizados'; });
   } else if (main === 'imanes') {
-    if (_activeImanSub === 'mini-imanes') {
-      list = items.filter(function(i){ return i.cat === 'mini-imanes'; });
-      if (list.length === 0) {
-        var g = document.getElementById('grid');
-        g.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:#888;font-size:1rem;">Próximamente 🧲</div>';
-        return;
-      }
-    } else {
-      list = items.filter(function(i){ return i.cat === 'imanes'; });
-    }
+    list = items.filter(function(i){ return i.cat === 'imanes'; });
   } else {
     list = items;
   }

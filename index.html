@@ -601,7 +601,7 @@ function applyFilter() {
 
   var list;
   if (cat === 'all') {
-    list = items;
+    list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'vintages' || i.cat === 'numeracion'; });
   } else {
     list = items.filter(function(i){ return i.cat === cat; });
   }

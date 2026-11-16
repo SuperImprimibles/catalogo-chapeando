@@ -68,7 +68,8 @@ const items = [
   {id:"ILU-78", title:"Ilu Nueva 59", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-nueva-59.jpg"}, // AUTO
   {id:"ILU-79", title:"Ilu Smiley", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/ilu-smiley.jpg"}, // AUTO
   {id:"ILU-80", title:"Messi", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/messi.jpg"}, // AUTO
-  {id:"ILU-81", title:"🔁", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/🔁.jpg"}, // AUTO,
+  {id:"ILU-81", title:"🔁", cat:"ilustraciones", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/🔁.jpg"},
+  {id:"ILU-82", title:"Heineken Redondo", cat:"ilustraciones", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Ilustraciones/Heineken Redondo.png"}, // AUTO, // AUTO,
   
   
   
@@ -379,15 +380,15 @@ const items = [
   // -- SEÑALITICA
   
   
-  {id:"LET-03", title:"Prohibido Estacionar", cat:"señalitica", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Prohibido Estacionar.jpg", gallery:["Señalitica/Prohibido Estacionar.jpg","Señalitica/Prohibido Estacionar - Ilustracion.jpg"]},
-  {id:"LET-04", title:"Stop", cat:"señalitica", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Stop.png", gallery:["Señalitica/Stop.png","Señalitica/Stop - Ilustracion.webp"]},
   
-  {id:"LET-06", title:"Numeracion", cat:"numeracion", size:"9.9 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Numeracion/Numeracion.png", gallery:["Numeracion/Numeracion.png","Numeracion/Numeracion - Ilustracion.jpg"]},
-  {id:"LET-07", title:"Numeracion V2", cat:"numeracion", size:"11.5 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Numeracion/Numeracion V2.png", gallery:["Numeracion/Numeracion V2.png","Numeracion/Numeracion V2 - Ilustracion.jpg"]},
-  {id:"LET-08", title:"Cuidado Con El Perro", cat:"señalitica", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Cuidado Con El Perro.png", gallery:["Señalitica/Cuidado Con El Perro.png","Señalitica/Cuidado Con El Perro - Ilustracion.jpg"]},
-  {id:"LET-09", title:"Abierto", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Abierto).png", gallery:["Señalitica/Abierto y Cerrado (Abierto).png","Señalitica/Abierto - Ilustracion.jpg"]},
-  {id:"LET-10", title:"Cerrado", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Carredo).png", gallery:["Señalitica/Abierto y Cerrado (Carredo).png","Señalitica/Cerrado - Ilustracion.jpg"]},
-  {id:"LET-11", title:"Salida de Emergencia", cat:"señalitica", size:"13.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Salida de Emergencia.png", gallery:["Señalitica/Salida de Emergencia.png","Señalitica/Salida de Emergencia - Ilustracion.jpg"]},
+  
+  
+  
+  
+  
+  
+  
+  
   // -- VINTAGES
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/malvinas-son-argentinas-texto.jpg"},
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/argentina-3-estrellas.jpg"},
@@ -459,7 +460,9 @@ const items = [
   {id:"VIN-78", title:"Vin Nueva 18", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-18.jpg"}, // AUTO
   {id:"VIN-79", title:"Vin Nueva 19", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-19.jpg"}, // AUTO
   {id:"VIN-80", title:"Vin Nueva 20", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-20.jpg"},
-  {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"}, // AUTO, // AUTO,
+  {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"},
+  {id:"VIN-82", title:"D Nq Np 2X 730017 Mla112216507741 052026 F", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/D_NQ_NP_2X_730017-MLA112216507741_052026-F.webp"}, // AUTO
+  {id:"VIN-83", title:"Imagen7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Imagen7.png"}, // AUTO, // AUTO, // AUTO,
   
   
   

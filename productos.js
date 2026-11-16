@@ -379,36 +379,36 @@ const items = [
 
   // -- SEÑALITICA
   
-  {id:"LET-03", title:"Prohibido Estacionar", cat:"señalitica", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Prohibido Estacionar.jpg", gallery:["Señalitica/Prohibido Estacionar.jpg","Señalitica/Prohibido Estacionar - Ilustracion.jpg"]},
-  {id:"LET-04", title:"Stop", cat:"señalitica", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Stop.png", gallery:["Señalitica/Stop.png","Señalitica/Stop - Ilustracion.webp"]},
-  {id:"LET-06", title:"Numeracion", cat:"numeracion", size:"9.9 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Numeracion/Numeracion.png", gallery:["Numeracion/Numeracion.png","Numeracion/Numeracion - Ilustracion.jpg"]},
-  {id:"LET-07", title:"Numeracion V2", cat:"numeracion", size:"11.5 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Numeracion/Numeracion V2.png", gallery:["Numeracion/Numeracion V2.png","Numeracion/Numeracion V2 - Ilustracion.jpg"]},
-  {id:"LET-08", title:"Cuidado Con El Perro", cat:"señalitica", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Señalitica/Cuidado Con El Perro.png", gallery:["Señalitica/Cuidado Con El Perro.png","Señalitica/Cuidado Con El Perro - Ilustracion.jpg"]},
-  {id:"LET-09", title:"Abierto", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Abierto).png", gallery:["Señalitica/Abierto y Cerrado (Abierto).png","Señalitica/Abierto - Ilustracion.jpg","Señalitica/Abierto y Cerrado - Ilustracion.jpg"]},
-  {id:"LET-10", title:"Cerrado", cat:"señalitica", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Abierto y Cerrado (Carredo).png", gallery:["Señalitica/Abierto y Cerrado (Carredo).png","Señalitica/Cerrado - Ilustracion.jpg"]},
-  {id:"LET-11", title:"Salida de Emergencia", cat:"señalitica", size:"13.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Salida de Emergencia.png", gallery:["Señalitica/Salida de Emergencia.png","Señalitica/Salida de Emergencia - Ilustracion.jpg"]},
-  {id:"LET-12", title:"Alto Voltaje", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/alto voltaje.jpg", gallery:["Señalitica/alto voltaje.jpg","Señalitica/alto voltaje - Ilustracion.jpg"]},
-  {id:"LET-13", title:"Apague el Equipo si No lo Utiliza", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/apague el equipo si no lo utiliza.jpg", gallery:["Señalitica/apague el equipo si no lo utiliza.jpg","Señalitica/apague el equipo si no lo utiliza - Ilustracion.jpg"]},
-  {id:"LET-14", title:"Apague la Luz Cuando No se Utilice", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/apague la luz cuando no se utilice.jpg", gallery:["Señalitica/apague la luz cuando no se utilice.jpg","Señalitica/apague la luz cuando no se utilice - Ilustracion.jpg"]},
-  {id:"LET-15", title:"Baños", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Baños.png", gallery:["Señalitica/Baños.png","Señalitica/Baños - Ilustracion.jpg"]},
-  {id:"LET-16", title:"Botiquín", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/botiquin.png", gallery:["Señalitica/botiquin.png","Señalitica/botiquin - Ilustracion.png"]},
-  {id:"LET-17", title:"Cámara de Seguridad", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Camara.png", gallery:["Señalitica/Camara.png","Señalitica/Camara - Ilustracion.jpg"]},
-  {id:"LET-18", title:"Conservar Cerrada Esta Puerta", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/concerbar cerrada esta puerta.png", gallery:["Señalitica/concerbar cerrada esta puerta.png","Señalitica/concerbar cerrada esta puerta - Ilustracion.png"]},
-  {id:"LET-19", title:"Entrada y Salida de Vehículos", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/entrada y salida de vehiculos.jpg", gallery:["Señalitica/entrada y salida de vehiculos.jpg","Señalitica/entrada y salida de vehiculos - Ilustracion.jpg"]},
-  {id:"LET-20", title:"Extintor", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/extintor.jpg", gallery:["Señalitica/extintor.jpg","Señalitica/extintor - Ilustracion.jpg"]},
-  {id:"LET-21", title:"Higiene", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/higiene.jpg", gallery:["Señalitica/higiene.jpg","Señalitica/higiene - Ilustracion.jpg"]},
-  {id:"LET-22", title:"Lavarse las Manos", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/lavarse las manos.jpg", gallery:["Señalitica/lavarse las manos.jpg","Señalitica/lavarse las manos - Ilustracion.jpg"]},
-  {id:"LET-23", title:"Mantener Limpio el Entorno", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/mantener limpio el entorno.jpg", gallery:["Señalitica/mantener limpio el entorno.jpg","Señalitica/mantener limpio el entorno - Ilustracion.jpg"]},
-  {id:"LET-24", title:"No Correr", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/no correr.jpg", gallery:["Señalitica/no correr.jpg","Señalitica/no correr - Ilustracion.jpg"]},
-  {id:"LET-25", title:"Obligatorio Mantener Limpieza", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/obligatorio mantener limpieza.jpg", gallery:["Señalitica/obligatorio mantener limpieza.jpg","Señalitica/obligatorio mantener limpieza - Ilustracion.jpg"]},
-  {id:"LET-26", title:"Peligro", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/peligro.jpg", gallery:["Señalitica/peligro.jpg","Señalitica/peligro - Ilustracion.jpg"]},
-  {id:"LET-27", title:"Prohibido Consumir Alimentos en Este Lugar", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Prohibido consumir alimentos en este lugar.jpg", gallery:["Señalitica/Prohibido consumir alimentos en este lugar.jpg","Señalitica/Prohibido consumir alimentos en este lugar - Ilustracion.jpg"]},
-  {id:"LET-28", title:"Prohibido Tirar Papel", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/prohibido tirar papel.png", gallery:["Señalitica/prohibido tirar papel.png","Señalitica/prohibido tirar pape - Ilustracionl.png"]},
-  {id:"LET-29", title:"Propiedad Privada", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/propiedad privada.png", gallery:["Señalitica/propiedad privada.png","Señalitica/propiedad privada - Ilustracion.png"]},
-  {id:"LET-30", title:"Sillas de Rueda", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/Sillas de rueda.png", gallery:["Señalitica/Sillas de rueda.png","Señalitica/Sillas de rueda - Ilustracion.jpg"]},
-  {id:"LET-31", title:"Solo Personal Autorizado", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/solo personal autorizado.jpg", gallery:["Señalitica/solo personal autorizado.jpg","Señalitica/solo personal autorizado - Ilustracion.jpg"]},
-  {id:"LET-32", title:"Uso Obligatorio de Equipo de Protección", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/uso obligatorio de equipo de proteccion.jpg", gallery:["Señalitica/uso obligatorio de equipo de proteccion.jpg","Señalitica/uso obligatorio de equipo de proteccion - Ilustracion.jpg"]},
-  {id:"LET-33", title:"Zona Restringida", cat:"señalitica", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Señalitica/zona restringida.png", gallery:["Señalitica/zona restringida.png","Señalitica/zona restringida - Ilustracion.png"]},
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   // -- VINTAGES
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/malvinas-son-argentinas-texto.jpg"},
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/argentina-3-estrellas.jpg"},
@@ -436,7 +436,7 @@ const items = [
   {id:"VIN-24", title:"Open 24 Hours", cat:"vintages", size:"19.8 x 13.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/open-24-hours.jpg"},
   {id:"VIN-25", title:"Barra", cat:"vintages", size:"19.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$4.990", img:"Vintages/barra.jpg"},
   {id:"VIN-26", title:"Asado Vino y Amigos", cat:"vintages", size:"19.8 x 28.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/asado-vino-y-amigos.jpg"},
-  {id:"VIN-27", title:"Donde Hay Asado, Hay Familia", cat:"vintages", size:"19.8 x 28.0 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/020.jpg"},
+  
   {id:"VIN-28", title:"Jack Daniel's Old No.7", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/022.jpg"},
   {id:"VIN-29", title:"Ac� Se Re�nen Cazadores, Pescadores y Otros Mentirosos", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/023.jpg"},
   {id:"VIN-30", title:"Caution Radioactive Materials", cat:"vintages", size:"19.8 x 28.3 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/027.jpg"},
@@ -449,10 +449,10 @@ const items = [
   {id:"VIN-47", title:"352266002129162931", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/352266002129162931.jpg"}, // AUTO
   {id:"VIN-48", title:"408490628724141463", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/408490628724141463.jpg"}, // AUTO
   {id:"VIN-49", title:"665125438735687196", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/665125438735687196.jpg"}, // AUTO
-  {id:"VIN-50", title:"6C8A14A3041D3753194581C13Fb900D7", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/6c8a14a3041d3753194581c13fb900d7.jpg"}, // AUTO
+   // AUTO
   {id:"VIN-51", title:"966725876284272330", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/966725876284272330.jpg"}, // AUTO
   {id:"VIN-52", title:"Free Customizable Steampunk Furniture Templates   Playground", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Free customizable steampunk furniture templates - Playground.jpg"}, // AUTO
-  {id:"VIN-53", title:"Vintage Coffee Mid Century Poster", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Vintage Coffee Mid-Century Poster.jpg"}, // AUTO
+   // AUTO
   {id:"VIN-54", title:"Download (1)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (1).jpg"}, // AUTO
   {id:"VIN-55", title:"Download (2)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (2).jpg"}, // AUTO
   {id:"VIN-56", title:"Download", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download.jpg"}, // AUTO
@@ -478,11 +478,16 @@ const items = [
   {id:"VIN-76", title:"Vin Nueva 16", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-16.jpg"}, // AUTO
   {id:"VIN-77", title:"Vin Nueva 17", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-17.jpg"}, // AUTO
   {id:"VIN-78", title:"Vin Nueva 18", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-18.jpg"}, // AUTO
-  {id:"VIN-79", title:"Vin Nueva 19", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-19.jpg"}, // AUTO
-  {id:"VIN-80", title:"Vin Nueva 20", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-20.jpg"},
+   // AUTO
+  
   {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"},
   {id:"VIN-82", title:"D Nq Np 2X 730017 Mla112216507741 052026 F", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/D_NQ_NP_2X_730017-MLA112216507741_052026-F.webp"}, // AUTO
-  {id:"VIN-83", title:"Imagen7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Imagen7.png"}, // AUTO, // AUTO, // AUTO,
+  {id:"VIN-83", title:"Imagen7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Imagen7.png"},
+  {id:"VIN-84", title:"Coffee Lover", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Coffee lover.jpg"}, // AUTO
+  {id:"VIN-85", title:"Donde Hay Asado Hay Familia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Donde hay asado hay familia.jpg"}, // AUTO
+  {id:"VIN-86", title:"Si Una Copa De Vino", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Si una copa de vino.jpg"}, // AUTO
+  {id:"VIN-87", title:"Siempre Que Muera Volvere A Nacer", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Siempre que muera volvere a nacer.jpg"}, // AUTO
+  {id:"VIN-88", title:"Hoy Es Un Buen Dia Para Tener Un Gran Dia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/hoy es un buen dia para tener un gran dia.jpg"}, // AUTO, // AUTO, // AUTO, // AUTO,
   
   
   

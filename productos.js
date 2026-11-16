@@ -442,7 +442,7 @@ const items = [
   // -- VINTAGES
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/malvinas-son-argentinas-texto.jpg"},
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/argentina-3-estrellas.jpg"},
-  {id:"VIN-03", title:"La Renga Ruta 73", cat:"vintages", size:"19.8 x 24.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/la-renga-ruta-73.jpg"},
+  {id:"VIN-03", title:"La Renga Ruta 73", cat:"vintages", size:"19.8 x 24.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/la-renga-ruta-73.png"},
   {id:"VIN-04", title:"A Brillar Mi Amor", cat:"vintages", size:"5.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Vintages/a-brillar-mi-amor.jpg"},
   {id:"VIN-05", title:"Corona Extra", cat:"vintages", size:"7.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Vintages/corona-extra.jpg"},
   {id:"VIN-06", title:"Ford Authorized Service", cat:"vintages", size:"19.8 x 27.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/ford-authorized-service.jpg"},
@@ -469,53 +469,37 @@ const items = [
   
   {id:"VIN-28", title:"Jack Daniel's Old No.7", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/022.jpg"},
   {id:"VIN-29", title:"Ac� Se Re�nen Cazadores, Pescadores y Otros Mentirosos", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/023.jpg"},
-  {id:"VIN-30", title:"Caution Radioactive Materials", cat:"vintages", size:"19.8 x 28.3 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/027.jpg"},
   {id:"VIN-31", title:"Bathroom", cat:"vintages", size:"9.8 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Vintages/31.jpg"},
-  {id:"VIN-32", title:"IKA Industrias Kaiser Argentina", cat:"vintages", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/39.jpg"},
+  {id:"VIN-32", title:"IKA Industrias Kaiser Argentina", cat:"vintages", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/39.png"},
   {id:"VIN-33", title:"Coca-Cola Delicious Refreshing", cat:"vintages", size:"19.8 x 28.2 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/40.jpg"},
   {id:"VIN-34", title:"Bandera Argentina", cat:"vintages", size:"19.8 x 26.2 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Bandera.jpg"},
-  {id:"VIN-35", title:"Good Vibes", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Good Vibes.jpg", gallery:["Vintages/Good Vibes.jpg","Vintages/Good Vibes -Ilustracion.jpg"]},
-  {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).jpg", gallery:["Vintages/YPF (Redondo).jpg","Vintages/YPF (Redondo - Ilustracion).jpg"]},
-  {id:"VIN-47", title:"352266002129162931", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/352266002129162931.jpg"}, // AUTO
+  {id:"VIN-36", title:"YPF Redondo", cat:"vintages", size:"19.8 x 20.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/YPF (Redondo).png"},
   {id:"VIN-48", title:"408490628724141463", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/408490628724141463.jpg"}, // AUTO
   {id:"VIN-49", title:"665125438735687196", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/665125438735687196.jpg"}, // AUTO
    // AUTO
-  {id:"VIN-51", title:"966725876284272330", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/966725876284272330.jpg"}, // AUTO
-  {id:"VIN-52", title:"Free Customizable Steampunk Furniture Templates   Playground", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Free customizable steampunk furniture templates - Playground.jpg"}, // AUTO
    // AUTO
   {id:"VIN-54", title:"Download (1)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (1).jpg"}, // AUTO
-  {id:"VIN-55", title:"Download (2)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download (2).jpg"}, // AUTO
   {id:"VIN-56", title:"Download", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/download.jpg"}, // AUTO
-  {id:"VIN-57", title:"Vin Area51", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-area51.jpg"}, // AUTO
   {id:"VIN-58", title:"Vin Bano Hombres Ilu", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres-ilu.jpg"}, // AUTO
   {id:"VIN-59", title:"Vin Bano Hombres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres.jpg"}, // AUTO
   {id:"VIN-60", title:"Vin Bano Mujeres Ilu", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres-ilu.jpg"}, // AUTO
   {id:"VIN-61", title:"Vin Bano Mujeres", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres.jpg"}, // AUTO
   {id:"VIN-62", title:"Vin Botellas", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-botellas.jpg"}, // AUTO
-  {id:"VIN-63", title:"Vin Burger", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-burger.jpg"}, // AUTO
   {id:"VIN-64", title:"Vin Cerveza Quincho", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-cerveza-quincho.jpg"}, // AUTO
   {id:"VIN-65", title:"Vin Chapa Deco", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-chapa-deco.jpg"}, // AUTO
   {id:"VIN-66", title:"Vin French Fries", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-french-fries.jpg"}, // AUTO
   {id:"VIN-67", title:"Vin Gas Station", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-gas-station.jpg"}, // AUTO
-  {id:"VIN-68", title:"Vin Heart Bolt", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-heart-bolt.jpg"}, // AUTO
-  {id:"VIN-69", title:"Vin Nueva 09", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-09.jpg"}, // AUTO
-  {id:"VIN-70", title:"Vin Nueva 10", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-10.jpg"}, // AUTO
   {id:"VIN-71", title:"Vin Nueva 11", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-11.jpg"}, // AUTO
   {id:"VIN-72", title:"Vin Nueva 12", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-12.jpg"}, // AUTO
   {id:"VIN-73", title:"Vin Nueva 13", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-13.jpg"}, // AUTO
-  {id:"VIN-74", title:"Vin Nueva 14", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-14.jpg"}, // AUTO
   {id:"VIN-75", title:"Vin Nueva 15", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-15.jpg"}, // AUTO
-  {id:"VIN-76", title:"Vin Nueva 16", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-16.jpg"}, // AUTO
   {id:"VIN-77", title:"Vin Nueva 17", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-17.jpg"}, // AUTO
-  {id:"VIN-78", title:"Vin Nueva 18", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-nueva-18.jpg"}, // AUTO
    // AUTO
   
   {id:"VIN-81", title:"Wifi", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Wifi.png"},
-  {id:"VIN-82", title:"D Nq Np 2X 730017 Mla112216507741 052026 F", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/D_NQ_NP_2X_730017-MLA112216507741_052026-F.webp"}, // AUTO
   {id:"VIN-83", title:"Imagen7", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Imagen7.png"},
   {id:"VIN-84", title:"Coffee Lover", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Coffee lover.jpg"}, // AUTO
   {id:"VIN-85", title:"Donde Hay Asado Hay Familia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Donde hay asado hay familia.jpg"}, // AUTO
-  {id:"VIN-86", title:"Si Una Copa De Vino", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Si una copa de vino.jpg"}, // AUTO
   {id:"VIN-87", title:"Siempre Que Muera Volvere A Nacer", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Siempre que muera volvere a nacer.jpg"}, // AUTO
   {id:"VIN-88", title:"Hoy Es Un Buen Dia Para Tener Un Gran Dia", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/hoy es un buen dia para tener un gran dia.jpg"}, // AUTO, // AUTO, // AUTO, // AUTO,
   

@@ -16,10 +16,10 @@ header{position:sticky;top:0;z-index:100;background:#161616;border-bottom:1px so
 @media(min-width:600px){.filters{flex:1 1 auto;order:0}}
 .logo img{height:46px;cursor:pointer}
 .filters::-webkit-scrollbar{display:none}
-.filter-btn{background:#222;border:1px solid #333;padding:7px 16px;border-radius:999px;font-size:13px;cursor:pointer;white-space:nowrap;font-family:inherit;color:#ccc}
-@media(max-width:500px){.filter-btn{padding:5px 12px;font-size:12px}}
-.filter-btn:hover{background:#2e2e2e;color:#fff}
-.filter-btn.active{background:#fff;color:#111;border-color:#fff}
+.filter-btn{background:none;border:none;border-bottom:2px solid transparent;padding:6px 0;font-size:13px;cursor:pointer;white-space:nowrap;font-family:inherit;color:#666;transition:color .2s}
+@media(max-width:500px){.filter-btn{font-size:12px}}
+.filter-btn:hover{color:#ccc}
+.filter-btn.active{color:#fff;border-bottom-color:#fff}
 .cart-btn{background:none;border:none;font-size:22px;cursor:pointer;position:relative;padding:6px;color:#e8e8e8}
 #cart-count{position:absolute;top:0;right:0;background:#e53935;color:#fff;font-size:10px;width:17px;height:17px;border-radius:50%;display:none;align-items:center;justify-content:center;font-weight:700}
 #cart-count.visible{display:flex}

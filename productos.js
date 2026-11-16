@@ -85,8 +85,8 @@ const items = [
   
 
   // -- IMANES
-  {id:"MINI-IMANES", title:"Mini Imanes", cat:"imanes", size:"-", mat:"-", unit:"-", price:"-", img:"Imanes/Mini Imanes/mini imanes portada.jpg", _miniImanes:true},
-  {id:"MINI-PERS-001", title:"Mini Imanes Personalizados", cat:"mini-imanes", size:"4.0 x 4.0 cm", mat:"-", unit:"-", price:"-", img:"Personalizados/Mini Imanes Personalizados/Mini Imanes Personalizados Portada.jpg"},
+  
+  
 
   {id:"IMA-003", title:"Im�n 3", cat:"imanes", size:"6.0 x 8.0 cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-006.jpeg"},
   {id:"IMA-004", title:"Im�n 4", cat:"imanes", size:"8.0 x 8.0 cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-007.jpeg"},
@@ -369,7 +369,12 @@ const items = [
   {id:"IMA-287", title:"Ima Rutamate", cat:"imanes", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-rutamate.jpg"}, // AUTO
   {id:"IMA-288", title:"Ima Simpsons", cat:"imanes", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-simpsons.jpg"}, // AUTO
   {id:"IMA-289", title:"Ima Warning Cats", cat:"imanes", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/ima-warning-cats.jpg"}, // AUTO
-  {id:"IMA-292", title:"52987733111298558", cat:"imanes", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/52987733111298558.jpg"}, // AUTO, // AUTO, // AUTO, // AUTO,
+  {id:"IMA-292", title:"52987733111298558", cat:"imanes", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$2.490", img:"Imanes/52987733111298558.jpg"},
+  {id:"IMA-293", title:"Ima 056", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-056.jpeg"}, // AUTO
+  {id:"IMA-294", title:"Ima 100", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-100.jpeg"}, // AUTO
+  {id:"IMA-295", title:"Ima 138", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/IMA-138.jpeg"}, // AUTO
+  {id:"IMA-296", title:"Marco Para Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/Marco para imanes.png"}, // AUTO
+  {id:"IMA-297", title:"Tercera Imagen Para La Galeria De Fotos De Imanes", cat:"imanes", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$2.490", img:"Imanes/tercera imagen para la galeria de fotos de imanes.jpeg"}, // AUTO, // AUTO, // AUTO, // AUTO, // AUTO,
 
   // -- LETREROS
   
@@ -377,8 +382,8 @@ const items = [
   {id:"LET-03", title:"Prohibido Estacionar", cat:"letreros", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Prohibido Estacionar.jpg", gallery:["Letreros/Prohibido Estacionar.jpg","Letreros/Prohibido Estacionar - Ilustracion.jpg"]},
   {id:"LET-04", title:"Stop", cat:"letreros", size:"19.8 x 19.8 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Stop.png", gallery:["Letreros/Stop.png","Letreros/Stop - Ilustracion.webp"]},
   
-  {id:"LET-06", title:"Numeracion", cat:"numeracion", size:"9.9 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Numeracion/Numeracion.png", gallery:["Numeracion/Numeracion.png","Numeracion/Numeracion - Ilustracion.jpg"]},
-  {id:"LET-07", title:"Numeracion V2", cat:"numeracion", size:"11.5 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Numeracion/Numeracion V2.png", gallery:["Numeracion/Numeracion V2.png","Numeracion/Numeracion V2 - Ilustracion.jpg"]},
+  
+  
   {id:"LET-08", title:"Cuidado Con El Perro", cat:"letreros", size:"18.4 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Letreros/Cuidado Con El Perro.png", gallery:["Letreros/Cuidado Con El Perro.png","Letreros/Cuidado Con El Perro - Ilustracion.jpg"]},
   {id:"LET-09", title:"Abierto", cat:"letreros", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Abierto).png", gallery:["Letreros/Abierto y Cerrado (Abierto).png","Letreros/Abierto - Ilustracion.jpg"]},
   {id:"LET-10", title:"Cerrado", cat:"letreros", size:"11.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Letreros/Abierto y Cerrado (Carredo).png", gallery:["Letreros/Abierto y Cerrado (Carredo).png","Letreros/Cerrado - Ilustracion.jpg"]},

@@ -1,0 +1,8 @@
+{
+  "name": "chapeando-backend",
+  "version": "1.0.0",
+  "description": "Backend de pagos para Chapeando VM",
+  "dependencies": {
+    "mercadopago": "2.0.15"
+  }
+}

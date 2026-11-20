@@ -735,7 +735,6 @@ function appendCard(g, item) {
 
     var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
     var imanBg = item.cat === 'imanes' ? '<img src="Imanes/Fondo, Ilustracion, Imanes.jpg" class="card-iman-bg" alt="">' : '';
-    var imanMarco = '';
     var hasHover = img2 || item.cat === 'imanes';
     d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
     d.innerHTML = '<div class="card-img-wrap" style="position:relative;overflow:hidden;border-radius:16px 16px 0 0;background:#000;flex-shrink:0">'
@@ -745,8 +744,7 @@ function appendCard(g, item) {
       + (item.cat === 'imanes' ? '<img src="' + item.img + '" alt="" aria-hidden="true" class="card-img-placeholder">' : '')
       + imanBg
       + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
-      + perfs
-      + '<button class="card-btn-cart" title="Agregar al pedido" onclick="event.stopPropagation();quickAddCart(\'' + item.id + '\')">'
+      + perfs      + '<button class="card-btn-cart" title="Agregar al pedido" onclick="event.stopPropagation();quickAddCart(\'' + item.id + '\')">'
       + '<img src="Carrito de compras icono.webp" width="30" height="30" alt="" style="display:block;object-fit:cover">'
       + '</button>'
       + '</div>'
@@ -763,9 +761,7 @@ function appendCard(g, item) {
       + '<button class="card-btn-detail" style="background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center" onclick="event.stopPropagation();quickWa(\'' + item.id + '\')">'
       + 'Comprar</button>'
       + '</div>'
-      + '</div>'
-      + imanMarco;
-    d.addEventListener('click', function() { openModal(item); });
+      + '</div>';    d.addEventListener('click', function() { openModal(item); });
     g.appendChild(d);
 }
 
@@ -1194,12 +1190,6 @@ function updateSetsBar() {
 }
 
 function onThemeClick(theme) {
-  // Por ahora abre WhatsApp consultando por el tema
-  var t = '¡Hola! Me gustaría ver las chapas de la categoría *' + theme + '*. ¿Me pueden mostrar opciones?';
-  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
-}
-
-
 var CAT_INFO = [
   { key: 'numeracion',     label: 'Numeración' },
   { key: 'señalitica',     label: 'Señalítica' },
@@ -1297,26 +1287,6 @@ function updateCatBar() {
 
 var gallerySlides = [];
 var galleryIndex = 0;
-// Extensiones soportadas - solo jpg/jpeg para reducir requests
-var IMG_EXTS = ['jpg', 'jpeg'];
-
-// Genera lista de posibles rutas para un producto
-function getGalleryImages(item) {
-  var list = [];
-  // Primero la imagen principal del producto
-  list.push({ src: item.img, perfs: item.cat === 'ilustraciones', fondo: fondoAleatorio(item.cat) });
-  // Luego busca imágenes en Galeria/[ID]/
-  // Como no podemos leer directorios desde el browser, intentamos cargar
-  // nombres predecibles: 01.jpg, 02.jpg ... 10.jpg, 01.png ... etc
-  var base = 'Galeria/' + item.id + '/';
-  for (var n = 1; n <= 20; n++) {
-    var num = n < 10 ? '0' + n : '' + n;
-    IMG_EXTS.forEach(function(ext) {
-      list.push({ src: base + num + '.' + ext, perfs: false, fondo: fondoAleatorio(item.cat), lazy: true });
-    });
-  }
-  return list;
-}
 
 function buildGallery(item) {
   var track = document.getElementById('gallery-track');
@@ -1508,6 +1478,11 @@ function calcPrecio(wCm, hCm) {
 }
 
 // Precalcular tamaños de ilustraciones y vintages antes de renderizar
+// Constantes para cálculo de tamaños
+var PRINT_W_MM = 285;
+var PRINT_H_MM = 285;
+var MIN_MM = 50;
+
 function precalcTamanios(lista, done) {
   var pendientes = lista.filter(function(i) {
     return (i.cat === 'ilustraciones' || i.cat === 'vintages' || i.cat === 'imanes') && i.size === '-';
@@ -1537,8 +1512,10 @@ function precalcTamanios(lista, done) {
   });
 }
 
-// Renderizar inmediatamente sin imanes en "Todos"
-filterCat('all', null);
+// Renderizar — precalcular tamaños primero
+precalcTamanios(items, function() {
+  filterCat('all', null);
+});
 renderCart();
 renderCatBar();
 renderSetsBar();

@@ -1,11 +1,10 @@
-const { MercadoPagoConfig, Preference } = require('mercadopago');
+const mercadopago = require('mercadopago');
 
-const client = new MercadoPagoConfig({
-  accessToken: process.env.MP_ACCESS_TOKEN,
+mercadopago.configure({
+  access_token: process.env.MP_ACCESS_TOKEN,
 });
 
 module.exports = async function handler(req, res) {
-  // Permitir CORS desde tu tienda
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -20,39 +19,31 @@ module.exports = async function handler(req, res) {
       return res.status(400).json({ error: 'No hay productos en el carrito' });
     }
 
-    // Convertir los items del carrito al formato de MercadoPago
     const mpItems = items.map(function(item) {
       return {
         id: item.id,
         title: item.title,
-        quantity: item.qty,
-        unit_price: item.priceNum,
+        quantity: Number(item.qty),
+        unit_price: Number(item.priceNum),
         currency_id: 'ARS',
       };
     });
 
-    const preference = new Preference(client);
-    const response = await preference.create({
-      body: {
-        items: mpItems,
-        back_urls: {
-          success: 'https://superimprimibles.github.io/catalogo-chapeando/Index%20Tienda.html?pago=ok',
-          failure: 'https://superimprimibles.github.io/catalogo-chapeando/Index%20Tienda.html?pago=error',
-          pending: 'https://superimprimibles.github.io/catalogo-chapeando/Index%20Tienda.html?pago=pendiente',
-        },
-        auto_return: 'approved',
-        statement_descriptor: 'Chapeando VM',
-        payment_methods: {
-          excluded_payment_types: [],
-          installments: 1,
-        },
+    const preference = await mercadopago.preferences.create({
+      items: mpItems,
+      back_urls: {
+        success: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=ok',
+        failure: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=error',
+        pending: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=pendiente',
       },
+      auto_return: 'approved',
+      statement_descriptor: 'Chapeando VM',
     });
 
-    return res.status(200).json({ init_point: response.init_point });
+    return res.status(200).json({ init_point: preference.body.init_point });
 
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ error: 'Error generando el pago' });
+    return res.status(500).json({ error: err.message || 'Error generando el pago' });
   }
 };

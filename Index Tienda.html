@@ -105,7 +105,28 @@ html.dark .cat-view-back:hover{background:#333}
 html.dark .cat-view-title{color:#f0f0f0}
 
 
-/* PAGINACIÓN */
+/* ENVÍO */
+.envio-section{padding:12px 20px;border-top:1px solid #eee;background:#f9f9f9}
+html.dark .envio-section{background:#111;border-top-color:#2a2a2a}
+.envio-title{font-size:12px;font-weight:700;text-transform:uppercase;color:#aaa;margin-bottom:8px;letter-spacing:.5px}
+.envio-opts{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.envio-opt{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:10px;border:1.5px solid #eee;background:#fff;cursor:pointer;transition:border-color .15s}
+.envio-opt.selected{border-color:#111;background:#f8f8f8}
+.envio-opt input{accent-color:#111;width:16px;height:16px;cursor:pointer;flex-shrink:0}
+.envio-opt-label{font-size:13px;font-weight:600;color:#111}
+.envio-opt-sub{font-size:11px;color:#aaa}
+html.dark .envio-opt{background:#1a1a1a;border-color:#2a2a2a}
+html.dark .envio-opt.selected{border-color:#fff;background:#222}
+html.dark .envio-opt-label{color:#f0f0f0}
+.envio-form{display:flex;flex-direction:column;gap:7px;margin-top:4px}
+.envio-input{width:100%;padding:8px 10px;border-radius:8px;border:1px solid #ddd;font-size:12px;font-family:inherit;background:#fff;color:#111;outline:none}
+.envio-input:focus{border-color:#111}
+.envio-row{display:flex;gap:7px}
+.envio-row .envio-input{flex:1}
+html.dark .envio-input{background:#1a1a1a;border-color:#333;color:#f0f0f0}
+html.dark .envio-input:focus{border-color:#fff}
+
+
 .pagination{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px 0 4px}
 .page-btn{background:#111;color:#fff;border:none;padding:9px 20px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:background .15s}
 .page-btn:hover:not(:disabled){background:#333}
@@ -586,6 +607,40 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
       <button class="cart-xbtn" onclick="closeCart()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
     </div>
     <div id="cart-items"></div>
+    <div id="envio-section" class="envio-section" style="display:none">
+      <div class="envio-title">¿Cómo querés recibir tu pedido?</div>
+      <div class="envio-opts">
+        <label class="envio-opt selected" onclick="selectEnvio('retiro')">
+          <input type="radio" name="envio" value="retiro" checked> 
+          <div><div class="envio-opt-label">🏠 Retiro en persona</div><div class="envio-opt-sub">Sin costo adicional</div></div>
+        </label>
+        <label class="envio-opt" onclick="selectEnvio('ciudad')">
+          <input type="radio" name="envio" value="ciudad">
+          <div><div class="envio-opt-label">🛵 Envío en la ciudad</div><div class="envio-opt-sub">Uber Motos · Costo a coordinar</div></div>
+        </label>
+        <label class="envio-opt" onclick="selectEnvio('argentina')">
+          <input type="radio" name="envio" value="argentina">
+          <div><div class="envio-opt-label">🚚 Envíos en Argentina</div><div class="envio-opt-sub">Correo · Costo a coordinar</div></div>
+        </label>
+      </div>
+      <!-- Formulario ciudad -->
+      <div id="envio-form-ciudad" class="envio-form" style="display:none">
+        <input class="envio-input" id="envio-direccion" placeholder="Dirección (calle y número)">
+        <div class="envio-row">
+          <input class="envio-input" id="envio-dia" type="date" placeholder="Día de entrega">
+          <input class="envio-input" id="envio-horario" placeholder="Horario ej: 14:00-16:00">
+        </div>
+      </div>
+      <!-- Formulario Argentina -->
+      <div id="envio-form-argentina" class="envio-form" style="display:none">
+        <input class="envio-input" id="envio-nombre" placeholder="Nombre completo">
+        <input class="envio-input" id="envio-dir-argentina" placeholder="Dirección completa">
+        <div class="envio-row">
+          <input class="envio-input" id="envio-provincia" placeholder="Provincia">
+          <input class="envio-input" id="envio-cp" placeholder="Código postal">
+        </div>
+      </div>
+    </div>
     <div class="cart-foot" style="display:flex;flex-direction:row;align-items:center;gap:10px">
       <div id="cart-tot-row" class="cart-tot" style="display:none;flex:1;margin-bottom:0;min-width:0">
         <span style="white-space:nowrap">Total</span>
@@ -1052,7 +1107,46 @@ function renderCart() {
   }
 }
 
-function toggleCartItem(key, checked) {
+var _envioTipo = 'retiro';
+
+function selectEnvio(tipo) {
+  _envioTipo = tipo;
+  document.querySelectorAll('.envio-opt').forEach(function(el){ el.classList.remove('selected'); });
+  var radio = document.querySelector('.envio-opt input[value="' + tipo + '"]');
+  if (radio) { radio.checked = true; radio.closest('.envio-opt').classList.add('selected'); }
+  document.getElementById('envio-form-ciudad').style.display    = tipo === 'ciudad'    ? 'flex' : 'none';
+  document.getElementById('envio-form-argentina').style.display = tipo === 'argentina' ? 'flex' : 'none';
+}
+
+function getEnvioData() {
+  if (_envioTipo === 'retiro') {
+    return { texto: '📦 Entrega: Retiro en persona' };
+  } else if (_envioTipo === 'ciudad') {
+    var dir  = document.getElementById('envio-direccion').value.trim();
+    var dia  = document.getElementById('envio-dia').value;
+    var hora = document.getElementById('envio-horario').value.trim();
+    if (!dir) { toast('Ingresá la dirección de entrega'); return null; }
+    if (!dia) { toast('Elegí el día de entrega'); return null; }
+    if (!hora) { toast('Ingresá el horario preferido'); return null; }
+    return { texto: '🛵 Envío en la ciudad (Uber Motos)\n   📍 ' + dir + '\n   📅 ' + dia + '\n   🕐 ' + hora };
+  } else {
+    var nombre = document.getElementById('envio-nombre').value.trim();
+    var dirAr  = document.getElementById('envio-dir-argentina').value.trim();
+    var prov   = document.getElementById('envio-provincia').value.trim();
+    var cp     = document.getElementById('envio-cp').value.trim();
+    if (!nombre || !dirAr || !prov || !cp) { toast('Completá todos los datos de envío'); return null; }
+    return { texto: '🚚 Envío en Argentina\n   👤 ' + nombre + '\n   📍 ' + dirAr + '\n   🗺️ ' + prov + ' · CP: ' + cp };
+  }
+}
+
+function toggleEnvioSection() {
+  var sec = document.getElementById('envio-section');
+  if (!sec) return;
+  var qty = cart.filter(function(i){ return i.selected !== false; }).reduce(function(a,i){ return a + i.qty; }, 0);
+  sec.style.display = qty > 0 ? 'block' : 'none';
+}
+
+
   var i = cart.findIndex(function(x){ return x.key === key; });
   if (i > -1) { cart[i].selected = checked; saveCart(); renderCart(); }
 }
@@ -1068,6 +1162,9 @@ function waCart() {
   var selected = cart.filter(function(i){ return i.selected !== false; });
   if (!selected.length) { toast('No hay productos seleccionados'); return; }
 
+  var envio = getEnvioData();
+  if (!envio) return;
+
   // Preparar items con precio numérico
   var mpItems = [];
   var allPriced = true;
@@ -1079,7 +1176,7 @@ function waCart() {
 
   // Si hay productos sin precio, fallback a WhatsApp
   if (!allPriced || !mpItems.length) {
-    waCartFallback(selected);
+    waCartFallback(selected, envio);
     return;
   }
 
@@ -1089,22 +1186,22 @@ function waCart() {
   fetch(backendUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ items: mpItems }),
+    body: JSON.stringify({ items: mpItems, envio: envio.texto }),
   })
   .then(function(r){ return r.json(); })
   .then(function(data) {
     if (data.init_point) {
       window.location.href = data.init_point;
     } else {
-      waCartFallback(selected);
+      waCartFallback(selected, envio);
     }
   })
   .catch(function() {
-    waCartFallback(selected);
+    waCartFallback(selected, envio);
   });
 }
 
-function waCartFallback(selected) {
+function waCartFallback(selected, envio) {
   var t = '¡Hola! Mi pedido:\n\n';
   var total = 0;
   var allPriced = true;
@@ -1118,11 +1215,12 @@ function waCartFallback(selected) {
       + '   Cantidad: ' + item.qty + '\n\n';
   });
   if (total > 0) t += '💰 *Total estimado: ' + (allPriced ? '' : '≈ ') + formatPrice(total) + '*\n\n';
+  if (envio) t += envio.texto + '\n\n';
   t += '¡Muchas gracias!';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
 
-function openCart() { document.getElementById('cart-drawer').className = 'open'; document.body.style.overflow = 'hidden'; renderCart(); }
+function openCart() { document.getElementById('cart-drawer').className = 'open'; document.body.style.overflow = 'hidden'; renderCart(); toggleEnvioSection(); }
 function closeCart() { document.getElementById('cart-drawer').className = ''; document.body.style.overflow = ''; }
 
 function clearCart() {

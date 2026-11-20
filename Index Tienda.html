@@ -1,0 +1,1567 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- v3 -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<script>
+// Aplicar tema antes de renderizar para evitar flash
+(function(){
+  var t = localStorage.getItem('chapeando_theme');
+  if (t !== 'light') document.documentElement.classList.add('dark');
+})();
+</script>
+<title>✦ Chapeando.VM — Tienda</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222;min-height:100vh;position:relative}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #ddd;padding:10px 20px}
+.header-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.filters{display:flex;gap:8px;padding:2px 0;flex-wrap:wrap;flex:1 1 100%;order:3}
+@media(min-width:600px){.filters{flex:1 1 auto;order:0}}
+.logo img{height:46px;cursor:pointer}
+.filters::-webkit-scrollbar{display:none}
+.filter-btn{background:#eee;border:none;padding:7px 16px;border-radius:999px;font-size:13px;cursor:pointer;white-space:nowrap;font-family:inherit}
+@media(max-width:500px){.filter-btn{padding:5px 12px;font-size:12px}}
+.filter-btn:hover{background:#ddd}
+.filter-btn.active{background:#111;color:#fff}
+.filter-sep{color:#ccc;font-size:14px;padding:0 2px;user-select:none;align-self:center}
+
+/* Sub-categorías minimalistas — eliminado */
+.cart-btn{background:none;border:none;font-size:22px;cursor:pointer;position:relative;padding:6px}
+#cart-count{position:absolute;top:0;right:0;background:red;color:#fff;font-size:10px;width:17px;height:17px;border-radius:50%;display:none;align-items:center;justify-content:center;font-weight:700}
+#cart-count.visible{display:flex}
+
+/* CAT-BAR SLIDER */
+.cat-bar{position:relative;width:100%;aspect-ratio:103/35.19;border-radius:16px;overflow:hidden;margin-bottom:16px;background:#111;cursor:pointer}
+.cat-bar-track{display:flex;width:100%;height:100%;transition:transform .5s ease}
+.cat-bar-slide{flex:0 0 100%;width:100%;height:100%;position:relative;overflow:hidden}
+.cat-bar-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.cat-bar-label{position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px 14px;background:linear-gradient(to top,rgba(0,0,0,.65) 0%,transparent 55%)}
+.cat-bar-label span{color:#fff;font-size:14px;font-weight:700;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.cat-bar-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,.75);border:none;cursor:pointer;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.cat-bar-nav:hover{background:#fff}
+.cat-bar-prev{left:8px}
+.cat-bar-next{right:8px}
+.cat-bar-dots{position:absolute;bottom:7px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10}
+.cat-bar-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.45);border:none;cursor:pointer;padding:0;transition:background .2s}
+.cat-bar-dot.active{background:#fff}
+html.dark .cat-bar{background:#1a1a1a}
+
+
+main{padding:20px;max-width:1600px;margin:0 auto;position:relative}
+main.vintage-bg::before{content:'';position:fixed;inset:0;background:url('Vintages/FONDO%20PARA%20VISTA%20VINTAGE.jpg') center/cover no-repeat;opacity:.22;pointer-events:none;z-index:0}
+html.dark main.vintage-bg::before{opacity:.15}
+main.imanes-bg::before{content:'';position:fixed;inset:0;background:url('Imanes/Fondo,%20Ilustracion,%20Imanes.jpg') center/cover no-repeat;opacity:1;pointer-events:none;z-index:0}
+html.dark main.imanes-bg::before{opacity:1}
+/* BANNER ENVÍO */
+.envio-banner{display:flex;align-items:center;justify-content:center;gap:7px;padding:9px 16px;border-radius:12px;border:1px solid #d1fae5;background:#f0fdf4;margin-bottom:16px;font-size:clamp(9px,2.5vw,12px);color:#555;white-space:nowrap}
+.envio-banner strong{color:#16a34a;font-weight:700}
+html.dark .envio-banner{background:#052e16;border-color:#166534;color:#aaa}
+html.dark .envio-banner strong{color:#4ade80}
+
+
+.sets-bar{margin-bottom:20px}
+.sets-bar-title{font-size:13px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.5px;margin-bottom:8px}
+html.dark .sets-bar-title{color:#555}
+.sets-row{display:flex;gap:10px;overflow-x:auto;padding:0 0 4px;scrollbar-width:none}
+.sets-row::-webkit-scrollbar{display:none}
+.set-card{flex:0 0 160px;border-radius:14px;overflow:hidden;cursor:pointer;background:#111;transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column}
+.set-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.22)}
+.set-card-img{width:100%;height:100px;object-fit:cover;display:block}
+.set-card-body{padding:8px 10px 10px;background:#fff;flex:1;display:flex;flex-direction:column;gap:3px}
+.set-card-name{font-size:12px;font-weight:700;color:#111;line-height:1.3}
+.set-card-desc{font-size:10px;color:#888;line-height:1.4}
+.set-card-price{font-size:12px;font-weight:700;color:#111;margin-top:4px}
+html.dark .set-card{background:#1a1a1a}
+html.dark .set-card-body{background:#1a1a1a}
+html.dark .set-card-name{color:#f0f0f0}
+html.dark .set-card-desc{color:#666}
+html.dark .set-card-price{color:#f0f0f0}
+
+/* MENÚ DE TEMAS */
+.themes-menu{display:flex;flex-direction:row;gap:8px;overflow-x:auto;padding:0 0 4px;margin-bottom:20px;scrollbar-width:none}
+.themes-menu::-webkit-scrollbar{display:none}
+.themes-menu-item{flex:0 0 auto;display:flex;align-items:center;gap:7px;padding:6px 14px 6px 6px;border-radius:999px;background:#fff;border:1px solid #eee;cursor:pointer;font-size:12px;font-weight:600;color:#111;transition:background .15s;user-select:none;white-space:nowrap}
+.themes-menu-item:hover{background:#f0f0f0}
+.themes-menu-item:active{background:#e5e5e5}
+.themes-menu-thumb{width:28px;height:28px;border-radius:50%;background:#eee;overflow:hidden;flex-shrink:0}
+.themes-menu-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.themes-menu-chevron{display:none}
+html.dark .themes-menu-item{background:#1a1a1a;border-color:#2a2a2a;color:#f0f0f0}
+html.dark .themes-menu-item:hover{background:#222}
+html.dark .themes-menu-thumb{background:#2a2a2a}
+
+/* VISTA CATEGORÍA */
+.cat-view-header{display:none;align-items:center;gap:10px;margin-bottom:16px}
+.cat-view-back{background:none;border:none;cursor:pointer;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#f0f0f0;flex-shrink:0}
+.cat-view-back:hover{background:#e0e0e0}
+.cat-view-title{font-size:18px;font-weight:800;color:#111}
+html.dark .cat-view-back{background:#2a2a2a}
+html.dark .cat-view-back:hover{background:#333}
+html.dark .cat-view-title{color:#f0f0f0}
+
+
+/* PAGINACIÓN */
+.pagination{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px 0 4px}
+.page-btn{background:#111;color:#fff;border:none;padding:9px 20px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:background .15s}
+.page-btn:hover:not(:disabled){background:#333}
+.page-btn:disabled{background:#ccc;cursor:default}
+.page-info{font-size:13px;color:#888;min-width:80px;text-align:center}
+html.dark .page-btn{background:#f0f0f0;color:#111}
+html.dark .page-btn:hover:not(:disabled){background:#ddd}
+html.dark .page-btn:disabled{background:#333;color:#666}
+html.dark .page-info{color:#666}
+
+.ver-mas-wrap{text-align:center;padding:16px 0 4px}
+.ver-mas-btn{background:#111;color:#fff;border:none;padding:11px 32px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:background .15s}
+.ver-mas-btn:hover{background:#333}
+html.dark .ver-mas-btn{background:#f0f0f0;color:#111}
+html.dark .ver-mas-btn:hover{background:#ddd}
+
+/* SECCIÓN NUMERACIONES */
+.section-block{margin-top:28px}
+.section-block-title{font-size:15px;font-weight:800;color:#111;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #eee}
+html.dark .section-block-title{color:#f0f0f0;border-bottom-color:#2a2a2a}
+
+
+.grid{columns:2;column-gap:12px}
+@media(min-width:600px){.grid{columns:3}}
+@media(min-width:900px){.grid{columns:4}}
+@media(min-width:1200px){.grid{columns:5}}
+/* Grid inicio: 4 tarjetas 1:1 */
+.grid--home{columns:unset;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:600px){.grid--home{grid-template-columns:repeat(4,1fr)}}
+.grid--home .card{margin-bottom:0}
+.grid--home .card-img-wrap{aspect-ratio:1/1}
+.grid--home .card-img-wrap img,.grid--home .card-img-wrap .card-img-main{width:100%;height:100%;object-fit:cover}
+.grid--imanes{columns:3;column-gap:8px}
+@media(min-width:600px){.grid--imanes{columns:4}}
+@media(min-width:900px){.grid--imanes{columns:5}}
+@media(min-width:1200px){.grid--imanes{columns:6}}
+.card{break-inside:avoid;margin-bottom:12px;border-radius:16px;overflow:hidden;cursor:pointer;position:relative;background:#111;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.card img:not(.iman-frame){width:100%;height:auto;display:block}
+/* Fondo amarillo imanes */
+.card-iman-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s;z-index:1}
+.card.iman:hover .card-iman-bg{opacity:1}
+/* Imagen principal */
+.card-img-main{width:100%;height:auto;display:block;position:relative;z-index:2;transition:opacity .25s}
+/* En hover de iman: wrap flota centrada encima del fondo — manejado por .iman-wrap */
+/* Placeholder invisible que sostiene la altura del card en hover */
+.card.iman .card-img-placeholder{display:block;width:100%;visibility:hidden}
+.card.iman:not(:hover) .card-img-placeholder{display:none}
+/* Hover swap señalitica */
+.card-img-hover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s;z-index:2}
+.card.has-hover:hover .card-img-main{opacity:0}
+.card.has-hover:hover .card-img-hover{opacity:1}
+/* Panel de info visible siempre debajo de la imagen */
+.card-overlay{position:static;background:#fff;opacity:1;display:flex;flex-direction:column;padding:10px 12px 0;pointer-events:auto;border-radius:0;flex:1}
+html.dark .card-overlay{background:#1a1a1a}
+.card-overlay-info{flex-grow:1;display:flex;flex-direction:column;justify-content:flex-start;gap:4px}
+.card-overlay-title{font-size:13px;font-weight:700;color:#111;line-height:1.3}
+html.dark .card-overlay-title{color:#f0f0f0}
+.card-overlay-meta{font-size:11px;color:#555;display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+html.dark .card-overlay-meta{color:#999}
+.card-overlay-tag{background:#f0f0f0;padding:2px 8px;border-radius:999px;white-space:nowrap;color:#333}
+html.dark .card-overlay-tag{background:#2a2a2a;color:#ccc}
+.card-overlay-btns{display:flex;flex-direction:row;gap:5px;align-items:center;margin-top:0;width:100%;padding:8px 12px 12px;background:#fff;border-radius:0 0 16px 16px}
+html.dark .card-overlay-btns{background:#1a1a1a}
+.card-btn-cart{width:30px;height:30px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;position:absolute;bottom:8px;right:8px;z-index:5;overflow:hidden;padding:0;opacity:0.6;transition:opacity .2s,transform .2s}
+.card-btn-cart:hover{opacity:1;transform:scale(1.08)}
+.card-btn-cart:hover{background:#333}
+.card-btn-detail{background:#25d366;border:none;cursor:pointer;padding:0 10px;height:32px;border-radius:999px;font-size:clamp(10px,2vw,12px);font-weight:600;color:#fff;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:4px;box-shadow:0 2px 6px rgba(0,0,0,.2);white-space:nowrap;width:100%}
+.card-btn-detail:hover{background:#1ebe5a}
+
+/* Marco para imanes — sobre la imagen del imán únicamente */
+.iman-wrap{position:relative;display:block}
+.card.iman:hover .iman-wrap{position:absolute;width:55%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3}
+.iman-wrap img:not(.iman-frame){display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.iman-frame{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:fill;pointer-events:none;z-index:2}
+/* Modal iman-wrap */
+.gallery-slide .iman-wrap{width:62%;flex-shrink:0;z-index:2}
+.gallery-slide .iman-wrap img:not(.iman-frame){display:block;width:100%;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
+.perforaciones{position:absolute;inset:0;pointer-events:none;border-radius:16px;z-index:5}
+.perf{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;border:1px solid #bbb}
+.perf-tl{top:5px;left:5px}
+.perf-tr{top:5px;right:5px}
+.perf-bl{bottom:5px;left:5px}
+.perf-br{bottom:5px;right:5px}
+#modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);align-items:flex-start;justify-content:center;padding:8px;overflow-y:auto}
+.modal-box{background:#fff;border-radius:20px;width:100%;max-width:900px;min-height:calc(100dvh - 16px);overflow:hidden;display:flex;flex-direction:column;position:relative}
+@media(min-width:650px){.modal-box{flex-direction:row;min-height:unset;max-height:calc(100dvh - 16px);overflow:hidden}}
+.modal-btn-close{position:absolute;top:10px;left:10px;z-index:10;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.5);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.modal-left{background:#111;position:relative;overflow:hidden;flex-shrink:0;width:100%;height:52vw;min-height:200px;display:flex;align-items:center;justify-content:center}@media(min-width:650px){.modal-left{width:auto;flex:0 0 auto;height:85vh;max-height:85vh;max-width:55%;min-width:300px;min-height:unset}}
+/* Galería en modal */
+.gallery-track{position:relative;width:100%;height:100%;overflow:hidden}
+.gallery-slide{position:absolute;inset:0;opacity:0;transition:opacity .3s ease;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.gallery-slide.active{opacity:1}
+.gallery-slide img{max-width:88%;max-height:88%;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);position:relative;z-index:1}
+.gallery-slide .iman-bg{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;border-radius:0;box-shadow:none;z-index:0}
+.gallery-slide .iman-img{position:relative;z-index:2;max-width:75%;max-height:75%;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)}
+.gallery-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,.85);border:none;cursor:pointer;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+@media(max-width:649px){.gallery-nav{display:none}}
+.gallery-nav:hover{background:#fff}
+.gallery-prev{left:8px}
+.gallery-next{right:8px}
+.gallery-dots{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10}
+.gallery-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.4);cursor:pointer;border:none;transition:background .2s;padding:0}
+.gallery-dot.active{background:#fff}
+.modal-right{flex:1 1 auto;padding:16px;display:flex;flex-direction:column;justify-content:space-between;overflow-y:auto;min-height:0}
+.modal-cat{font-size:10px;text-transform:uppercase;font-weight:700;color:#999;background:#f3f3f3;padding:2px 8px;border-radius:999px;display:inline-block}
+.modal-id{font-size:10px;color:#aaa}
+.modal-title{font-size:16px;font-weight:700;margin:6px 0 10px}
+
+/* Specs compactos */
+.specs{display:flex;flex-direction:column;gap:5px;margin-bottom:12px}
+.spec{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;background:#f8f8f8;border:1px solid #eee}
+.spec-icon{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:6px;flex-shrink:0}
+.spec-label{font-size:9px;text-transform:uppercase;font-weight:700;color:#aaa;line-height:1}
+.spec-val{font-size:12px;font-weight:600;color:#222;line-height:1.2}
+
+/* Botones */
+.modal-actions{display:flex;flex-direction:column;gap:8px}
+.btn{width:100%;border:none;padding:11px;border-radius:12px;font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;font-family:inherit}
+.btn-gray{background:#eee;color:#111}
+.btn-gray:hover{background:#ddd}
+.btn-green{background:#25d366;color:#fff}
+.btn-green:hover{background:#1ebe5a}
+
+/* CARRITO */
+#cart-drawer{display:none;position:fixed;inset:0;z-index:200}
+#cart-drawer.open{display:block}
+#cart-bg{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+#cart-panel{position:absolute;top:0;right:0;width:100%;max-width:400px;height:100%;background:#fff;display:flex;flex-direction:column;box-shadow:-4px 0 20px rgba(0,0,0,.15)}
+.cart-head{padding:18px 20px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
+.cart-head h3{font-size:16px;font-weight:700}
+.cart-xbtn{background:none;border:none;font-size:20px;cursor:pointer;color:#999}
+#cart-items{flex-grow:1;padding:16px 20px;overflow-y:auto}
+.cart-foot{padding:16px 20px;border-top:1px solid #eee;background:#f9f9f9}
+.cart-tot{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#666;padding:10px 12px;background:#f0f0f0;border-radius:10px;font-weight:400;margin-bottom:0}
+.cart-tot span:last-child{font-size:14px;font-weight:600;color:#111}
+.cart-sena{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#888;margin-bottom:12px;padding:7px 12px;background:#fff8e1;border:1px dashed #f0c040;border-radius:8px}
+.cart-sena span:last-child{font-weight:700;color:#b8860b}
+html.dark .cart-tot{background:#1e1e1e;color:#aaa}
+html.dark .cart-tot span:last-child{color:#f0f0f0}
+html.dark .cart-sena{background:#1a1700;border-color:#6b5a00;color:#aaa}
+html.dark .cart-sena span:last-child{color:#f0c040}
+.cart-item{display:flex;gap:10px;align-items:center;background:#f8f8f8;border:1px solid #eee;border-radius:12px;padding:9px;margin-bottom:8px;transition:opacity .2s}
+.cart-item.deselected{opacity:.45}
+.ci-check{flex-shrink:0;width:20px;height:20px;accent-color:#111;cursor:pointer}
+.cart-item img{width:54px;height:54px;object-fit:cover;border-radius:8px;flex-shrink:0}
+.ci-info{flex-grow:1;min-width:0}
+.ci-title{font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ci-sub{font-size:11px;color:#aaa}
+.ci-qty{display:flex;align-items:center;gap:5px;margin-top:5px}
+.qbtn{width:22px;height:22px;border-radius:5px;background:#fff;border:1px solid #ddd;font-size:14px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.qnum{font-size:12px;font-weight:700;min-width:14px;text-align:center}
+.ci-del{background:none;border:none;cursor:pointer;font-size:14px;color:#ccc;padding:4px}
+.ci-del:hover{color:red}
+.empty-cart{text-align:center;padding:40px 0;color:#aaa;font-size:13px}
+.empty-cart div{font-size:32px;margin-bottom:8px}
+
+/* TOAST */
+#toast{position:fixed;bottom:20px;right:20px;z-index:300;background:#111;color:#fff;padding:11px 18px;border-radius:12px;font-size:13px;display:flex;align-items:center;gap:8px;transform:translateY(60px);opacity:0;transition:all .3s;pointer-events:none}
+#toast.show{transform:translateY(0);opacity:1}
+
+/* ABOUT MODAL */
+#about-modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.75);align-items:center;justify-content:center;padding:16px;overflow-y:auto}
+#about-modal.open{display:flex}
+.about-box{background:#fff;border-radius:20px;width:100%;max-width:520px;max-height:calc(100dvh - 32px);overflow-y:auto;position:relative;padding:28px 24px 24px}
+.about-close{position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:50%;background:#f3f3f3;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#666}
+.about-close:hover{background:#e0e0e0}
+/* Theme toggle */
+.theme-toggle{position:absolute;top:12px;left:12px;display:flex;align-items:center;gap:7px;cursor:pointer;user-select:none}
+.theme-toggle input{display:none}
+.toggle-track{width:36px;height:20px;border-radius:999px;background:#ccc;position:relative;transition:background .25s;flex-shrink:0}
+.toggle-thumb{position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .25s;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.theme-toggle input:checked ~ .toggle-track{background:#3b82f6}
+.theme-toggle input:checked ~ .toggle-track .toggle-thumb{transform:translateX(16px)}
+.toggle-label{font-size:11px;font-weight:700;color:#aaa}
+/* Modo oscuro via clase en <html> */
+html.dark body{background:#0d0d0d;color:#e8e8e8}
+html.dark header{background:#161616;border-bottom-color:#2a2a2a}
+html.dark .filter-btn{background:#222;border:1px solid #333;color:#ccc}
+html.dark .filter-btn:hover{background:#2e2e2e;color:#fff}
+html.dark .filter-btn.active{background:#fff;color:#111;border-color:#fff}
+html.dark .filter-sep{color:#444}
+html.dark .cart-btn{color:#e8e8e8}
+html.dark .card{background:#1a1a1a}
+html.dark .card:hover{box-shadow:0 8px 32px rgba(0,0,0,.6)}
+html.dark .card-btn-cart{background:#fff;color:#111}
+html.dark .card-btn-cart:hover{background:#e8e8e8}
+html.dark .modal-box{background:#1a1a1a;border:1px solid #2a2a2a}
+html.dark .modal-cat{color:#888;background:#252525}
+html.dark .modal-id{color:#666}
+html.dark .modal-title{color:#f0f0f0}
+html.dark .spec{background:#222;border-color:#2e2e2e}
+html.dark .spec-label{color:#666}
+html.dark .spec-val{color:#e0e0e0}
+html.dark #price-row{background:#1a1a2e;border-color:#2a2a4a}
+html.dark #price-row .spec-label{color:#555}
+html.dark #m-price{color:#818cf8}
+html.dark .btn-gray{background:#2a2a2a;color:#e0e0e0;border:1px solid #383838}
+html.dark .btn-gray:hover{background:#333}
+html.dark .gallery-nav{background:rgba(255,255,255,.15)}
+html.dark .gallery-nav:hover{background:rgba(255,255,255,.25)}
+html.dark #cart-panel{background:#161616;border-left:1px solid #2a2a2a}
+html.dark .cart-head{border-bottom-color:#2a2a2a}
+html.dark .cart-head h3{color:#f0f0f0}
+html.dark .cart-xbtn{color:#666}
+html.dark .cart-xbtn:hover{color:#ccc}
+html.dark .cart-foot{background:#111;border-top-color:#2a2a2a}
+html.dark .cart-item{background:#1e1e1e;border-color:#2a2a2a}
+html.dark .ci-title{color:#f0f0f0}
+html.dark .ci-sub{color:#666}
+html.dark .qbtn{background:#2a2a2a;border-color:#383838;color:#e0e0e0}
+html.dark .qbtn:hover{background:#333}
+html.dark .qnum{color:#f0f0f0}
+html.dark .ci-del{color:#444}
+html.dark .ci-del:hover{color:#e53935}
+html.dark .empty-cart{color:#555}
+html.dark #toast{background:#f0f0f0;color:#111}
+html.dark .about-box{background:#161616;border:1px solid #2a2a2a}
+html.dark .about-close{background:#222;color:#888}
+html.dark .about-close:hover{background:#2e2e2e;color:#ccc}
+html.dark .about-title{color:#f0f0f0}
+html.dark .about-subtitle{color:#666}
+html.dark .about-divider{border-top-color:#2a2a2a}
+html.dark .about-section-title{color:#555}
+html.dark .about-text{color:#aaa}
+html.dark .about-badge{background:#222;border:1px solid #2e2e2e;color:#ccc}
+html.dark .ig-item{background:#222}
+html.dark .ig-nav{background:#222;border-color:#333;color:#ccc}
+html.dark .ig-nav:hover{background:#2e2e2e}
+html.dark .toggle-label{color:#aaa}
+html.dark .modal-btn-close{background:rgba(255,255,255,.12)}
+html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
+.about-logo{display:flex;justify-content:center;margin-bottom:20px}
+.about-logo img{height:60px}
+.about-foto{width:100%;max-height:220px;object-fit:cover;border-radius:14px;margin-bottom:20px;display:block}
+.about-title{font-size:20px;font-weight:800;color:#111;margin-bottom:6px;text-align:center}
+.about-subtitle{font-size:13px;color:#888;text-align:center;margin-bottom:20px}
+.about-divider{border:none;border-top:1px solid #eee;margin:16px 0}
+.about-section{margin-bottom:16px}
+.about-section-title{font-size:11px;font-weight:700;text-transform:uppercase;color:#aaa;margin-bottom:6px}
+.about-text{font-size:14px;color:#444;line-height:1.6}
+.about-badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.about-badge{background:#f3f3f3;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:600;color:#333;display:flex;align-items:center;gap:5px}
+.about-wa{width:100%;margin-top:20px;background:#25d366;color:#fff;border:none;padding:13px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;font-family:inherit}
+.about-wa:hover{background:#1ebe5a}
+
+/* Galería Instagram */
+.ig-gallery{position:relative;width:100%;margin-bottom:20px;display:flex;align-items:center;gap:6px}
+.ig-track{display:flex;gap:6px;overflow:hidden;flex:1;transition:transform .3s ease}
+.ig-item{flex:0 0 calc(33.333% - 4px);aspect-ratio:1/1;border-radius:10px;overflow:hidden;position:relative;display:block;background:#f3f3f3}
+.ig-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+.ig-item:hover img{transform:scale(1.05)}
+.ig-overlay{position:absolute;inset:0;background:rgba(0,0,0,0);display:flex;align-items:center;justify-content:center;transition:background .2s;opacity:0}
+.ig-item:hover .ig-overlay{background:rgba(0,0,0,.35);opacity:1}
+.ig-nav{background:#fff;border:1px solid #eee;border-radius:50%;width:28px;height:28px;flex-shrink:0;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.1);line-height:1;padding:0}
+.ig-nav:hover{background:#f3f3f3}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo" onclick="openAbout()">
+      <img src="logo.png" alt="Chapeando">
+    </div>
+    <button class="cart-btn" onclick="openCart()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span id="cart-count">0</span></button>
+  </div>
+</header>
+
+<main>
+  <div id="cat-bar" class="cat-bar"></div>
+  <div class="envio-banner">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="1.5"/><circle cx="18.5" cy="18.5" r="1.5"/></svg>
+    Envíos gratis a partir de compras superiores a <strong>$70.000</strong>
+  </div>
+  <div id="sets-bar" class="sets-bar" style="display:none">
+    <div class="sets-bar-title">Mejor Juntos (Sets)</div>
+    <div class="sets-row" id="sets-row"></div>
+  </div>
+  <div id="themes-section" style="display:none">
+    <div style="font-size:13px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.5px;margin-bottom:8px">Categorías</div>
+    <div id="themes-menu" class="themes-menu">
+    <div class="themes-menu-item" onclick="filterCat('catalogo',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Todos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('mundial',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Mundial</span></div>
+    <div class="themes-menu-item" onclick="filterCat('parrilla',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Parrilla y Asado</span></div>
+    <div class="themes-menu-item" onclick="filterCat('vehiculos',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Vehículos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('deco',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Deco</span></div>
+    <div class="themes-menu-item" onclick="filterCat('musica',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Música</span></div>
+    <div class="themes-menu-item" onclick="filterCat('cine',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Cine</span></div>
+    <div class="themes-menu-item" onclick="filterCat('rutas',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Rutas y Señales</span></div>
+    <div class="themes-menu-item" onclick="filterCat('publicidades',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Publicidades Vintage</span></div>
+    <div class="themes-menu-item" onclick="filterCat('bebidas',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Bebidas</span></div>
+    <div class="themes-menu-item" onclick="filterCat('infantil',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Infantil y Juvenil</span></div>
+    <div class="themes-menu-item" onclick="filterCat('deportes',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Deportes</span></div>
+    <div class="themes-menu-item" onclick="filterCat('argentina',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Argentina</span></div>
+    <div class="themes-menu-item" onclick="filterCat('carteles',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Carteles Clásicos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('dias-especiales',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Días Especiales</span></div>
+    <div class="themes-menu-item" onclick="filterCat('calendarios',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Calendarios Perpetuos</span></div>
+  </div>
+  </div>
+  <div id="cat-view-header" class="cat-view-header">
+    <button class="cat-view-back" onclick="filterCat('all',null)">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div id="cat-view-title" class="cat-view-title"></div>
+  </div>
+  <div id="grid" class="grid"></div>
+  <div id="ver-mas-wrap" class="ver-mas-wrap" style="display:none">
+    <button class="ver-mas-btn" onclick="filterCat('catalogo',null)">Ver más</button>
+  </div>
+  <div id="pagination" class="pagination" style="display:none">
+    <button class="page-btn" id="page-prev" onclick="changePage(-1)">← Anterior</button>
+    <span class="page-info" id="page-info"></span>
+    <button class="page-btn" id="page-next" onclick="changePage(1)">Siguiente →</button>
+  </div>
+  <div id="section-numeraciones" class="section-block" style="display:none">
+    <div class="section-block-title">Numeraciones</div>
+    <div id="grid-numeraciones" class="grid grid--home"></div>
+    <div id="ver-mas-numeraciones" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="filterCat('numeracion',null)">Ver más</button></div>
+  </div>
+  <div id="section-deco" class="section-block" style="display:none">
+    <div class="section-block-title">Deco</div>
+    <div id="grid-deco" class="grid grid--home"></div>
+    <div id="ver-mas-deco" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="filterCat('deco',null)">Ver más</button></div>
+  </div>
+  <div id="section-personalizados" class="section-block" style="display:none">
+    <div class="section-block-title">Personaliza Tú Chapa</div>
+    <div id="grid-personalizados" class="grid grid--home"></div>
+    <div id="ver-mas-personalizados" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="filterCat('personalizados',null)">Ver más</button></div>
+  </div>
+  <div id="section-señalitica" class="section-block" style="display:none">
+    <div class="section-block-title">Señalítica</div>
+    <div id="grid-señalitica" class="grid grid--home"></div>
+    <div id="ver-mas-señalitica" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="filterCat('señalitica',null)">Ver más</button></div>
+  </div>
+</main>
+
+<!-- ABOUT MODAL -->
+<div id="about-modal" onclick="closeAbout()">
+  <div class="about-box" onclick="event.stopPropagation()">
+    <button class="about-close" onclick="closeAbout()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <label class="theme-toggle" title="Modo oscuro">
+      <input type="checkbox" id="theme-chk" onchange="toggleTheme(this.checked)">
+      <div class="toggle-track"><div class="toggle-thumb"></div></div>
+      <span class="toggle-label">🌙</span>
+    </label>
+
+    <div class="about-logo">
+      <img src="logo.png" alt="Chapeando">
+    </div>
+
+    <!-- Galería Instagram -->
+    <div class="ig-gallery" id="ig-gallery">
+      <button class="ig-nav ig-prev" onclick="igNav(-1)">&#8249;</button>
+      <div class="ig-track" id="ig-track">
+        <a class="ig-item" href="https://www.instagram.com/chapeando.vm" target="_blank">
+          <img src="Post/WhatsApp Image 2026-11-11 at 4.36.31 PM.jpeg" alt="Post Instagram">
+          <div class="ig-overlay"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg></div>
+        </a>
+        <a class="ig-item" href="https://www.instagram.com/chapeando.vm" target="_blank">
+          <img src="Post/WhatsApp Image 2026-11-11 at 8.34.29 PM.jpeg" alt="Post Instagram">
+          <div class="ig-overlay"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg></div>
+        </a>
+        <a class="ig-item" href="https://www.instagram.com/chapeando.vm" target="_blank">
+          <img src="Post/WhatsApp Image 2026-11-11 at 8.54.12 PM.jpeg" alt="Post Instagram">
+          <div class="ig-overlay"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg></div>
+        </a>
+        <a class="ig-item" href="https://www.instagram.com/chapeando.vm" target="_blank">
+          <img src="Post/WhatsApp Image 2026-11-12 at 1.32.33 PM.jpeg" alt="Post Instagram">
+          <div class="ig-overlay"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg></div>
+        </a>
+      </div>
+      <button class="ig-nav ig-next" onclick="igNav(1)">&#8250;</button>
+    </div>
+
+    <div class="about-title">Chapeando · Deco & Estilo</div>
+    <div class="about-subtitle">📍 Villa Mercedes, San Luis · 2026</div>
+
+    <hr class="about-divider">
+
+    <div class="about-section">
+      <div class="about-section-title">¿Quiénes somos?</div>
+      <div class="about-text">
+        Somos Chapeando, un emprendimiento apasionado por el diseño, la decoración y el arte estampado sobre metal. Nacimos con la idea de transformar paredes, rincones y objetos cotidianos en piezas con carácter propio, cuidando cada detalle desde el diseño digital hasta la terminación final. Combinamos creatividad, impresión de alta definición y dedicación artesanal para crear productos duraderos y llenos de estilo.
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="about-section-title">¿Qué hacemos?</div>
+      <div class="about-text">
+        Nos especializamos en la fabricación de chapas decorativas de aluminio y productos personalizados. Creamos carteles de estilo vintage, ilustraciones, imanes, letreros y placas con colores vibrantes y gran resistencia, ideales para decorar hogares, talleres, bares, locales comerciales o hacer un regalo original. Trabajamos tanto con diseños propios listos para colgar como con pedidos 100 % personalizados con fotos, frases, logos o temáticas a medida.
+      </div>
+    </div>
+
+    <hr class="about-divider">
+
+    <div class="about-badges">
+      <div class="about-badge">✏️ Se realizan personalizados.</div>
+      <div class="about-badge">🛵 Retirar o envíos por Uber Motos.</div>
+      <div class="about-badge">🚚 Envíos a todo el país</div>
+    </div>
+
+    <button class="about-wa" onclick="contactoWa()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.306A9.943 9.943 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.049-1.106l-.29-.173-3.005.788.803-2.927-.19-.302A7.952 7.952 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg>
+      Contactanos por WhatsApp
+    </button>
+    <a href="https://instagram.com/chapeando.vm" target="_blank" style="width:100%;margin-top:10px;background:#111;color:#fff;border:none;padding:13px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;font-family:inherit;text-decoration:none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg>
+      @chapeando.vm
+    </a>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div id="modal" onclick="closeModal()">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <button class="modal-btn-close" onclick="closeModal()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-left">
+      <div class="gallery-track" id="gallery-track">
+        <!-- slides se generan dinámicamente -->
+      </div>
+      <button class="gallery-nav gallery-prev" onclick="galleryNav(-1)">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="gallery-nav gallery-next" onclick="galleryNav(1)">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+      <div class="gallery-dots" id="gallery-dots"></div>
+    </div>
+    <div class="modal-right">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span id="m-cat" class="modal-cat"></span>
+          <span id="m-id" class="modal-id"></span>
+        </div>
+        <div id="m-title" class="modal-title"></div>
+
+        <div class="specs">
+          <div class="spec">
+            <div class="spec-icon" style="background:#eff6ff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 21H3"/><path d="M21 3v18"/><path d="M3 21L21 3"/></svg></div>
+            <div><div class="spec-label">Tamaño</div><div id="m-size" class="spec-val"></div></div>
+          </div>
+          <div class="spec">
+            <div class="spec-icon" style="background:#fffbeb"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-4 0v2"/><path d="M8 7V5a2 2 0 00-4 0v2"/></svg></div>
+            <div><div id="m-mat-label" class="spec-label">Material</div><div id="m-mat" class="spec-val"></div></div>
+          </div>
+          <div class="spec">
+            <div class="spec-icon" style="background:#f0fdf4"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
+            <div><div class="spec-label">Unidad</div><div id="m-unit" class="spec-val"></div></div>
+          </div>
+          <div id="spec-perf-wrap" class="spec">
+            <div class="spec-icon" style="background:#f5f3ff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="5" r="1.5"/><circle cx="19" cy="5" r="1.5"/><circle cx="5" cy="19" r="1.5"/><circle cx="19" cy="19" r="1.5"/></svg></div>
+            <div><div class="spec-label">Perforaciones</div><div class="spec-val">4 (una por esquina)</div></div>
+          </div>
+          <div id="price-row" class="spec" style="background:#111;border-color:#111">            <div class="spec-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+            <div><div class="spec-label" style="color:#666">Precio</div><div id="m-price" class="spec-val" style="font-size:18px;font-weight:700;color:#fff"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-gray" onclick="addCart()"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg> Agregar al carrito</button>
+        <button class="btn btn-green" onclick="waProduct()"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.306A9.943 9.943 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.049-1.106l-.29-.173-3.005.788.803-2.927-.19-.302A7.952 7.952 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg> Realizar Pedido</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CARRITO -->
+<div id="cart-drawer">
+  <div id="cart-bg" onclick="closeCart()"></div>
+  <div id="cart-panel">
+    <div class="cart-head">
+      <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:6px"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>Carrito de Compras</h3>
+      <button class="cart-xbtn" onclick="closeCart()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div id="cart-items"></div>
+    <div class="cart-foot" style="display:flex;flex-direction:row;align-items:center;gap:10px">
+      <div id="cart-tot-row" class="cart-tot" style="display:none;flex:1;margin-bottom:0;min-width:0">
+        <span style="white-space:nowrap">Total</span>
+        <span id="cart-total-val" style="white-space:nowrap"></span>
+      </div>
+      <button class="btn btn-green" onclick="waCart()" style="flex:1;white-space:nowrap">Continuar (<span id="cart-selected-count">0</span>)</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"><span style="color:#4ade80"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span id="toast-msg"></span></div>
+
+<!-- Datos de productos (editá productos.js para cambiar nombres, precios y tamaños) -->
+<script src="productos.js?v=2"></script>
+
+<script>
+const WA = "5492657640076";
+const SITE = "https://superimprimibles.github.io/catalogo-chapeando";
+
+// ── TEMA ─────────────────────────────────────────────────────
+function toggleTheme(dark) {
+  document.documentElement.classList.toggle('dark', dark);
+  localStorage.setItem('chapeando_theme', dark ? 'dark' : 'light');
+  var chk = document.getElementById('theme-chk');
+  if (chk) chk.checked = dark;
+}
+// Inicializar: oscuro por defecto salvo que el usuario eligió claro antes
+(function(){
+  var saved = localStorage.getItem('chapeando_theme');
+  var isDark = saved ? saved === 'dark' : true;
+  toggleTheme(isDark);
+})();
+
+var cart = [];
+
+// Restaurar carrito desde localStorage
+try {
+  var saved = localStorage.getItem('chapeando_cart');
+  if (saved) cart = JSON.parse(saved);
+} catch(e) { cart = []; }
+
+function openAbout() {
+  document.getElementById('about-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+var igOffset = 0;
+function igNav(dir) {
+  var track = document.getElementById('ig-track');
+  var items = track.querySelectorAll('.ig-item');
+  var total = items.length;
+  var visible = 3;
+  var max = total - visible;
+  igOffset = Math.max(0, Math.min(igOffset + dir, max));
+  var pct = igOffset * (100 / visible);
+  track.style.transform = 'translateX(-' + pct + '%)';
+}
+function closeAbout() {
+  document.getElementById('about-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function contactoWa() {
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent('¡Hola! Vi su catálogo y quería consultarles algo.'), '_blank');
+}
+
+function saveCart() {
+  try { localStorage.setItem('chapeando_cart', JSON.stringify(cart)); } catch(e) {}
+}
+
+var _gridLimit = 8;
+var _gridList = [];
+var _gridPage = 0;
+var _pageSize = 50;
+var _usePagination = false;
+
+function render(list) {
+  _gridList = list;
+  _gridPage = 0;
+  if (_usePagination) {
+    renderPage();
+  } else {
+    renderGrid();
+  }
+}
+
+function renderGrid() {
+  var g = document.getElementById('grid');
+  g.innerHTML = '';
+  var visible = _gridList.slice(0, _gridLimit);
+  visible.forEach(function(item) { appendCard(g, item); });
+  syncImanFrames();
+
+  var wrap = document.getElementById('ver-mas-wrap');
+  var pag  = document.getElementById('pagination');
+  if (wrap) wrap.style.display = _gridList.length > _gridLimit ? 'block' : 'none';
+  if (pag)  pag.style.display = 'none';
+}
+
+function renderPage() {
+  var g = document.getElementById('grid');
+  g.innerHTML = '';
+  var start = _gridPage * _pageSize;
+  var end = Math.min(start + _pageSize, _gridList.length);
+  _gridList.slice(start, end).forEach(function(item){ appendCard(g, item); });
+  syncImanFrames();
+
+  var totalPages = Math.ceil(_gridList.length / _pageSize);
+  var pag  = document.getElementById('pagination');
+  var info = document.getElementById('page-info');
+  var prev = document.getElementById('page-prev');
+  var next = document.getElementById('page-next');
+  var wrap = document.getElementById('ver-mas-wrap');
+  if (wrap) wrap.style.display = 'none';
+  if (pag) {
+    pag.style.display = totalPages > 1 ? 'flex' : 'none';
+    if (info) info.textContent = (_gridPage + 1) + ' / ' + totalPages;
+    if (prev) prev.disabled = _gridPage === 0;
+    if (next) next.disabled = _gridPage >= totalPages - 1;
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function changePage(dir) {
+  var totalPages = Math.ceil(_gridList.length / _pageSize);
+  _gridPage = Math.max(0, Math.min(_gridPage + dir, totalPages - 1));
+  renderPage();
+}
+
+function verMas() {
+  _gridLimit += 8;
+  renderGrid();
+  if (_gridLimit >= _gridList.length) {
+    var wrap = document.getElementById('ver-mas-wrap');
+    if (wrap) wrap.style.display = 'none';
+  }
+}
+
+function appendCard(g, item) {
+  var d = document.createElement('div');
+    d.className = 'card';
+    var perfs = item.cat === 'ilustraciones'
+      ? '<div class="perforaciones"><div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div></div>'
+      : '';
+
+    // Tarjeta especial Mini Imanes — eliminada
+
+    var img2 = (item.gallery && item.gallery.length > 1) ? item.gallery[1] : null;
+    var imanBg = item.cat === 'imanes' ? '<img src="Imanes/Fondo, Ilustracion, Imanes.jpg" class="card-iman-bg" alt="">' : '';
+    var imanMarco = '';
+    var hasHover = img2 || item.cat === 'imanes';
+    d.className = 'card' + (item.cat === 'imanes' ? ' iman' : '') + (hasHover && item.cat !== 'imanes' ? ' has-hover' : '');
+    d.innerHTML = '<div class="card-img-wrap" style="position:relative;overflow:hidden;border-radius:16px 16px 0 0;background:#000;flex-shrink:0">'
+      + (item.cat === 'imanes'
+        ? '<div class="iman-wrap"><img src="' + item.img + '" alt="' + item.title + '" loading="lazy"><img class="iman-frame" src="Imanes/Marco para imanes.png" alt=""></div>'
+        : '<img src="' + item.img + '" alt="' + item.title + '" loading="lazy" class="card-img-main">')
+      + (item.cat === 'imanes' ? '<img src="' + item.img + '" alt="" aria-hidden="true" class="card-img-placeholder">' : '')
+      + imanBg
+      + (img2 ? '<img src="' + img2 + '" alt="' + item.title + '" loading="lazy" class="card-img-hover">' : '')
+      + perfs
+      + '<button class="card-btn-cart" title="Agregar al pedido" onclick="event.stopPropagation();quickAddCart(\'' + item.id + '\')">'
+      + '<img src="Carrito de compras icono.webp" width="30" height="30" alt="" style="display:block;object-fit:cover">'
+      + '</button>'
+      + '</div>'
+      + '<div class="card-overlay">'
+      + '<div class="card-overlay-info">'
+      + '<div class="card-overlay-title">' + item.title + '</div>'
+      + '<div class="card-overlay-meta">'
+      + (item.size !== '-' ? '<span class="card-overlay-tag">📐 ' + item.size + '</span>' : (item._calcSize ? '<span class="card-overlay-tag">📐 ' + item._calcSize + '</span>' : ''))
+      + (item.price !== '-' ? '<span class="card-overlay-tag">💲 ' + item.price + '</span>' : (item._calcPrice ? '<span class="card-overlay-tag">💲 ' + item._calcPrice + '</span>' : ''))
+      + (item.mat !== '-' && item.mat !== 'Metal' ? '<span class="card-overlay-tag">' + item.mat + '</span>' : '')
+      + '</div>'
+      + '</div>'
+      + '<div class="card-overlay-btns">'
+      + '<button class="card-btn-detail" style="background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center" onclick="event.stopPropagation();quickWa(\'' + item.id + '\')">'
+      + 'Comprar</button>'
+      + '</div>'
+      + '</div>'
+      + imanMarco;
+    d.addEventListener('click', function() { openModal(item); });
+    g.appendChild(d);
+}
+
+function syncImanFrames() {
+  document.querySelectorAll('.iman-wrap').forEach(function(wrap) {
+    var img = wrap.querySelector('img:not(.iman-frame)');
+    var frame = wrap.querySelector('.iman-frame');
+    if (!img || !frame) return;
+    function doSync() {
+      var h = img.offsetHeight;
+      var w = img.offsetWidth;
+      if (h > 0 && w > 0) {
+        frame.style.width  = w + 'px';
+        frame.style.height = h + 'px';
+        frame.style.left   = '0px';
+        frame.style.top    = '0px';
+      }
+    }
+    if (img.complete && img.naturalHeight > 0) {
+      doSync();
+    } else {
+      img.addEventListener('load', doSync);
+    }
+    if (window.ResizeObserver) {
+      new ResizeObserver(doSync).observe(img);
+    }
+  });
+}
+
+var _activeCat = 'all';
+
+function filterCat(cat, btn) {
+  _activeCat = cat;
+  document.querySelectorAll('#filters-main .filter-btn').forEach(function(b){ b.classList.remove('active'); });
+  if (btn) btn.classList.add('active');
+  applyFilter();
+}
+
+function applyFilter() {
+  var cat = _activeCat;
+  var isHome = cat === 'all';
+
+  // Bloques exclusivos de Inicio
+  updateCatBar();
+  updateSetsBar();
+  var themesSection = document.getElementById('themes-section');
+
+  // Header de vista categoría
+  var catHeader = document.getElementById('cat-view-header');
+  var catTitle  = document.getElementById('cat-view-title');
+  var catLabels = {
+    vintages:'Vintages', ilustraciones:'Ilustraciones', numeracion:'Numeraciones',
+    imanes:'Imanes', señalitica:'Señalítica', personalizados:'Personaliza Tú Chapa',
+    deco:'Deco', mundial:'Mundial', parrilla:'Parrilla y Asado', vehiculos:'Vehículos',
+    musica:'Música', cine:'Cine', rutas:'Rutas y Señales', publicidades:'Publicidades Vintage',
+    bebidas:'Bebidas', infantil:'Infantil y Juvenil', deportes:'Deportes',
+    argentina:'Argentina', carteles:'Carteles Clásicos', 'dias-especiales':'Días Especiales',
+    calendarios:'Calendarios Perpetuos', catalogo:'Catálogo'
+  };
+  if (catHeader) catHeader.style.display = isHome ? 'none' : 'flex';
+  if (catTitle)  catTitle.textContent = isHome ? '' : (catLabels[cat] || cat);
+
+  // En vista categoría: themes-section arriba, sin margin
+  if (themesSection) {
+    themesSection.style.display = 'block';
+    themesSection.style.marginBottom = isHome ? '20px' : '16px';
+  }
+
+  document.querySelector('main').classList.toggle('vintage-bg', cat === 'vintages');
+  document.querySelector('main').classList.toggle('imanes-bg', cat === 'imanes');
+  var grid = document.getElementById('grid');
+  grid.classList.toggle('grid--imanes', cat === 'imanes');
+  grid.classList.toggle('grid--home', isHome);
+
+  var list;
+  if (isHome) {
+    _gridLimit = 4;
+    _usePagination = false;
+    list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'vintages'; });
+  } else if (cat === 'catalogo') {
+    _usePagination = true;
+    list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'vintages'; });
+  } else {
+    _gridLimit = 8;
+    _usePagination = false;
+    list = items.filter(function(i){ return i.cat === cat; });
+  }
+
+  render(list);
+
+  // Secciones extra — solo en Inicio
+  var homeSections = [
+    { key: 'numeracion',    id: 'numeraciones' },
+    { key: 'deco',          id: 'deco' },
+    { key: 'personalizados',id: 'personalizados' },
+    { key: 'señalitica',    id: 'señalitica' },
+  ];
+  homeSections.forEach(function(s) {
+    var sec = document.getElementById('section-' + s.id);
+    var g   = document.getElementById('grid-' + s.id);
+    var vm  = document.getElementById('ver-mas-' + s.id);
+    if (!sec || !g) return;
+    if (isHome) {
+      var list2 = items.filter(function(i){ return i.cat === s.key; });
+      if (list2.length) {
+        g.innerHTML = '';
+        g._list  = list2;
+        g._limit = 4;
+        list2.slice(0, 4).forEach(function(item){ appendCard(g, item); });
+        syncImanFrames();
+        if (vm) vm.style.display = list2.length > 4 ? 'block' : 'none';
+        sec.style.display = 'block';
+      } else {
+        sec.style.display = 'none';
+      }
+    } else {
+      sec.style.display = 'none';
+    }
+  });
+}
+
+function verMasSection(id) {
+  var g  = document.getElementById('grid-' + id);
+  var vm = document.getElementById('ver-mas-' + id);
+  if (!g || !g._list) return;
+  g._limit += 4;
+  g.innerHTML = '';
+  g._list.slice(0, g._limit).forEach(function(item){ appendCard(g, item); });
+  syncImanFrames();
+  if (vm) vm.style.display = g._limit >= g._list.length ? 'none' : 'block';
+}
+
+// alias para compatibilidad con cualquier llamada legacy
+function filter(cat, btn) { filterCat(cat, btn); }
+
+function openModal(item) {
+  current = item;
+  buildGallery(item);
+  setTimeout(syncImanFrames, 50);
+  document.getElementById('m-title').textContent = item.title;
+  document.getElementById('m-cat').textContent = item.cat;
+  document.getElementById('m-id').textContent = '#' + item.id;
+  document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Consultar';
+  document.getElementById('m-mat').textContent  = item.cat === 'imanes' ? 'Inmantada' : (item.mat !== '-' ? item.mat : 'Aluminio');
+  document.getElementById('m-unit').textContent = item.unit !== '-' ? item.unit : '1 pieza';
+  document.getElementById('spec-perf-wrap').style.display = item.cat === 'imanes' ? 'none' : 'flex';
+  document.getElementById('m-mat-label').textContent = item.cat === 'imanes' ? 'Base' : 'Material';
+  var priceRow = document.getElementById('price-row');
+  var precioMostrar = item.price !== '-' ? item.price : item._calcPrice;
+  if (precioMostrar) {
+    document.getElementById('m-price').textContent = precioMostrar;
+    priceRow.style.display = 'flex';
+  } else {
+    priceRow.style.display = 'none';
+  }
+
+  document.getElementById('modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function openModalById(id) {
+  var item = items.find(function(x) { return x.id === id; });
+  if (item) openModal(item);
+}
+
+function quickWa(id) {
+  var item = items.find(function(x) { return x.id === id; });
+  if (!item) return;
+  var t = '¡Hola! Me interesa:\n\n'
+    + '*' + item.title + '*\n'
+    + '📐 Tamaño: ' + (item._calcSize || item.size) + '\n'
+    + '💲 Precio: ' + item.price + '\n'
+    + '🧱 Material: ' + item.mat + '\n\n'
+    + '¿Me podés brindar más información?';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+
+function quickAddCart(id) {
+  var item = items.find(function(x) { return x.id === id; });
+  if (!item) return;
+  var i = cart.findIndex(function(x) { return x.key === item.id; });
+  if (i > -1) cart[i].qty++;
+  else cart.push({ key:item.id, id:item.id, title:item.title, img:item.img, size:item.size, price:item.price, qty:1 });
+  saveCart();
+  renderCart();
+  toast('"' + item.title + '" agregado');
+}
+
+function addCart() {
+  if (!current) return;
+  var key = current.id;
+  var i = cart.findIndex(function(x) { return x.key === key; });
+  if (i > -1) cart[i].qty++;
+  else cart.push({ key:key, id:current.id, title:current.title, img:current.img, size:current.size, price:current.price, qty:1 });
+  saveCart();
+  renderCart();
+  toast('"' + current.title + '" agregado');
+}
+
+function waProduct() {
+  if (!current) return;
+  var t = '¡Hola! Me interesa:\n\n'
+    + '*' + current.title + '*\n'
+    + '📐 Tamaño: ' + (current._calcSize || current.size) + '\n'
+    + '💲 Precio: ' + current.price + '\n'
+    + '🧱 Material: ' + current.mat + '\n\n'
+    + '¿Me podés brindar más información?';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+
+function parsePrice(str) {
+  if (!str || str === '-') return null;
+  // Acepta formatos como "$1.200", "$1200", "1200", "$ 1.200,50"
+  var clean = String(str).replace(/\s/g, '').replace(/\$/g, '').replace(/\./g, '').replace(',', '.');
+  var n = parseFloat(clean);
+  return isNaN(n) ? null : n;
+}
+
+function formatPrice(n) {
+  // Formatear con puntos como separador de miles (estilo argentino)
+  var s = Math.round(n).toString();
+  var result = '';
+  for (var i = 0; i < s.length; i++) {
+    if (i > 0 && (s.length - i) % 3 === 0) result += '.';
+    result += s[i];
+  }
+  return '$' + result;
+}
+
+function renderCart() {
+  var badge = document.getElementById('cart-count');
+  var box = document.getElementById('cart-items');
+  var totEl = document.getElementById('cart-total-val');
+  var totRow = document.getElementById('cart-tot-row');
+  var qty = cart.reduce(function(a, i) { return a + i.qty; }, 0);
+  badge.textContent = qty;
+  badge.className = qty > 0 ? 'visible' : '';
+  if (!cart.length) {
+    box.innerHTML = '<div class="empty-cart"><div>📭</div><p>Tu pedido está vacío</p></div>';
+    if (totRow) totRow.style.display = 'none';
+    return;
+  }
+  box.innerHTML = '';
+  cart.forEach(function(item) {
+    if (item.selected === undefined) item.selected = true;
+    var el = document.createElement('div');
+    el.className = 'cart-item' + (item.selected ? '' : ' deselected');
+    el.innerHTML = '<input type="checkbox" class="ci-check" ' + (item.selected ? 'checked' : '') + ' onchange="toggleCartItem(\'' + item.key + '\',this.checked)">'
+      + '<img src="' + item.img + '" alt="' + item.title + '">'
+      + '<div class="ci-info">'
+      + '<div class="ci-title">' + item.title + '</div>'
+      + '<div class="ci-sub">' + item.size + ' — ' + item.price + '</div>'
+      + '<div class="ci-qty">'
+      + '<button class="qbtn" onclick="chQty(\'' + item.key + '\',-1)">−</button>'
+      + '<span class="qnum">' + item.qty + '</span>'
+      + '<button class="qbtn" onclick="chQty(\'' + item.key + '\',1)">+</button>'
+      + '</div></div>'
+      + '<button class="ci-del" onclick="delItem(\'' + item.key + '\')">🗑️</button>';
+    box.appendChild(el);
+  });
+
+  // Total solo de items seleccionados
+  if (totRow) {
+    var total = 0;
+    var allPriced = true;
+    var selectedQty = 0;
+    cart.forEach(function(item) {
+      if (!item.selected) return;
+      selectedQty += item.qty;
+      var priceNum = parsePrice(item.price);
+      if (priceNum !== null) total += priceNum * item.qty;
+      else allPriced = false;
+    });
+    var countEl = document.getElementById('cart-selected-count');
+    if (countEl) countEl.textContent = selectedQty;
+    var anySelected = cart.some(function(i){ return i.selected; });
+    if (anySelected && total > 0) {
+      totEl.textContent = (allPriced ? '' : '≈ ') + formatPrice(total);
+      totRow.style.display = 'flex';
+    } else {
+      totRow.style.display = 'none';
+    }
+  }
+}
+
+function toggleCartItem(key, checked) {
+  var i = cart.findIndex(function(x){ return x.key === key; });
+  if (i > -1) { cart[i].selected = checked; saveCart(); renderCart(); }
+}
+
+function chQty(key, d) {
+  var i = cart.findIndex(function(x) { return x.key === key; });
+  if (i > -1) { cart[i].qty += d; if (cart[i].qty <= 0) cart.splice(i, 1); saveCart(); renderCart(); }
+}
+
+function delItem(key) { cart = cart.filter(function(x) { return x.key !== key; }); saveCart(); renderCart(); }
+
+function waCart() {
+  var selected = cart.filter(function(i){ return i.selected !== false; });
+  if (!selected.length) { toast('No hay productos seleccionados'); return; }
+
+  // Preparar items con precio numérico
+  var mpItems = [];
+  var allPriced = true;
+  selected.forEach(function(item) {
+    var priceNum = parsePrice(item.price);
+    if (priceNum === null) { allPriced = false; return; }
+    mpItems.push({ id: item.id, title: item.title, qty: item.qty, priceNum: priceNum });
+  });
+
+  // Si hay productos sin precio, fallback a WhatsApp
+  if (!allPriced || !mpItems.length) {
+    waCartFallback(selected);
+    return;
+  }
+
+  // Llamar al backend de MercadoPago
+  var backendUrl = 'https://catalogo-chapeando-backend.vercel.app/api/checkout';
+  toast('Generando link de pago...');
+  fetch(backendUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items: mpItems }),
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(data) {
+    if (data.init_point) {
+      window.location.href = data.init_point;
+    } else {
+      toast('Error al generar el pago');
+    }
+  })
+  .catch(function() {
+    toast('Error de conexión, intentá de nuevo');
+  });
+}
+
+function waCartFallback(selected) {
+  var t = '¡Hola! Mi pedido:\n\n';
+  var total = 0;
+  var allPriced = true;
+  selected.forEach(function(item, i) {
+    var priceNum = parsePrice(item.price);
+    if (priceNum !== null) total += priceNum * item.qty;
+    else allPriced = false;
+    t += (i+1) + '. *' + item.title + '*\n'
+      + '   📐 ' + item.size + '\n'
+      + '   💲 ' + item.price + '\n'
+      + '   Cantidad: ' + item.qty + '\n\n';
+  });
+  if (total > 0) t += '💰 *Total estimado: ' + (allPriced ? '' : '≈ ') + formatPrice(total) + '*\n\n';
+  t += '¡Muchas gracias!';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+  if (total > 0) {
+    t += '💰 *Total estimado: ' + (allPriced ? '' : '≈ ') + formatPrice(total) + '*\n\n';
+  }
+  t += '¡Muchas gracias!';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+
+function openCart() { document.getElementById('cart-drawer').className = 'open'; document.body.style.overflow = 'hidden'; renderCart(); }
+function closeCart() { document.getElementById('cart-drawer').className = ''; document.body.style.overflow = ''; }
+
+function clearCart() {
+  if (!cart.length) return;
+  cart = [];
+  saveCart();
+  renderCart();
+  toast('Carrito vaciado');
+}
+
+function toast(msg) {
+  var t = document.getElementById('toast');
+  document.getElementById('toast-msg').textContent = msg;
+  t.className = 'show';
+  setTimeout(function() { t.className = ''; }, 3000);
+}
+
+// ── SETS (combos) ────────────────────────────────────────────
+// Cada set: { name, desc, price, img, ids[] }
+// Ejemplo:
+// { name:'Kit Cocina', desc:'3 chapas temáticas', price:'$24.000', img:'Ilustraciones/monstera-acuarela.jpg', ids:['ILU-01','ILU-03','ILU-08'] }
+var sets = [
+  { name:'Set 1', desc:'', price:'', img:'Ilustraciones/monstera-acuarela.jpg', ids:[] },
+  { name:'Set 2', desc:'', price:'', img:'Ilustraciones/plantas-en-macetas.jpg', ids:[] },
+  { name:'Set 3', desc:'', price:'', img:'Ilustraciones/utensilios-de-cocina.jpg', ids:[] },
+  { name:'Set 4', desc:'', price:'', img:'Vintages/malvinas-son-argentinas-texto.jpg', ids:[] },
+  { name:'Set 5', desc:'', price:'', img:'Ilustraciones/home-sweet-home.jpg', ids:[] },
+  { name:'Set 6', desc:'', price:'', img:'Ilustraciones/casas-coloridas.jpg', ids:[] },
+  { name:'Set 7', desc:'', price:'', img:'Ilustraciones/margarita-retro.jpg', ids:[] },
+  { name:'Set 8', desc:'', price:'', img:'Ilustraciones/bouquet-floral.jpg', ids:[] },
+];
+
+function renderSetsBar() {
+  var bar = document.getElementById('sets-bar');
+  var row = document.getElementById('sets-row');
+  if (!bar || !row) return;
+  if (!sets.length) { bar.style.display = 'none'; return; }
+  row.innerHTML = '';
+  sets.forEach(function(set) {
+    var card = document.createElement('div');
+    card.className = 'set-card';
+    card.innerHTML = '<img class="set-card-img" src="' + set.img + '" alt="' + set.name + '" loading="lazy">'
+      + '<div class="set-card-body">'
+      + '<div class="set-card-name">' + set.name + '</div>'
+      + (set.price ? '<div class="set-card-price">' + set.price + '</div>' : '')
+      + (set.desc ? '<div class="set-card-desc">' + set.desc + '</div>' : '')
+      + '</div>';
+    card.addEventListener('click', function() { openSetModal(set); });
+    row.appendChild(card);
+  });
+  bar.style.display = 'block';
+}
+
+function openSetModal(set) {
+  // Por ahora abre WhatsApp con el detalle del set
+  var t = '¡Hola! Me interesa el set:\n\n*' + set.name + '*\n' + (set.desc || '') + '\n' + (set.price ? '💲 ' + set.price : '') + '\n\n¿Me podés dar más información?';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+
+function updateSetsBar() {
+  var bar = document.getElementById('sets-bar');
+  if (!bar) return;
+  if (_activeCat === 'all' && sets.length) bar.style.display = 'block';
+  else bar.style.display = 'none';
+}
+
+function onThemeClick(theme) {
+  // Por ahora abre WhatsApp consultando por el tema
+  var t = '¡Hola! Me gustaría ver las chapas de la categoría *' + theme + '*. ¿Me pueden mostrar opciones?';
+  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+}
+
+
+var CAT_INFO = [
+  { key: 'numeracion',     label: 'Numeración' },
+  { key: 'señalitica',     label: 'Señalítica' },
+  { key: 'imanes',         label: 'Imanes' },
+  { key: 'personalizados', label: 'Personaliza Tú Chapa', img: 'logo.png' },
+];
+
+// ── CAT-BAR SLIDER ───────────────────────────────────────────
+var catSliderIndex = 0;
+var catSliderTimer = null;
+
+function renderCatBar() {
+  var bar = document.getElementById('cat-bar');
+  if (!bar) return;
+  bar.innerHTML = '';
+
+  // Recopilar slides: hasta 6, una por categoría
+  var slides = [];
+  CAT_INFO.forEach(function(cat) {
+    if (slides.length >= 6) return;
+    var rep = items.find(function(i){ return i.cat === cat.key; });
+    var imgSrc = rep ? rep.img : (cat.img || null);
+    if (!imgSrc) return;
+    slides.push({ imgSrc: imgSrc, label: cat.label, key: cat.key });
+  });
+  if (!slides.length) return;
+
+  // Track
+  var track = document.createElement('div');
+  track.className = 'cat-bar-track';
+  track.id = 'cat-bar-track';
+
+  slides.forEach(function(s) {
+    var slide = document.createElement('div');
+    slide.className = 'cat-bar-slide';
+    slide.innerHTML = '<img src="' + s.imgSrc + '" alt="' + s.label + '" loading="lazy">'
+      + '<div class="cat-bar-label"><span>' + s.label + '</span></div>';
+    slide.addEventListener('click', function(){ filterCat(s.key, null); });
+    track.appendChild(slide);
+  });
+  bar.appendChild(track);
+
+  // Flechas
+  var prev = document.createElement('button');
+  prev.className = 'cat-bar-nav cat-bar-prev';
+  prev.innerHTML = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>';
+  prev.onclick = function(e){ e.stopPropagation(); catSliderGo(catSliderIndex - 1, slides.length); };
+  bar.appendChild(prev);
+
+  var next = document.createElement('button');
+  next.className = 'cat-bar-nav cat-bar-next';
+  next.innerHTML = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>';
+  next.onclick = function(e){ e.stopPropagation(); catSliderGo(catSliderIndex + 1, slides.length); };
+  bar.appendChild(next);
+
+  // Dots
+  var dotsEl = document.createElement('div');
+  dotsEl.className = 'cat-bar-dots';
+  dotsEl.id = 'cat-bar-dots';
+  slides.forEach(function(_, i) {
+    var dot = document.createElement('button');
+    dot.className = 'cat-bar-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = function(e){ e.stopPropagation(); catSliderGo(i, slides.length); };
+    dotsEl.appendChild(dot);
+  });
+  bar.appendChild(dotsEl);
+
+  catSliderIndex = 0;
+  catSliderAutoplay(slides.length);
+}
+
+function catSliderGo(idx, total) {
+  if (!total) return;
+  catSliderIndex = (idx + total) % total;
+  var track = document.getElementById('cat-bar-track');
+  if (track) track.style.transform = 'translateX(-' + (catSliderIndex * 100) + '%)';
+  document.querySelectorAll('.cat-bar-dot').forEach(function(d, i){
+    d.classList.toggle('active', i === catSliderIndex);
+  });
+}
+
+function catSliderAutoplay(total) {
+  if (catSliderTimer) clearInterval(catSliderTimer);
+  catSliderTimer = setInterval(function(){
+    catSliderGo(catSliderIndex + 1, total);
+  }, 3000);
+}
+
+function updateCatBar() {
+  var bar = document.getElementById('cat-bar');
+  if (!bar) return;
+  bar.style.display = _activeCat === 'all' ? 'block' : 'none';
+}
+
+
+var gallerySlides = [];
+var galleryIndex = 0;
+// Extensiones soportadas - solo jpg/jpeg para reducir requests
+var IMG_EXTS = ['jpg', 'jpeg'];
+
+// Genera lista de posibles rutas para un producto
+function getGalleryImages(item) {
+  var list = [];
+  // Primero la imagen principal del producto
+  list.push({ src: item.img, perfs: item.cat === 'ilustraciones', fondo: fondoAleatorio(item.cat) });
+  // Luego busca imágenes en Galeria/[ID]/
+  // Como no podemos leer directorios desde el browser, intentamos cargar
+  // nombres predecibles: 01.jpg, 02.jpg ... 10.jpg, 01.png ... etc
+  var base = 'Galeria/' + item.id + '/';
+  for (var n = 1; n <= 20; n++) {
+    var num = n < 10 ? '0' + n : '' + n;
+    IMG_EXTS.forEach(function(ext) {
+      list.push({ src: base + num + '.' + ext, perfs: false, fondo: fondoAleatorio(item.cat), lazy: true });
+    });
+  }
+  return list;
+}
+
+function buildGallery(item) {
+  var track = document.getElementById('gallery-track');
+  var dots = document.getElementById('gallery-dots');
+  track.innerHTML = '';
+  dots.innerHTML = '';
+  gallerySlides = [];
+  galleryIndex = 0;
+
+  // Imanes: slide especial con fondo amarillo + imagen flotando
+  if (item.cat === 'imanes') {
+    addSlideIman(item);
+    return;
+  }
+
+  // Si el item tiene galería predefinida, usarla
+  if (item.gallery && item.gallery.length > 0) {
+    item.gallery.forEach(function(src, i) {
+      addSlide(src, item, null, i === 0);
+    });
+    return;
+  }
+
+  // Si no, mostrar solo la imagen principal (sin buscar carpeta Galeria/)
+  addSlide(item.img, item, null, true);
+}
+
+function addSlideIman(item) {
+  var track = document.getElementById('gallery-track');
+  var dots = document.getElementById('gallery-dots');
+
+  // Slide 1: imán sobre fondo amarillo
+  var slide1 = document.createElement('div');
+  slide1.className = 'gallery-slide iman-slide active';
+  slide1.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#111;';
+
+  // bg directo en el slide, llena todo
+  var bg = document.createElement('img');
+  bg.src = 'Imanes/Fondo, Ilustracion, Imanes.jpg';
+  bg.alt = '';
+  bg.className = 'iman-bg';
+  slide1.appendChild(bg);
+
+  // img1 directo en el slide, flota centrada encima
+  var wrap = document.createElement('div');
+  wrap.className = 'iman-wrap';
+  wrap.style.cssText = 'display:grid;width:62%;flex-shrink:0;z-index:2;';
+  var img1 = document.createElement('img');
+  img1.src = item.img;
+  img1.alt = item.title;
+  img1.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  var frame1 = document.createElement('img');
+  frame1.className = 'iman-frame';
+  frame1.src = 'Imanes/Marco para imanes.png';
+  frame1.alt = '';
+  frame1.style.cssText = 'position:absolute;top:0;left:0;object-fit:fill;pointer-events:none;z-index:2;';
+  wrap.appendChild(img1);
+  wrap.appendChild(frame1);
+  slide1.appendChild(wrap);
+
+  track.appendChild(slide1);
+  gallerySlides.push(slide1);
+
+  // Slide 2: imán solo sobre fondo oscuro
+  var slide2 = document.createElement('div');
+  slide2.className = 'gallery-slide';
+  slide2.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#111;overflow:hidden;';
+
+  var wrap2 = document.createElement('div');
+  wrap2.className = 'iman-wrap';
+  wrap2.style.cssText = 'display:grid;width:62%;flex-shrink:0;z-index:2;';
+  var img2 = document.createElement('img');
+  img2.src = item.img;
+  img2.alt = item.title;
+  img2.style.cssText = 'display:block;width:100%;height:auto;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  var frame2 = document.createElement('img');
+  frame2.className = 'iman-frame';
+  frame2.src = 'Imanes/Marco para imanes.png';
+  frame2.alt = '';
+  frame2.style.cssText = 'position:absolute;top:0;left:0;object-fit:fill;pointer-events:none;z-index:2;';
+  wrap2.appendChild(img2);
+  wrap2.appendChild(frame2);
+  slide2.appendChild(wrap2);
+
+  track.appendChild(slide2);
+  gallerySlides.push(slide2);
+
+  // Slide 3: imagen de contexto/ambiente
+  var slide3 = document.createElement('div');
+  slide3.className = 'gallery-slide';
+  slide3.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#111;overflow:hidden;';
+
+  var img3 = document.createElement('img');
+  img3.src = 'Imanes/tercera imagen para la galeria de fotos de imanes.jpeg';
+  img3.alt = 'Galería imanes';
+  img3.style.cssText = 'max-width:88%;max-height:88%;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45);';
+  slide3.appendChild(img3);
+
+  track.appendChild(slide3);
+  gallerySlides.push(slide3);
+
+  // Dots
+  [0, 1, 2].forEach(function(i) {
+    var dot = document.createElement('button');
+    dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = (function(idx){ return function(e){ e.stopPropagation(); goToSlide(idx); }; })(i);
+    dots.appendChild(dot);
+  });
+
+  document.querySelectorAll('.gallery-nav').forEach(function(b){ b.style.display = 'flex'; });
+  dots.style.display = 'flex';
+}
+
+function addSlide(src, item, fondo, isMain) {
+  var track = document.getElementById('gallery-track');
+  var dots = document.getElementById('gallery-dots');
+  var idx = gallerySlides.length;
+
+  var slide = document.createElement('div');
+  slide.className = 'gallery-slide' + (idx === 0 ? ' active' : '');
+  slide.style.background = '#111';
+
+  // Wrapper imagen con perforaciones si aplica
+  var wrap = document.createElement('div');
+  wrap.style.cssText = 'position:relative;z-index:1;max-width:88%;max-height:88%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0';
+
+  var imgWrap = document.createElement('div');
+  imgWrap.style.cssText = 'position:relative;display:inline-block;line-height:0;max-width:100%;max-height:100%';
+
+  var img = document.createElement('img');
+  img.src = src;
+  img.alt = item.title;
+  img.style.cssText = 'display:block;max-width:100%;max-height:75vw;object-fit:contain;border-radius:4px;box-shadow:4px 6px 20px rgba(0,0,0,.45)';
+  img.addEventListener('load', function() {
+    // En desktop el max-height debe basarse en el contenedor real
+    if (window.innerWidth >= 650) {
+      img.style.maxHeight = '75vh';
+    }
+  });
+  imgWrap.appendChild(img);
+
+  // Perforaciones solo en ilustraciones, y solo en la imagen principal
+  if (item.cat === 'ilustraciones' && isMain) {
+    var perfs = document.createElement('div');
+    perfs.style.cssText = 'position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:2';
+    perfs.innerHTML = '<div class="perf perf-tl"></div><div class="perf perf-tr"></div><div class="perf perf-bl"></div><div class="perf perf-br"></div>';
+    imgWrap.appendChild(perfs);
+  }
+
+  wrap.appendChild(imgWrap);
+  slide.appendChild(wrap);  // ← agregar wrap al slide
+  track.appendChild(slide);
+  gallerySlides.push(slide);
+
+  // Dot
+  var dot = document.createElement('button');
+  dot.className = 'gallery-dot' + (idx === 0 ? ' active' : '');
+  dot.onclick = (function(i){ return function(e){ e.stopPropagation(); goToSlide(i); }; })(idx);
+  dots.appendChild(dot);
+
+  // Ocultar nav si solo hay 1 slide
+  var navBtns = document.querySelectorAll('.gallery-nav');
+  navBtns.forEach(function(b){ b.style.display = gallerySlides.length > 1 ? 'flex' : 'none'; });
+  dots.style.display = gallerySlides.length > 1 ? 'flex' : 'none';
+}
+
+function goToSlide(idx) {
+  gallerySlides.forEach(function(s, i) {
+    s.classList.toggle('active', i === idx);
+  });
+  document.querySelectorAll('.gallery-dot').forEach(function(d, i) {
+    d.classList.toggle('active', i === idx);
+  });
+  galleryIndex = idx;
+}
+
+function galleryNav(dir) {
+  if (!gallerySlides.length) return;
+  var next = (galleryIndex + dir + gallerySlides.length) % gallerySlides.length;
+  goToSlide(next);
+}
+
+// Tabla de precios según área calculada
+function calcPrecio(wCm, hCm) {
+  var area = wCm * hCm;
+  if (area <= 95)  return '$4.000';
+  if (area <= 270) return '$5.000';
+  return '$8.000';
+}
+
+// Precalcular tamaños de ilustraciones y vintages antes de renderizar
+function precalcTamanios(lista, done) {
+  var pendientes = lista.filter(function(i) {
+    return (i.cat === 'ilustraciones' || i.cat === 'vintages' || i.cat === 'imanes') && i.size === '-';
+  });
+  if (!pendientes.length) { done(); return; }
+  var restantes = pendientes.length;
+  pendientes.forEach(function(item) {
+    var img = new Image();
+    img.onload = function() {
+      var pw = img.naturalWidth, ph = img.naturalHeight;
+      if (pw && ph) {
+        var maxW = PRINT_W_MM;
+        var maxH = item.cat === 'imanes' ? 80 : PRINT_H_MM; // imanes: max 8cm alto
+        var escala = Math.min(maxW / pw, maxH / ph);
+        var wMm = pw * escala, hMm = ph * escala;
+        if (wMm < MIN_MM || hMm < MIN_MM) {
+          var em = Math.max(MIN_MM / wMm, MIN_MM / hMm);
+          wMm *= em; hMm *= em;
+        }
+        item._calcSize = (Math.round(wMm/10*10)/10) + ' x ' + (Math.round(hMm/10*10)/10) + ' cm';
+        item._calcPrice = calcPrecio(Math.round(wMm/10*10)/10, Math.round(hMm/10*10)/10);
+      }
+      if (--restantes === 0) done();
+    };
+    img.onerror = function() { if (--restantes === 0) done(); };
+    img.src = item.img;
+  });
+}
+
+// Renderizar inmediatamente sin imanes en "Todos"
+filterCat('all', null);
+renderCart();
+renderCatBar();
+renderSetsBar();
+
+// Verificar si el cliente volvió de MercadoPago
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var pago = params.get('pago');
+  if (pago === 'ok') {
+    cart = []; saveCart(); renderCart();
+    setTimeout(function(){ toast('✅ ¡Pago exitoso! Gracias por tu compra'); }, 500);
+  } else if (pago === 'error') {
+    setTimeout(function(){ toast('❌ El pago no se completó, intentá de nuevo'); }, 500);
+  } else if (pago === 'pendiente') {
+    setTimeout(function(){ toast('⏳ Pago pendiente, te avisaremos cuando se confirme'); }, 500);
+  }
+})();
+</script>
+</body>
+</html>

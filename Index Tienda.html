@@ -1096,11 +1096,11 @@ function waCart() {
     if (data.init_point) {
       window.location.href = data.init_point;
     } else {
-      toast('Error al generar el pago');
+      waCartFallback(selected);
     }
   })
   .catch(function() {
-    toast('Error de conexión, intentá de nuevo');
+    waCartFallback(selected);
   });
 }
 

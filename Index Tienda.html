@@ -1146,7 +1146,7 @@ function toggleEnvioSection() {
   sec.style.display = qty > 0 ? 'block' : 'none';
 }
 
-
+function toggleCartItem(key, checked) {
   var i = cart.findIndex(function(x){ return x.key === key; });
   if (i > -1) { cart[i].selected = checked; saveCart(); renderCart(); }
 }

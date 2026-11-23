@@ -390,7 +390,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
 <header>
   <div class="header-inner">
     <div class="logo" onclick="openAbout()">
-      <img src="logo.png" alt="Chapeando">
+      <img src="Chapeando - Marca/Logo (Logotipo Principal).png" alt="Chapeando">
     </div>
     <button class="cart-btn" onclick="openCart()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span id="cart-count">0</span></button>
   </div>
@@ -474,7 +474,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     </label>
 
     <div class="about-logo">
-      <img src="logo.png" alt="Chapeando">
+      <img src="Chapeando - Marca/Logo (Logotipo Principal).png" alt="Chapeando">
     </div>
 
     <!-- Galería Instagram -->
@@ -1300,15 +1300,27 @@ function renderCatBar() {
   if (!bar) return;
   bar.innerHTML = '';
 
-  // Recopilar slides: hasta 6, una por categoría
-  var slides = [];
+  // Slides de marca (banner + fondos) siempre primero
+  var brandSlides = [
+    { imgSrc: 'Chapeando - Marca/Baner 1.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Fondo 2.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Fondo 3.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Fondo 4.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Fondo 5.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Fondo 6.webp',  label: '', key: null },
+  ];
+
+  // Slides de categorías
+  var catSlides = [];
   CAT_INFO.forEach(function(cat) {
-    if (slides.length >= 6) return;
+    if (catSlides.length >= 4) return;
     var rep = items.find(function(i){ return i.cat === cat.key; });
     var imgSrc = rep ? rep.img : (cat.img || null);
     if (!imgSrc) return;
-    slides.push({ imgSrc: imgSrc, label: cat.label, key: cat.key });
+    catSlides.push({ imgSrc: imgSrc, label: cat.label, key: cat.key });
   });
+
+  var slides = brandSlides.concat(catSlides);
   if (!slides.length) return;
 
   // Track
@@ -1320,8 +1332,9 @@ function renderCatBar() {
     var slide = document.createElement('div');
     slide.className = 'cat-bar-slide';
     slide.innerHTML = '<img src="' + s.imgSrc + '" alt="' + s.label + '" loading="lazy">'
-      + '<div class="cat-bar-label"><span>' + s.label + '</span></div>';
-    slide.addEventListener('click', function(){ filterCat(s.key, null); });
+      + (s.label ? '<div class="cat-bar-label"><span>' + s.label + '</span></div>' : '');
+    if (s.key) slide.addEventListener('click', function(){ filterCat(s.key, null); });
+    else slide.style.cursor = 'default';
     track.appendChild(slide);
   });
   bar.appendChild(track);

@@ -515,5 +515,8 @@ const items = [
   {id:"VIN-91", title:"Parrella (Negro)", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Parrella (Negro).jpg"}, // AUTO
   {id:"VIN-92", title:"Huerta", cat:"vintages", size:"- x - cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/Huerta.png", gallery:["Vintages/Huerta.png","Vintages/Huerta - Ilustracion.png"]},
   {id:"VIN-93", title:"Vin Bano Hombres Ilu", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-hombres-ilu.jpg"}, // AUTO
-  {id:"VIN-94", title:"Vin Bano Mujeres Ilu", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres-ilu.jpg"}, // AUTO,
+  {id:"VIN-94", title:"Vin Bano Mujeres Ilu", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/vin-bano-mujeres-ilu.jpg"},
+  {id:"VIN-95", title:"Good Vibes", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Good Vibes.png"}, // AUTO
+  {id:"VIN-96", title:"Heineken Trade Mark", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Heineken trade mark.png"}, // AUTO
+  {id:"VIN-97", title:"Home", cat:"vintages", size:"- x - cm", mat:"Aluminio", unit:"1 pieza", price:"$9.990", img:"Vintages/Home.webp"}, // AUTO, // AUTO,
 ];

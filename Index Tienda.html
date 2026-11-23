@@ -1291,7 +1291,7 @@ function toast(msg) {
 // Ejemplo:
 // { name:'Kit Cocina', desc:'3 chapas temáticas', price:'$24.000', img:'Ilustraciones/monstera-acuarela.jpg', ids:['ILU-01','ILU-03','ILU-08'] }
 var sets = [
-  { name:'Set 1', desc:'', price:'', img:'Ilustraciones/monstera-acuarela.jpg', ids:[] },
+  { name:'Brindis Eternos', desc:'5 chapas 20×30 cm · Apto exterior', price:'$48.900', img:'Tienda (Imagenes)/Sets/Brindis/1.webp', ids:[] },
   { name:'Set 2', desc:'', price:'', img:'Ilustraciones/plantas-en-macetas.jpg', ids:[] },
   { name:'Set 3', desc:'', price:'', img:'Ilustraciones/utensilios-de-cocina.jpg', ids:[] },
   { name:'Set 4', desc:'', price:'', img:'Vintages/malvinas-son-argentinas-texto.jpg', ids:[] },
@@ -1323,8 +1323,7 @@ function renderSetsBar() {
 }
 
 function openSetModal(set) {
-  // Por ahora abre WhatsApp con el detalle del set
-  var t = '¡Hola! Me interesa el set:\n\n*' + set.name + '*\n' + (set.desc || '') + '\n' + (set.price ? '💲 ' + set.price : '') + '\n\n¿Me podés dar más información?';
+  var t = '¡Hola! Me interesa el set:\n\n*' + set.name + '*\n' + (set.desc ? set.desc + '\n' : '') + (set.price ? '💲 ' + set.price : '') + '\n\n¿Me podés dar más información?';
   window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
 }
 

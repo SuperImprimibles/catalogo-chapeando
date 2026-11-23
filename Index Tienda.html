@@ -863,15 +863,19 @@ var _scrollHome = 0; // guarda el scroll al salir de inicio
 
 function filterCat(cat, btn) {
   if (cat === 'all') {
-    if (_activeCat === 'all') {
+    if (_activeCat === 'all' && _homeRendered) {
       // Ya en inicio → resetear al tope
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     } else {
-      // Volver a inicio → restaurar scroll
+      // Primera carga o volver a inicio → restaurar scroll
+      var wasHome = _activeCat === 'all';
       _activeCat = 'all';
       applyFilter();
-      setTimeout(function(){ window.scrollTo({ top: _scrollHome, behavior: 'smooth' }); }, 50);
+      if (wasHome && _homeRendered) {
+        setTimeout(function(){ window.scrollTo({ top: _scrollHome, behavior: 'smooth' }); }, 50);
+      }
+      _homeRendered = true;
       return;
     }
   }
@@ -882,6 +886,8 @@ function filterCat(cat, btn) {
   _activeCat = cat;
   applyFilter();
 }
+
+var _homeRendered = false;
 
 function applyFilter() {
   var cat = _activeCat;

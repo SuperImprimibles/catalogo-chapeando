@@ -82,7 +82,16 @@ html.dark .set-card-name{color:#f0f0f0}
 html.dark .set-card-desc{color:#666}
 html.dark .set-card-price{color:#f0f0f0}
 
-/* MENÚ DE TEMAS */
+/* SELECTOR DE TIPO */
+.tipo-selector{display:flex;gap:6px;margin-bottom:10px}
+.tipo-btn{background:none;border:none;cursor:pointer;font-size:12px;font-weight:600;color:#bbb;font-family:inherit;padding:4px 0;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.tipo-btn:hover{color:#666}
+.tipo-btn.active{color:#111;border-bottom-color:#111}
+html.dark .tipo-btn{color:#555}
+html.dark .tipo-btn:hover{color:#aaa}
+html.dark .tipo-btn.active{color:#f0f0f0;border-bottom-color:#f0f0f0}
+
+
 .themes-menu{display:flex;flex-direction:row;gap:8px;overflow-x:auto;padding:0 0 4px;margin-bottom:20px;scrollbar-width:none}
 .themes-menu::-webkit-scrollbar{display:none}
 .themes-menu-item{flex:0 0 auto;display:flex;align-items:center;gap:7px;padding:6px 14px 6px 6px;border-radius:999px;background:#fff;border:1px solid #eee;cursor:pointer;font-size:12px;font-weight:600;color:#111;transition:background .15s;user-select:none;white-space:nowrap}
@@ -405,7 +414,12 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     <div class="sets-row" id="sets-row"></div>
   </div>
   <div id="themes-section" style="display:none">
-    <div style="font-size:13px;font-weight:700;text-transform:uppercase;color:#aaa;letter-spacing:.5px;margin-bottom:8px">Categorías</div>
+    <div class="tipo-selector">
+      <button class="tipo-btn active" onclick="selectTipo('carteles',this)">Carteles</button>
+      <button class="tipo-btn" onclick="selectTipo('imanes',this)">Imanes</button>
+      <button class="tipo-btn" onclick="selectTipo('señalitica',this)">Señalítica</button>
+      <button class="tipo-btn" onclick="selectTipo('personalizados',this)">Personalizados</button>
+    </div>
     <div id="themes-menu" class="themes-menu">
     <div class="themes-menu-item" onclick="filterCat('catalogo',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Todos</span></div>
     <div class="themes-menu-item" onclick="filterCat('mundial',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Mundial/Asado De Selección.webp" alt=""></div><span>Mundial</span></div>
@@ -881,6 +895,14 @@ function applyFilter() {
   if (themesSection) {
     themesSection.style.display = 'block';
     themesSection.style.marginBottom = isHome ? '20px' : '16px';
+    // Resetear selector al volver a inicio
+    if (isHome) {
+      document.querySelectorAll('.tipo-btn').forEach(function(b){ b.classList.remove('active'); });
+      var firstTipo = document.querySelector('.tipo-btn');
+      if (firstTipo) firstTipo.classList.add('active');
+      var menu = document.getElementById('themes-menu');
+      if (menu) menu.style.display = 'flex';
+    }
   }
 
   document.querySelector('main').classList.toggle('vintage-bg', cat === 'vintages');
@@ -1105,7 +1127,19 @@ function renderCart() {
   }
 }
 
-var _envioTipo = 'retiro';
+function selectTipo(tipo, btn) {
+  document.querySelectorAll('.tipo-btn').forEach(function(b){ b.classList.remove('active'); });
+  if (btn) btn.classList.add('active');
+  var menu = document.getElementById('themes-menu');
+  if (tipo === 'carteles') {
+    if (menu) menu.style.display = 'flex';
+  } else {
+    if (menu) menu.style.display = 'none';
+    filterCat(tipo, null);
+  }
+}
+
+
 
 function selectEnvio(tipo) {
   _envioTipo = tipo;

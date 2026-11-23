@@ -1300,27 +1300,12 @@ function renderCatBar() {
   if (!bar) return;
   bar.innerHTML = '';
 
-  // Slides de marca (banner + fondos) siempre primero
+  // Slides del slider — solo banners
   var brandSlides = [
-    { imgSrc: 'Chapeando - Marca/Baner 1.webp',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Fondo 2.webp',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Fondo 3.webp',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Fondo 4.webp',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Fondo 5.webp',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Fondo 6.webp',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Baner 1.webp', label: '', key: null },
   ];
 
-  // Slides de categorías
-  var catSlides = [];
-  CAT_INFO.forEach(function(cat) {
-    if (catSlides.length >= 4) return;
-    var rep = items.find(function(i){ return i.cat === cat.key; });
-    var imgSrc = rep ? rep.img : (cat.img || null);
-    if (!imgSrc) return;
-    catSlides.push({ imgSrc: imgSrc, label: cat.label, key: cat.key });
-  });
-
-  var slides = brandSlides.concat(catSlides);
+  var slides = brandSlides;
   if (!slides.length) return;
 
   // Track

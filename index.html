@@ -859,11 +859,27 @@ function syncImanFrames() {
 }
 
 var _activeCat = 'all';
+var _scrollHome = 0; // guarda el scroll al salir de inicio
 
 function filterCat(cat, btn) {
+  if (cat === 'all') {
+    if (_activeCat === 'all') {
+      // Ya en inicio → resetear al tope
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    } else {
+      // Volver a inicio → restaurar scroll
+      _activeCat = 'all';
+      applyFilter();
+      setTimeout(function(){ window.scrollTo({ top: _scrollHome, behavior: 'smooth' }); }, 50);
+      return;
+    }
+  }
+  // Salir de inicio → guardar scroll
+  if (_activeCat === 'all') {
+    _scrollHome = window.scrollY;
+  }
   _activeCat = cat;
-  document.querySelectorAll('#filters-main .filter-btn').forEach(function(b){ b.classList.remove('active'); });
-  if (btn) btn.classList.add('active');
   applyFilter();
 }
 

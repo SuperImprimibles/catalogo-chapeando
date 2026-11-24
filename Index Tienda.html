@@ -38,6 +38,7 @@ header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid
 /* CAT-BAR SLIDER */
 .cat-bar{position:relative;width:100%;aspect-ratio:103/35.19;border-radius:16px;overflow:hidden;margin-bottom:16px;background:#111;cursor:pointer}
 .cat-bar-track{display:flex;width:100%;height:100%;transition:transform .5s ease}
+.cat-bar-shadow{position:absolute;bottom:0;left:0;right:0;height:15%;background:linear-gradient(to top,rgba(0,0,0,.55),transparent);pointer-events:none;z-index:5;border-radius:0 0 16px 16px}
 .cat-bar-slide{flex:0 0 100%;width:100%;height:100%;position:relative;overflow:hidden}
 .cat-bar-slide img{width:100%;height:100%;object-fit:cover;display:block}
 .cat-bar-label{position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px 14px;background:linear-gradient(to top,rgba(0,0,0,.65) 0%,transparent 55%)}
@@ -1561,7 +1562,26 @@ function renderCatBar() {
     else slide.style.cursor = 'default';
     track.appendChild(slide);
   });
+
+  // Clones para loop infinito
+  function makeSlide(s) {
+    var slide = document.createElement('div');
+    slide.className = 'cat-bar-slide';
+    slide.innerHTML = '<img src="' + s.imgSrc + '" alt="" loading="lazy">';
+    slide.style.cursor = 'default';
+    return slide;
+  }
+  // Insertar clon del último al inicio
+  track.insertBefore(makeSlide(slides[slides.length - 1]), track.firstChild);
+  // Agregar clon del primero al final
+  track.appendChild(makeSlide(slides[0]));
+
   bar.appendChild(track);
+
+  // Sombra degradado inferior
+  var shadow = document.createElement('div');
+  shadow.className = 'cat-bar-shadow';
+  bar.appendChild(shadow);
 
   // Flechas
   var prev = document.createElement('button');
@@ -1588,18 +1608,39 @@ function renderCatBar() {
   });
   bar.appendChild(dotsEl);
 
-  catSliderIndex = 0;
+  catSliderIndex = 1;
+  var track2 = document.getElementById('cat-bar-track');
+  if (track2) { track2.style.transition = 'none'; track2.style.transform = 'translateX(-100%)'; }
   catSliderAutoplay(slides.length);
 }
 
 function catSliderGo(idx, total) {
   if (!total) return;
-  catSliderIndex = (idx + total) % total;
+  catSliderIndex = idx;
   var track = document.getElementById('cat-bar-track');
-  if (track) track.style.transform = 'translateX(-' + (catSliderIndex * 100) + '%)';
+  if (!track) return;
+  track.style.transition = 'transform .5s ease';
+  track.style.transform = 'translateX(-' + (catSliderIndex * 100) + '%)';
+  // Dots — el índice real es catSliderIndex - 1 (por el clon inicial)
+  var realIdx = ((catSliderIndex - 1) + total) % total;
   document.querySelectorAll('.cat-bar-dot').forEach(function(d, i){
-    d.classList.toggle('active', i === catSliderIndex);
+    d.classList.toggle('active', i === realIdx);
   });
+  // Si llegamos al clon del último, saltar sin animación al primero real
+  // Si llegamos al clon del primero (0), saltar sin animación al último real
+  setTimeout(function(){
+    var t = document.getElementById('cat-bar-track');
+    if (!t) return;
+    if (catSliderIndex >= total + 1) {
+      t.style.transition = 'none';
+      catSliderIndex = 1;
+      t.style.transform = 'translateX(-100%)';
+    } else if (catSliderIndex <= 0) {
+      t.style.transition = 'none';
+      catSliderIndex = total;
+      t.style.transform = 'translateX(-' + (total * 100) + '%)';
+    }
+  }, 510);
 }
 
 function catSliderAutoplay(total) {

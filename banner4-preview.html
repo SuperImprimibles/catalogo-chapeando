@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1024px; height:338px; overflow:hidden; }
+
+.banner {
+  width:1024px;
+  height:338px;
+  background: #f5ebe0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Ondas decorativas estilo marca */
+.banner::before {
+  content:'';
+  position:absolute;
+  top:-40px; left:-40px;
+  width:260px; height:260px;
+  border-radius:50%;
+  background: radial-gradient(circle, #c0392b22, transparent 70%);
+}
+.banner::after {
+  content:'';
+  position:absolute;
+  bottom:-60px; right:-40px;
+  width:300px; height:300px;
+  border-radius:50%;
+  background: radial-gradient(circle, #e67e2222, transparent 70%);
+}
+
+/* Franja izquierda con logo */
+.left {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  z-index:1;
+}
+.logo-ch {
+  width:90px; height:90px;
+  background: linear-gradient(135deg, #c0392b, #e74c3c);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0 4px 16px rgba(192,57,43,.4);
+}
+.logo-ch span {
+  font-size:38px;
+  font-weight:900;
+  color:#fff;
+  font-style:italic;
+}
+.brand-name {
+  font-size:15px;
+  font-weight:800;
+  color:#c0392b;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+/* Divisor */
+.divider {
+  width:2px;
+  height:200px;
+  background: linear-gradient(to bottom, transparent, #c0392b55, transparent);
+  z-index:1;
+}
+
+/* Centro - título */
+.center {
+  flex:1;
+  text-align:center;
+  z-index:1;
+  padding:0 40px;
+}
+.title {
+  font-size:13px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  color:#999;
+  margin-bottom:8px;
+}
+.subtitle {
+  font-size:34px;
+  font-weight:900;
+  color:#2c2c2c;
+  line-height:1.1;
+  margin-bottom:6px;
+}
+.subtitle span {
+  color:#c0392b;
+}
+.desc {
+  font-size:13px;
+  color:#888;
+  margin-top:8px;
+}
+
+/* Métodos de pago */
+.methods {
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  z-index:1;
+}
+.method {
+  display:flex;
+  align-items:center;
+  gap:14px;
+  background:#fff;
+  border-radius:14px;
+  padding:12px 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+  min-width:260px;
+}
+.method-icon {
+  width:44px; height:44px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  flex-shrink:0;
+}
+.icon-mp { background:#009ee3; }
+.icon-tr { background:#27ae60; }
+.method-info {}
+.method-name {
+  font-size:14px;
+  font-weight:800;
+  color:#222;
+}
+.method-detail {
+  font-size:11px;
+  color:#aaa;
+  margin-top:2px;
+}
+
+/* Ondas decorativas inferiores */
+.wave {
+  position:absolute;
+  bottom:0; left:0; right:0;
+  height:6px;
+  background: linear-gradient(to right, #c0392b, #e67e22, #f39c12, #e67e22, #c0392b);
+}
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="left">
+    <div class="logo-ch"><span>Ch</span></div>
+    <div class="brand-name">Chapeando</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="center">
+    <div class="title">Comprá con confianza</div>
+    <div class="subtitle">Medios de<br><span>Pago</span></div>
+    <div class="desc">Pagá de forma segura,<br>fácil y sin complicaciones.</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="methods">
+    <div class="method">
+      <div class="method-icon icon-mp">
+        <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+          <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4z" fill="#fff"/>
+          <path d="M33.5 20.5c0 5.52-4.48 10-10 10s-10-4.48-10-10 4.48-10 10-10 10 4.48 10 10z" fill="#009ee3"/>
+          <text x="24" y="26" text-anchor="middle" font-size="12" font-weight="900" fill="#fff" font-family="Arial">MP</text>
+        </svg>
+      </div>
+      <div class="method-info">
+        <div class="method-name">Mercado Pago</div>
+        <div class="method-detail">Crédito · Débito · Cuenta MP</div>
+      </div>
+    </div>
+    <div class="method">
+      <div class="method-icon icon-tr">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="5" width="20" height="14" rx="2"/>
+          <line x1="2" y1="10" x2="22" y2="10"/>
+        </svg>
+      </div>
+      <div class="method-info">
+        <div class="method-name">Transferencia</div>
+        <div class="method-detail">CBU · Alias · CVU</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wave"></div>
+</div>
+</body>
+</html>

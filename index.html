@@ -971,36 +971,6 @@ function applyFilter() {
 
   render(list);
 
-  // Secciones extra — solo en Inicio
-  var homeSections = [
-    { key: 'numeracion',    id: 'numeraciones' },
-    { key: 'deco',          id: 'deco' },
-    { key: 'personalizados',id: 'personalizados' },
-    { key: 'señalitica',    id: 'señalitica' },
-  ];
-  homeSections.forEach(function(s) {
-    var sec = document.getElementById('section-' + s.id);
-    var g   = document.getElementById('grid-' + s.id);
-    var vm  = document.getElementById('ver-mas-' + s.id);
-    if (!sec || !g) return;
-    if (isHome) {
-      var list2 = items.filter(function(i){ return i.cat === s.key; });
-      if (list2.length) {
-        g.innerHTML = '';
-        g._list  = list2;
-        g._limit = 4;
-        list2.slice(0, 4).forEach(function(item){ appendCard(g, item); });
-        syncImanFrames();
-        if (vm) vm.style.display = list2.length > 4 ? 'block' : 'none';
-        sec.style.display = 'block';
-      } else {
-        sec.style.display = 'none';
-      }
-    } else {
-      sec.style.display = 'none';
-    }
-  });
-
   // Panel Todos — siempre visible en inicio
   var todosPanel = document.getElementById('todos-panel');
   if (todosPanel) {

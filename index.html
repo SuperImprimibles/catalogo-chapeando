@@ -920,6 +920,8 @@ function applyFilter() {
       if (firstTipo) firstTipo.classList.add('active');
       var menu = document.getElementById('themes-menu');
       if (menu) menu.style.display = 'flex';
+      var secInline = document.getElementById('section-tipo-inline');
+      if (secInline) secInline.style.display = 'none';
     }
   }
 
@@ -1162,12 +1164,54 @@ function renderCart() {
 function selectTipo(tipo, btn) {
   document.querySelectorAll('.tipo-btn').forEach(function(b){ b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
+
+  var menu = document.getElementById('themes-menu');
+
   if (tipo === 'carteles') {
-    var menu = document.getElementById('themes-menu');
     if (menu) menu.style.display = 'flex';
+    // Ocultar sección inline si estaba visible
+    var sec = document.getElementById('section-tipo-inline');
+    if (sec) sec.style.display = 'none';
   } else {
-    filterCat(tipo, null);
+    if (menu) menu.style.display = 'none';
+    // Mostrar productos inline debajo
+    var sec = document.getElementById('section-tipo-inline');
+    if (!sec) {
+      sec = document.createElement('div');
+      sec.id = 'section-tipo-inline';
+      sec.className = 'section-block';
+      sec.innerHTML = '<div class="section-block-title" id="tipo-inline-title"></div><div id="grid-tipo-inline" class="grid grid--home"></div><div id="ver-mas-tipo-inline" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="verMasTipoInline()">Ver más</button></div>';
+      document.getElementById('themes-section').after(sec);
+    }
+    var titleEl = document.getElementById('tipo-inline-title');
+    var g = document.getElementById('grid-tipo-inline');
+    var vm = document.getElementById('ver-mas-tipo-inline');
+    var labels = { imanes:'Imanes', señalitica:'Señalítica', personalizados:'Personaliza Tú Chapa' };
+    if (titleEl) titleEl.textContent = labels[tipo] || tipo;
+    if (g) {
+      var list2 = items.filter(function(i){ return i.cat === tipo; });
+      g.innerHTML = '';
+      g._list = list2;
+      g._limit = 8;
+      list2.slice(0, 8).forEach(function(item){ appendCard(g, item); });
+      syncImanFrames();
+      if (vm) vm.style.display = list2.length > 8 ? 'block' : 'none';
+    }
+    sec.style.display = 'block';
+    // Scroll suave a la sección
+    setTimeout(function(){ sec.scrollIntoView({ behavior:'smooth', block:'start' }); }, 100);
   }
+}
+
+function verMasTipoInline() {
+  var g = document.getElementById('grid-tipo-inline');
+  var vm = document.getElementById('ver-mas-tipo-inline');
+  if (!g || !g._list) return;
+  g._limit += 8;
+  g.innerHTML = '';
+  g._list.slice(0, g._limit).forEach(function(item){ appendCard(g, item); });
+  syncImanFrames();
+  if (vm) vm.style.display = g._limit >= g._list.length ? 'none' : 'block';
 }
 
 

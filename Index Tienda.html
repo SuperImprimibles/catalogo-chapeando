@@ -77,7 +77,25 @@ html.dark .sets-bar-title{color:#555}
 .set-card-price{font-size:12px;font-weight:700;color:#fff;margin-top:2px}
 html.dark .set-card{background:#1a1a1a}
 
-/* SELECTOR DE TIPO */
+/* PANEL TODOS */
+.todos-panel{margin-bottom:16px}
+.todos-cat-block{margin-bottom:18px}
+.todos-cat-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.todos-cat-title{font-size:13px;font-weight:800;color:#111;cursor:pointer}
+.todos-cat-title:hover{color:#c0392b}
+.todos-cat-ver-mas{font-size:11px;font-weight:600;color:#c0392b;cursor:pointer;background:none;border:none;font-family:inherit;padding:0}
+.todos-cat-ver-mas:hover{text-decoration:underline}
+.todos-cat-row{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+@media(max-width:600px){.todos-cat-row{grid-template-columns:repeat(3,1fr)}}
+.todos-cat-item{border-radius:10px;overflow:hidden;cursor:pointer;position:relative;background:#111;aspect-ratio:1/1}
+.todos-cat-item img{width:100%;height:100%;object-fit:cover;display:block}
+.todos-cat-item-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);padding:4px 6px;font-size:9px;font-weight:700;color:#fff}
+.todos-sep{height:1px;background:#eee;margin:12px 0}
+html.dark .todos-cat-title{color:#f0f0f0}
+html.dark .todos-sep{background:#2a2a2a}
+html.dark .todos-cat-ver-mas{color:#e74c3c}
+
+
 .tipo-selector{display:flex;gap:6px;margin-bottom:10px}
 .tipo-btn{background:none;border:none;cursor:pointer;font-size:12px;font-weight:600;color:#bbb;font-family:inherit;padding:4px 0;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
 .tipo-btn:hover{color:#666}
@@ -408,6 +426,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     <div class="sets-bar-title">Mejor Juntos (Sets)</div>
     <div class="sets-row" id="sets-row"></div>
   </div>
+  <div id="todos-panel" class="todos-panel" style="display:none"></div>
   <div id="themes-section" style="display:none">
     <div class="tipo-selector">
       <button class="tipo-btn active" onclick="selectTipo('carteles',this)">Carteles</button>
@@ -416,7 +435,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
       <button class="tipo-btn" onclick="selectTipo('personalizados',this)">Personalizados</button>
     </div>
     <div id="themes-menu" class="themes-menu">
-    <div class="themes-menu-item" onclick="filterCat('catalogo',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Todos</span></div>
+    <div class="themes-menu-item" onclick="showTodosPanel(this)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Todos</span></div>
     <div class="themes-menu-item" onclick="filterCat('mundial',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Mundial/Asado De Selección.webp" alt=""></div><span>Mundial</span></div>
     <div class="themes-menu-item" onclick="filterCat('parrilla',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos Bienvenidos Familiares Con Cita Previa.webp" alt=""></div><span>Parrilla y Asado</span></div>
     <div class="themes-menu-item" onclick="filterCat('vehiculos',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-1.jpg" alt=""></div><span>Vehículos</span></div>
@@ -922,6 +941,9 @@ function applyFilter() {
       if (menu) menu.style.display = 'flex';
       var secInline = document.getElementById('section-tipo-inline');
       if (secInline) secInline.style.display = 'none';
+      var todosPanel = document.getElementById('todos-panel');
+      if (todosPanel) todosPanel.style.display = 'none';
+      _todosActive = false;
     }
   }
 
@@ -1432,6 +1454,78 @@ var CAT_INFO = [
   { key: 'personalizados', label: 'Personaliza Tú Chapa', img: 'logo.png' },
 ];
 
+// ── PANEL TODOS ──────────────────────────────────────────────
+var _todosActive = false;
+
+function showTodosPanel(btn) {
+  _todosActive = !_todosActive;
+  document.querySelectorAll('.themes-menu-item').forEach(function(b){ b.classList.remove('active'); });
+
+  var panel = document.getElementById('todos-panel');
+  if (!_todosActive) { panel.style.display = 'none'; return; }
+  if (btn) btn.classList.add('active');
+
+  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','bebidas','deco','infantil','mundial'];
+  var shuffled = allCats.sort(function(){ return Math.random()-.5; }).slice(0,5);
+  var catLabels = {
+    vintages:'Vintages', ilustraciones:'Ilustraciones', musica:'Música', cine:'Cine',
+    deportes:'Deportes', argentina:'Argentina', vehiculos:'Vehículos', parrilla:'Parrilla y Asado',
+    publicidades:'Publicidades Vintage', bebidas:'Bebidas', deco:'Deco', infantil:'Infantil y Juvenil',
+    mundial:'Mundial', imanes:'Imanes', señalitica:'Señalítica'
+  };
+
+  panel.innerHTML = '';
+  shuffled.forEach(function(cat) {
+    var catItems = items.filter(function(i){ return i.cat === cat; });
+    if (!catItems.length) return;
+    panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));
+  });
+
+  var sep = document.createElement('div');
+  sep.className = 'todos-sep';
+  panel.appendChild(sep);
+
+  ['imanes','señalitica'].forEach(function(cat) {
+    var catItems = items.filter(function(i){ return i.cat === cat; });
+    if (!catItems.length) return;
+    panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));
+  });
+
+  panel.style.display = 'block';
+  setTimeout(function(){ panel.scrollIntoView({ behavior:'smooth', block:'start' }); }, 100);
+}
+
+function buildCatBlock(cat, label, catItems) {
+  var block = document.createElement('div');
+  block.className = 'todos-cat-block';
+  var header = document.createElement('div');
+  header.className = 'todos-cat-header';
+  header.innerHTML = '<span class="todos-cat-title" onclick="filterCat(\'' + cat + '\',null)">' + label + '</span>'
+    + (catItems.length > 5 ? '<button class="todos-cat-ver-mas" onclick="filterCat(\'' + cat + '\',null)">Ver más →</button>' : '');
+  block.appendChild(header);
+  var row = document.createElement('div');
+  row.className = 'todos-cat-row';
+  catItems.slice(0, 5).forEach(function(item) {
+    var el = document.createElement('div');
+    el.className = 'todos-cat-item';
+    el.innerHTML = '<img src="' + item.img + '" loading="lazy" alt="' + item.title + '">'
+      + '<div class="todos-cat-item-label">' + item.title + '</div>';
+    el.addEventListener('click', function(){ openModal(item); });
+    row.appendChild(el);
+  });
+  if (catItems.length > 5) {
+    var more = document.createElement('div');
+    more.className = 'todos-cat-item';
+    more.style.cssText = 'background:#f0f0f0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer';
+    more.innerHTML = '<span style="font-size:22px;font-weight:800;color:#c0392b">+' + (catItems.length-5) + '</span>'
+      + '<span style="font-size:9px;font-weight:700;color:#888">Ver más</span>';
+    more.addEventListener('click', function(){ filterCat(cat, null); });
+    row.appendChild(more);
+  }
+  block.appendChild(row);
+  return block;
+}
+
 // ── CAT-BAR SLIDER ───────────────────────────────────────────
 var catSliderIndex = 0;
 var catSliderTimer = null;
@@ -1445,6 +1539,7 @@ function renderCatBar() {
   var brandSlides = [
     { imgSrc: 'Chapeando - Marca/Baner 1.webp', label: '', key: null },
     { imgSrc: 'Chapeando - Marca/Baner 2.webp', label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Baner 3.png',  label: '', key: null },
   ];
 
   var slides = brandSlides;

@@ -1163,11 +1163,10 @@ function renderCart() {
 function selectTipo(tipo, btn) {
   document.querySelectorAll('.tipo-btn').forEach(function(b){ b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
-  var menu = document.getElementById('themes-menu');
   if (tipo === 'carteles') {
+    var menu = document.getElementById('themes-menu');
     if (menu) menu.style.display = 'flex';
   } else {
-    if (menu) menu.style.display = 'none';
     filterCat(tipo, null);
   }
 }

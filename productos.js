@@ -874,4 +874,33 @@ const items = [
   {id:"PUB-073", title:"Vans", cat:"publicidades", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Publicidades Vintage/Vans.webp"},
   {id:"PUB-074", title:"Wrangler", cat:"publicidades", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Publicidades Vintage/Wrangler.webp"},
 
+  // -- CINE
+  {id:"CIN-001", title:"Batiseñal", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-2.png"},
+  {id:"CIN-002", title:"Batman", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-3.png"},
+  {id:"CIN-003", title:"Beetlejuice", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-4.png"},
+  {id:"CIN-004", title:"HellFish", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-5.png"},
+  {id:"CIN-005", title:"Cazafantasmas", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-6.png"},
+  {id:"CIN-006", title:"Howarts Railways", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-7.png"},
+  {id:"CIN-007", title:"Jack Skellington R1", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-8.png"},
+  {id:"CIN-008", title:"Jack Skellington R2", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-9.png"},
+  {id:"CIN-009", title:"Jack Skellington R3", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-10.png"},
+  {id:"CIN-010", title:"Jurassic Park", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-11.png"},
+  {id:"CIN-011", title:"Los Pollos Hermanos", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-12.png"},
+  {id:"CIN-012", title:"Volver al Futuro", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-13.png"},
+
+  // -- BEBIDAS
+  {id:"BEB-001", title:"Bebida 1", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-1.png"},
+  {id:"BEB-002", title:"Bebida 2", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-2.png"},
+  {id:"BEB-003", title:"Bebida 3", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-3.png"},
+  {id:"BEB-004", title:"Bebida 4", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-4.png"},
+  {id:"BEB-005", title:"Bebida 5", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-5.png"},
+  {id:"BEB-006", title:"Bebida 6", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-6.png"},
+  {id:"BEB-007", title:"Bebida 7", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-7.png"},
+  {id:"BEB-008", title:"Bebida 8", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-8.png"},
+  {id:"BEB-009", title:"Bebida 9", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-9.png"},
+  {id:"BEB-010", title:"Bebida 10", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-10.png"},
+  {id:"BEB-011", title:"Bebida 11", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-11.jpg"},
+  {id:"BEB-012", title:"Bebida 12", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-12.jpg"},
+  {id:"BEB-013", title:"Bebida 13", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-13.jpg"},
+
 ];

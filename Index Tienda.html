@@ -1523,9 +1523,11 @@ function buildCatBlock(cat, label, catItems) {
   if (catItems.length > 5) {
     var more = document.createElement('div');
     more.className = 'todos-cat-item';
-    more.style.cssText = 'background:#f0f0f0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer';
-    more.innerHTML = '<span style="font-size:22px;font-weight:800;color:#c0392b">+' + (catItems.length-5) + '</span>'
-      + '<span style="font-size:9px;font-weight:700;color:#888">Ver más</span>';
+    var nextItem = catItems[5];
+    more.style.cssText = 'display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;position:relative;overflow:hidden;background:#111';
+    more.innerHTML = (nextItem ? '<img src="' + nextItem.img + '" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.2;filter:blur(2px);transform:scale(1.05)">' : '')
+      + '<span style="position:relative;z-index:1;font-size:22px;font-weight:800;color:#fff">+' + (catItems.length-5) + '</span>'
+      + '<span style="position:relative;z-index:1;font-size:9px;font-weight:700;color:rgba(255,255,255,.7)">Ver más</span>';
     more.addEventListener('click', function(){ filterCat(cat, null); });
     row.appendChild(more);
   }

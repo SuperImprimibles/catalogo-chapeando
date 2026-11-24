@@ -932,8 +932,8 @@ function applyFilter() {
 
   // En vista categoría: themes-section arriba, sin margin
   if (themesSection) {
-    themesSection.style.display = 'block';
-    themesSection.style.marginBottom = isHome ? '20px' : '16px';
+    themesSection.style.display = isHome ? 'none' : 'block';
+    themesSection.style.marginBottom = '16px';
     // Resetear selector al volver a inicio
     if (isHome) {
       document.querySelectorAll('.tipo-btn').forEach(function(b){ b.classList.remove('active'); });
@@ -952,8 +952,12 @@ function applyFilter() {
   document.querySelector('main').classList.toggle('vintage-bg', cat === 'vintages');
   document.querySelector('main').classList.toggle('imanes-bg', cat === 'imanes');
   var grid = document.getElementById('grid');
+  grid.style.display = isHome ? 'none' : '';
   grid.classList.toggle('grid--imanes', cat === 'imanes');
   grid.classList.toggle('grid--home', isHome);
+
+  var verMasWrap = document.getElementById('ver-mas-wrap');
+  if (verMasWrap) verMasWrap.style.display = isHome ? 'none' : (verMasWrap.style.display || 'none');
 
   var list;
   if (isHome) {

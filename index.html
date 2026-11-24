@@ -927,7 +927,7 @@ function applyFilter() {
     argentina:'Argentina', carteles:'Carteles Clásicos', 'dias-especiales':'Días Especiales',
     calendarios:'Calendarios Perpetuos', catalogo:'Catálogo'
   };
-  if (catHeader) catHeader.style.display = isHome ? 'none' : 'flex';
+  if (catHeader) catHeader.style.display = (isHome || cat === 'catalogo') ? 'none' : 'flex';
   if (catTitle)  catTitle.textContent = isHome ? '' : (catLabels[cat] || cat);
 
   // En vista categoría: themes-section arriba, sin margin

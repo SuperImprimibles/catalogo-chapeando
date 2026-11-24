@@ -887,20 +887,20 @@ const items = [
   {id:"CIN-010", title:"Jurassic Park", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-11.png"},
   {id:"CIN-011", title:"Los Pollos Hermanos", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-12.png"},
   {id:"CIN-012", title:"Volver al Futuro", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-13.png"},
-
   // -- BEBIDAS
-  {id:"BEB-001", title:"Bebida 1", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-1.png"},
-  {id:"BEB-002", title:"Bebida 2", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-2.png"},
-  {id:"BEB-003", title:"Bebida 3", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-3.png"},
-  {id:"BEB-004", title:"Bebida 4", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-4.png"},
-  {id:"BEB-005", title:"Bebida 5", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-5.png"},
-  {id:"BEB-006", title:"Bebida 6", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-6.png"},
-  {id:"BEB-007", title:"Bebida 7", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-7.png"},
-  {id:"BEB-008", title:"Bebida 8", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-8.png"},
-  {id:"BEB-009", title:"Bebida 9", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-9.png"},
-  {id:"BEB-010", title:"Bebida 10", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-10.png"},
-  {id:"BEB-011", title:"Bebida 11", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-11.jpg"},
-  {id:"BEB-012", title:"Bebida 12", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-12.jpg"},
+  {id:"BEB-001", title:"Coffee", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-1.png"},
+  {id:"BEB-002", title:"Coca Cola Light", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-2.png"},
+  {id:"BEB-003", title:"Drink Coca Cola", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-3.png"},
+  {id:"BEB-004", title:"Coca Cola", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-4.png"},
+  {id:"BEB-005", title:"Corona Extra", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-5.png"},
+  {id:"BEB-006", title:"Duff", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-6.png"},
+  {id:"BEB-007", title:"Fernet Branca", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-7.png"},
+  {id:"BEB-008", title:"Branca Único", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-8.png"},
+  {id:"BEB-009", title:"Heineken", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-9.png"},
+  {id:"BEB-010", title:"Jack Daniels R1", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-10.png"},
+  {id:"BEB-011", title:"Jack Daniels R2", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-11.jpg"},
+  {id:"BEB-012", title:"Jack Daniels R3", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-12.jpg"},
   {id:"BEB-013", title:"Bebida 13", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/bebidas-13.jpg"},
 
 ];
+

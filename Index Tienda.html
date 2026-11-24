@@ -1035,7 +1035,7 @@ function shareProduct() {
   }
 }
 
-
+function openModalById(id) {
   var item = items.find(function(x) { return x.id === id; });
   if (item) openModal(item);
 }
@@ -1377,6 +1377,7 @@ function renderCatBar() {
   // Slides del slider — solo banners
   var brandSlides = [
     { imgSrc: 'Chapeando - Marca/Baner 1.webp', label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Baner 2.webp', label: '', key: null },
   ];
 
   var slides = brandSlides;

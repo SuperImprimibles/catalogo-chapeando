@@ -998,9 +998,9 @@ function openModal(item) {
   document.getElementById('m-cat').textContent = item.cat;
   document.getElementById('m-id').textContent = '#' + item.id;
   document.getElementById('m-size').textContent = item.size !== '-' ? item.size : 'Consultar';
-  document.getElementById('m-mat').textContent  = item.cat === 'imanes' ? 'Inmantada' : (item.mat !== '-' ? item.mat : 'Aluminio');
-  document.getElementById('m-unit').textContent = item.unit !== '-' ? item.unit : '1 pieza';
-  document.getElementById('spec-perf-wrap').style.display = item.cat === 'imanes' ? 'none' : 'flex';
+  document.getElementById('m-mat').textContent  = item.cat === 'imanes' ? 'Inmantada' : item.cat === 'set' ? 'Chapa de aluminio' : (item.mat !== '-' ? item.mat : 'Aluminio');
+  document.getElementById('m-unit').textContent = item.cat === 'set' ? (item.unit !== '-' ? item.unit : '1 set') : (item.unit !== '-' ? item.unit : '1 pieza');
+  document.getElementById('spec-perf-wrap').style.display = (item.cat === 'imanes' || item.cat === 'set') ? 'none' : 'flex';
   document.getElementById('m-mat-label').textContent = item.cat === 'imanes' ? 'Base' : 'Material';
   var priceRow = document.getElementById('price-row');
   var precioMostrar = item.price !== '-' ? item.price : item._calcPrice;
@@ -1338,10 +1338,33 @@ function renderSetsBar() {
       + (set.price ? '<div class="set-card-price">' + set.price + '</div>' : '')
       + (set.desc ? '<div class="set-card-desc">' + set.desc + '</div>' : '')
       + '</div>';
-    card.addEventListener('click', function() { openSetModal(set); });
+    card.addEventListener('click', function() { openSetAsModal(set); });
     row.appendChild(card);
   });
   bar.style.display = 'block';
+}
+
+function openSetAsModal(set) {
+  // Construir un item compatible con openModal
+  var gallery = [];
+  // Intentar cargar hasta 10 imágenes del set
+  var folder = set.img.substring(0, set.img.lastIndexOf('/'));
+  for (var n = 1; n <= 10; n++) {
+    gallery.push(folder + '/' + n + '.webp');
+  }
+  var fakeItem = {
+    id: 'SET-' + set.name.replace(/\s+/g, '-'),
+    title: set.name,
+    cat: 'set',
+    size: set.desc || '-',
+    mat: '-',
+    unit: set.desc || '-',
+    price: set.price || '-',
+    img: set.img,
+    gallery: gallery,
+    _isSet: true,
+  };
+  openModal(fakeItem);
 }
 
 function openSetModal(set) {
@@ -1467,6 +1490,23 @@ function buildGallery(item) {
     return;
   }
 
+  // Sets: cargar imágenes probando cuáles existen
+  if (item.cat === 'set' && item.gallery && item.gallery.length > 0) {
+    var loaded = 0;
+    var toLoad = item.gallery.slice(0, 10);
+    toLoad.forEach(function(src, i) {
+      var testImg = new Image();
+      testImg.onload = function() {
+        addSlide(src, item, null, loaded === 0);
+        loaded++;
+      };
+      testImg.src = src;
+    });
+    // Agregar al menos la imagen principal inmediatamente
+    addSlide(item.img, item, null, true);
+    return;
+  }
+
   // Si el item tiene galería predefinida, usarla
   if (item.gallery && item.gallery.length > 0) {
     item.gallery.forEach(function(src, i) {
@@ -1475,7 +1515,7 @@ function buildGallery(item) {
     return;
   }
 
-  // Si no, mostrar solo la imagen principal (sin buscar carpeta Galeria/)
+  // Solo imagen principal
   addSlide(item.img, item, null, true);
 }
 

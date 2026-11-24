@@ -999,6 +999,17 @@ function applyFilter() {
       sec.style.display = 'none';
     }
   });
+
+  // Panel Todos — siempre visible en inicio
+  var todosPanel = document.getElementById('todos-panel');
+  if (todosPanel) {
+    if (isHome) {
+      renderTodosPanel(todosPanel);
+      todosPanel.style.display = 'block';
+    } else {
+      todosPanel.style.display = 'none';
+    }
+  }
 }
 
 function verMasSection(id) {
@@ -1455,8 +1466,32 @@ var CAT_INFO = [
   { key: 'personalizados', label: 'Personaliza Tú Chapa', img: 'logo.png' },
 ];
 
-// ── PANEL TODOS ──────────────────────────────────────────────
-var _todosActive = false;
+function renderTodosPanel(panel) {
+  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','bebidas','deco','infantil','mundial'];
+  var shuffled = allCats.sort(function(){ return Math.random()-.5; }).slice(0,5);
+  var catLabels = {
+    vintages:'Vintages', ilustraciones:'Ilustraciones', musica:'Música', cine:'Cine',
+    deportes:'Deportes', argentina:'Argentina', vehiculos:'Vehículos', parrilla:'Parrilla y Asado',
+    publicidades:'Publicidades Vintage', bebidas:'Bebidas', deco:'Deco', infantil:'Infantil y Juvenil',
+    mundial:'Mundial', imanes:'Imanes', señalitica:'Señalítica'
+  };
+  panel.innerHTML = '';
+  shuffled.forEach(function(cat) {
+    var catItems = items.filter(function(i){ return i.cat === cat; });
+    if (!catItems.length) return;
+    panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));
+  });
+  var sep = document.createElement('div');
+  sep.className = 'todos-sep';
+  panel.appendChild(sep);
+  ['imanes','señalitica'].forEach(function(cat) {
+    var catItems = items.filter(function(i){ return i.cat === cat; });
+    if (!catItems.length) return;
+    panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));
+  });
+}
+
+
 
 function showTodosPanel(btn) {
   _todosActive = !_todosActive;

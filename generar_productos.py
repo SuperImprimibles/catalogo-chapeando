@@ -210,6 +210,17 @@ def collect_sets():
 def main():
     items = collect_items()
     sets  = collect_sets()
+
+    # Aplicar precio por categoría
+    PRECIOS = {
+        "imanes": 2500,
+    }
+    PRECIO_DEFAULT = 14900
+
+    for item in items:
+        p = PRECIOS.get(item['cat'], PRECIO_DEFAULT)
+        item['price'] = '$' + '{:,.0f}'.format(p).replace(',','.')
+
     print(f"Productos: {len(items)}")
     print(f"Sets: {len(sets)}")
 

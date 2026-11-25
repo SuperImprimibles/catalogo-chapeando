@@ -9,7 +9,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada (Ilustracion).webp"
@@ -22,7 +22,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Argentina Gaucho.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-003",
@@ -31,7 +31,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-3-estrellas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-004",
@@ -40,7 +40,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentinidad.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-005",
@@ -49,7 +49,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Asado De Selección.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-006",
@@ -58,7 +58,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Bandera.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-007",
@@ -67,7 +67,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Caminito.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-008",
@@ -76,7 +76,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Campeones Del Mundo Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-009",
@@ -85,7 +85,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Ciudad De BSAS.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-010",
@@ -94,7 +94,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El 10 Asador Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-011",
@@ -103,7 +103,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El Humo Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-012",
@@ -112,7 +112,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El partido arranca parrilla Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-013",
@@ -121,7 +121,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Equipo Completo Parrilla Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-014",
@@ -130,7 +130,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Fernetcito.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Fernetcito.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Fernetcito (Ilustracion).webp"
@@ -143,7 +143,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Fileteado Argentina.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-016",
@@ -152,7 +152,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Futbol Mundial Mexico 1986.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-017",
@@ -161,7 +161,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/GOAT Argentino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-018",
@@ -170,7 +170,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Gracias Capitan.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-019",
@@ -179,7 +179,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Gracias Dios Por Hacerme Argentino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-020",
@@ -188,7 +188,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/INGLATERRA LCDTM.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-021",
@@ -197,7 +197,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/La Gloria Se Cocina Lento.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-022",
@@ -206,7 +206,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/La Vida Mundial.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/La Vida Mundial.webp",
       "Tienda (Imagenes)/Categorias/Argentina/La Vida Mundial (Ilustracion).webp"
@@ -219,7 +219,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Lionel Messi.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-024",
@@ -228,7 +228,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-025",
@@ -237,7 +237,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-026",
@@ -246,7 +246,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-027",
@@ -255,7 +255,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-028",
@@ -264,7 +264,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-029",
@@ -273,7 +273,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-030",
@@ -282,7 +282,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-031",
@@ -291,7 +291,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-032",
@@ -300,7 +300,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-033",
@@ -309,7 +309,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-034",
@@ -318,7 +318,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-035",
@@ -327,7 +327,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-036",
@@ -336,7 +336,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-037",
@@ -345,7 +345,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-038",
@@ -354,7 +354,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-039",
@@ -363,7 +363,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-040",
@@ -372,7 +372,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-041",
@@ -381,7 +381,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-042",
@@ -390,7 +390,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-043",
@@ -399,7 +399,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-044",
@@ -408,7 +408,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-045",
@@ -417,7 +417,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-046",
@@ -426,7 +426,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-047",
@@ -435,7 +435,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-048",
@@ -444,7 +444,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-049",
@@ -453,7 +453,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-050",
@@ -462,7 +462,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-051",
@@ -471,7 +471,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-052",
@@ -480,7 +480,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-053",
@@ -489,7 +489,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-054",
@@ -498,7 +498,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/luna-argentina-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-055",
@@ -507,7 +507,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas (Ilustracion).webp"
@@ -520,7 +520,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas Mundiales.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas Mundiales.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas Mundiales (Ilustracion).webp"
@@ -533,7 +533,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/malvinas-son-argentinas-mapa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-058",
@@ -542,7 +542,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/malvinas-son-argentinas-texto.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-059",
@@ -551,7 +551,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Mate.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Mate.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Mate (Ilustracion).webp"
@@ -564,7 +564,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/messi.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-061",
@@ -573,7 +573,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Moneda Un Peso.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Moneda Un Peso.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Moneda Un Peso (Ilustracion).webp"
@@ -586,7 +586,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Mundial 2026 Futbol.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Mundial 2026 Futbol.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Mundial 2026 Futbol (Ilustracion).webp"
@@ -599,7 +599,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Mundial Fútbol Argentina 1978.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-064",
@@ -608,7 +608,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Patagonia.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-065",
@@ -617,7 +617,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Receta Fernet.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-066",
@@ -626,7 +626,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/republica-argentina.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-067",
@@ -635,7 +635,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Sifon y Vermu.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Sifon y Vermu.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Sifon y Vermu (Ilustracion).webp"
@@ -648,7 +648,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-069",
@@ -657,7 +657,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Tipos De Mates.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ARG-070",
@@ -666,7 +666,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Una Causa Noble.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-001",
@@ -675,7 +675,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Campeones del mundo.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-002",
@@ -684,7 +684,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Cocina.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-003",
@@ -693,7 +693,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Home.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-004",
@@ -702,7 +702,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Home sweet home.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-005",
@@ -711,7 +711,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Libertad.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-006",
@@ -720,7 +720,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Life is short.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-007",
@@ -729,7 +729,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Saltwater heals.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-008",
@@ -738,7 +738,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario se decide ser feliz.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-009",
@@ -747,7 +747,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Together is home.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CAL-010",
@@ -756,7 +756,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Un buen mate.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-001",
@@ -765,7 +765,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-002",
@@ -774,7 +774,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-003",
@@ -783,7 +783,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-004",
@@ -792,7 +792,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-005",
@@ -801,7 +801,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-006",
@@ -810,7 +810,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-007",
@@ -819,7 +819,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-008",
@@ -828,7 +828,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-009",
@@ -837,7 +837,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-010",
@@ -846,7 +846,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-011",
@@ -855,7 +855,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-012",
@@ -864,7 +864,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-013",
@@ -873,7 +873,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-014",
@@ -882,7 +882,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-100.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-015",
@@ -891,7 +891,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-101.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-016",
@@ -900,7 +900,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-102.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-017",
@@ -909,7 +909,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-103.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-018",
@@ -918,7 +918,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-104.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-019",
@@ -927,7 +927,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-105.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-020",
@@ -936,7 +936,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-106.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-021",
@@ -945,7 +945,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-107.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-022",
@@ -954,7 +954,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-108.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-023",
@@ -963,7 +963,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-109.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-024",
@@ -972,7 +972,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-025",
@@ -981,7 +981,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-110.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-026",
@@ -990,7 +990,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-111.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-027",
@@ -999,7 +999,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-112.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-028",
@@ -1008,7 +1008,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-113.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-029",
@@ -1017,7 +1017,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-114.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-030",
@@ -1026,7 +1026,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-115.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-031",
@@ -1035,7 +1035,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-116.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-032",
@@ -1044,7 +1044,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-117.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-033",
@@ -1053,7 +1053,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-118.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-034",
@@ -1062,7 +1062,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-119.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-035",
@@ -1071,7 +1071,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-036",
@@ -1080,7 +1080,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-120.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-037",
@@ -1089,7 +1089,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-121.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-038",
@@ -1098,7 +1098,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-122.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-039",
@@ -1107,7 +1107,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-123.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-040",
@@ -1116,7 +1116,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-124.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-041",
@@ -1125,7 +1125,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-125.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-042",
@@ -1134,7 +1134,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-126.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-043",
@@ -1143,7 +1143,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-127.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-044",
@@ -1152,7 +1152,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-128.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-045",
@@ -1161,7 +1161,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-129.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-046",
@@ -1170,7 +1170,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-047",
@@ -1179,7 +1179,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-130.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-048",
@@ -1188,7 +1188,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-131.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-049",
@@ -1197,7 +1197,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-132.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-050",
@@ -1206,7 +1206,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-133.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-051",
@@ -1215,7 +1215,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-134.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-052",
@@ -1224,7 +1224,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-053",
@@ -1233,7 +1233,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-054",
@@ -1242,7 +1242,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-055",
@@ -1251,7 +1251,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-056",
@@ -1260,7 +1260,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-057",
@@ -1269,7 +1269,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-058",
@@ -1278,7 +1278,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-059",
@@ -1287,7 +1287,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-060",
@@ -1296,7 +1296,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-061",
@@ -1305,7 +1305,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-062",
@@ -1314,7 +1314,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-063",
@@ -1323,7 +1323,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-064",
@@ -1332,7 +1332,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-065",
@@ -1341,7 +1341,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-066",
@@ -1350,7 +1350,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-067",
@@ -1359,7 +1359,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-068",
@@ -1368,7 +1368,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-069",
@@ -1377,7 +1377,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-070",
@@ -1386,7 +1386,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-071",
@@ -1395,7 +1395,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-072",
@@ -1404,7 +1404,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-073",
@@ -1413,7 +1413,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-074",
@@ -1422,7 +1422,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-075",
@@ -1431,7 +1431,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-076",
@@ -1440,7 +1440,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-077",
@@ -1449,7 +1449,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-078",
@@ -1458,7 +1458,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-079",
@@ -1467,7 +1467,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-080",
@@ -1476,7 +1476,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-081",
@@ -1485,7 +1485,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-082",
@@ -1494,7 +1494,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-083",
@@ -1503,7 +1503,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-084",
@@ -1512,7 +1512,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-085",
@@ -1521,7 +1521,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-086",
@@ -1530,7 +1530,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-087",
@@ -1539,7 +1539,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-088",
@@ -1548,7 +1548,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-089",
@@ -1557,7 +1557,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-090",
@@ -1566,7 +1566,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-091",
@@ -1575,7 +1575,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-092",
@@ -1584,7 +1584,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-093",
@@ -1593,7 +1593,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-094",
@@ -1602,7 +1602,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-095",
@@ -1611,7 +1611,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-096",
@@ -1620,7 +1620,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-097",
@@ -1629,7 +1629,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-098",
@@ -1638,7 +1638,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-099",
@@ -1647,7 +1647,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-100",
@@ -1656,7 +1656,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-101",
@@ -1665,7 +1665,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-102",
@@ -1674,7 +1674,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-103",
@@ -1683,7 +1683,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-104",
@@ -1692,7 +1692,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-105",
@@ -1701,7 +1701,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-106",
@@ -1710,7 +1710,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-107",
@@ -1719,7 +1719,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-108",
@@ -1728,7 +1728,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-109",
@@ -1737,7 +1737,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-110",
@@ -1746,7 +1746,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-111",
@@ -1755,7 +1755,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-112",
@@ -1764,7 +1764,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-113",
@@ -1773,7 +1773,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-114",
@@ -1782,7 +1782,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-115",
@@ -1791,7 +1791,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-116",
@@ -1800,7 +1800,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-117",
@@ -1809,7 +1809,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-118",
@@ -1818,7 +1818,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-119",
@@ -1827,7 +1827,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-120",
@@ -1836,7 +1836,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-76.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-121",
@@ -1845,7 +1845,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-77.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-122",
@@ -1854,7 +1854,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-78.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-123",
@@ -1863,7 +1863,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-79.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-124",
@@ -1872,7 +1872,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-125",
@@ -1881,7 +1881,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-80.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-126",
@@ -1890,7 +1890,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-81.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-127",
@@ -1899,7 +1899,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-82.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-128",
@@ -1908,7 +1908,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-83.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-129",
@@ -1917,7 +1917,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-84.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-130",
@@ -1926,7 +1926,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-85.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-131",
@@ -1935,7 +1935,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-86.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-132",
@@ -1944,7 +1944,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-87.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-133",
@@ -1953,7 +1953,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-88.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-134",
@@ -1962,7 +1962,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-89.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-135",
@@ -1971,7 +1971,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-136",
@@ -1980,7 +1980,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-90.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-137",
@@ -1989,7 +1989,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-91.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-138",
@@ -1998,7 +1998,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-92.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-139",
@@ -2007,7 +2007,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-93.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-140",
@@ -2016,7 +2016,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-94.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-141",
@@ -2025,7 +2025,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-95.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-142",
@@ -2034,7 +2034,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-96.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-143",
@@ -2043,7 +2043,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-97.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-144",
@@ -2052,7 +2052,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-98.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-145",
@@ -2061,7 +2061,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/luna-cine-99.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-146",
@@ -2070,7 +2070,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/Plataforma hogwarts.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "CIN-147",
@@ -2079,7 +2079,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-001",
@@ -2088,7 +2088,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/31.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-002",
@@ -2097,7 +2097,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/bagno.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-003",
@@ -2106,7 +2106,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/bano-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-004",
@@ -2115,7 +2115,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/download.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-005",
@@ -2124,7 +2124,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Good Vibes.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Good Vibes.png",
       "Tienda (Imagenes)/Categorias/Deco/Good Vibes - Ilustracion.jpg"
@@ -2137,7 +2137,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Home.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-007",
@@ -2146,7 +2146,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Huerta.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Huerta.png",
       "Tienda (Imagenes)/Categorias/Deco/Huerta - Ilustracion.png"
@@ -2159,7 +2159,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-100.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-009",
@@ -2168,7 +2168,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-101.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-010",
@@ -2177,7 +2177,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-102.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-011",
@@ -2186,7 +2186,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-103.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-012",
@@ -2195,7 +2195,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-104.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-013",
@@ -2204,7 +2204,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-105.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-014",
@@ -2213,7 +2213,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-106.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-015",
@@ -2222,7 +2222,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-107.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-016",
@@ -2231,7 +2231,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-108.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-017",
@@ -2240,7 +2240,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-109.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-018",
@@ -2249,7 +2249,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-110.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-019",
@@ -2258,7 +2258,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-020",
@@ -2267,7 +2267,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-021",
@@ -2276,7 +2276,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-022",
@@ -2285,7 +2285,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-023",
@@ -2294,7 +2294,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-024",
@@ -2303,7 +2303,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-025",
@@ -2312,7 +2312,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-026",
@@ -2321,7 +2321,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-027",
@@ -2330,7 +2330,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-028",
@@ -2339,7 +2339,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-029",
@@ -2348,7 +2348,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-030",
@@ -2357,7 +2357,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-031",
@@ -2366,7 +2366,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-032",
@@ -2375,7 +2375,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-033",
@@ -2384,7 +2384,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-034",
@@ -2393,7 +2393,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-035",
@@ -2402,7 +2402,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-036",
@@ -2411,7 +2411,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-037",
@@ -2420,7 +2420,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-038",
@@ -2429,7 +2429,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-039",
@@ -2438,7 +2438,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-040",
@@ -2447,7 +2447,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-041",
@@ -2456,7 +2456,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-042",
@@ -2465,7 +2465,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-043",
@@ -2474,7 +2474,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-044",
@@ -2483,7 +2483,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-045",
@@ -2492,7 +2492,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-046",
@@ -2501,7 +2501,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-047",
@@ -2510,7 +2510,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-048",
@@ -2519,7 +2519,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-049",
@@ -2528,7 +2528,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-050",
@@ -2537,7 +2537,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-051",
@@ -2546,7 +2546,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-052",
@@ -2555,7 +2555,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-053",
@@ -2564,7 +2564,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-054",
@@ -2573,7 +2573,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-055",
@@ -2582,7 +2582,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-056",
@@ -2591,7 +2591,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-057",
@@ -2600,7 +2600,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-058",
@@ -2609,7 +2609,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-059",
@@ -2618,7 +2618,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-060",
@@ -2627,7 +2627,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-061",
@@ -2636,7 +2636,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-062",
@@ -2645,7 +2645,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-063",
@@ -2654,7 +2654,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-064",
@@ -2663,7 +2663,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-065",
@@ -2672,7 +2672,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-066",
@@ -2681,7 +2681,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-067",
@@ -2690,7 +2690,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-068",
@@ -2699,7 +2699,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-069",
@@ -2708,7 +2708,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-070",
@@ -2717,7 +2717,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-071",
@@ -2726,7 +2726,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-072",
@@ -2735,7 +2735,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-073",
@@ -2744,7 +2744,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-074",
@@ -2753,7 +2753,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-075",
@@ -2762,7 +2762,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-076",
@@ -2771,7 +2771,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-077",
@@ -2780,7 +2780,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-078",
@@ -2789,7 +2789,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-079",
@@ -2798,7 +2798,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-080",
@@ -2807,7 +2807,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-76.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-081",
@@ -2816,7 +2816,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-77.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-082",
@@ -2825,7 +2825,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-78.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-083",
@@ -2834,7 +2834,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-79.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-084",
@@ -2843,7 +2843,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-80.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-085",
@@ -2852,7 +2852,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-81.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-086",
@@ -2861,7 +2861,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-82.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-087",
@@ -2870,7 +2870,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-83.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-088",
@@ -2879,7 +2879,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-84.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-089",
@@ -2888,7 +2888,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-85.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-090",
@@ -2897,7 +2897,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-86.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-091",
@@ -2906,7 +2906,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-87.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-092",
@@ -2915,7 +2915,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-88.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-093",
@@ -2924,7 +2924,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-89.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-094",
@@ -2933,7 +2933,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-90.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-095",
@@ -2942,7 +2942,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-91.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-096",
@@ -2951,7 +2951,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-92.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-097",
@@ -2960,7 +2960,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-93.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-098",
@@ -2969,7 +2969,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-94.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-099",
@@ -2978,7 +2978,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-95.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-100",
@@ -2987,7 +2987,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-96.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-101",
@@ -2996,7 +2996,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-97.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-102",
@@ -3005,7 +3005,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-98.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-103",
@@ -3014,7 +3014,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-deco-99.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-104",
@@ -3023,7 +3023,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-105",
@@ -3032,7 +3032,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-106",
@@ -3041,7 +3041,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-107",
@@ -3050,7 +3050,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-108",
@@ -3059,7 +3059,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-109",
@@ -3068,7 +3068,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-110",
@@ -3077,7 +3077,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-111",
@@ -3086,7 +3086,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-112",
@@ -3095,7 +3095,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-113",
@@ -3104,7 +3104,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-114",
@@ -3113,7 +3113,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-115",
@@ -3122,7 +3122,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-116",
@@ -3131,7 +3131,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-117",
@@ -3140,7 +3140,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-118",
@@ -3149,7 +3149,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-119",
@@ -3158,7 +3158,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-120",
@@ -3167,7 +3167,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-121",
@@ -3176,7 +3176,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-122",
@@ -3185,7 +3185,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-123",
@@ -3194,7 +3194,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-124",
@@ -3203,7 +3203,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-125",
@@ -3212,7 +3212,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-126",
@@ -3221,7 +3221,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-127",
@@ -3230,7 +3230,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/luna-sealitica-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-128",
@@ -3239,7 +3239,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/ningun-mar-en-calma.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-129",
@@ -3248,7 +3248,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Sin titulo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-130",
@@ -3257,7 +3257,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Stop.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Stop.png",
       "Tienda (Imagenes)/Categorias/Deco/Stop - Ilustracion.webp"
@@ -3270,7 +3270,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/toilette.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-132",
@@ -3279,7 +3279,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres.jpg",
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres - ilustracion.jpg"
@@ -3292,7 +3292,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres-ilu.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-134",
@@ -3301,7 +3301,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres.jpg",
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres- ilustracion.jpg"
@@ -3314,7 +3314,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres-ilu.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEC-136",
@@ -3323,7 +3323,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Wifi.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Wifi.png",
       "Tienda (Imagenes)/Categorias/Deco/Wifi - Ilustracion.jpg"
@@ -3336,7 +3336,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Wine Zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-001",
@@ -3345,7 +3345,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-002",
@@ -3354,7 +3354,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-003",
@@ -3363,7 +3363,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-004",
@@ -3372,7 +3372,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-005",
@@ -3381,7 +3381,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-006",
@@ -3390,7 +3390,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-007",
@@ -3399,7 +3399,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-008",
@@ -3408,7 +3408,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-009",
@@ -3417,7 +3417,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-010",
@@ -3426,7 +3426,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-011",
@@ -3435,7 +3435,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-012",
@@ -3444,7 +3444,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-013",
@@ -3453,7 +3453,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-014",
@@ -3462,7 +3462,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-015",
@@ -3471,7 +3471,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-016",
@@ -3480,7 +3480,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-017",
@@ -3489,7 +3489,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-018",
@@ -3498,7 +3498,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-019",
@@ -3507,7 +3507,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-020",
@@ -3516,7 +3516,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-021",
@@ -3525,7 +3525,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-022",
@@ -3534,7 +3534,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-023",
@@ -3543,7 +3543,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-024",
@@ -3552,7 +3552,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-025",
@@ -3561,7 +3561,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-026",
@@ -3570,7 +3570,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-027",
@@ -3579,7 +3579,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-028",
@@ -3588,7 +3588,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-029",
@@ -3597,7 +3597,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-030",
@@ -3606,7 +3606,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-031",
@@ -3615,7 +3615,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-032",
@@ -3624,7 +3624,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-033",
@@ -3633,7 +3633,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-034",
@@ -3642,7 +3642,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-035",
@@ -3651,7 +3651,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-036",
@@ -3660,7 +3660,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-037",
@@ -3669,7 +3669,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-038",
@@ -3678,7 +3678,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-039",
@@ -3687,7 +3687,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-040",
@@ -3696,7 +3696,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-041",
@@ -3705,7 +3705,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-042",
@@ -3714,7 +3714,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-043",
@@ -3723,7 +3723,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-044",
@@ -3732,7 +3732,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-045",
@@ -3741,7 +3741,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-046",
@@ -3750,7 +3750,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-52.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-047",
@@ -3759,7 +3759,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-048",
@@ -3768,7 +3768,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-049",
@@ -3777,7 +3777,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-050",
@@ -3786,7 +3786,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-051",
@@ -3795,7 +3795,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-052",
@@ -3804,7 +3804,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-053",
@@ -3813,7 +3813,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-054",
@@ -3822,7 +3822,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-055",
@@ -3831,7 +3831,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-056",
@@ -3840,7 +3840,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-057",
@@ -3849,7 +3849,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-058",
@@ -3858,7 +3858,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-059",
@@ -3867,7 +3867,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-060",
@@ -3876,7 +3876,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-061",
@@ -3885,7 +3885,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-062",
@@ -3894,7 +3894,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-063",
@@ -3903,7 +3903,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-064",
@@ -3912,7 +3912,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-065",
@@ -3921,7 +3921,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-066",
@@ -3930,7 +3930,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-067",
@@ -3939,7 +3939,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-068",
@@ -3948,7 +3948,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-069",
@@ -3957,7 +3957,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/luna-deportes-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "DEP-070",
@@ -3966,7 +3966,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-001",
@@ -3975,7 +3975,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/abstracto-boho.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-002",
@@ -3984,7 +3984,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/acuarela-otonal.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-003",
@@ -3993,7 +3993,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/bolsas-con-frases.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-004",
@@ -4002,7 +4002,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/botanical.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-005",
@@ -4011,7 +4011,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/bouquet-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-006",
@@ -4020,7 +4020,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/casas-coloridas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-007",
@@ -4029,7 +4029,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cat-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-008",
@@ -4038,7 +4038,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cerezas-tablero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-009",
@@ -4047,7 +4047,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/colores-relatos.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-010",
@@ -4056,7 +4056,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cuadros-hojas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-011",
@@ -4065,7 +4065,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/es-todo-lo-que-voy-a-decir.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-012",
@@ -4074,7 +4074,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/floral-typography.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-013",
@@ -4083,7 +4083,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/flores-linea-rosa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-014",
@@ -4092,7 +4092,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/gato-en-banera.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-015",
@@ -4101,7 +4101,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/gatos-sol-luna.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-016",
@@ -4110,7 +4110,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-letras-botanicas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-017",
@@ -4119,7 +4119,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-sweet-home.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-018",
@@ -4128,7 +4128,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-sweet-home-rosas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-019",
@@ -4137,7 +4137,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-boho-vase.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-020",
@@ -4146,7 +4146,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-cacti.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-021",
@@ -4155,7 +4155,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-cats-paint.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-022",
@@ -4164,7 +4164,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-gouache-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-023",
@@ -4173,7 +4173,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-51.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-024",
@@ -4182,7 +4182,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-52.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-025",
@@ -4191,7 +4191,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-54.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-026",
@@ -4200,7 +4200,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-55.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-027",
@@ -4209,7 +4209,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-56.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-028",
@@ -4218,7 +4218,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-57.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-029",
@@ -4227,7 +4227,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-58.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-030",
@@ -4236,7 +4236,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-59.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-031",
@@ -4245,7 +4245,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-smiley.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-032",
@@ -4254,7 +4254,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/lavanda-y-vino.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-033",
@@ -4263,7 +4263,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/lemon-vase.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-034",
@@ -4272,7 +4272,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/limoncello.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-035",
@@ -4281,7 +4281,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/limones-tablero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-036",
@@ -4290,7 +4290,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/margarita-retro.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-037",
@@ -4299,7 +4299,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/mate-cafe-te.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-038",
@@ -4308,7 +4308,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/monstera-1763.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-039",
@@ -4317,7 +4317,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/monstera-acuarela.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-040",
@@ -4326,7 +4326,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/pasta-italia.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-041",
@@ -4335,7 +4335,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/planta-de-ajies.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-042",
@@ -4344,7 +4344,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/plantas-en-macetas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-043",
@@ -4353,7 +4353,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/puerta-griega.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-044",
@@ -4362,7 +4362,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/Selva.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-045",
@@ -4371,7 +4371,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/sun.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-046",
@@ -4380,7 +4380,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/utensilios-de-cocina.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-047",
@@ -4389,7 +4389,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/van-gogh.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "ILU-048",
@@ -4398,7 +4398,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/Verde campo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "IMA-001",
@@ -4407,7 +4407,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/52987733111298558.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-002",
@@ -4416,7 +4416,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-006.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-003",
@@ -4425,7 +4425,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-007.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-004",
@@ -4434,7 +4434,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-008.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-005",
@@ -4443,7 +4443,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-009.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-006",
@@ -4452,7 +4452,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-010.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-007",
@@ -4461,7 +4461,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-011.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-008",
@@ -4470,7 +4470,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-012.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-009",
@@ -4479,7 +4479,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-013.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-010",
@@ -4488,7 +4488,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-014.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-011",
@@ -4497,7 +4497,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-015.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-012",
@@ -4506,7 +4506,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-017.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-013",
@@ -4515,7 +4515,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-018.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-014",
@@ -4524,7 +4524,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-019.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-015",
@@ -4533,7 +4533,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-020.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-016",
@@ -4542,7 +4542,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-021.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-017",
@@ -4551,7 +4551,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-022.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-018",
@@ -4560,7 +4560,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-023.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-019",
@@ -4569,7 +4569,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-024.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-020",
@@ -4578,7 +4578,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-025.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-021",
@@ -4587,7 +4587,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-026.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-022",
@@ -4596,7 +4596,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-027.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-023",
@@ -4605,7 +4605,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-028.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-024",
@@ -4614,7 +4614,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-029.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-025",
@@ -4623,7 +4623,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-030.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-026",
@@ -4632,7 +4632,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-032.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-027",
@@ -4641,7 +4641,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-034.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-028",
@@ -4650,7 +4650,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-035.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-029",
@@ -4659,7 +4659,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-036.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-030",
@@ -4668,7 +4668,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-037.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-031",
@@ -4677,7 +4677,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-038.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-032",
@@ -4686,7 +4686,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-039.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-033",
@@ -4695,7 +4695,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-040.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-034",
@@ -4704,7 +4704,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-041.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-035",
@@ -4713,7 +4713,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-042.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-036",
@@ -4722,7 +4722,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-043.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-037",
@@ -4731,7 +4731,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-044.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-038",
@@ -4740,7 +4740,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-045.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-039",
@@ -4749,7 +4749,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-046.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-040",
@@ -4758,7 +4758,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-047.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-041",
@@ -4767,7 +4767,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-050.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-042",
@@ -4776,7 +4776,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-054.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-043",
@@ -4785,7 +4785,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-055.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-044",
@@ -4794,7 +4794,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-056.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-045",
@@ -4803,7 +4803,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-057.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-046",
@@ -4812,7 +4812,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-058.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-047",
@@ -4821,7 +4821,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-059.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-048",
@@ -4830,7 +4830,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-060.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-049",
@@ -4839,7 +4839,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-061.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-050",
@@ -4848,7 +4848,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-062.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-051",
@@ -4857,7 +4857,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-063.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-052",
@@ -4866,7 +4866,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-064.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-053",
@@ -4875,7 +4875,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-065.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-054",
@@ -4884,7 +4884,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-066.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-055",
@@ -4893,7 +4893,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-067.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-056",
@@ -4902,7 +4902,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-069.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-057",
@@ -4911,7 +4911,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-070.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-058",
@@ -4920,7 +4920,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-071.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-059",
@@ -4929,7 +4929,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-072.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-060",
@@ -4938,7 +4938,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-073.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-061",
@@ -4947,7 +4947,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-074.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-062",
@@ -4956,7 +4956,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-075.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-063",
@@ -4965,7 +4965,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-076.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-064",
@@ -4974,7 +4974,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-077.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-065",
@@ -4983,7 +4983,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-078.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-066",
@@ -4992,7 +4992,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-080.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-067",
@@ -5001,7 +5001,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-082.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-068",
@@ -5010,7 +5010,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-083.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-069",
@@ -5019,7 +5019,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-084.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-070",
@@ -5028,7 +5028,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-085.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-071",
@@ -5037,7 +5037,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-086.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-072",
@@ -5046,7 +5046,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-087.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-073",
@@ -5055,7 +5055,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-088.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-074",
@@ -5064,7 +5064,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-090.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-075",
@@ -5073,7 +5073,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-092.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-076",
@@ -5082,7 +5082,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-093.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-077",
@@ -5091,7 +5091,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-094.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-078",
@@ -5100,7 +5100,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-095.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-079",
@@ -5109,7 +5109,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-097.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-080",
@@ -5118,7 +5118,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-098.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-081",
@@ -5127,7 +5127,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-099.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-082",
@@ -5136,7 +5136,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-100.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-083",
@@ -5145,7 +5145,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-101.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-084",
@@ -5154,7 +5154,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-104.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-085",
@@ -5163,7 +5163,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-105.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-086",
@@ -5172,7 +5172,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-106.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-087",
@@ -5181,7 +5181,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-108.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-088",
@@ -5190,7 +5190,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-109.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-089",
@@ -5199,7 +5199,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-110.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-090",
@@ -5208,7 +5208,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-111.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-091",
@@ -5217,7 +5217,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-112.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-092",
@@ -5226,7 +5226,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-113.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-093",
@@ -5235,7 +5235,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-115.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-094",
@@ -5244,7 +5244,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-117.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-095",
@@ -5253,7 +5253,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-118.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-096",
@@ -5262,7 +5262,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-119.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-097",
@@ -5271,7 +5271,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-120.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-098",
@@ -5280,7 +5280,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-121.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-099",
@@ -5289,7 +5289,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-122.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-100",
@@ -5298,7 +5298,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-123.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-101",
@@ -5307,7 +5307,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-124.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-102",
@@ -5316,7 +5316,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-125.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-103",
@@ -5325,7 +5325,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-126.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-104",
@@ -5334,7 +5334,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-127.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-105",
@@ -5343,7 +5343,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-128.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-106",
@@ -5352,7 +5352,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-129.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-107",
@@ -5361,7 +5361,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-130.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-108",
@@ -5370,7 +5370,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-131.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-109",
@@ -5379,7 +5379,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-132.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-110",
@@ -5388,7 +5388,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-133.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-111",
@@ -5397,7 +5397,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-135.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-112",
@@ -5406,7 +5406,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-137.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-113",
@@ -5415,7 +5415,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-138.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-114",
@@ -5424,7 +5424,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-139.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-115",
@@ -5433,7 +5433,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-140.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-116",
@@ -5442,7 +5442,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-141.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-117",
@@ -5451,7 +5451,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-142.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-118",
@@ -5460,7 +5460,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-143.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-119",
@@ -5469,7 +5469,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-144.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-120",
@@ -5478,7 +5478,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-145.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-121",
@@ -5487,7 +5487,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-146.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-122",
@@ -5496,7 +5496,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-147.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-123",
@@ -5505,7 +5505,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-148.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-124",
@@ -5514,7 +5514,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-149.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-125",
@@ -5523,7 +5523,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-150.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-126",
@@ -5532,7 +5532,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-151.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-127",
@@ -5541,7 +5541,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-154.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-128",
@@ -5550,7 +5550,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-155.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-129",
@@ -5559,7 +5559,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-160.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-130",
@@ -5568,7 +5568,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-161.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-131",
@@ -5577,7 +5577,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-162.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-132",
@@ -5586,7 +5586,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-164.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-133",
@@ -5595,7 +5595,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-165.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-134",
@@ -5604,7 +5604,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-166.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-135",
@@ -5613,7 +5613,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-167.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-136",
@@ -5622,7 +5622,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-168.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-137",
@@ -5631,7 +5631,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-171.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-138",
@@ -5640,7 +5640,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-181.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-139",
@@ -5649,7 +5649,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-185.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-140",
@@ -5658,7 +5658,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-186.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-141",
@@ -5667,7 +5667,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-187.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-142",
@@ -5676,7 +5676,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-188.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-143",
@@ -5685,7 +5685,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-193.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-144",
@@ -5694,7 +5694,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-195.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-145",
@@ -5703,7 +5703,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-197.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-146",
@@ -5712,7 +5712,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-198.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-147",
@@ -5721,7 +5721,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-199.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-148",
@@ -5730,7 +5730,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-202.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-149",
@@ -5739,7 +5739,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-204.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-150",
@@ -5748,7 +5748,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-207.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-151",
@@ -5757,7 +5757,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-208.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-152",
@@ -5766,7 +5766,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-209.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-153",
@@ -5775,7 +5775,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-210.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-154",
@@ -5784,7 +5784,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-212.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-155",
@@ -5793,7 +5793,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-213.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-156",
@@ -5802,7 +5802,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-214.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-157",
@@ -5811,7 +5811,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-215.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-158",
@@ -5820,7 +5820,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-216.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-159",
@@ -5829,7 +5829,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-218.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-160",
@@ -5838,7 +5838,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-219.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-161",
@@ -5847,7 +5847,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-221.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-162",
@@ -5856,7 +5856,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-222.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-163",
@@ -5865,7 +5865,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-225.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-164",
@@ -5874,7 +5874,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-227.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-165",
@@ -5883,7 +5883,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-228.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-166",
@@ -5892,7 +5892,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-235.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-167",
@@ -5901,7 +5901,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-236.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-168",
@@ -5910,7 +5910,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-237.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-169",
@@ -5919,7 +5919,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-art.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-170",
@@ -5928,7 +5928,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-bisounours.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-171",
@@ -5937,7 +5937,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cafe.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-172",
@@ -5946,7 +5946,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cat-black.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-173",
@@ -5955,7 +5955,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cool.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-174",
@@ -5964,7 +5964,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cupcake.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-175",
@@ -5973,7 +5973,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-estudiante.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-176",
@@ -5982,7 +5982,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-gaming.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-177",
@@ -5991,7 +5991,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mate.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-178",
@@ -6000,7 +6000,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mate-exceso.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-179",
@@ -6009,7 +6009,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mony.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-180",
@@ -6018,7 +6018,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-musik.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-181",
@@ -6027,7 +6027,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-002.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-182",
@@ -6036,7 +6036,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-003.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-183",
@@ -6045,7 +6045,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-004.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-184",
@@ -6054,7 +6054,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-005.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-185",
@@ -6063,7 +6063,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-006.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-186",
@@ -6072,7 +6072,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-007.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-187",
@@ -6081,7 +6081,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-008.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-188",
@@ -6090,7 +6090,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-009.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-189",
@@ -6099,7 +6099,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-010.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-190",
@@ -6108,7 +6108,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-011.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-191",
@@ -6117,7 +6117,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-012.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-192",
@@ -6126,7 +6126,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-015.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-193",
@@ -6135,7 +6135,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-016.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-194",
@@ -6144,7 +6144,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-017.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-195",
@@ -6153,7 +6153,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-018.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-196",
@@ -6162,7 +6162,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-019.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-197",
@@ -6171,7 +6171,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-020.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-198",
@@ -6180,7 +6180,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-021.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-199",
@@ -6189,7 +6189,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-022.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-200",
@@ -6198,7 +6198,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-023.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-201",
@@ -6207,7 +6207,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-024.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-202",
@@ -6216,7 +6216,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-025.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-203",
@@ -6225,7 +6225,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-026.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-204",
@@ -6234,7 +6234,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-027.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-205",
@@ -6243,7 +6243,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-028.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-206",
@@ -6252,7 +6252,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-029.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-207",
@@ -6261,7 +6261,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-030.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-208",
@@ -6270,7 +6270,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-031.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-209",
@@ -6279,7 +6279,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-032.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-210",
@@ -6288,7 +6288,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-pizza.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-211",
@@ -6297,7 +6297,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-rutamate.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-212",
@@ -6306,7 +6306,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-simpsons.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-213",
@@ -6315,7 +6315,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-warning-cats.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-214",
@@ -6324,7 +6324,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/Imagen6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-215",
@@ -6333,7 +6333,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/Mini Imanes/mini imanes portada.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "IMA-216",
@@ -6342,7 +6342,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/tercera imagen para la galeria de fotos de imanes.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$2.500"
   },
   {
     "id": "INF-001",
@@ -6351,7 +6351,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-002",
@@ -6360,7 +6360,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-003",
@@ -6369,7 +6369,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-004",
@@ -6378,7 +6378,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-005",
@@ -6387,7 +6387,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-006",
@@ -6396,7 +6396,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-007",
@@ -6405,7 +6405,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-008",
@@ -6414,7 +6414,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-009",
@@ -6423,7 +6423,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-010",
@@ -6432,7 +6432,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-011",
@@ -6441,7 +6441,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-012",
@@ -6450,7 +6450,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-013",
@@ -6459,7 +6459,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-014",
@@ -6468,7 +6468,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-015",
@@ -6477,7 +6477,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-016",
@@ -6486,7 +6486,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-017",
@@ -6495,7 +6495,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-018",
@@ -6504,7 +6504,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-019",
@@ -6513,7 +6513,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-020",
@@ -6522,7 +6522,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-021",
@@ -6531,7 +6531,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-022",
@@ -6540,7 +6540,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-023",
@@ -6549,7 +6549,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "INF-024",
@@ -6558,7 +6558,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-001",
@@ -6567,7 +6567,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/2Pac.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-002",
@@ -6576,7 +6576,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/2Pac eyes on me.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-003",
@@ -6585,7 +6585,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/a-brillar-mi-amor.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-004",
@@ -6594,7 +6594,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/AC DC guitarra.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC guitarra.webp",
       "Tienda (Imagenes)/Categorias/Musica/AC DC guitarra (Ilustracion).webp"
@@ -6607,7 +6607,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/AC DC hells bells.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC hells bells.webp",
       "Tienda (Imagenes)/Categorias/Musica/AC DC hells bells (Ilustracion).webp"
@@ -6620,7 +6620,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/AC DC money talks.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC money talks.webp",
       "Tienda (Imagenes)/Categorias/Musica/AC DC money talks (Ilustracion).webp"
@@ -6633,7 +6633,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/AC-DC HIGHWAY TO HELL.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-008",
@@ -6642,7 +6642,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Aero Smith Fuego.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Aero Smith Fuego.webp",
       "Tienda (Imagenes)/Categorias/Musica/Aero Smith Fuego (Ilustracion).webp"
@@ -6655,7 +6655,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Angus.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-010",
@@ -6664,7 +6664,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Axl y Slash.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-011",
@@ -6673,7 +6673,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Axl y Slash (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-012",
@@ -6682,7 +6682,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Biggie Smalls.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Biggie Smalls.webp",
       "Tienda (Imagenes)/Categorias/Musica/Biggie Smalls (Ilustracion).webp"
@@ -6695,7 +6695,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Blink-182.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-014",
@@ -6704,7 +6704,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Bob Marley.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-015",
@@ -6713,7 +6713,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Charly.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-016",
@@ -6722,7 +6722,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Charly (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-017",
@@ -6731,7 +6731,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/dont look back.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-018",
@@ -6740,7 +6740,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/DTMF Bad Bunny.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-019",
@@ -6749,7 +6749,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/EL LOCO.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-020",
@@ -6758,7 +6758,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Eminem Heroe.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-021",
@@ -6767,7 +6767,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Eminem SLIM SHADY.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-022",
@@ -6776,7 +6776,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Foo fighters.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-023",
@@ -6785,7 +6785,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/GULP.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-024",
@@ -6794,7 +6794,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Guns Esqueleto.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Guns Esqueleto.webp",
       "Tienda (Imagenes)/Categorias/Musica/Guns Esqueleto (Ilustracion).webp"
@@ -6807,7 +6807,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Ice Cube good day.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Ice Cube good day.webp",
       "Tienda (Imagenes)/Categorias/Musica/Ice Cube good day (Ilustracion).webp"
@@ -6820,7 +6820,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/ilu-indio-solari.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-027",
@@ -6829,7 +6829,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/ilu-nueva-50.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-028",
@@ -6838,7 +6838,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/INDIO.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-029",
@@ -6847,7 +6847,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay.webp",
       "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay (Ilustracion).webp"
@@ -6860,7 +6860,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay (Ilustracion 2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-031",
@@ -6869,7 +6869,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Intoxicados.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-032",
@@ -6878,7 +6878,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/intoxicados-planeta-tierra.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-033",
@@ -6887,7 +6887,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Iron Maiden.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-034",
@@ -6896,7 +6896,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/King of pop.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-035",
@@ -6905,7 +6905,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/la-renga-ruta-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-036",
@@ -6914,7 +6914,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Led Zeppelin.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-037",
@@ -6923,7 +6923,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Lobo Suelto.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-038",
@@ -6932,7 +6932,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/LOS PIOJOS.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-039",
@@ -6941,7 +6941,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-040",
@@ -6950,7 +6950,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-041",
@@ -6959,7 +6959,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-042",
@@ -6968,7 +6968,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-043",
@@ -6977,7 +6977,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-044",
@@ -6986,7 +6986,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-045",
@@ -6995,7 +6995,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-046",
@@ -7004,7 +7004,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-047",
@@ -7013,7 +7013,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-048",
@@ -7022,7 +7022,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-049",
@@ -7031,7 +7031,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-deco-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-050",
@@ -7040,7 +7040,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-10.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-051",
@@ -7049,7 +7049,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-052",
@@ -7058,7 +7058,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-12.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-053",
@@ -7067,7 +7067,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-13.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-054",
@@ -7076,7 +7076,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-14.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-055",
@@ -7085,7 +7085,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-15.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-056",
@@ -7094,7 +7094,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-16.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-057",
@@ -7103,7 +7103,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-17.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-058",
@@ -7112,7 +7112,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-18.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-059",
@@ -7121,7 +7121,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-19.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-060",
@@ -7130,7 +7130,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-2.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-061",
@@ -7139,7 +7139,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-20.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-062",
@@ -7148,7 +7148,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-21.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-063",
@@ -7157,7 +7157,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-22.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-064",
@@ -7166,7 +7166,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-23.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-065",
@@ -7175,7 +7175,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-24.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-066",
@@ -7184,7 +7184,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-067",
@@ -7193,7 +7193,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-068",
@@ -7202,7 +7202,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-069",
@@ -7211,7 +7211,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-070",
@@ -7220,7 +7220,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-3.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-071",
@@ -7229,7 +7229,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-072",
@@ -7238,7 +7238,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-073",
@@ -7247,7 +7247,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-074",
@@ -7256,7 +7256,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-075",
@@ -7265,7 +7265,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-076",
@@ -7274,7 +7274,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-077",
@@ -7283,7 +7283,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-078",
@@ -7292,7 +7292,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-079",
@@ -7301,7 +7301,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-080",
@@ -7310,7 +7310,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-081",
@@ -7319,7 +7319,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-4.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-082",
@@ -7328,7 +7328,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-083",
@@ -7337,7 +7337,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-084",
@@ -7346,7 +7346,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-085",
@@ -7355,7 +7355,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-086",
@@ -7364,7 +7364,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-087",
@@ -7373,7 +7373,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-088",
@@ -7382,7 +7382,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-089",
@@ -7391,7 +7391,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-090",
@@ -7400,7 +7400,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-091",
@@ -7409,7 +7409,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-092",
@@ -7418,7 +7418,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-5.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-093",
@@ -7427,7 +7427,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-094",
@@ -7436,7 +7436,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-095",
@@ -7445,7 +7445,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-096",
@@ -7454,7 +7454,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-097",
@@ -7463,7 +7463,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-6.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-098",
@@ -7472,7 +7472,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-7.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-099",
@@ -7481,7 +7481,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-8.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-100",
@@ -7490,7 +7490,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/luna-musica-9.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-101",
@@ -7499,7 +7499,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Michael Thriller.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-102",
@@ -7508,7 +7508,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/oasis.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-103",
@@ -7517,7 +7517,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Oktubre.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Oktubre.webp",
       "Tienda (Imagenes)/Categorias/Musica/Oktubre (Ilustracion).webp"
@@ -7530,7 +7530,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Ozzy Black Sabbath.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-105",
@@ -7539,7 +7539,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Piojitos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-106",
@@ -7548,7 +7548,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Pity no teno ganas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-107",
@@ -7557,7 +7557,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Pity Star.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-108",
@@ -7566,7 +7566,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/PR.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-109",
@@ -7575,7 +7575,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Queens of the age.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-110",
@@ -7584,7 +7584,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Queens of the stone age.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-111",
@@ -7593,7 +7593,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/RAMONES.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-112",
@@ -7602,7 +7602,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Red Hot.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Red Hot.webp",
       "Tienda (Imagenes)/Categorias/Musica/Red Hot (Ilustracion).webp"
@@ -7615,7 +7615,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Red Hot Chilipeppers.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-114",
@@ -7624,7 +7624,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Red Hot Chilli.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-115",
@@ -7633,7 +7633,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Rolling Die.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-116",
@@ -7642,7 +7642,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Rolling Stones.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Rolling Stones.webp",
       "Tienda (Imagenes)/Categorias/Musica/Rolling Stones (Ilustracion).webp"
@@ -7655,7 +7655,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-118",
@@ -7664,7 +7664,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Slim Shady.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-119",
@@ -7673,7 +7673,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Snoop Dogg.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-120",
@@ -7682,7 +7682,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Stones Caricatura.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Stones Caricatura.webp",
       "Tienda (Imagenes)/Categorias/Musica/Stones Caricatura (Ilustracion).webp"
@@ -7695,7 +7695,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Stones Tour.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-122",
@@ -7704,7 +7704,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Stones Zurich.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-123",
@@ -7713,7 +7713,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Sublime.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Sublime.webp",
       "Tienda (Imagenes)/Categorias/Musica/Sublime (Ilustracion).webp"
@@ -7726,7 +7726,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/SUMO.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/SUMO.webp",
       "Tienda (Imagenes)/Categorias/Musica/SUMO (Ilustracion).webp"
@@ -7739,7 +7739,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/SUMO cassete.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-126",
@@ -7748,7 +7748,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Sumo Luca.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-127",
@@ -7757,7 +7757,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Doors.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-128",
@@ -7766,7 +7766,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Roling Stones.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-129",
@@ -7775,7 +7775,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Strokes.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-130",
@@ -7784,7 +7784,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/TINI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-131",
@@ -7793,7 +7793,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Travis Astro World.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-132",
@@ -7802,7 +7802,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Viejas Locas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "MUS-133",
@@ -7811,7 +7811,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Vivir solo cuesta vida.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "NUM-001",
@@ -7820,7 +7820,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Numeracion/D_NQ_NP_2X_730017-MLA112216507741_052026-F.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "NUM-002",
@@ -7829,7 +7829,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Numeracion/Numeracion.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion.png",
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion - Ilustracion.jpg"
@@ -7842,7 +7842,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Numeracion/Numeracion V2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion V2.png",
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion V2 - Ilustracion.jpg"
@@ -7855,7 +7855,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/023.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-002",
@@ -7864,7 +7864,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos Bienvenidos Familiares Con Cita Previa.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-003",
@@ -7873,7 +7873,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos, Vino Y Asado.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-004",
@@ -7882,7 +7882,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Aqui No Entran Borrachos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-005",
@@ -7891,7 +7891,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Area De Asado.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-006",
@@ -7900,7 +7900,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Area Exclusiva Del Parrillero.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-007",
@@ -7909,7 +7909,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado de Selección.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-008",
@@ -7918,7 +7918,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Flia Y Amigos Siempre Bienvendidos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-009",
@@ -7927,7 +7927,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Flia Y Amigos Siempre Bienvenidos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-010",
@@ -7936,7 +7936,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Y Amigos Siempre Bienvenidos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-011",
@@ -7945,7 +7945,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Y Amigos Siempre Bienvenidos (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-012",
@@ -7954,7 +7954,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/asado-vino-y-amigos.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-013",
@@ -7963,7 +7963,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Bienvenidos Quincho Buen Vino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-014",
@@ -7972,7 +7972,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Bodega.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-015",
@@ -7981,7 +7981,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Brasas Encendidas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-016",
@@ -7990,7 +7990,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Coffee & Wine.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-017",
@@ -7999,7 +7999,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Con Cerveza y Carbon Se Alegra El Corazon.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-018",
@@ -8008,7 +8008,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Cortes Oficiales Carnes Argentinas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-019",
@@ -8017,7 +8017,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Cucina.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-020",
@@ -8026,7 +8026,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Donde hay asado hay familia.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Donde hay asado hay familia.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Donde hay asado hay familia - Ilustracion.jpg"
@@ -8039,7 +8039,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Asado No Espera.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-022",
@@ -8048,7 +8048,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Abuelo.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-023",
@@ -8057,7 +8057,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Mamá.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-024",
@@ -8066,7 +8066,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Papá.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-025",
@@ -8075,7 +8075,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Papá (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-026",
@@ -8084,7 +8084,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Papá.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-027",
@@ -8093,7 +8093,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Papá (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-028",
@@ -8102,7 +8102,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Aca.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-029",
@@ -8111,7 +8111,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Acá.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-030",
@@ -8120,7 +8120,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Acá (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-031",
@@ -8129,7 +8129,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/el-mejor-asado-se-come-aca.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-032",
@@ -8138,7 +8138,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Empanadas Argentinas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-033",
@@ -8147,7 +8147,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Empanadas Criollas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-034",
@@ -8156,7 +8156,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Entre Brasas Y Vino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-035",
@@ -8165,7 +8165,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Espere A Ser Atendido.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-036",
@@ -8174,7 +8174,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Aca Manda La Tradicion.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-037",
@@ -8183,7 +8183,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Aca Se Come Como En Casa.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-038",
@@ -8192,7 +8192,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Asado Y Amigos Siempre Bienvenidos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-039",
@@ -8201,7 +8201,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bienvenido Vuelva Mañana.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-040",
@@ -8210,7 +8210,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bienvenidos Los Que Traen Vino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-041",
@@ -8219,7 +8219,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bodegon Porteño.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-042",
@@ -8228,7 +8228,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Boliche De Amigos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-043",
@@ -8237,7 +8237,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Con Vino Y Carbon.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-044",
@@ -8246,7 +8246,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado De La Cocina Al Corazon Sin Escalas.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-045",
@@ -8255,7 +8255,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Donde Hay Asado Hay Familia.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-046",
@@ -8264,7 +8264,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado El Que Trae Postre.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-047",
@@ -8273,7 +8273,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Entre Brasas Y Vino.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-048",
@@ -8282,7 +8282,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado La Dieta Arranca Mañana.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-049",
@@ -8291,7 +8291,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Maestro Asador.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-050",
@@ -8300,7 +8300,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Menu Asador.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-051",
@@ -8309,7 +8309,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Mesa Tendida Charla Servida.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-052",
@@ -8318,7 +8318,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Mesa Tendida Charla servida (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-053",
@@ -8327,7 +8327,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Papa Hace El Asado Con Amor.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-054",
@@ -8336,7 +8336,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fuego Prendido.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-055",
@@ -8345,7 +8345,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Gran Asador.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-056",
@@ -8354,7 +8354,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Gloria Se Cocina Lento.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-057",
@@ -8363,7 +8363,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Mesa De Los Jueves Amigos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-058",
@@ -8372,7 +8372,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Parrilla De Papa.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-059",
@@ -8381,7 +8381,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Parrilla De Papá.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-060",
@@ -8390,7 +8390,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Sede Amigos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-061",
@@ -8399,7 +8399,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En El Quincho.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-062",
@@ -8408,7 +8408,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En El Quincho (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-063",
@@ -8417,7 +8417,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En Lo De Los Abuelos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-064",
@@ -8426,7 +8426,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Maestro Asador.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-065",
@@ -8435,7 +8435,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mantenga Hidratado Al Parrillero (Color Azul).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-066",
@@ -8444,7 +8444,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mantenga Hidratado Al Parrillero (Color Negro).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-067",
@@ -8453,7 +8453,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/mantenga-hidratado-al-parrillero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-068",
@@ -8462,7 +8462,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Azul).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-069",
@@ -8471,7 +8471,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Azul) (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-070",
@@ -8480,7 +8480,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Negro).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-071",
@@ -8489,7 +8489,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Quincho.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-072",
@@ -8498,7 +8498,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Papá Es Unico Como Sus Asados.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-073",
@@ -8507,7 +8507,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Papá Funciona Mejor A Carbon.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-074",
@@ -8516,7 +8516,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrella (Blanco).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-075",
@@ -8525,7 +8525,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrella (Negro).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-076",
@@ -8534,7 +8534,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-077",
@@ -8543,7 +8543,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-078",
@@ -8552,7 +8552,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla (V3).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-079",
@@ -8561,7 +8561,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla 100% Carne Argentina.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-080",
@@ -8570,7 +8570,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-081",
@@ -8579,7 +8579,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre Traiga Lo Que Quieras.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-082",
@@ -8588,7 +8588,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre Traiga Lo Que Quieras (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-083",
@@ -8597,7 +8597,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Pausa De Hidratacion Parrilla.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Pausa De Hidratacion Parrilla.webp",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Pausa De Hidratacion Parrilla (Ilustracion).webp"
@@ -8610,7 +8610,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Prohibido Arrojarse Choripanes.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-085",
@@ -8619,7 +8619,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Prohibido Arrojarse Choripanes (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-086",
@@ -8628,7 +8628,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Quincho.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-087",
@@ -8637,7 +8637,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Quincho Campeon De America.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-088",
@@ -8646,7 +8646,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Tercer Tiempo Amigos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-089",
@@ -8655,7 +8655,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-090",
@@ -8664,7 +8664,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Azul).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-091",
@@ -8673,7 +8673,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Azul) (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-092",
@@ -8682,7 +8682,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Negro).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-093",
@@ -8691,7 +8691,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para La Asadora.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-094",
@@ -8700,7 +8700,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para La Asadora (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-095",
@@ -8709,7 +8709,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/un-aplauso-para-el-asador.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/un-aplauso-para-el-asador.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/un-aplauso-para-el-asador - Ilustracion.jpg"
@@ -8722,7 +8722,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-cerveza-quincho.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-cerveza-quincho.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-cerveza-quincho - Ilustracion.jpg"
@@ -8735,7 +8735,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-nueva-17.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PAR-098",
@@ -8744,7 +8744,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Welcome Beer Zone.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PER-001",
@@ -8753,7 +8753,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Personalizados/Letrero Negro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PER-002",
@@ -8762,7 +8762,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Personalizados/Mini Imanes Personalizados/Mini Imanes Personalizados Portada.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-001",
@@ -8771,7 +8771,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/022.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-002",
@@ -8780,7 +8780,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/40.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-003",
@@ -8789,7 +8789,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/408490628724141463.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-004",
@@ -8798,7 +8798,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Amargo Obrero.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-005",
@@ -8807,7 +8807,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Aperol.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-006",
@@ -8816,7 +8816,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bacardi.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-007",
@@ -8825,7 +8825,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bebida 13.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-008",
@@ -8834,7 +8834,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Billa Bong.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-009",
@@ -8843,7 +8843,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Billa Bong Ola.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-010",
@@ -8852,7 +8852,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/BILLABONG 00S.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-011",
@@ -8861,7 +8861,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Brahma Redondo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-012",
@@ -8870,7 +8870,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Branca Animado.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-013",
@@ -8879,7 +8879,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Branca Único.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-014",
@@ -8888,7 +8888,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud Light.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-015",
@@ -8897,7 +8897,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud New York.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-016",
@@ -8906,7 +8906,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud Sapo.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-017",
@@ -8915,7 +8915,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/BUDWEISER.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-018",
@@ -8924,7 +8924,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/CAMEL.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-019",
@@ -8933,7 +8933,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Chad.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Chad.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Chad (Ilustracion).webp"
@@ -8946,7 +8946,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Fun.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-021",
@@ -8955,7 +8955,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Chevrolet Michigan.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-022",
@@ -8964,7 +8964,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Circular.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-023",
@@ -8973,7 +8973,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-024",
@@ -8982,7 +8982,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Fefreshing.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Fefreshing.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Fefreshing (Ilustracion).webp"
@@ -8995,7 +8995,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Light.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-026",
@@ -9004,7 +9004,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Oso.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-027",
@@ -9013,7 +9013,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Vintage.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-028",
@@ -9022,7 +9022,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coffee lover.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coffee lover.jpg",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coffee lover - Ilustracion.jpg"
@@ -9035,7 +9035,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coquita De Vidrio.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coquita De Vidrio.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coquita De Vidrio (Ilustracion).webp"
@@ -9048,7 +9048,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-031",
@@ -9057,7 +9057,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Extra.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-032",
@@ -9066,7 +9066,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Mexicana.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-033",
@@ -9075,7 +9075,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Redondo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-034",
@@ -9084,7 +9084,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Surf.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-035",
@@ -9093,7 +9093,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Surf (Ilustraciones).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-036",
@@ -9102,7 +9102,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/corona-extra.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-037",
@@ -9111,7 +9111,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Dickies.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-038",
@@ -9120,7 +9120,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Drink Coca Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-039",
@@ -9129,7 +9129,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Duff.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-040",
@@ -9138,7 +9138,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Enjoy Coca Cola.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-041",
@@ -9147,7 +9147,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fanta.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-042",
@@ -9156,7 +9156,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fernet Branca.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-043",
@@ -9165,7 +9165,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ferrari.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-044",
@@ -9174,7 +9174,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fido Dido.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-045",
@@ -9183,7 +9183,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/FORD.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-046",
@@ -9192,7 +9192,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ford Genuine.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-047",
@@ -9201,7 +9201,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Gas Monkey.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-048",
@@ -9210,7 +9210,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Circular.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-049",
@@ -9219,7 +9219,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Davidson Aguila.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-050",
@@ -9228,7 +9228,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Fuego.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-051",
@@ -9237,7 +9237,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Sirena.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-052",
@@ -9246,7 +9246,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken (Ilustracion).webp"
@@ -9259,7 +9259,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Beer.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-054",
@@ -9268,7 +9268,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Psssst.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-055",
@@ -9277,7 +9277,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Redondo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-056",
@@ -9286,7 +9286,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken trade mark.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken trade mark.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken trade mark - Ilustracion.jpg"
@@ -9299,7 +9299,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Indian.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-058",
@@ -9308,7 +9308,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R1.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-059",
@@ -9317,7 +9317,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R2.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-060",
@@ -9326,7 +9326,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R3.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-061",
@@ -9335,7 +9335,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/jack-daniels-whiskey.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-062",
@@ -9344,7 +9344,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jeep.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-063",
@@ -9353,7 +9353,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jordan Air.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-064",
@@ -9362,7 +9362,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Malboro.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Malboro.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Malboro (Ilustracion).webp"
@@ -9375,7 +9375,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/MICHELIN.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-066",
@@ -9384,7 +9384,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/MTV.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-067",
@@ -9393,7 +9393,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Mustang.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-068",
@@ -9402,7 +9402,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/NIKE Prince.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-069",
@@ -9411,7 +9411,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pacifico.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pacifico.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pacifico (Ilustracion).webp"
@@ -9424,7 +9424,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/PEPSI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-071",
@@ -9433,7 +9433,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pepsi Cola.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-072",
@@ -9442,7 +9442,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Playboy.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-073",
@@ -9451,7 +9451,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/PLAYBOY Avion.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-074",
@@ -9460,7 +9460,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quick Silver SPACE.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-075",
@@ -9469,7 +9469,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quicksilver DRAGON.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-076",
@@ -9478,7 +9478,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quik Silver.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quik Silver.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quik Silver (Ilustracion).webp"
@@ -9491,7 +9491,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quilmes Redondo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-078",
@@ -9500,7 +9500,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl (Ilustracion).webp"
@@ -9513,7 +9513,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Naranja.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-080",
@@ -9522,7 +9522,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Ola.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-081",
@@ -9531,7 +9531,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Ola (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-082",
@@ -9540,7 +9540,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/ROCKSTAR.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/ROCKSTAR.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/ROCKSTAR (Ilustracion).webp"
@@ -9553,7 +9553,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ron Jon.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-084",
@@ -9562,7 +9562,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rusty.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-085",
@@ -9571,7 +9571,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SEVEN-UP.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-086",
@@ -9580,7 +9580,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SHELL.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-087",
@@ -9589,7 +9589,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Smoking Joe.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-088",
@@ -9598,7 +9598,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Surfrider.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-089",
@@ -9607,7 +9607,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SUSUKI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-090",
@@ -9616,7 +9616,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher (Ilustracion).webp"
@@ -9629,7 +9629,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher (Ilustracion 2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-092",
@@ -9638,7 +9638,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Vans.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "PUB-093",
@@ -9647,7 +9647,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Wrangler.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-001",
@@ -9656,7 +9656,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado (Abierto).png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-002",
@@ -9665,7 +9665,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado (Carredo).png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-003",
@@ -9674,7 +9674,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/alto voltaje.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/alto voltaje.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/alto voltaje - Ilustracion.jpg"
@@ -9687,7 +9687,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/apague el equipo si no lo utiliza.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/apague el equipo si no lo utiliza.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/apague el equipo si no lo utiliza - Ilustracion.jpg"
@@ -9700,7 +9700,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/apague la luz cuando no se utilice.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/apague la luz cuando no se utilice.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/apague la luz cuando no se utilice - Ilustracion.jpg"
@@ -9713,7 +9713,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Baños.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Baños.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Baños - Ilustracion.jpg"
@@ -9726,7 +9726,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/botiquin.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/botiquin.png",
       "Tienda (Imagenes)/Categorias/Señalitica/botiquin - Ilustracion.png"
@@ -9739,7 +9739,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Camara.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Camara.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Camara - Ilustracion.jpg"
@@ -9752,7 +9752,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/concerbar cerrada esta puerta.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/concerbar cerrada esta puerta.png",
       "Tienda (Imagenes)/Categorias/Señalitica/concerbar cerrada esta puerta - Ilustracion.png"
@@ -9765,7 +9765,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Cuidado Con El Perro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Cuidado Con El Perro.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Cuidado Con El Perro - Ilustracion.jpg"
@@ -9778,7 +9778,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/entrada y salida de vehiculos.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/entrada y salida de vehiculos.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/entrada y salida de vehiculos - Ilustracion.jpg"
@@ -9791,7 +9791,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/extintor.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/extintor.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/extintor - Ilustracion.jpg"
@@ -9804,7 +9804,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/higiene.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/higiene.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/higiene - Ilustracion.jpg"
@@ -9817,7 +9817,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/lavarse las manos.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/lavarse las manos.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/lavarse las manos - Ilustracion.jpg"
@@ -9830,7 +9830,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/mantener limpio el entorno.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/mantener limpio el entorno.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/mantener limpio el entorno - Ilustracion.jpg"
@@ -9843,7 +9843,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/no correr.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/no correr.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/no correr - Ilustracion.jpg"
@@ -9856,7 +9856,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/obligatorio mantener limpieza.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/obligatorio mantener limpieza.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/obligatorio mantener limpieza - Ilustracion.jpg"
@@ -9869,7 +9869,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/peligro.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/peligro.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/peligro - Ilustracion.jpg"
@@ -9882,7 +9882,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Prohibido consumir alimentos en este lugar.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido consumir alimentos en este lugar.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido consumir alimentos en este lugar - Ilustracion.jpg"
@@ -9895,7 +9895,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Prohibido Estacionar.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido Estacionar.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido Estacionar - Ilustracion.jpg"
@@ -9908,7 +9908,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/prohibido tirar pape - Ilustracionl.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-022",
@@ -9917,7 +9917,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/prohibido tirar papel.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-023",
@@ -9926,7 +9926,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/propiedad privada.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/propiedad privada.png",
       "Tienda (Imagenes)/Categorias/Señalitica/propiedad privada - Ilustracion.png"
@@ -9939,7 +9939,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Salida de Emergencia.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Salida de Emergencia.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Salida de Emergencia - Ilustracion.jpg"
@@ -9952,7 +9952,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Sillas de rueda.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Sillas de rueda.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Sillas de rueda - Ilustracion.jpg"
@@ -9965,7 +9965,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/solo personal autorizado.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/solo personal autorizado.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/solo personal autorizado - Ilustracion.jpg"
@@ -9978,7 +9978,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/uso obligatorio de equipo de proteccion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/uso obligatorio de equipo de proteccion.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/uso obligatorio de equipo de proteccion - Ilustracion.jpg"
@@ -9991,7 +9991,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/zona restringida.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/zona restringida.png",
       "Tienda (Imagenes)/Categorias/Señalitica/zona restringida - Ilustracion.png"
@@ -10004,7 +10004,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-030",
@@ -10013,7 +10013,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "SEÑ-031",
@@ -10022,7 +10022,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Cerrado - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-001",
@@ -10031,7 +10031,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-002",
@@ -10040,7 +10040,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/Ford 1484566.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-003",
@@ -10049,7 +10049,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/ford-authorized-service.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-004",
@@ -10058,7 +10058,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/indian-motorcycle-1934.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-005",
@@ -10067,7 +10067,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-10.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-006",
@@ -10076,7 +10076,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-007",
@@ -10085,7 +10085,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-008",
@@ -10094,7 +10094,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-009",
@@ -10103,7 +10103,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-010",
@@ -10112,7 +10112,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-011",
@@ -10121,7 +10121,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-012",
@@ -10130,7 +10130,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-013",
@@ -10139,7 +10139,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-014",
@@ -10148,7 +10148,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-2.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-015",
@@ -10157,7 +10157,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-016",
@@ -10166,7 +10166,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-017",
@@ -10175,7 +10175,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-018",
@@ -10184,7 +10184,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-019",
@@ -10193,7 +10193,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-020",
@@ -10202,7 +10202,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-25.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-021",
@@ -10211,7 +10211,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-022",
@@ -10220,7 +10220,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-023",
@@ -10229,7 +10229,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-024",
@@ -10238,7 +10238,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-025",
@@ -10247,7 +10247,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-3.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-026",
@@ -10256,7 +10256,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-30.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-027",
@@ -10265,7 +10265,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-31.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-028",
@@ -10274,7 +10274,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-32.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-029",
@@ -10283,7 +10283,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-33.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-030",
@@ -10292,7 +10292,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-34.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-031",
@@ -10301,7 +10301,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-35.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-032",
@@ -10310,7 +10310,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-36.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-033",
@@ -10319,7 +10319,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-034",
@@ -10328,7 +10328,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-035",
@@ -10337,7 +10337,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-036",
@@ -10346,7 +10346,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-4.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-037",
@@ -10355,7 +10355,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-038",
@@ -10364,7 +10364,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-039",
@@ -10373,7 +10373,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-040",
@@ -10382,7 +10382,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-041",
@@ -10391,7 +10391,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-042",
@@ -10400,7 +10400,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-043",
@@ -10409,7 +10409,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-044",
@@ -10418,7 +10418,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-045",
@@ -10427,7 +10427,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-046",
@@ -10436,7 +10436,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-047",
@@ -10445,7 +10445,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-5.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-048",
@@ -10454,7 +10454,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-049",
@@ -10463,7 +10463,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-050",
@@ -10472,7 +10472,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-051",
@@ -10481,7 +10481,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-052",
@@ -10490,7 +10490,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-053",
@@ -10499,7 +10499,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-054",
@@ -10508,7 +10508,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-055",
@@ -10517,7 +10517,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-056",
@@ -10526,7 +10526,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-057",
@@ -10535,7 +10535,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-058",
@@ -10544,7 +10544,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-6.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-059",
@@ -10553,7 +10553,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-060",
@@ -10562,7 +10562,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-7.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-061",
@@ -10571,7 +10571,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-8.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-062",
@@ -10580,7 +10580,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/luna-vehiculos-9.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-063",
@@ -10589,7 +10589,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-064",
@@ -10598,7 +10598,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vin-nueva-10.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-065",
@@ -10607,7 +10607,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/YPF (Redondo).png",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VEH-066",
@@ -10616,7 +10616,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/YPF (Redondo - Ilustracion).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-001",
@@ -10625,7 +10625,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/barra.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-002",
@@ -10634,7 +10634,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/california-outatime.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-003",
@@ -10643,7 +10643,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/download (1).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-004",
@@ -10652,7 +10652,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/ginebra-bols.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-005",
@@ -10661,7 +10661,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/hoy es un buen dia para tener un gran dia.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Vintages/hoy es un buen dia para tener un gran dia.jpg",
       "Tienda (Imagenes)/Categorias/Vintages/hoy es un buen dia para tener un gran dia - Ilustracion.jpg"
@@ -10674,7 +10674,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/junta-nacional-de-carnes.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-007",
@@ -10683,7 +10683,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/no-hay-nada-mejor-que-casa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-008",
@@ -10692,7 +10692,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/open-24-hours.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-009",
@@ -10701,7 +10701,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Siempre que muera volvere a nacer.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-",
+    "price": "$14.900",
     "gallery": [
       "Tienda (Imagenes)/Categorias/Vintages/Siempre que muera volvere a nacer.jpg",
       "Tienda (Imagenes)/Categorias/Vintages/Siempre que muera volvere a nacer - Ilustracion.jpg"
@@ -10714,7 +10714,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/tome-coca-cola.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-011",
@@ -10723,7 +10723,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-botellas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-012",
@@ -10732,7 +10732,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-french-fries.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-013",
@@ -10741,7 +10741,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-gas-station.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-014",
@@ -10750,7 +10750,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-015",
@@ -10759,7 +10759,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-12.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-016",
@@ -10768,7 +10768,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-13.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-017",
@@ -10777,7 +10777,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-15.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-018",
@@ -10786,7 +10786,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-019",
@@ -10795,7 +10795,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-020",
@@ -10804,7 +10804,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-021",
@@ -10813,7 +10813,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-022",
@@ -10822,7 +10822,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.38 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-023",
@@ -10831,7 +10831,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.47 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-024",
@@ -10840,7 +10840,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-025",
@@ -10849,7 +10849,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-026",
@@ -10858,7 +10858,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-027",
@@ -10867,7 +10867,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-028",
@@ -10876,7 +10876,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-029",
@@ -10885,7 +10885,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-030",
@@ -10894,7 +10894,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-031",
@@ -10903,7 +10903,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-032",
@@ -10912,7 +10912,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-033",
@@ -10921,7 +10921,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-034",
@@ -10930,7 +10930,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-035",
@@ -10939,7 +10939,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-036",
@@ -10948,7 +10948,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-037",
@@ -10957,7 +10957,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-038",
@@ -10966,7 +10966,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.52 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-039",
@@ -10975,7 +10975,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-040",
@@ -10984,7 +10984,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-041",
@@ -10993,7 +10993,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-042",
@@ -11002,7 +11002,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-043",
@@ -11011,7 +11011,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-044",
@@ -11020,7 +11020,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-045",
@@ -11029,7 +11029,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-046",
@@ -11038,7 +11038,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-047",
@@ -11047,7 +11047,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-048",
@@ -11056,7 +11056,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-049",
@@ -11065,7 +11065,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-050",
@@ -11074,7 +11074,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-051",
@@ -11083,7 +11083,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-052",
@@ -11092,7 +11092,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-053",
@@ -11101,7 +11101,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-054",
@@ -11110,7 +11110,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-055",
@@ -11119,7 +11119,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-056",
@@ -11128,7 +11128,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-057",
@@ -11137,7 +11137,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-058",
@@ -11146,7 +11146,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-059",
@@ -11155,7 +11155,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-060",
@@ -11164,7 +11164,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-061",
@@ -11173,7 +11173,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-062",
@@ -11182,7 +11182,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-063",
@@ -11191,7 +11191,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-064",
@@ -11200,7 +11200,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-065",
@@ -11209,7 +11209,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.12 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-066",
@@ -11218,7 +11218,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.12 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-067",
@@ -11227,7 +11227,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-068",
@@ -11236,7 +11236,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-069",
@@ -11245,7 +11245,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-070",
@@ -11254,7 +11254,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-071",
@@ -11263,7 +11263,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-072",
@@ -11272,7 +11272,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-073",
@@ -11281,7 +11281,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-074",
@@ -11290,7 +11290,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-075",
@@ -11299,7 +11299,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-076",
@@ -11308,7 +11308,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-077",
@@ -11317,7 +11317,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-078",
@@ -11326,7 +11326,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-079",
@@ -11335,7 +11335,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-080",
@@ -11344,7 +11344,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-081",
@@ -11353,7 +11353,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-082",
@@ -11362,7 +11362,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-083",
@@ -11371,7 +11371,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-084",
@@ -11380,7 +11380,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-085",
@@ -11389,7 +11389,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-086",
@@ -11398,7 +11398,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-087",
@@ -11407,7 +11407,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-088",
@@ -11416,7 +11416,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-089",
@@ -11425,7 +11425,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-090",
@@ -11434,7 +11434,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-091",
@@ -11443,7 +11443,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-092",
@@ -11452,7 +11452,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-093",
@@ -11461,7 +11461,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-094",
@@ -11470,7 +11470,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-095",
@@ -11479,7 +11479,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-096",
@@ -11488,7 +11488,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-097",
@@ -11497,7 +11497,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-098",
@@ -11506,7 +11506,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-099",
@@ -11515,7 +11515,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-100",
@@ -11524,7 +11524,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-101",
@@ -11533,7 +11533,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-102",
@@ -11542,7 +11542,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-103",
@@ -11551,7 +11551,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-104",
@@ -11560,7 +11560,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-105",
@@ -11569,7 +11569,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-106",
@@ -11578,7 +11578,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-107",
@@ -11587,7 +11587,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-108",
@@ -11596,7 +11596,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-109",
@@ -11605,7 +11605,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-110",
@@ -11614,7 +11614,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-111",
@@ -11623,7 +11623,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-112",
@@ -11632,7 +11632,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-113",
@@ -11641,7 +11641,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-114",
@@ -11650,7 +11650,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-115",
@@ -11659,7 +11659,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-116",
@@ -11668,7 +11668,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-117",
@@ -11677,7 +11677,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-118",
@@ -11686,7 +11686,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-119",
@@ -11695,7 +11695,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-120",
@@ -11704,7 +11704,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-121",
@@ -11713,7 +11713,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-122",
@@ -11722,7 +11722,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-123",
@@ -11731,7 +11731,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-124",
@@ -11740,7 +11740,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-125",
@@ -11749,7 +11749,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-126",
@@ -11758,7 +11758,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-127",
@@ -11767,7 +11767,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-128",
@@ -11776,7 +11776,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-129",
@@ -11785,7 +11785,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-130",
@@ -11794,7 +11794,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-131",
@@ -11803,7 +11803,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-132",
@@ -11812,7 +11812,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-133",
@@ -11821,7 +11821,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-134",
@@ -11830,7 +11830,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-135",
@@ -11839,7 +11839,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-136",
@@ -11848,7 +11848,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-137",
@@ -11857,7 +11857,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-138",
@@ -11866,7 +11866,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-139",
@@ -11875,7 +11875,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-140",
@@ -11884,7 +11884,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-141",
@@ -11893,7 +11893,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-142",
@@ -11902,7 +11902,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-143",
@@ -11911,7 +11911,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-144",
@@ -11920,7 +11920,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-145",
@@ -11929,7 +11929,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-146",
@@ -11938,7 +11938,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-147",
@@ -11947,7 +11947,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-148",
@@ -11956,7 +11956,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-149",
@@ -11965,7 +11965,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-150",
@@ -11974,7 +11974,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-151",
@@ -11983,7 +11983,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-152",
@@ -11992,7 +11992,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-153",
@@ -12001,7 +12001,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-154",
@@ -12010,7 +12010,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-155",
@@ -12019,7 +12019,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-156",
@@ -12028,7 +12028,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-157",
@@ -12037,7 +12037,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-158",
@@ -12046,7 +12046,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-159",
@@ -12055,7 +12055,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-160",
@@ -12064,7 +12064,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-161",
@@ -12073,7 +12073,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-162",
@@ -12082,7 +12082,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-163",
@@ -12091,7 +12091,7 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.27 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   },
   {
     "id": "VIN-164",
@@ -12100,6 +12100,6 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.27 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "-"
+    "price": "$14.900"
   }
 ];

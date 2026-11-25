@@ -96,6 +96,9 @@ def to_title(filename, cat_label=''):
     name = re.sub(r'[-_]', ' ', name)
     name = re.sub(r'\s+', ' ', name).strip()
 
+    # Limpiar sufijos de tiendas online
+    name = re.sub(r'\s*[-–]\s*(comprar online|en internet|club del poster|tienda online|online).*$', '', name, flags=re.IGNORECASE).strip()
+
     # Si ya tiene mayúsculas propias, respetar; si es todo minúsculas, titlecase
     return name.title() if name == name.lower() else name
 

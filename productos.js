@@ -3969,6 +3969,690 @@ const items = [
     "price": "$14.900"
   },
   {
+    "id": "DIA-001",
+    "title": "Amigas mas barato que el psicoanalista",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Amigas mas barato que el psicoanalista.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-002",
+    "title": "Amigos bienvenidos familiares con cita previa",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Amigos bienvenidos familiares con cita previa.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-003",
+    "title": "Asado Familia Y Amigos Siempre Bienvenidos",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/asado familia y amigos siempre bienvenidos.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-004",
+    "title": "Asado familia y amigos siempre bienvenidos negra",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado familia y amigos siempre bienvenidos negra.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-005",
+    "title": "Asado flia y amigos siempre bienvendidos",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado flia y amigos siempre bienvendidos.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-006",
+    "title": "Asado flia y amigos siempre bienvenidos",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado flia y amigos siempre bienvenidos.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-007",
+    "title": "Asado vino y amigos costumbres argentinas",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado vino y amigos costumbres argentinas.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-008",
+    "title": "Asado y amigos siempre bienvenidos",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado y amigos siempre bienvenidos.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-009",
+    "title": "Boliche de amigos Fileteado",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Boliche de amigos Fileteado.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-010",
+    "title": "Campeones del mundo Mundial",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Campeones del mundo Mundial.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-011",
+    "title": "Dilophosaurus Dinosaurio",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Dilophosaurus Dinosaurio.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-012",
+    "title": "Dinosaur Crossing Dinosaurios",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Dinosaur Crossing Dinosaurios.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-013",
+    "title": "Do not enter",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Do not enter.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-014",
+    "title": "El Rincon de Papá",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/El Rincon de Papá.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-015",
+    "title": "El taller de Papá",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/El taller de Papá.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-016",
+    "title": "En esta casa somos todos del millonario",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/En esta casa somos todos del millonario.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-017",
+    "title": "Enter at your on risk",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Enter at your on risk.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-018",
+    "title": "Futbol asado y vino pasiones de un argentino",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Futbol asado y vino pasiones de un argentino.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-019",
+    "title": "Gran asador",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Gran asador.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-020",
+    "title": "Keep calm gamer zone",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Keep calm gamer zone.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-021",
+    "title": "Kids Zone",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Kids Zone.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-022",
+    "title": "Kilometro 0 Amigos Garage",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Kilometro 0 Amigos Garage.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-023",
+    "title": "La parrilla de papa",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La parrilla de papa.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-024",
+    "title": "La parrilla de Papá",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La parrilla de Papá.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-025",
+    "title": "La Parrineta Campeon Mundial",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La Parrineta Campeon Mundial.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-026",
+    "title": "Lata de Tesoros Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata de Tesoros - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-027",
+    "title": "Lata de Tesoros comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata de Tesoros - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-028",
+    "title": "Lata de Tesoros tienda online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata de Tesoros - tienda online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-029",
+    "title": "Lata de Tesoros en internet",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata de Tesoros en internet.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-030",
+    "title": "Lata Dulces fiestas Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Dulces fiestas - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-031",
+    "title": "Lata Dulces fiestas comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Dulces fiestas - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-032",
+    "title": "Lata Dulces fiestas tienda online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Dulces fiestas - tienda online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-033",
+    "title": "Lata Dulces fiestas en internet",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Dulces fiestas en internet.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-034",
+    "title": "Lata Magia en Lata Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Magia en Lata - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-035",
+    "title": "Lata Magia en Lata comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Magia en Lata - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-036",
+    "title": "Lata Magia en Lata tienda online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Magia en Lata - tienda online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-037",
+    "title": "Lata Merry Christmas and Happy New Year Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Merry Christmas and Happy New Year - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-038",
+    "title": "Lata Merry Christmas and Happy New Year comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Merry Christmas and Happy New Year - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-039",
+    "title": "Lata que nunca falte la Magia Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata que nunca falte la Magia - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-040",
+    "title": "Lata que nunca falte la Magia comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata que nunca falte la Magia - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-041",
+    "title": "Lata que nunca falte la Magia en internet",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata que nunca falte la Magia en internet.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-042",
+    "title": "Lata Tiempo de Celebrar Club del Poster",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Tiempo de Celebrar - Club del Poster.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-043",
+    "title": "Lata Tiempo de Celebrar comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Tiempo de Celebrar - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-044",
+    "title": "Lata Tiempo de Celebrar tienda online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lata Tiempo de Celebrar - tienda online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-045",
+    "title": "Lo mejor de tenerte como papá",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lo mejor de tenerte como papá.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-046",
+    "title": "Maestro Asador",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Maestro Asador.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-047",
+    "title": "Mantenga hidratado al parrillero comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mantenga hidratado al parrillero - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-048",
+    "title": "Mi Parrilla",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mi Parrilla.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-049",
+    "title": "Mi parrilla mis reglas",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mi parrilla mis reglas.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-050",
+    "title": "Modo cueva",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Modo cueva.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-051",
+    "title": "No molestar Gamer en acción",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/No molestar Gamer en acción.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-052",
+    "title": "No molestar Gamer en estado Play",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/No molestar Gamer en estado Play.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-053",
+    "title": "Papa Noel Navidad comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papa Noel Navidad - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-054",
+    "title": "Papa noel Santa Navidad comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papa noel Santa Navidad - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-055",
+    "title": "Papá es único como sus asados",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papá es único como sus asados.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-056",
+    "title": "Papá Sustantivo",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papá Sustantivo.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-057",
+    "title": "Parrilla",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Parrilla.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-058",
+    "title": "Pesebre Navidad comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Pesebre Navidad - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-059",
+    "title": "Pino Navidad comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Pino Navidad - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-060",
+    "title": "Producto",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/producto.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-061",
+    "title": "Quincho campeon mundial Qatar 2022",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Quincho campeon mundial Qatar 2022.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-062",
+    "title": "Reno Navidad comprar online",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Reno Navidad - comprar online.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-063",
+    "title": "Restricted Area Danger",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Restricted Area Danger.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-064",
+    "title": "Santa para aqui",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa para aqui.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-065",
+    "title": "Santa Stop Here Navidad",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa Stop Here Navidad.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-066",
+    "title": "Santa stop here please",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa stop here please.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-067",
+    "title": "Surf CAUTION LOCALS ONLY",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf CAUTION LOCALS ONLY.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-068",
+    "title": "Surf Combi",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf Combi.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-069",
+    "title": "Surf SURFERS",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf SURFERS.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-070",
+    "title": "Surf tablas Surfers",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf tablas Surfers.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-071",
+    "title": "T Rex Dinosaurio",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/T-Rex Dinosaurio.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-072",
+    "title": "Tricerators Hervivore Dinosaurio",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Tricerators Hervivore Dinosaurio.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-073",
+    "title": "Un Aplauso para el Asador",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Un Aplauso para el Asador.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-074",
+    "title": "Un aplauso para el asador negra",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Un aplauso para el asador negra.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-075",
+    "title": "Welcome Beer zone",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Welcome Beer zone.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
+    "id": "DIA-076",
+    "title": "Zona Adolescente",
+    "cat": "dias-especiales",
+    "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Zona Adolescente.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$14.900"
+  },
+  {
     "id": "ILU-001",
     "title": "Abstracto Boho",
     "cat": "ilustraciones",

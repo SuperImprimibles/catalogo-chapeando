@@ -53,8 +53,7 @@ html.dark .cat-bar{background:#1a1a1a}
 
 
 main{padding:20px;max-width:1600px;margin:0 auto;position:relative}
-main.vintage-bg::before{content:'';position:fixed;inset:0;background:url('Vintages/FONDO%20PARA%20VISTA%20VINTAGE.jpg') center/cover no-repeat;opacity:.22;pointer-events:none;z-index:0}
-html.dark main.vintage-bg::before{opacity:.15}
+main.vintage-bg::before{content:'';position:fixed;inset:0;opacity:.12;pointer-events:none;z-index:0}
 main.imanes-bg::before{content:'';position:fixed;inset:0;background:url('Imanes/Fondo,%20Ilustracion,%20Imanes.jpg') center/cover no-repeat;opacity:1;pointer-events:none;z-index:0}
 html.dark main.imanes-bg::before{opacity:1}
 /* BANNER ENVÍO */
@@ -89,7 +88,7 @@ html.dark .set-card{background:#1a1a1a}
 .todos-cat-row{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
 @media(max-width:600px){.todos-cat-row{grid-template-columns:repeat(3,1fr)}}
 .todos-cat-item{border-radius:10px;overflow:hidden;cursor:pointer;position:relative;background:#111;aspect-ratio:1/1}
-.todos-cat-item img{width:100%;height:100%;object-fit:cover;display:block}
+.todos-cat-item img{width:100%;height:100%;object-fit:contain;display:block}
 .todos-cat-item-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);padding:4px 6px;font-size:9px;font-weight:700;color:#fff}
 .todos-sep{height:1px;background:#eee;margin:12px 0}
 html.dark .todos-cat-title{color:#f0f0f0}
@@ -433,27 +432,23 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
     <div class="tipo-selector">
       <button class="tipo-btn active" onclick="selectTipo('carteles',this)">Carteles</button>
       <button class="tipo-btn" onclick="selectTipo('imanes',this)">Imanes</button>
-      <button class="tipo-btn" onclick="selectTipo('ilustraciones',this)">Ilustraciones</button>
       <button class="tipo-btn" onclick="selectTipo('señalitica',this)">Señalítica</button>
       <button class="tipo-btn" onclick="selectTipo('personalizados',this)">Personalizados</button>
     </div>
     <div id="themes-menu" class="themes-menu">
-    <div class="themes-menu-item" onclick="filterCat('mundial',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Argentina/argentina-3-estrellas.jpg" alt=""></div><span>Mundial</span></div>
-    <div class="themes-menu-item" onclick="filterCat('ilustraciones',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Ilustraciones/abstracto-boho.jpg" alt=""></div><span>Ilustraciones</span></div>
-    <div class="themes-menu-item" onclick="filterCat('parrilla',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos Bienvenidos Familiares Con Cita Previa.webp" alt=""></div><span>Parrilla y Asado</span></div>
-    <div class="themes-menu-item" onclick="filterCat('vehiculos',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Vehiculos/39.png" alt=""></div><span>Vehículos</span></div>
-    <div class="themes-menu-item" onclick="filterCat('deco',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Deco/31.jpg" alt=""></div><span>Deco</span></div>
+    <div class="themes-menu-item active" onclick="filterCat('argentina',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Argentina/Ancho de espada (Ilustracion).webp" alt=""></div><span>Argentina</span></div>
+    <div class="themes-menu-item" onclick="filterCat('vintages',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Vintages/barra.jpg" alt=""></div><span>Vintages</span></div>
+    <div class="themes-menu-item" onclick="filterCat('publicidades',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Publicidades Vintage/Amargo Obrero.webp" alt=""></div><span>Publicidades Vintage</span></div>
     <div class="themes-menu-item" onclick="filterCat('musica',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Musica/2Pac eyes on me.webp" alt=""></div><span>Música</span></div>
     <div class="themes-menu-item" onclick="filterCat('cine',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Cine/cine-10.png" alt=""></div><span>Cine</span></div>
-    <div class="themes-menu-item" onclick="filterCat('rutas',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Rutas y Señales</span></div>
-    <div class="themes-menu-item" onclick="filterCat('publicidades',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Publicidades Vintage/Amargo Obrero.webp" alt=""></div><span>Publicidades Vintage</span></div>
-    <div class="themes-menu-item" onclick="filterCat('bebidas',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Publicidades Vintage/Fernet Branca.png" alt=""></div><span>Bebidas</span></div>
-    <div class="themes-menu-item" onclick="filterCat('infantil',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-10.png" alt=""></div><span>Infantil y Juvenil</span></div>
+    <div class="themes-menu-item" onclick="filterCat('deco',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Deco/31.jpg" alt=""></div><span>Deco</span></div>
+    <div class="themes-menu-item" onclick="filterCat('parrilla',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos Bienvenidos Familiares Con Cita Previa.webp" alt=""></div><span>Parrilla y Asado</span></div>
     <div class="themes-menu-item" onclick="filterCat('deportes',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Deportes/luna-deportes-10.png" alt=""></div><span>Deportes</span></div>
-    <div class="themes-menu-item" onclick="filterCat('argentina',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Argentina/Ancho de espada (Ilustracion).webp" alt=""></div><span>Argentina</span></div>
-    <div class="themes-menu-item" onclick="filterCat('carteles',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Carteles Clásicos</span></div>
-    <div class="themes-menu-item" onclick="filterCat('dias-especiales',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Días Especiales</span></div>
-    <div class="themes-menu-item" onclick="filterCat('calendarios',null)"><div class="themes-menu-thumb"><img src="" alt=""></div><span>Calendarios Perpetuos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('ilustraciones',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Ilustraciones/abstracto-boho.jpg" alt=""></div><span>Ilustraciones</span></div>
+    <div class="themes-menu-item" onclick="filterCat('infantil',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Infantil y Juvenil/luna-infantilyjuvenil-10.png" alt=""></div><span>Infantil y Juvenil</span></div>
+    <div class="themes-menu-item" onclick="filterCat('vehiculos',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Vehiculos/39.png" alt=""></div><span>Vehículos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('calendarios',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Campeones del mundo.webp" alt=""></div><span>Calendarios Perpetuos</span></div>
+    <div class="themes-menu-item" onclick="filterCat('numeracion',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Numeracion/Numeracion.png" alt=""></div><span>Numeración</span></div>
   </div>
   </div>
   <div id="grid" class="grid"></div>
@@ -676,7 +671,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
 <div id="toast"><span style="color:#4ade80"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span id="toast-msg"></span></div>
 
 <!-- Datos de productos (editá productos.js para cambiar nombres, precios y tamaños) -->
-<script src="productos.js?v=2"></script>
+<script src="productos.js?v=4"></script>
 
 <script>
 const WA = "5492657640076";
@@ -893,6 +888,11 @@ function filterCat(cat, btn) {
     _scrollHome = window.scrollY;
   }
   _activeCat = cat;
+  // Marcar item activo en themes-menu
+  document.querySelectorAll('.themes-menu-item').forEach(function(el) {
+    var onclick = el.getAttribute('onclick') || '';
+    el.classList.toggle('active', onclick.indexOf("'" + cat + "'") > -1);
+  });
   applyFilter();
 }
 
@@ -945,10 +945,9 @@ function applyFilter() {
     list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'vintages'; });
   } else if (cat === 'catalogo') {
     _usePagination = true;
-    list = items.filter(function(i){ return i.cat === 'ilustraciones' || i.cat === 'vintages'; });
+    list = items.filter(function(i){ return i.cat === 'argentina'; });
   } else {
-    _gridLimit = 8;
-    _usePagination = false;
+    _usePagination = true;
     list = items.filter(function(i){ return i.cat === cat; });
   }
 
@@ -1162,37 +1161,15 @@ function selectTipo(tipo, btn) {
 
   if (tipo === 'carteles') {
     if (menu) menu.style.display = 'flex';
-    // Ocultar sección inline si estaba visible
     var sec = document.getElementById('section-tipo-inline');
     if (sec) sec.style.display = 'none';
+    // Cargar Argentina por defecto
+    filterCat('argentina', null);
   } else {
     if (menu) menu.style.display = 'none';
-    // Mostrar productos inline debajo
     var sec = document.getElementById('section-tipo-inline');
-    if (!sec) {
-      sec = document.createElement('div');
-      sec.id = 'section-tipo-inline';
-      sec.className = 'section-block';
-      sec.innerHTML = '<div class="section-block-title" id="tipo-inline-title"></div><div id="grid-tipo-inline" class="grid grid--home"></div><div id="ver-mas-tipo-inline" class="ver-mas-wrap" style="display:none"><button class="ver-mas-btn" onclick="verMasTipoInline()">Ver más</button></div>';
-      document.getElementById('themes-section').after(sec);
-    }
-    var titleEl = document.getElementById('tipo-inline-title');
-    var g = document.getElementById('grid-tipo-inline');
-    var vm = document.getElementById('ver-mas-tipo-inline');
-    var labels = { imanes:'Imanes', señalitica:'Señalítica', personalizados:'Personaliza Tú Chapa' };
-    if (titleEl) titleEl.textContent = labels[tipo] || tipo;
-    if (g) {
-      var list2 = items.filter(function(i){ return i.cat === tipo; });
-      g.innerHTML = '';
-      g._list = list2;
-      g._limit = 8;
-      list2.slice(0, 8).forEach(function(item){ appendCard(g, item); });
-      syncImanFrames();
-      if (vm) vm.style.display = list2.length > 8 ? 'block' : 'none';
-    }
-    sec.style.display = 'block';
-    // Scroll suave a la sección
-    setTimeout(function(){ sec.scrollIntoView({ behavior:'smooth', block:'start' }); }, 100);
+    if (sec) sec.style.display = 'none';
+    filterCat(tipo, null);
   }
 }
 
@@ -1426,13 +1403,13 @@ var CAT_INFO = [
 ];
 
 function renderTodosPanel(panel) {
-  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','bebidas','deco','infantil','mundial'];
+  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','deco','infantil','calendarios','numeracion'];
   var shuffled = allCats.sort(function(){ return Math.random()-.5; }).slice(0,5);
   var catLabels = {
     vintages:'Vintages', ilustraciones:'Ilustraciones', musica:'Música', cine:'Cine',
     deportes:'Deportes', argentina:'Argentina', vehiculos:'Vehículos', parrilla:'Parrilla y Asado',
-    publicidades:'Publicidades Vintage', bebidas:'Bebidas', deco:'Deco', infantil:'Infantil y Juvenil',
-    mundial:'Mundial', imanes:'Imanes', señalitica:'Señalítica'
+    publicidades:'Publicidades Vintage', deco:'Deco', infantil:'Infantil y Juvenil',
+    calendarios:'Calendarios Perpetuos', numeracion:'Numeración', imanes:'Imanes', señalitica:'Señalítica'
   };
   panel.innerHTML = '';
   shuffled.forEach(function(cat) {
@@ -1460,13 +1437,13 @@ function showTodosPanel(btn) {
   if (!_todosActive) { panel.style.display = 'none'; return; }
   if (btn) btn.classList.add('active');
 
-  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','bebidas','deco','infantil','mundial'];
+  var allCats = ['vintages','ilustraciones','musica','cine','deportes','argentina','vehiculos','parrilla','publicidades','deco','infantil','calendarios','numeracion'];
   var shuffled = allCats.sort(function(){ return Math.random()-.5; }).slice(0,5);
   var catLabels = {
     vintages:'Vintages', ilustraciones:'Ilustraciones', musica:'Música', cine:'Cine',
     deportes:'Deportes', argentina:'Argentina', vehiculos:'Vehículos', parrilla:'Parrilla y Asado',
-    publicidades:'Publicidades Vintage', bebidas:'Bebidas', deco:'Deco', infantil:'Infantil y Juvenil',
-    mundial:'Mundial', imanes:'Imanes', señalitica:'Señalítica'
+    publicidades:'Publicidades Vintage', deco:'Deco', infantil:'Infantil y Juvenil',
+    calendarios:'Calendarios Perpetuos', numeracion:'Numeración', imanes:'Imanes', señalitica:'Señalítica'
   };
 
   panel.innerHTML = '';
@@ -1505,7 +1482,7 @@ function buildCatBlock(cat, label, catItems) {
     el.className = 'todos-cat-item';
     el.innerHTML = '<img src="' + item.img + '" loading="lazy" alt="' + item.title + '">'
       + '<div class="todos-cat-item-label">' + item.title + '</div>';
-    el.addEventListener('click', function(){ openModal(item); });
+    el.addEventListener('click', function(){ filterCat(item.cat, null); });
     row.appendChild(el);
   });
   if (catItems.length > 5) {
@@ -1537,8 +1514,7 @@ function renderCatBar() {
     { imgSrc: 'Chapeando - Marca/Baner 1.webp', label: '', key: null },
     { imgSrc: 'Chapeando - Marca/Baner 2.webp', label: '', key: null },
     { imgSrc: 'Chapeando - Marca/Baner 3.png',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Baner 4.jpg',  label: '', key: null },
-    { imgSrc: 'Chapeando - Marca/Baner 5.jpg',  label: '', key: null },
+    { imgSrc: 'Chapeando - Marca/Baner 4.png',  label: '', key: null },
   ];
 
   var slides = brandSlides;
@@ -1869,8 +1845,9 @@ var PRINT_H_MM = 285;
 var MIN_MM = 50;
 
 function precalcTamanios(lista, done) {
+  // Solo calcular los items de la página visible, no todo el catálogo
   var pendientes = lista.filter(function(i) {
-    return (i.cat === 'ilustraciones' || i.cat === 'vintages' || i.cat === 'imanes') && i.size === '-';
+    return i.size === '-' && !i._calcSize;
   });
   if (!pendientes.length) { done(); return; }
   var restantes = pendientes.length;
@@ -1880,7 +1857,7 @@ function precalcTamanios(lista, done) {
       var pw = img.naturalWidth, ph = img.naturalHeight;
       if (pw && ph) {
         var maxW = PRINT_W_MM;
-        var maxH = item.cat === 'imanes' ? 80 : PRINT_H_MM; // imanes: max 8cm alto
+        var maxH = item.cat === 'imanes' ? 80 : PRINT_H_MM;
         var escala = Math.min(maxW / pw, maxH / ph);
         var wMm = pw * escala, hMm = ph * escala;
         if (wMm < MIN_MM || hMm < MIN_MM) {
@@ -1897,8 +1874,8 @@ function precalcTamanios(lista, done) {
   });
 }
 
-// Renderizar — precalcular tamaños primero
-precalcTamanios(items, function() {
+// Renderizar
+precalcTamanios([], function() {
   filterCat('all', null);
   // Abrir producto si se entró con un hash
   var hash = window.location.hash.replace('#', '');

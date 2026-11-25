@@ -5,3 +5,6 @@ desktop.ini
 
 # Python server
 __pycache__/
+
+# Backups de imágenes originales
+_backup_originales/

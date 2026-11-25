@@ -1094,6 +1094,11 @@ function formatPrice(n) {
 }
 
 function renderCart() {
+  // Limpiar items del carrito cuyo producto ya no existe
+  cart = cart.filter(function(c) {
+    return items.some(function(i){ return i.id === c.id; });
+  });
+  saveCart();
   var badge = document.getElementById('cart-count');
   var box = document.getElementById('cart-items');
   var totEl = document.getElementById('cart-total-val');

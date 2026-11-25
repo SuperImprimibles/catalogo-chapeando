@@ -446,7 +446,7 @@ const items = [
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Argentina/argentina-3-estrellas.jpg"},
   {id:"VIN-03", title:"La Renga Ruta 73", cat:"vintages", size:"19.8 x 24.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Musica/la-renga-ruta-73.png"},
   {id:"VIN-04", title:"A Brillar Mi Amor", cat:"vintages", size:"5.6 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Vintages/a-brillar-mi-amor.jpg"},
-  {id:"VIN-05", title:"Corona Extra", cat:"vintages", size:"7.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Tienda (Imagenes)/Categorias/Bebidas/corona-extra.jpg"},
+  {id:"VIN-05", title:"Corona Extra", cat:"vintages", size:"7.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$3.990", img:"Tienda (Imagenes)/Categorias/Publicidades Vintage/corona-extra.jpg"},
   {id:"VIN-06", title:"Ford Authorized Service", cat:"vintages", size:"19.8 x 27.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/ford-authorized-service.jpg"},
   {id:"VIN-07", title:"Intoxicados Planeta Tierra", cat:"vintages", size:"19.8 x 20.1 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Musica/intoxicados-planeta-tierra.jpg"},
   {id:"VIN-08", title:"Jack Daniel's Whiskey", cat:"vintages", size:"15.2 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/jack-daniels-whiskey.jpg"},
@@ -812,7 +812,7 @@ const items = [
   {id:"CIN-011", title:"Los Pollos Hermanos", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-12.png"},
   {id:"CIN-012", title:"Volver al Futuro", cat:"cine", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Cine/cine-13.png"},
   // -- BEBIDAS
-  {id:"BEB-001", title:"Coffee", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/Fernet Branca.png"},
+  {id:"BEB-001", title:"Coffee", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Publicidades Vintage/Fernet Branca.png"},
   {id:"BEB-002", title:"Coca Cola Light", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Coca Cola Light.png"},
   {id:"BEB-003", title:"Drink Coca Cola", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Drink Coca Cola.png"},
   {id:"BEB-004", title:"Coca Cola", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Coca Cola.png"},

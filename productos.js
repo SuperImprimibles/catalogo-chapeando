@@ -442,7 +442,6 @@ const items = [
   
   
   // -- VINTAGES
-<<<<<<< HEAD
   {id:"VIN-01", title:"Las Malvinas Son Argentinas", cat:"vintages", size:"19.7 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Argentina/malvinas-son-argentinas-texto.jpg"},
   {id:"VIN-02", title:"Argentina 3 Estrellas", cat:"vintages", size:"19.8 x 26.5 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Argentina/argentina-3-estrellas.jpg"},
   {id:"VIN-03", title:"La Renga Ruta 73", cat:"vintages", size:"19.8 x 24.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Musica/la-renga-ruta-73.png"},
@@ -468,10 +467,7 @@ const items = [
   {id:"VIN-23", title:"Indian Motorcycle 1934", cat:"vintages", size:"19.8 x 26.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/indian-motorcycle-1934.jpg"},
   {id:"VIN-24", title:"Open 24 Hours", cat:"vintages", size:"19.8 x 13.7 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/open-24-hours.jpg"},
   {id:"VIN-25", title:"Barra", cat:"vintages", size:"19.1 x 28.5 cm", mat:"Metal", unit:"1 pieza", price:"$4.990", img:"Vintages/barra.jpg"},
-  {id:"VIN-26", title:"Asado Vino y Amigos", cat:"vintages", size:"19.8 x 28.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/asado-vino-y-amigos.jpg"},
-=======
->>>>>>> acfc5f8d4b7abf0e7560c8ba57678b1434e807b7
-  
+  {id:"VIN-26", title:"Asado Vino y Amigos", cat:"vintages", size:"19.8 x 28.4 cm", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Vintages/asado-vino-y-amigos.jpg"},`n  
   
   
   
@@ -841,7 +837,6 @@ const items = [
   
   
   // -- BEBIDAS
-<<<<<<< HEAD
   {id:"BEB-001", title:"Coffee", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Publicidades Vintage/Fernet Branca.png"},
   {id:"BEB-002", title:"Coca Cola Light", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Coca Cola Light.png"},
   {id:"BEB-003", title:"Drink Coca Cola", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Drink Coca Cola.png"},
@@ -854,23 +849,7 @@ const items = [
   {id:"BEB-010", title:"Jack Daniels R1", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Jack Daniels R1.png"},
   {id:"BEB-011", title:"Jack Daniels R2", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Jack Daniels R2.jpg"},
   {id:"BEB-012", title:"Jack Daniels R3", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Jack Daniels R3.jpg"},
-  {id:"BEB-013", title:"Bebida 13", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Bebida 13.jpg"},
-=======
-  {id:"BEB-001", title:"Coffee", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)/Categorias/Bebidas/Fernet Branca.png"},
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
->>>>>>> acfc5f8d4b7abf0e7560c8ba57678b1434e807b7
-
+  {id:"BEB-013", title:"Bebida 13", cat:"bebidas", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Bebidas/Bebida 13.jpg"},`n
   // -- MUSICA (Luna de Tuna)
   {id:"MUS2-001", title:"Sin titulo", cat:"musica", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Musica/Sin titulo.jpg"},
   {id:"MUS2-002", title:"Sin titulo", cat:"musica", size:"-", mat:"Metal", unit:"1 pieza", price:"$9.990", img:"Tienda (Imagenes)\Categorias\Musica/Sin titulo.jpg"},

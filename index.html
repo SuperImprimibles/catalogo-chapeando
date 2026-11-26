@@ -1542,7 +1542,7 @@ function renderTodosPanel(panel) {
   var sep = document.createElement('div');
   sep.className = 'todos-sep';
   panel.appendChild(sep);
-  ['imanes','señalitica'].forEach(function(cat) {
+  ['señalitica'].forEach(function(cat) {
     var catItems = items.filter(function(i){ return i.cat === cat; });
     if (!catItems.length) return;
     panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));

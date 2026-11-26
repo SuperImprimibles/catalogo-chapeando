@@ -498,9 +498,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
   <div id="themes-section" style="display:none">
     <div class="tipo-selector">
       <button class="tipo-btn active" onclick="selectTipo('carteles',this)">Carteles</button>
-      <button class="tipo-btn" onclick="selectTipo('imanes',this)">Imanes</button>
       <button class="tipo-btn" onclick="selectTipo('señalitica',this)">Señalítica</button>
-      <button class="tipo-btn" onclick="selectTipo('personalizados',this)">Personalizados</button>
     </div>
     <div id="themes-menu" class="themes-menu">
     <div class="themes-menu-item active" onclick="filterCat('argentina',null)"><div class="themes-menu-thumb"><img src="Tienda (Imagenes)/Categorias/Argentina/Ancho de espada (Ilustracion).webp" alt=""></div><span>Argentina</span></div>
@@ -1037,7 +1035,7 @@ function applyFilter() {
     list = items.filter(function(i){ return i.cat === 'argentina'; });
   } else {
     _usePagination = true;
-    list = items.filter(function(i){ return i.cat === cat; });
+    list = items.filter(function(i){ return i.cat === cat && i.cat !== 'imanes' && i.cat !== 'personalizados'; });
   }
 
   render(list);
@@ -1524,8 +1522,6 @@ function updateSetsBar() {
 var CAT_INFO = [
   { key: 'numeracion',     label: 'Numeración' },
   { key: 'señalitica',     label: 'Señalítica' },
-  { key: 'imanes',         label: 'Imanes' },
-  { key: 'personalizados', label: 'Personaliza Tú Chapa', img: 'logo.png' },
 ];
 
 function renderTodosPanel(panel) {
@@ -1583,7 +1579,7 @@ function showTodosPanel(btn) {
   sep.className = 'todos-sep';
   panel.appendChild(sep);
 
-  ['imanes','señalitica'].forEach(function(cat) {
+  ['señalitica'].forEach(function(cat) {
     var catItems = items.filter(function(i){ return i.cat === cat; });
     if (!catItems.length) return;
     panel.appendChild(buildCatBlock(cat, catLabels[cat], catItems));

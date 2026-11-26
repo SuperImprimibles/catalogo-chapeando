@@ -678,7 +678,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
         </div>
 
         <!-- Descripción -->
-        <p style="font-size:13px;color:#666;line-height:1.6;margin:0">Chapa de aluminio con impresión de alta definición y colores vibrantes. Con perforaciones para colgar fácilmente.</p>
+        <p id="m-desc" style="font-size:13px;color:#666;line-height:1.6;margin:0">Chapa de aluminio con impresión de alta definición y colores vibrantes. Con perforaciones para colgar fácilmente.</p>
       </div>
 
       <!-- Botones de acción -->
@@ -1096,6 +1096,15 @@ function openModal(item) {
   }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
+  // Descripción dinámica
+  var descEl = document.getElementById('m-desc');
+  if (descEl) {
+    if (item._isSet && item._setDesc) {
+      descEl.textContent = item._setDesc;
+    } else {
+      descEl.textContent = 'Chapa de aluminio con impresión de alta definición y colores vibrantes. Con perforaciones para colgar fácilmente.';
+    }
+  }
   // URL compartible
   history.replaceState(null, '', '#' + item.id);
 }
@@ -1446,21 +1455,20 @@ function toast(msg) {
 // Ejemplo:
 // { name:'Kit Cocina', desc:'3 chapas temáticas', price:'$24.000', img:'Ilustraciones/monstera-acuarela.jpg', ids:['ILU-01','ILU-03','ILU-08'] }
 var sets = [
-  { name:'Brindis Eternos',  desc:'5 chapas 20×30 cm', price:'$48.900', img:'Tienda (Imagenes)/Sets/Brindis/1.webp',       ids:[] },
-  { name:'Botánico',         desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Botánico/1.webp',      ids:[] },
-  { name:'Argento',          desc:'5 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Argento/1.webp',        ids:[] },
-  { name:'Asado',            desc:'5 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Asado/1.webp',          ids:[] },
-  { name:'Barbería',         desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Barberia/1.webp',       ids:[] },
-  { name:'Beer',             desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Beer/1.webp',           ids:[] },
-  { name:'Botánico V2',      desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Botanico v2/1.webp',    ids:[] },
-  { name:'Café',             desc:'5 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Café/1.webp',           ids:[] },
-  { name:'Ciudades',         desc:'5 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Ciudades/1.webp',       ids:[] },
-  { name:'Cóctel',           desc:'7 chapas 20×30 cm', price:'$56.200', img:'Tienda (Imagenes)/Sets/Cóctel/1.webp',         ids:[] },
-  { name:'Industrial',       desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Industrial/1.webp',     ids:[] },
-  { name:'Infantil',         desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Infantil/1.webp',       ids:[] },
-  { name:'Rock',             desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Rock/1.webp',           ids:[] },
-  { name:'Tinto',            desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Tinto/1.webp',          ids:[] },
-  { name:'Utensillos',       desc:'4 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Utencillos/1.webp',     ids:[] },
+  { name:'Botánico',         desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Botánico/1.webp',      ids:[], count:4  },
+  { name:'Argento',          desc:'4 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Argento/1.webp',        ids:[], count:5  },
+  { name:'Asado',            desc:'4 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Asado/1.webp',          ids:[], count:5  },
+  { name:'Barbería',         desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Barberia/1.webp',       ids:[], count:4  },
+  { name:'Beer',             desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Beer/1.webp',           ids:[], count:4  },
+  { name:'Botánico V2',      desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Botanico v2/1.webp',    ids:[], count:4  },
+  { name:'Café',             desc:'4 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Café/1.webp',           ids:[], count:5  },
+  { name:'Ciudades',         desc:'4 chapas 20×30 cm', price:'$43.000', img:'Tienda (Imagenes)/Sets/Ciudades/1.webp',       ids:[], count:5  },
+  { name:'Cóctel',           desc:'6 chapas 20×30 cm', price:'$56.200', img:'Tienda (Imagenes)/Sets/Cóctel/1.webp',         ids:[], count:7  },
+  { name:'Industrial',       desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Industrial/1.webp',     ids:[], count:4  },
+  { name:'Infantil',         desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Infantil/1.webp',       ids:[], count:4  },
+  { name:'Rock',             desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Rock/1.webp',           ids:[], count:4  },
+  { name:'Tinto',            desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Tinto/1.webp',          ids:[], count:4  },
+  { name:'Utensillos',       desc:'3 chapas 20×30 cm', price:'$36.400', img:'Tienda (Imagenes)/Sets/Utencillos/1.webp',     ids:[], count:4  },
 ];
 
 function renderSetsBar() {
@@ -1485,11 +1493,11 @@ function renderSetsBar() {
 }
 
 function openSetAsModal(set) {
-  // Construir un item compatible con openModal
-  var gallery = [];
-  // Intentar cargar hasta 10 imágenes del set
   var folder = set.img.substring(0, set.img.lastIndexOf('/'));
-  for (var n = 1; n <= 10; n++) {
+  var count = set.count || 1;
+  // 1.webp es la ilustración del set, 2.webp en adelante son las chapas individuales
+  var gallery = [];
+  for (var n = 1; n <= count; n++) {
     gallery.push(folder + '/' + n + '.webp');
   }
   var fakeItem = {
@@ -1503,6 +1511,7 @@ function openSetAsModal(set) {
     img: set.img,
     gallery: gallery,
     _isSet: true,
+    _setDesc: (set.desc || '') + '. Cada pieza está hecha en aluminio, con perforaciones en las puntas para colgar fácilmente. Aptas para exterior: no se oxidan con la humedad ni la lluvia.',
   };
   openModal(fakeItem);
 }

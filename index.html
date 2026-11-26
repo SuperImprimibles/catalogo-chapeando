@@ -1195,15 +1195,48 @@ function addCart() {
 }
 
 function waProduct() {
+function waProduct() {
   if (!current) return;
-  var t = '¡Hola! Me interesa:\n\n'
-    + '*' + current.title + '*\n'
-    + '📐 Tamaño: ' + modalSize + '\n'
-    + '🔢 Cantidad: ' + modalQty + '\n'
-    + '💲 Precio: ' + current.price + '\n'
-    + '🧱 Material: ' + current.mat + '\n\n'
-    + '¿Me podés brindar más información?';
-  window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+  var priceStr = document.getElementById('m-price').textContent;
+  var priceNum = parsePrice(priceStr);
+
+  if (!priceNum) {
+    // Sin precio definido → fallback WA
+    var t = '¡Hola! Me interesa:\n\n'
+      + '*' + current.title + '*\n'
+      + '📐 Tamaño: ' + modalSize + '\n'
+      + '🔢 Cantidad: ' + modalQty + '\n'
+      + '🧱 Material: ' + current.mat + '\n\n'
+      + '¿Me podés brindar más información?';
+    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(t), '_blank');
+    return;
+  }
+
+  var mpItems = [{
+    id: current.id,
+    title: current.title + ' — ' + modalSize,
+    qty: modalQty,
+    priceNum: priceNum,
+  }];
+
+  var backendUrl = 'https://catalogo-chapeando-backend.vercel.app/api/checkout';
+  toast('Generando link de pago...');
+  fetch(backendUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items: mpItems }),
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(data) {
+    if (data.init_point) {
+      window.location.href = data.init_point;
+    } else {
+      toast('Error al generar el pago. Intentá de nuevo.');
+    }
+  })
+  .catch(function() {
+    toast('Error al generar el pago. Intentá de nuevo.');
+  });
 }
 
 function parsePrice(str) {

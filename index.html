@@ -666,12 +666,7 @@ html.dark .modal-btn-close:hover{background:rgba(255,255,255,.22)}
         <!-- Selector de tamaño -->
         <div id="size-section">
           <div class="size-label">Seleccionar Tamaño</div>
-          <div class="size-chips" id="size-chips">
-            <button class="size-chip active" onclick="selectSize(this,'20×14 cm')">20×14 cm</button>
-            <button class="size-chip" onclick="selectSize(this,'30×20 cm')">30×20 cm</button>
-            <button class="size-chip" onclick="selectSize(this,'40×28 cm')">40×28 cm</button>
-            <button class="size-chip" onclick="selectSize(this,'Personalizado')">Personalizado</button>
-          </div>
+          <div class="size-chips" id="size-chips"></div>
         </div>
 
         <!-- Selector de cantidad -->
@@ -1086,9 +1081,22 @@ function openModal(item) {
   // Resetear cantidad
   document.getElementById('modal-qty').textContent = '1';
   modalQty = 1;
-  // Resetear selector de tamaño al primer chip
-  document.querySelectorAll('.size-chip').forEach(function(c,i){ c.classList.toggle('active', i===0); });
-  modalSize = document.querySelector('.size-chip') ? document.querySelector('.size-chip').textContent : '-';
+  // Generar chips de tamaño dinámicamente desde item.sizes
+  var chipsEl = document.getElementById('size-chips');
+  chipsEl.innerHTML = '';
+  if (item.sizes && item.sizes.length) {
+    item.sizes.forEach(function(s, i) {
+      var btn = document.createElement('button');
+      btn.className = 'size-chip' + (i === 0 ? ' active' : '');
+      btn.textContent = s.label + ' — ' + s.dims;
+      btn.addEventListener('click', function() { selectSize(btn, s.label + ' — ' + s.dims, s.price); });
+      chipsEl.appendChild(btn);
+    });
+    modalSize = item.sizes[0].label + ' — ' + item.sizes[0].dims;
+    document.getElementById('m-price').textContent = '$' + item.sizes[0].price.toLocaleString('es-AR');
+  } else {
+    modalSize = item.size || '-';
+  }
   document.getElementById('modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
   // URL compartible
@@ -1105,10 +1113,13 @@ function closeModal() {
 var modalQty = 1;
 var modalSize = '20×14 cm';
 
-function selectSize(btn, size) {
+function selectSize(btn, size, price) {
   document.querySelectorAll('.size-chip').forEach(function(c){ c.classList.remove('active'); });
   btn.classList.add('active');
   modalSize = size;
+  if (price !== undefined) {
+    document.getElementById('m-price').textContent = '$' + price.toLocaleString('es-AR');
+  }
 }
 
 function changeQty(dir) {

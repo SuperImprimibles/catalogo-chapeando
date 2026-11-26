@@ -13,6 +13,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -22,7 +39,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Argentina Gaucho.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "ARG-003",
@@ -31,7 +65,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-004",
@@ -40,7 +91,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-005",
@@ -49,7 +117,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-006",
@@ -58,7 +143,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "ARG-007",
@@ -67,7 +169,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "ARG-008",
@@ -76,7 +195,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "ARG-009",
@@ -85,7 +221,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.9 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "ARG-010",
@@ -94,7 +247,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-011",
@@ -103,7 +273,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-012",
@@ -112,7 +299,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.5 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-013",
@@ -121,7 +325,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-014",
@@ -130,7 +351,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-015",
@@ -139,7 +377,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-016",
@@ -148,7 +403,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-017",
@@ -157,7 +429,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-018",
@@ -166,7 +455,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-019",
@@ -175,7 +481,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-020",
@@ -184,7 +507,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-021",
@@ -193,7 +533,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-022",
@@ -202,7 +559,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-023",
@@ -211,7 +585,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-024",
@@ -220,7 +611,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-025",
@@ -229,7 +637,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-3-estrellas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.4 x 20.4 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.0 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.3 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-026",
@@ -238,7 +663,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-027",
@@ -247,7 +689,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-028",
@@ -256,7 +715,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-029",
@@ -265,7 +741,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-030",
@@ -274,7 +767,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.7 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.6 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ARG-031",
@@ -283,7 +793,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.0 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.1 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.6 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "ARG-032",
@@ -292,7 +819,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.4 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.1 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-033",
@@ -301,7 +845,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-034",
@@ -310,7 +871,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/argentina-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-035",
@@ -319,7 +897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Asado De Selección.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "ARG-036",
@@ -328,7 +923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Bandera.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.0 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.8 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ARG-037",
@@ -337,7 +949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Caminito.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ARG-038",
@@ -346,7 +975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Campeones Del Mundo Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-039",
@@ -355,7 +1001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Ciudad De BSAS.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ARG-040",
@@ -364,7 +1027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El 10 Asador Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-041",
@@ -373,7 +1053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El Humo Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-042",
@@ -382,7 +1079,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/El partido arranca parrilla Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-043",
@@ -391,7 +1105,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Equipo Completo Parrilla Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-044",
@@ -404,6 +1135,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Fernetcito.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Fernetcito (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -413,7 +1161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Fileteado Argentina.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.3 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 7.9 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "25.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "ARG-046",
@@ -422,7 +1187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Futbol Mundial Mexico 1986.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.6 x 14.2 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ARG-047",
@@ -431,7 +1213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/GOAT Argentino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-048",
@@ -440,7 +1239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Gracias Capitan.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-049",
@@ -449,7 +1265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Gracias Dios Por Hacerme Argentino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ARG-050",
@@ -458,7 +1291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/INGLATERRA LCDTM.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ARG-051",
@@ -467,7 +1317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/La Gloria Se Cocina Lento.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "ARG-052",
@@ -480,6 +1347,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/La Vida Mundial.png",
       "Tienda (Imagenes)/Categorias/Argentina/La Vida Mundial (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -489,7 +1373,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Lionel Messi.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "17.3 x 29.1 cm",
+        "price": 15700
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.1 x 20.4 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 16.7 cm",
+        "price": 5200
+      }
+    ]
   },
   {
     "id": "ARG-054",
@@ -502,6 +1403,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas.webp",
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -515,6 +1433,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas Mundiales.png",
       "Tienda (Imagenes)/Categorias/Argentina/Malvinas Argentinas Mundiales (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -524,7 +1459,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/malvinas-son-argentinas-mapa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.4 x 20.4 cm",
+        "price": 16800
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.4 x 14.2 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "12.8 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ARG-057",
@@ -533,7 +1485,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/malvinas-son-argentinas-texto.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.1 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.1 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.3 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "ARG-058",
@@ -546,6 +1515,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Mate.png",
       "Tienda (Imagenes)/Categorias/Argentina/Mate (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -555,7 +1541,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/messi.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ARG-060",
@@ -568,6 +1571,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Moneda Un Peso.png",
       "Tienda (Imagenes)/Categorias/Argentina/Moneda Un Peso (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -581,6 +1601,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Mundial 2026 Futbol.png",
       "Tienda (Imagenes)/Categorias/Argentina/Mundial 2026 Futbol (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -590,7 +1627,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Mundial Fútbol Argentina 1978.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.8 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.7 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ARG-063",
@@ -599,7 +1653,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Patagonia.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ARG-064",
@@ -608,7 +1679,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Receta Fernet.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.9 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.0 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.6 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "ARG-065",
@@ -617,7 +1705,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/republica-argentina.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.1 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.1 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.3 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "ARG-066",
@@ -630,6 +1735,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Argentina/Sifon y Vermu.png",
       "Tienda (Imagenes)/Categorias/Argentina/Sifon y Vermu (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
     ]
   },
   {
@@ -639,7 +1761,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ARG-068",
@@ -648,7 +1787,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Tipos De Mates.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ARG-069",
@@ -657,7 +1813,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Argentina/Una Causa Noble.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "CAL-001",
@@ -666,7 +1839,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Campeones del mundo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-002",
@@ -675,7 +1865,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Cocina.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-003",
@@ -684,7 +1891,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Home.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-004",
@@ -693,7 +1917,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Home sweet home.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-005",
@@ -702,7 +1943,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Libertad.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-006",
@@ -711,7 +1969,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Life is short.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-007",
@@ -720,7 +1995,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Saltwater heals.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-008",
@@ -729,7 +2021,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario se decide ser feliz.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-009",
@@ -738,7 +2047,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Together is home.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CAL-010",
@@ -747,7 +2073,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Calendarios Perpetuos/Calendario Un buen mate.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-001",
@@ -756,7 +2099,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-002",
@@ -765,7 +2125,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-100.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-003",
@@ -774,7 +2151,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-101.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-004",
@@ -783,7 +2177,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-102.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-005",
@@ -792,7 +2203,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-103.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-006",
@@ -801,7 +2229,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-104.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-007",
@@ -810,7 +2255,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-105.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-008",
@@ -819,7 +2281,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-106.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-009",
@@ -828,7 +2307,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-107.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-010",
@@ -837,7 +2333,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-108.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-011",
@@ -846,7 +2359,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-109.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-012",
@@ -855,7 +2385,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-013",
@@ -864,7 +2411,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-110.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-014",
@@ -873,7 +2437,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-111.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-015",
@@ -882,7 +2463,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-112.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-016",
@@ -891,7 +2489,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-113.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-017",
@@ -900,7 +2515,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-114.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-018",
@@ -909,7 +2541,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-115.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-019",
@@ -918,7 +2567,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-116.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-020",
@@ -927,7 +2593,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-117.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-021",
@@ -936,7 +2619,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-118.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-022",
@@ -945,7 +2645,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-119.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-023",
@@ -954,7 +2671,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-024",
@@ -963,7 +2697,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-120.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-025",
@@ -972,7 +2723,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-121.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-026",
@@ -981,7 +2749,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-122.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-027",
@@ -990,7 +2775,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-123.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-028",
@@ -999,7 +2801,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-124.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-029",
@@ -1008,7 +2827,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-125.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-030",
@@ -1017,7 +2853,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-126.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-031",
@@ -1026,7 +2879,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-127.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-032",
@@ -1035,7 +2905,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-128.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-033",
@@ -1044,7 +2931,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-129.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-034",
@@ -1053,7 +2957,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-035",
@@ -1062,7 +2983,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-130.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-036",
@@ -1071,7 +3009,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-131.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-037",
@@ -1080,7 +3035,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-132.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-038",
@@ -1089,7 +3061,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-133.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "CIN-039",
@@ -1098,7 +3087,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-134.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-040",
@@ -1107,7 +3113,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-041",
@@ -1116,7 +3139,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-042",
@@ -1125,7 +3165,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-043",
@@ -1134,7 +3191,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-044",
@@ -1143,7 +3217,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-045",
@@ -1152,7 +3243,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-046",
@@ -1161,7 +3269,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-047",
@@ -1170,7 +3295,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-048",
@@ -1179,7 +3321,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-049",
@@ -1188,7 +3347,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-050",
@@ -1197,7 +3373,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-051",
@@ -1206,7 +3399,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-052",
@@ -1215,7 +3425,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-053",
@@ -1224,7 +3451,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-054",
@@ -1233,7 +3477,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-055",
@@ -1242,7 +3503,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-056",
@@ -1251,7 +3529,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-057",
@@ -1260,7 +3555,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-058",
@@ -1269,7 +3581,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-059",
@@ -1278,7 +3607,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-060",
@@ -1287,7 +3633,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-061",
@@ -1296,7 +3659,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-062",
@@ -1305,7 +3685,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-063",
@@ -1314,7 +3711,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-064",
@@ -1323,7 +3737,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-065",
@@ -1332,7 +3763,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-066",
@@ -1341,7 +3789,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-067",
@@ -1350,7 +3815,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-068",
@@ -1359,7 +3841,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.0 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.6 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.2 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-069",
@@ -1368,7 +3867,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-070",
@@ -1377,7 +3893,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-071",
@@ -1386,7 +3919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-072",
@@ -1395,7 +3945,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-073",
@@ -1404,7 +3971,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-074",
@@ -1413,7 +3997,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-075",
@@ -1422,7 +4023,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-076",
@@ -1431,7 +4049,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-077",
@@ -1440,7 +4075,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-078",
@@ -1449,7 +4101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-079",
@@ -1458,7 +4127,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-080",
@@ -1467,7 +4153,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-081",
@@ -1476,7 +4179,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-082",
@@ -1485,7 +4205,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-083",
@@ -1494,7 +4231,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-084",
@@ -1503,7 +4257,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-085",
@@ -1512,7 +4283,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-086",
@@ -1521,7 +4309,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-087",
@@ -1530,7 +4335,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.5 cm",
+        "price": 16900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.5 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "CIN-088",
@@ -1539,7 +4361,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-089",
@@ -1548,7 +4387,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-090",
@@ -1557,7 +4413,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-091",
@@ -1566,7 +4439,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-092",
@@ -1575,7 +4465,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-093",
@@ -1584,7 +4491,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-094",
@@ -1593,7 +4517,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-095",
@@ -1602,7 +4543,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-096",
@@ -1611,7 +4569,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-097",
@@ -1620,7 +4595,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-098",
@@ -1629,7 +4621,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-099",
@@ -1638,7 +4647,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-100",
@@ -1647,7 +4673,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-101",
@@ -1656,7 +4699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-102",
@@ -1665,7 +4725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-103",
@@ -1674,7 +4751,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-104",
@@ -1683,7 +4777,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-105",
@@ -1692,7 +4803,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.2 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "CIN-106",
@@ -1701,7 +4829,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-107",
@@ -1710,7 +4855,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-108",
@@ -1719,7 +4881,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-76.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-109",
@@ -1728,7 +4907,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-77.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-110",
@@ -1737,7 +4933,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-78.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-111",
@@ -1746,7 +4959,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-79.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-112",
@@ -1755,7 +4985,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-113",
@@ -1764,7 +5011,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-80.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-114",
@@ -1773,7 +5037,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-81.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-115",
@@ -1782,7 +5063,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-82.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-116",
@@ -1791,7 +5089,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-83.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-117",
@@ -1800,7 +5115,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-84.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-118",
@@ -1809,7 +5141,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-85.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.7 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.0 x 14.2 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "13.9 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-119",
@@ -1818,7 +5167,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-86.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-120",
@@ -1827,7 +5193,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-87.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-121",
@@ -1836,7 +5219,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-88.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-122",
@@ -1845,7 +5245,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-89.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-123",
@@ -1854,7 +5271,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-124",
@@ -1863,7 +5297,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-90.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-125",
@@ -1872,7 +5323,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-91.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-126",
@@ -1881,7 +5349,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-92.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-127",
@@ -1890,7 +5375,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-93.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-128",
@@ -1899,7 +5401,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-94.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-129",
@@ -1908,7 +5427,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-95.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "CIN-130",
@@ -1917,7 +5453,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-96.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-131",
@@ -1926,7 +5479,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-97.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-132",
@@ -1935,7 +5505,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-98.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-133",
@@ -1944,7 +5531,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/cine-99.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "CIN-134",
@@ -1953,7 +5557,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/Plataforma hogwarts.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "CIN-135",
@@ -1962,7 +5583,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Cine/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.2 x 29.1 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.3 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 21.8 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-001",
@@ -1971,7 +5609,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/31.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 10.0 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 7.0 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "28.7 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-002",
@@ -1980,7 +5635,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/bagno.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.7 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-003",
@@ -1989,7 +5661,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/bano-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-004",
@@ -1998,7 +5687,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-100.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-005",
@@ -2007,7 +5713,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-101.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.0 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.6 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.2 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-006",
@@ -2016,7 +5739,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-102.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-007",
@@ -2025,7 +5765,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-103.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-008",
@@ -2034,7 +5791,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-104.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-009",
@@ -2043,7 +5817,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-105.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-010",
@@ -2052,7 +5843,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-106.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-011",
@@ -2061,7 +5869,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-107.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-012",
@@ -2070,7 +5895,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-108.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-013",
@@ -2079,7 +5921,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-109.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-014",
@@ -2088,7 +5947,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-110.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-015",
@@ -2097,7 +5973,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-016",
@@ -2106,7 +5999,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-017",
@@ -2115,7 +6025,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-018",
@@ -2124,7 +6051,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-019",
@@ -2133,7 +6077,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-020",
@@ -2142,7 +6103,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 23.7 cm",
+        "price": 15100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 16.5 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.5 cm",
+        "price": 3600
+      }
+    ]
   },
   {
     "id": "DEC-021",
@@ -2151,7 +6129,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-022",
@@ -2160,7 +6155,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-023",
@@ -2169,7 +6181,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-024",
@@ -2178,7 +6207,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-025",
@@ -2187,7 +6233,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-026",
@@ -2196,7 +6259,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-027",
@@ -2205,7 +6285,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-028",
@@ -2214,7 +6311,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-029",
@@ -2223,7 +6337,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-030",
@@ -2232,7 +6363,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-031",
@@ -2241,7 +6389,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-032",
@@ -2250,7 +6415,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-033",
@@ -2259,7 +6441,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-034",
@@ -2268,7 +6467,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-035",
@@ -2277,7 +6493,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-036",
@@ -2286,7 +6519,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-037",
@@ -2295,7 +6545,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-038",
@@ -2304,7 +6571,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-039",
@@ -2313,7 +6597,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-040",
@@ -2322,7 +6623,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-041",
@@ -2331,7 +6649,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-042",
@@ -2340,7 +6675,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEC-043",
@@ -2349,7 +6701,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-044",
@@ -2358,7 +6727,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-045",
@@ -2367,7 +6753,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-046",
@@ -2376,7 +6779,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-047",
@@ -2385,7 +6805,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-048",
@@ -2394,7 +6831,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-049",
@@ -2403,7 +6857,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-050",
@@ -2412,7 +6883,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-051",
@@ -2421,7 +6909,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-052",
@@ -2430,7 +6935,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-053",
@@ -2439,7 +6961,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-054",
@@ -2448,7 +6987,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-055",
@@ -2457,7 +7013,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-056",
@@ -2466,7 +7039,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-057",
@@ -2475,7 +7065,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-058",
@@ -2484,7 +7091,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-059",
@@ -2493,7 +7117,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-060",
@@ -2502,7 +7143,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-061",
@@ -2511,7 +7169,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-062",
@@ -2520,7 +7195,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-063",
@@ -2529,7 +7221,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-064",
@@ -2538,7 +7247,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-065",
@@ -2547,7 +7273,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-066",
@@ -2556,7 +7299,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-067",
@@ -2565,7 +7325,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-068",
@@ -2574,7 +7351,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-069",
@@ -2583,7 +7377,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 16.9 cm",
+        "price": 15300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 11.8 cm",
+        "price": 7500
+      },
+      {
+        "label": "Chico",
+        "dims": "17.1 x 9.9 cm",
+        "price": 5300
+      }
+    ]
   },
   {
     "id": "DEC-070",
@@ -2592,7 +7403,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.6 cm",
+        "price": 12300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.2 x 9.9 cm",
+        "price": 6500
+      }
+    ]
   },
   {
     "id": "DEC-071",
@@ -2601,7 +7429,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-072",
@@ -2610,7 +7455,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-073",
@@ -2619,7 +7481,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-074",
@@ -2628,7 +7507,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.5 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.5 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.3 x 9.9 cm",
+        "price": 6600
+      }
+    ]
   },
   {
     "id": "DEC-075",
@@ -2637,7 +7533,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-076",
@@ -2646,7 +7559,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-76.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-077",
@@ -2655,7 +7585,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-77.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-078",
@@ -2664,7 +7611,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-78.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-079",
@@ -2673,7 +7637,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-79.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.5 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-080",
@@ -2682,7 +7663,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-80.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-081",
@@ -2691,7 +7689,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-81.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-082",
@@ -2700,7 +7715,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-82.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.5 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-083",
@@ -2709,7 +7741,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-83.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-084",
@@ -2718,7 +7767,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-84.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-085",
@@ -2727,7 +7793,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-85.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-086",
@@ -2736,7 +7819,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-86.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-087",
@@ -2745,7 +7845,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-87.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-088",
@@ -2754,7 +7871,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-88.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-089",
@@ -2763,7 +7897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-89.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-090",
@@ -2772,7 +7923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-90.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-091",
@@ -2781,7 +7949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-91.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-092",
@@ -2790,7 +7975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-92.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-093",
@@ -2799,7 +8001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-93.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-094",
@@ -2808,7 +8027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-94.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-095",
@@ -2817,7 +8053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-95.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-096",
@@ -2826,7 +8079,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-96.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-097",
@@ -2835,7 +8105,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-97.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-098",
@@ -2844,7 +8131,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-98.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-099",
@@ -2853,7 +8157,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/deco-99.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-100",
@@ -2862,7 +8183,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/download.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.5 x 29.1 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.7 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "DEC-101",
@@ -2875,6 +8213,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Good Vibes.png",
       "Tienda (Imagenes)/Categorias/Deco/Good Vibes - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 8.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 6.1 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 8.7 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -2884,7 +8239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Home.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.3 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "DEC-103",
@@ -2897,6 +8269,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Huerta.png",
       "Tienda (Imagenes)/Categorias/Deco/Huerta - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.4 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.0 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "25.3 x 9.9 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -2906,7 +8295,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/ningun-mar-en-calma.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.3 x 29.1 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.0 x 20.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 20.2 cm",
+        "price": 6200
+      }
+    ]
   },
   {
     "id": "DEC-105",
@@ -2915,7 +8321,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-106",
@@ -2924,7 +8347,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-107",
@@ -2933,7 +8373,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.4 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-108",
@@ -2942,7 +8399,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.9 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DEC-109",
@@ -2951,7 +8425,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-110",
@@ -2960,7 +8451,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-111",
@@ -2969,7 +8477,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-112",
@@ -2978,7 +8503,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.9 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DEC-113",
@@ -2987,7 +8529,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-114",
@@ -2996,7 +8555,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-115",
@@ -3005,7 +8581,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-116",
@@ -3014,7 +8607,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.9 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DEC-117",
@@ -3023,7 +8633,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-118",
@@ -3032,7 +8659,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.9 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DEC-119",
@@ -3041,7 +8685,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-120",
@@ -3050,7 +8711,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.8 cm",
+        "price": 16400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.0 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.5 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "DEC-121",
@@ -3059,7 +8737,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-122",
@@ -3068,7 +8763,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.4 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-123",
@@ -3077,7 +8789,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-124",
@@ -3086,7 +8815,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-125",
@@ -3095,7 +8841,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEC-126",
@@ -3104,7 +8867,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.1 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-127",
@@ -3113,7 +8893,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-128",
@@ -3122,7 +8919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/sealitica-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.4 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-129",
@@ -3131,7 +8945,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Sin titulo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEC-130",
@@ -3144,6 +8975,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Stop.png",
       "Tienda (Imagenes)/Categorias/Deco/Stop - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -3153,7 +9001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/toilette.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 10.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 7.5 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "26.8 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DEC-132",
@@ -3166,6 +9031,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres.png",
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres - ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -3175,7 +9057,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-hombres-ilu.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-134",
@@ -3188,6 +9087,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres.png",
       "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres- ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -3197,7 +9113,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/vin-bano-mujeres-ilu.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEC-136",
@@ -3210,6 +9143,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Deco/Wifi.png",
       "Tienda (Imagenes)/Categorias/Deco/Wifi - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 17.6 cm",
+        "price": 16000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 12.4 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "16.3 x 9.9 cm",
+        "price": 5000
+      }
     ]
   },
   {
@@ -3219,7 +9169,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deco/Wine Zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DEP-001",
@@ -3228,7 +9195,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-002",
@@ -3237,7 +9221,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-003",
@@ -3246,7 +9247,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-004",
@@ -3255,7 +9273,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-005",
@@ -3264,7 +9299,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-006",
@@ -3273,7 +9325,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-007",
@@ -3282,7 +9351,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-008",
@@ -3291,7 +9377,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-009",
@@ -3300,7 +9403,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-010",
@@ -3309,7 +9429,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-011",
@@ -3318,7 +9455,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-012",
@@ -3327,7 +9481,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-013",
@@ -3336,7 +9507,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-014",
@@ -3345,7 +9533,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-015",
@@ -3354,7 +9559,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-016",
@@ -3363,7 +9585,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-017",
@@ -3372,7 +9611,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-018",
@@ -3381,7 +9637,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-019",
@@ -3390,7 +9663,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.6 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-020",
@@ -3399,7 +9689,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.6 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-021",
@@ -3408,7 +9715,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-022",
@@ -3417,7 +9741,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-023",
@@ -3426,7 +9767,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-024",
@@ -3435,7 +9793,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-025",
@@ -3444,7 +9819,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-026",
@@ -3453,7 +9845,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-027",
@@ -3462,7 +9871,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-028",
@@ -3471,7 +9897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.2 x 29.1 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.3 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 21.8 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-029",
@@ -3480,7 +9923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-030",
@@ -3489,7 +9949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-031",
@@ -3498,7 +9975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-032",
@@ -3507,7 +10001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-033",
@@ -3516,7 +10027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.5 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-034",
@@ -3525,7 +10053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.5 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-035",
@@ -3534,7 +10079,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-036",
@@ -3543,7 +10105,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-037",
@@ -3552,7 +10131,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-038",
@@ -3561,7 +10157,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-039",
@@ -3570,7 +10183,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-040",
@@ -3579,7 +10209,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-041",
@@ -3588,7 +10235,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-042",
@@ -3597,7 +10261,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-043",
@@ -3606,7 +10287,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-044",
@@ -3615,7 +10313,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-045",
@@ -3624,7 +10339,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-046",
@@ -3633,7 +10365,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.2 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "DEP-047",
@@ -3642,7 +10391,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-048",
@@ -3651,7 +10417,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-049",
@@ -3660,7 +10443,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-050",
@@ -3669,7 +10469,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-051",
@@ -3678,7 +10495,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-052",
@@ -3687,7 +10521,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-61.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-053",
@@ -3696,7 +10547,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-62.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-054",
@@ -3705,7 +10573,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-63.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-055",
@@ -3714,7 +10599,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-64.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-056",
@@ -3723,7 +10625,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-65.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.4 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.6 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-057",
@@ -3732,7 +10651,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.0 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.1 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "22.2 x 9.9 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "DEP-058",
@@ -3741,7 +10677,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-67.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-059",
@@ -3750,7 +10703,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-68.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.3 cm",
+        "price": 12100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.4 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.6 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-060",
@@ -3759,7 +10729,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-69.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-061",
@@ -3768,7 +10755,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-062",
@@ -3777,7 +10781,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-70.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-063",
@@ -3786,7 +10807,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-71.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-064",
@@ -3795,7 +10833,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-72.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-065",
@@ -3804,7 +10859,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-066",
@@ -3813,7 +10885,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-74.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "DEP-067",
@@ -3822,7 +10911,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-75.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-068",
@@ -3831,7 +10937,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-069",
@@ -3840,7 +10963,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/deportes-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DEP-070",
@@ -3849,7 +10989,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Deportes/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "DIA-001",
@@ -3858,7 +11015,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Amigos bienvenidos familiares con cita previa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DIA-002",
@@ -3867,7 +11041,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/asado familia y amigos siempre bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-003",
@@ -3876,7 +11067,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado familia y amigos siempre bienvenidos negra.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-004",
@@ -3885,7 +11093,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado flia y amigos siempre bienvendidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "DIA-005",
@@ -3894,7 +11119,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado flia y amigos siempre bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DIA-006",
@@ -3903,7 +11145,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado vino y amigos costumbres argentinas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-007",
@@ -3912,7 +11171,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Asado y amigos siempre bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-008",
@@ -3921,7 +11197,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Boliche de amigos Fileteado.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-009",
@@ -3930,7 +11223,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Campeones del mundo Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-010",
@@ -3939,7 +11249,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Dilophosaurus Dinosaurio.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-011",
@@ -3948,7 +11275,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Dinosaur Crossing Dinosaurios.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-012",
@@ -3957,7 +11301,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Do not enter.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-013",
@@ -3966,7 +11327,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/El Rincon de Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-014",
@@ -3975,7 +11353,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/El taller de Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-015",
@@ -3984,7 +11379,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/En esta casa somos todos del millonario.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-016",
@@ -3993,7 +11405,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Enter at your on risk.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-017",
@@ -4002,7 +11431,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Futbol asado y vino pasiones de un argentino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-018",
@@ -4011,7 +11457,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Gran asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-019",
@@ -4020,7 +11483,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Keep calm gamer zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.0 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.8 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-020",
@@ -4029,7 +11509,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Kids Zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-021",
@@ -4038,7 +11535,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Kilometro 0 Amigos Garage.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-022",
@@ -4047,7 +11561,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La parrilla de papa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-023",
@@ -4056,7 +11587,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La parrilla de Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-024",
@@ -4065,7 +11613,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/La Parrineta Campeon Mundial.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DIA-025",
@@ -4074,7 +11639,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Lo mejor de tenerte como papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "15.0 x 29.1 cm",
+        "price": 13600
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.5 x 20.4 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.2 cm",
+        "price": 5900
+      }
+    ]
   },
   {
     "id": "DIA-026",
@@ -4083,7 +11665,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Maestro Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-027",
@@ -4092,7 +11691,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mantenga hidratado al parrillero - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "DIA-028",
@@ -4101,7 +11717,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mi Parrilla.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-029",
@@ -4110,7 +11743,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Mi parrilla mis reglas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.6 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "DIA-030",
@@ -4119,7 +11769,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Modo cueva.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-031",
@@ -4128,7 +11795,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/No molestar Gamer en acción.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.7 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.6 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-032",
@@ -4137,7 +11821,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/No molestar Gamer en estado Play.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-033",
@@ -4146,7 +11847,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papa Noel Navidad - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-034",
@@ -4155,7 +11873,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papa noel Santa Navidad - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-035",
@@ -4164,7 +11899,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papá es único como sus asados.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "DIA-036",
@@ -4173,7 +11925,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Papá Sustantivo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "15.0 x 29.1 cm",
+        "price": 13600
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.5 x 20.4 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.2 cm",
+        "price": 5900
+      }
+    ]
   },
   {
     "id": "DIA-037",
@@ -4182,7 +11951,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Parrilla.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-038",
@@ -4191,7 +11977,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Pesebre Navidad - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-039",
@@ -4200,7 +12003,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Pino Navidad - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-040",
@@ -4209,7 +12029,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/producto.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.0 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.8 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-041",
@@ -4218,7 +12055,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Quincho campeon mundial Qatar 2022.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.0 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.8 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-042",
@@ -4227,7 +12081,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Reno Navidad - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-043",
@@ -4236,7 +12107,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Restricted Area Danger.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-044",
@@ -4245,7 +12133,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa para aqui.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.5 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.8 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DIA-045",
@@ -4254,7 +12159,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa Stop Here Navidad.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.6 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "DIA-046",
@@ -4263,7 +12185,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Santa stop here please.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "DIA-047",
@@ -4272,7 +12211,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf CAUTION LOCALS ONLY.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-048",
@@ -4281,7 +12237,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf Combi.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-049",
@@ -4290,7 +12263,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf SURFERS.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-050",
@@ -4299,7 +12289,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Surf tablas Surfers.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-051",
@@ -4308,7 +12315,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/T-Rex Dinosaurio.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-052",
@@ -4317,7 +12341,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Tricerators Hervivore Dinosaurio.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "DIA-053",
@@ -4326,7 +12367,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Un Aplauso para el Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "DIA-054",
@@ -4335,7 +12393,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Un aplauso para el asador negra.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "DIA-055",
@@ -4344,7 +12419,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Welcome Beer zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "DIA-056",
@@ -4353,7 +12445,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Dias Especiales/Zona Adolescente.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "ILU-001",
@@ -4362,7 +12471,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/abstracto-boho.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.5 x 29.1 cm",
+        "price": 15000
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.6 x 20.4 cm",
+        "price": 7400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.4 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-002",
@@ -4371,7 +12497,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/acuarela-otonal.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-003",
@@ -4380,7 +12523,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/bolsas-con-frases.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ILU-004",
@@ -4389,7 +12549,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/botanical.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-005",
@@ -4398,7 +12575,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/bouquet-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-006",
@@ -4407,7 +12601,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/casas-coloridas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-007",
@@ -4416,7 +12627,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cat-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.3 x 29.1 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.7 cm",
+        "price": 5500
+      }
+    ]
   },
   {
     "id": "ILU-008",
@@ -4425,7 +12653,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cerezas-tablero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ILU-009",
@@ -4434,7 +12679,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/colores-relatos.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.3 x 29.1 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.7 cm",
+        "price": 5500
+      }
+    ]
   },
   {
     "id": "ILU-010",
@@ -4443,7 +12705,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/cuadros-hojas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-011",
@@ -4452,7 +12731,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/es-todo-lo-que-voy-a-decir.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ILU-012",
@@ -4461,7 +12757,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/floral-typography.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.5 x 29.1 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.7 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-013",
@@ -4470,7 +12783,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/flores-linea-rosa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-014",
@@ -4479,7 +12809,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/gato-en-banera.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.9 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.4 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "ILU-015",
@@ -4488,7 +12835,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/gatos-sol-luna.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-016",
@@ -4497,7 +12861,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-letras-botanicas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-017",
@@ -4506,7 +12887,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-sweet-home.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "ILU-018",
@@ -4515,7 +12913,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/home-sweet-home-rosas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.8 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.7 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "ILU-019",
@@ -4524,7 +12939,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-boho-vase.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-020",
@@ -4533,7 +12965,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-cacti.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-021",
@@ -4542,7 +12991,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-cats-paint.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ILU-022",
@@ -4551,7 +13017,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-gouache-floral.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.0 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "ILU-023",
@@ -4560,7 +13043,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-51.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.0 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.2 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "ILU-024",
@@ -4569,7 +13069,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-52.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-025",
@@ -4578,7 +13095,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-54.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-026",
@@ -4587,7 +13121,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-55.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-027",
@@ -4596,7 +13147,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-56.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ILU-028",
@@ -4605,7 +13173,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-57.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "ILU-029",
@@ -4614,7 +13199,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-58.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-030",
@@ -4623,7 +13225,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-nueva-59.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-031",
@@ -4632,7 +13251,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/ilu-smiley.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-032",
@@ -4641,7 +13277,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/lavanda-y-vino.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.0 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.2 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "ILU-033",
@@ -4650,7 +13303,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/lemon-vase.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-034",
@@ -4659,7 +13329,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/limoncello.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "ILU-035",
@@ -4668,7 +13355,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/limones-tablero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-036",
@@ -4677,7 +13381,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/margarita-retro.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.3 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "ILU-037",
@@ -4686,7 +13407,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/mate-cafe-te.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-038",
@@ -4695,7 +13433,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/monstera-1763.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.9 x 29.1 cm",
+        "price": 15300
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.8 x 20.4 cm",
+        "price": 7500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.1 cm",
+        "price": 5300
+      }
+    ]
   },
   {
     "id": "ILU-039",
@@ -4704,7 +13459,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/monstera-acuarela.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "ILU-040",
@@ -4713,7 +13485,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/pasta-italia.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-041",
@@ -4722,7 +13511,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/planta-de-ajies.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.6 x 29.1 cm",
+        "price": 15100
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.7 x 20.4 cm",
+        "price": 7400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.3 cm",
+        "price": 5300
+      }
+    ]
   },
   {
     "id": "ILU-042",
@@ -4731,7 +13537,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/plantas-en-macetas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-043",
@@ -4740,7 +13563,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/puerta-griega.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-044",
@@ -4749,7 +13589,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/Selva.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-045",
@@ -4758,7 +13615,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/sun.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "ILU-046",
@@ -4767,7 +13641,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/utensilios-de-cocina.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-047",
@@ -4776,7 +13667,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/van-gogh.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "ILU-048",
@@ -4785,7 +13693,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Ilustraciones/Verde campo.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.2 x 29.1 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.8 x 20.4 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.8 cm",
+        "price": 4900
+      }
+    ]
   },
   {
     "id": "IMA-001",
@@ -4794,7 +13719,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/52987733111298558.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.7 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-002",
@@ -4803,7 +13745,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-006.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-003",
@@ -4812,7 +13771,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-007.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-004",
@@ -4821,7 +13797,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-008.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-005",
@@ -4830,7 +13823,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-009.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-006",
@@ -4839,7 +13849,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-010.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-007",
@@ -4848,7 +13875,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-011.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-008",
@@ -4857,7 +13901,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-012.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-009",
@@ -4866,7 +13927,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-013.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.5 cm",
+        "price": 14300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.6 cm",
+        "price": 6900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-010",
@@ -4875,7 +13953,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-014.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-011",
@@ -4884,7 +13979,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-015.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-012",
@@ -4893,7 +14005,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-017.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.1 cm",
+        "price": 14100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.4 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.7 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-013",
@@ -4902,7 +14031,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-018.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-014",
@@ -4911,7 +14057,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-019.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-015",
@@ -4920,7 +14083,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-020.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.8 cm",
+        "price": 14500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.8 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-016",
@@ -4929,7 +14109,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-021.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.6 x 20.4 cm",
+        "price": 14400
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.7 x 14.2 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "11.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-017",
@@ -4938,7 +14135,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-022.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-018",
@@ -4947,7 +14161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-023.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.6 x 20.4 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.4 x 14.2 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-019",
@@ -4956,7 +14187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-024.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "23.5 x 20.4 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "16.4 x 14.2 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "11.4 x 9.9 cm",
+        "price": 3500
+      }
+    ]
   },
   {
     "id": "IMA-020",
@@ -4965,7 +14213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-025.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-021",
@@ -4974,7 +14239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-026.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-022",
@@ -4983,7 +14265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-027.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "21.7 x 20.4 cm",
+        "price": 13800
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.1 x 14.2 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "10.5 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-023",
@@ -4992,7 +14291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-028.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-024",
@@ -5001,7 +14317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-029.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-025",
@@ -5010,7 +14343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-030.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.3 x 29.1 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.7 cm",
+        "price": 5500
+      }
+    ]
   },
   {
     "id": "IMA-026",
@@ -5019,7 +14369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-032.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 24.5 cm",
+        "price": 15600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.1 cm",
+        "price": 7600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.9 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-027",
@@ -5028,7 +14395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-034.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-028",
@@ -5037,7 +14421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-035.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-029",
@@ -5046,7 +14447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-036.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-030",
@@ -5055,7 +14473,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-037.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-031",
@@ -5064,7 +14499,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-038.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-032",
@@ -5073,7 +14525,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-039.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-033",
@@ -5082,7 +14551,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-040.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "17.8 x 29.1 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.5 x 20.4 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 16.2 cm",
+        "price": 5000
+      }
+    ]
   },
   {
     "id": "IMA-034",
@@ -5091,7 +14577,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-041.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-035",
@@ -5100,7 +14603,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-042.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-036",
@@ -5109,7 +14629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-043.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-037",
@@ -5118,7 +14655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-044.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-038",
@@ -5127,7 +14681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-045.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.1 cm",
+        "price": 16600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.2 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.7 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "IMA-039",
@@ -5136,7 +14707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-046.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-040",
@@ -5145,7 +14733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-047.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.7 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-041",
@@ -5154,7 +14759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-050.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.7 x 20.4 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.4 x 14.2 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-042",
@@ -5163,7 +14785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-054.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 23.3 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 16.2 cm",
+        "price": 7200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.3 cm",
+        "price": 3500
+      }
+    ]
   },
   {
     "id": "IMA-043",
@@ -5172,7 +14811,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-055.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.1 cm",
+        "price": 16600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.1 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.6 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "IMA-044",
@@ -5181,7 +14837,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-056.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.3 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.0 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-045",
@@ -5190,7 +14863,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-057.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-046",
@@ -5199,7 +14889,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-058.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-047",
@@ -5208,7 +14915,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-059.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-048",
@@ -5217,7 +14941,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-060.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-049",
@@ -5226,7 +14967,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-061.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "23.2 x 20.4 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "16.2 x 14.2 cm",
+        "price": 7200
+      },
+      {
+        "label": "Chico",
+        "dims": "11.3 x 9.9 cm",
+        "price": 3500
+      }
+    ]
   },
   {
     "id": "IMA-050",
@@ -5235,7 +14993,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-062.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-051",
@@ -5244,7 +15019,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-063.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.6 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.4 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-052",
@@ -5253,7 +15045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-064.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-053",
@@ -5262,7 +15071,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-065.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.8 cm",
+        "price": 14500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.9 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-054",
@@ -5271,7 +15097,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-066.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.8 cm",
+        "price": 14500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.9 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-055",
@@ -5280,7 +15123,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-067.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.6 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "14.7 x 9.9 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "IMA-056",
@@ -5289,7 +15149,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-069.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-057",
@@ -5298,7 +15175,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-070.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-058",
@@ -5307,7 +15201,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-071.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.3 cm",
+        "price": 16100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.6 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.3 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-059",
@@ -5316,7 +15227,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-072.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.7 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.3 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-060",
@@ -5325,7 +15253,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-073.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 24.0 cm",
+        "price": 15300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 16.7 cm",
+        "price": 7400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.6 cm",
+        "price": 3600
+      }
+    ]
   },
   {
     "id": "IMA-061",
@@ -5334,7 +15279,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-074.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-062",
@@ -5343,7 +15305,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-075.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-063",
@@ -5352,7 +15331,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-076.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-064",
@@ -5361,7 +15357,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-077.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-065",
@@ -5370,7 +15383,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-078.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-066",
@@ -5379,7 +15409,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-080.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-067",
@@ -5388,7 +15435,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-082.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-068",
@@ -5397,7 +15461,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-083.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-069",
@@ -5406,7 +15487,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-084.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.2 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "IMA-070",
@@ -5415,7 +15513,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-085.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-071",
@@ -5424,7 +15539,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-086.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.2 x 29.1 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.8 x 20.4 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.8 cm",
+        "price": 4900
+      }
+    ]
   },
   {
     "id": "IMA-072",
@@ -5433,7 +15565,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-087.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.2 x 29.1 cm",
+        "price": 14700
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.8 cm",
+        "price": 5500
+      }
+    ]
   },
   {
     "id": "IMA-073",
@@ -5442,7 +15591,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-088.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-074",
@@ -5451,7 +15617,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-090.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 22.2 cm",
+        "price": 14100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.4 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.8 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-075",
@@ -5460,7 +15643,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-092.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-076",
@@ -5469,7 +15669,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-093.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.0 x 20.4 cm",
+        "price": 14000
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.3 x 14.2 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "10.7 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-077",
@@ -5478,7 +15695,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-094.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-078",
@@ -5487,7 +15721,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-095.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.2 x 20.4 cm",
+        "price": 16000
+      },
+      {
+        "label": "Mediano",
+        "dims": "17.5 x 14.2 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "12.2 x 9.9 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-079",
@@ -5496,7 +15747,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-097.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-080",
@@ -5505,7 +15773,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-098.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-081",
@@ -5514,7 +15799,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-099.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.5 x 20.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "17.7 x 14.2 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "12.4 x 9.9 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-082",
@@ -5523,7 +15825,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-100.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.0 cm",
+        "price": 15900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.4 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.1 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-083",
@@ -5532,7 +15851,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-101.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.2 x 29.1 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.0 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-084",
@@ -5541,7 +15877,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-104.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-085",
@@ -5550,7 +15903,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-105.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-086",
@@ -5559,7 +15929,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-106.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-087",
@@ -5568,7 +15955,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-108.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.7 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.3 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.5 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "IMA-088",
@@ -5577,7 +15981,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-109.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-089",
@@ -5586,7 +16007,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-110.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-090",
@@ -5595,7 +16033,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-111.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-091",
@@ -5604,7 +16059,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-112.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-092",
@@ -5613,7 +16085,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-113.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.3 x 29.1 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-093",
@@ -5622,7 +16111,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-115.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-094",
@@ -5631,7 +16137,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-117.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-095",
@@ -5640,7 +16163,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-118.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.3 x 29.1 cm",
+        "price": 16600
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.9 x 20.4 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.7 cm",
+        "price": 4800
+      }
+    ]
   },
   {
     "id": "IMA-096",
@@ -5649,7 +16189,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-119.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-097",
@@ -5658,7 +16215,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-120.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-098",
@@ -5667,7 +16241,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-121.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 18.0 cm",
+        "price": 16300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 12.6 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "16.0 x 9.9 cm",
+        "price": 4900
+      }
+    ]
   },
   {
     "id": "IMA-099",
@@ -5676,7 +16267,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-122.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-100",
@@ -5685,7 +16293,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-123.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.5 x 20.4 cm",
+        "price": 16900
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.4 x 14.2 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "12.9 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "IMA-101",
@@ -5694,7 +16319,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-124.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-102",
@@ -5703,7 +16345,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-125.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.5 x 29.1 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.7 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.7 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "IMA-103",
@@ -5712,7 +16371,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-126.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 16.4 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 11.5 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "17.6 x 9.9 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-104",
@@ -5721,7 +16397,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-127.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-105",
@@ -5730,7 +16423,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-128.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-106",
@@ -5739,7 +16449,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-129.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-107",
@@ -5748,7 +16475,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-130.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.8 x 20.4 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.5 x 14.2 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "10.1 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-108",
@@ -5757,7 +16501,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-131.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.9 cm",
+        "price": 12600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.7 cm",
+        "price": 6200
+      },
+      {
+        "label": "Chico",
+        "dims": "20.8 x 9.9 cm",
+        "price": 6400
+      }
+    ]
   },
   {
     "id": "IMA-109",
@@ -5766,7 +16527,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-132.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-110",
@@ -5775,7 +16553,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-133.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-111",
@@ -5784,7 +16579,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-135.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 24.6 cm",
+        "price": 15600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.1 cm",
+        "price": 7600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.9 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-112",
@@ -5793,7 +16605,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-137.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-113",
@@ -5802,7 +16631,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-138.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.9 x 20.4 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.5 x 14.2 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "10.1 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-114",
@@ -5811,7 +16657,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-139.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-115",
@@ -5820,7 +16683,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-140.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-116",
@@ -5829,7 +16709,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-141.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.2 cm",
+        "price": 16700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.3 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.7 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "IMA-117",
@@ -5838,7 +16735,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-142.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.7 cm",
+        "price": 13800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.1 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.5 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-118",
@@ -5847,7 +16761,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-143.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-119",
@@ -5856,7 +16787,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-144.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-120",
@@ -5865,7 +16813,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-145.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-121",
@@ -5874,7 +16839,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-146.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.0 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.2 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-122",
@@ -5883,7 +16865,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-147.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-123",
@@ -5892,7 +16891,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-148.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-124",
@@ -5901,7 +16917,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-149.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-125",
@@ -5910,7 +16943,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-150.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.1 x 29.1 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.1 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "IMA-126",
@@ -5919,7 +16969,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-151.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-127",
@@ -5928,7 +16995,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-154.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-128",
@@ -5937,7 +17021,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-155.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-129",
@@ -5946,7 +17047,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-160.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-130",
@@ -5955,7 +17073,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-161.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.4 cm",
+        "price": 16800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.4 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.8 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "IMA-131",
@@ -5964,7 +17099,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-162.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-132",
@@ -5973,7 +17125,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-164.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.3 x 20.4 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.0 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.3 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-133",
@@ -5982,7 +17151,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-165.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-134",
@@ -5991,7 +17177,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-166.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-135",
@@ -6000,7 +17203,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-167.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-136",
@@ -6009,7 +17229,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-168.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-137",
@@ -6018,7 +17255,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-171.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-138",
@@ -6027,7 +17281,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-181.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-139",
@@ -6036,7 +17307,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-185.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-140",
@@ -6045,7 +17333,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-186.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-141",
@@ -6054,7 +17359,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-187.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-142",
@@ -6063,7 +17385,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-188.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-143",
@@ -6072,7 +17411,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-193.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-144",
@@ -6081,7 +17437,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-195.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-145",
@@ -6090,7 +17463,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-197.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-146",
@@ -6099,7 +17489,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-198.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "21.0 x 20.4 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.6 x 14.2 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "10.2 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-147",
@@ -6108,7 +17515,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-199.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.9 x 29.1 cm",
+        "price": 13500
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.4 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.4 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "IMA-148",
@@ -6117,7 +17541,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-202.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-149",
@@ -6126,7 +17567,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-204.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-150",
@@ -6135,7 +17593,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-207.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-151",
@@ -6144,7 +17619,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-208.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-152",
@@ -6153,7 +17645,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-209.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.9 x 20.4 cm",
+        "price": 14600
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.9 x 14.2 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "11.1 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-153",
@@ -6162,7 +17671,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-210.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.7 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.6 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "IMA-154",
@@ -6171,7 +17697,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-212.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-155",
@@ -6180,7 +17723,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-213.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-156",
@@ -6189,7 +17749,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-214.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-157",
@@ -6198,7 +17775,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-215.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.8 x 20.4 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.5 x 14.2 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "10.1 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-158",
@@ -6207,7 +17801,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-216.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.5 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-159",
@@ -6216,7 +17827,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-218.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-160",
@@ -6225,7 +17853,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-219.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.1 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "25.0 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "IMA-161",
@@ -6234,7 +17879,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-221.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "24.2 x 20.4 cm",
+        "price": 15400
+      },
+      {
+        "label": "Mediano",
+        "dims": "16.9 x 14.2 cm",
+        "price": 7500
+      },
+      {
+        "label": "Chico",
+        "dims": "11.8 x 9.9 cm",
+        "price": 3600
+      }
+    ]
   },
   {
     "id": "IMA-162",
@@ -6243,7 +17905,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-222.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "21.5 x 20.4 cm",
+        "price": 13700
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.0 x 14.2 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "10.4 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-163",
@@ -6252,7 +17931,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-225.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-164",
@@ -6261,7 +17957,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-227.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-165",
@@ -6270,7 +17983,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-228.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 24.9 cm",
+        "price": 15800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.3 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.1 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-166",
@@ -6279,7 +18009,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-235.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-167",
@@ -6288,7 +18035,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-236.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-168",
@@ -6297,7 +18061,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/IMA-237.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-169",
@@ -6306,7 +18087,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-art.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.8 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.9 x 20.4 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.5 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "IMA-170",
@@ -6315,7 +18113,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-bisounours.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-171",
@@ -6324,7 +18139,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cafe.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-172",
@@ -6333,7 +18165,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cat-black.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.3 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.0 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "IMA-173",
@@ -6342,7 +18191,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cool.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-174",
@@ -6351,7 +18217,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-cupcake.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-175",
@@ -6360,7 +18243,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-estudiante.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-176",
@@ -6369,7 +18269,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-gaming.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-177",
@@ -6378,7 +18295,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mate.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-178",
@@ -6387,7 +18321,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mate-exceso.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-179",
@@ -6396,7 +18347,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-mony.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-180",
@@ -6405,7 +18373,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-musik.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-181",
@@ -6414,7 +18399,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-002.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-182",
@@ -6423,7 +18425,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-003.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-183",
@@ -6432,7 +18451,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-004.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-184",
@@ -6441,7 +18477,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-005.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-185",
@@ -6450,7 +18503,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-006.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.3 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-186",
@@ -6459,7 +18529,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-007.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 24.5 cm",
+        "price": 15600
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.0 cm",
+        "price": 7500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 11.9 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-187",
@@ -6468,7 +18555,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-008.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-188",
@@ -6477,7 +18581,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-009.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.6 x 29.1 cm",
+        "price": 15100
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.7 x 20.4 cm",
+        "price": 7400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.3 cm",
+        "price": 5300
+      }
+    ]
   },
   {
     "id": "IMA-189",
@@ -6486,7 +18607,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-010.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-190",
@@ -6495,7 +18633,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-011.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 16.3 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 11.5 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "17.6 x 9.9 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-191",
@@ -6504,7 +18659,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-012.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.3 x 29.1 cm",
+        "price": 16600
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.8 x 20.4 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.7 cm",
+        "price": 4800
+      }
+    ]
   },
   {
     "id": "IMA-192",
@@ -6513,7 +18685,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-015.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-193",
@@ -6522,7 +18711,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-016.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.1 cm",
+        "price": 16000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.5 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.2 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "IMA-194",
@@ -6531,7 +18737,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-017.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-195",
@@ -6540,7 +18763,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-018.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.2 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.1 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.3 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-196",
@@ -6549,7 +18789,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-019.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-197",
@@ -6558,7 +18815,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-020.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.8 x 29.1 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.2 x 20.4 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.4 cm",
+        "price": 4800
+      }
+    ]
   },
   {
     "id": "IMA-198",
@@ -6567,7 +18841,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-021.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-199",
@@ -6576,7 +18867,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-022.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.0 cm",
+        "price": 15900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.4 cm",
+        "price": 7700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.1 cm",
+        "price": 3700
+      }
+    ]
   },
   {
     "id": "IMA-200",
@@ -6585,7 +18893,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-023.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-201",
@@ -6594,7 +18919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-024.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.9 x 29.1 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.3 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.2 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "IMA-202",
@@ -6603,7 +18945,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-025.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.8 x 29.1 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.5 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "IMA-203",
@@ -6612,7 +18971,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-026.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.0 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.0 x 20.4 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.4 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "IMA-204",
@@ -6621,7 +18997,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-027.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-205",
@@ -6630,7 +19023,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-028.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.5 x 29.1 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.7 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.7 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "IMA-206",
@@ -6639,7 +19049,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-029.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "17.7 x 29.1 cm",
+        "price": 16100
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.4 x 20.4 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 16.3 cm",
+        "price": 5000
+      }
+    ]
   },
   {
     "id": "IMA-207",
@@ -6648,7 +19075,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-030.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.2 x 20.4 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.8 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "IMA-208",
@@ -6657,7 +19101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-031.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.9 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.1 x 14.2 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "14.0 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-209",
@@ -6666,7 +19127,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-nueva-032.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.4 x 29.1 cm",
+        "price": 14900
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.6 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "IMA-210",
@@ -6675,7 +19153,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-pizza.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-211",
@@ -6684,7 +19179,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-rutamate.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-212",
@@ -6693,7 +19205,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-simpsons.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "IMA-213",
@@ -6702,7 +19231,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/ima-warning-cats.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "IMA-214",
@@ -6711,7 +19257,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/Imagen6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "IMA-215",
@@ -6720,7 +19283,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Imanes/tercera imagen para la galeria de fotos de imanes.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$2.500"
+    "price": "$2.500",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.5 x 29.1 cm",
+        "price": 15000
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.5 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.5 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "INF-001",
@@ -6729,7 +19309,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-002",
@@ -6738,7 +19335,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-003",
@@ -6747,7 +19361,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-004",
@@ -6756,7 +19387,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-005",
@@ -6765,7 +19413,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-006",
@@ -6774,7 +19439,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-007",
@@ -6783,7 +19465,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-008",
@@ -6792,7 +19491,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-009",
@@ -6801,7 +19517,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-010",
@@ -6810,7 +19543,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "INF-011",
@@ -6819,7 +19569,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-012",
@@ -6828,7 +19595,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.7 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "INF-013",
@@ -6837,7 +19621,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-014",
@@ -6846,7 +19647,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "INF-015",
@@ -6855,7 +19673,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-016",
@@ -6864,7 +19699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-017",
@@ -6873,7 +19725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-018",
@@ -6882,7 +19751,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-019",
@@ -6891,7 +19777,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-020",
@@ -6900,7 +19803,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-021",
@@ -6909,7 +19829,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-022",
@@ -6918,7 +19855,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-023",
@@ -6927,7 +19881,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/infantilyjuvenil-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "INF-024",
@@ -6936,7 +19907,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Infantil y Juvenil/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "MUS-001",
@@ -6945,7 +19933,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/2Pac.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-002",
@@ -6954,7 +19959,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/2Pac eyes on me.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.3 x 29.1 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.5 x 20.4 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-003",
@@ -6963,7 +19985,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/a-brillar-mi-amor.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 5.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 3.9 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 5.6 cm",
+        "price": 5100
+      }
+    ]
   },
   {
     "id": "MUS-004",
@@ -6976,6 +20015,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC guitarra.png",
       "Tienda (Imagenes)/Categorias/Musica/AC DC guitarra (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -6989,6 +20045,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC hells bells.webp",
       "Tienda (Imagenes)/Categorias/Musica/AC DC hells bells (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -7002,6 +20075,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/AC DC money talks.png",
       "Tienda (Imagenes)/Categorias/Musica/AC DC money talks (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.0 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.6 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.2 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -7011,7 +20101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/AC-DC HIGHWAY TO HELL.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.8 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.4 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.5 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "MUS-008",
@@ -7024,6 +20131,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Aero Smith Fuego.webp",
       "Tienda (Imagenes)/Categorias/Musica/Aero Smith Fuego (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -7033,7 +20157,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Angus.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-010",
@@ -7042,7 +20183,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Axl y Slash.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "MUS-011",
@@ -7051,7 +20209,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Axl y Slash (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "MUS-012",
@@ -7064,6 +20239,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Biggie Smalls.webp",
       "Tienda (Imagenes)/Categorias/Musica/Biggie Smalls (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -7073,7 +20265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Blink-182.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-014",
@@ -7082,7 +20291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Bob Marley.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-015",
@@ -7091,7 +20317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Charly.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-016",
@@ -7100,7 +20343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Charly (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "MUS-017",
@@ -7109,7 +20369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-018",
@@ -7118,7 +20395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-019",
@@ -7127,7 +20421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-020",
@@ -7136,7 +20447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-021",
@@ -7145,7 +20473,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-022",
@@ -7154,7 +20499,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.2 x 20.4 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-023",
@@ -7163,7 +20525,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-024",
@@ -7172,7 +20551,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-025",
@@ -7181,7 +20577,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-026",
@@ -7190,7 +20603,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-027",
@@ -7199,7 +20629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/deco-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "MUS-028",
@@ -7208,7 +20655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/dont look back.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-029",
@@ -7217,7 +20681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/DTMF Bad Bunny.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-030",
@@ -7226,7 +20707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/EL LOCO.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-031",
@@ -7235,7 +20733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Eminem Heroe.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-032",
@@ -7244,7 +20759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Eminem SLIM SHADY.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.9 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.1 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.6 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "MUS-033",
@@ -7253,7 +20785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Foo fighters.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-034",
@@ -7262,7 +20811,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/GULP.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-035",
@@ -7275,6 +20841,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Guns Esqueleto.webp",
       "Tienda (Imagenes)/Categorias/Musica/Guns Esqueleto (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -7288,6 +20871,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Ice Cube good day.webp",
       "Tienda (Imagenes)/Categorias/Musica/Ice Cube good day (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -7297,7 +20897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/ilu-indio-solari.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.9 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "MUS-038",
@@ -7306,7 +20923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/ilu-nueva-50.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.0 x 29.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.3 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.2 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "MUS-039",
@@ -7315,7 +20949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/INDIO.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-040",
@@ -7328,6 +20979,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay.png",
       "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -7337,7 +21005,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/INDIO y Skay (Ilustracion 2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "MUS-042",
@@ -7346,7 +21031,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Intoxicados.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-043",
@@ -7355,7 +21057,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/intoxicados-planeta-tierra.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.9 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.5 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-044",
@@ -7364,7 +21083,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Iron Maiden.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-045",
@@ -7373,7 +21109,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/King of pop.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-046",
@@ -7382,7 +21135,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/la-renga-ruta-73.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.7 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "MUS-047",
@@ -7391,7 +21161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Led Zeppelin.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-048",
@@ -7400,7 +21187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Lobo Suelto.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-049",
@@ -7409,7 +21213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/LOS PIOJOS.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-050",
@@ -7418,7 +21239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Michael Thriller.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "MUS-051",
@@ -7427,7 +21265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-10.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-052",
@@ -7436,7 +21291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-053",
@@ -7445,7 +21317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-12.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-054",
@@ -7454,7 +21343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-13.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-055",
@@ -7463,7 +21369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-14.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-056",
@@ -7472,7 +21395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-15.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-057",
@@ -7481,7 +21421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-16.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-058",
@@ -7490,7 +21447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-17.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-059",
@@ -7499,7 +21473,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-18.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-060",
@@ -7508,7 +21499,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-19.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-061",
@@ -7517,7 +21525,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-2.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-062",
@@ -7526,7 +21551,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-20.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-063",
@@ -7535,7 +21577,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-21.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-064",
@@ -7544,7 +21603,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-22.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-065",
@@ -7553,7 +21629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-23.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-066",
@@ -7562,7 +21655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-24.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-067",
@@ -7571,7 +21681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-068",
@@ -7580,7 +21707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-069",
@@ -7589,7 +21733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-070",
@@ -7598,7 +21759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-071",
@@ -7607,7 +21785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-3.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-072",
@@ -7616,7 +21811,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-073",
@@ -7625,7 +21837,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-074",
@@ -7634,7 +21863,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-075",
@@ -7643,7 +21889,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-076",
@@ -7652,7 +21915,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-077",
@@ -7661,7 +21941,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-078",
@@ -7670,7 +21967,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-079",
@@ -7679,7 +21993,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-080",
@@ -7688,7 +22019,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-081",
@@ -7697,7 +22045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-082",
@@ -7706,7 +22071,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-4.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-083",
@@ -7715,7 +22097,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-084",
@@ -7724,7 +22123,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-085",
@@ -7733,7 +22149,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-086",
@@ -7742,7 +22175,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-087",
@@ -7751,7 +22201,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-088",
@@ -7760,7 +22227,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-089",
@@ -7769,7 +22253,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-090",
@@ -7778,7 +22279,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-091",
@@ -7787,7 +22305,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-092",
@@ -7796,7 +22331,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-093",
@@ -7805,7 +22357,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-5.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-094",
@@ -7814,7 +22383,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-095",
@@ -7823,7 +22409,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-096",
@@ -7832,7 +22435,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-097",
@@ -7841,7 +22461,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-098",
@@ -7850,7 +22487,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-6.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-099",
@@ -7859,7 +22513,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-7.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-100",
@@ -7868,7 +22539,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-8.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-101",
@@ -7877,7 +22565,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/musica-9.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "MUS-102",
@@ -7886,7 +22591,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/oasis.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "MUS-103",
@@ -7899,6 +22621,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Oktubre.png",
       "Tienda (Imagenes)/Categorias/Musica/Oktubre (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.1 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.1 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.4 cm",
+        "price": 4400
+      }
     ]
   },
   {
@@ -7908,7 +22647,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Ozzy Black Sabbath.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.2 x 29.1 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.5 x 20.4 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.0 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-105",
@@ -7917,7 +22673,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Piojitos.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-106",
@@ -7926,7 +22699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Pity no teno ganas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-107",
@@ -7935,7 +22725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Pity Star.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-108",
@@ -7944,7 +22751,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/PR.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-109",
@@ -7953,7 +22777,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Queens of the age.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-110",
@@ -7962,7 +22803,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Queens of the stone age.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-111",
@@ -7971,7 +22829,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/RAMONES.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.9 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.0 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.6 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "MUS-112",
@@ -7984,6 +22859,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Red Hot.png",
       "Tienda (Imagenes)/Categorias/Musica/Red Hot (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.9 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.5 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -7993,7 +22885,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Red Hot Chilipeppers.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-114",
@@ -8002,7 +22911,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Red Hot Chilli.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-115",
@@ -8011,7 +22937,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Rolling Die.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-116",
@@ -8024,6 +22967,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Rolling Stones.png",
       "Tienda (Imagenes)/Categorias/Musica/Rolling Stones (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.1 x 29.1 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.1 cm",
+        "price": 4700
+      }
     ]
   },
   {
@@ -8033,7 +22993,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.2 cm",
+        "price": 12000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "21.8 x 9.9 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "MUS-118",
@@ -8042,7 +23019,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Slim Shady.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.2 x 29.1 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.0 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-119",
@@ -8051,7 +23045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Snoop Dogg.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.1 x 29.1 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.1 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "MUS-120",
@@ -8064,6 +23075,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Stones Caricatura.webp",
       "Tienda (Imagenes)/Categorias/Musica/Stones Caricatura (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -8073,7 +23101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Stones Tour.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-122",
@@ -8082,7 +23127,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Stones Zurich.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-123",
@@ -8095,6 +23157,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/Sublime.png",
       "Tienda (Imagenes)/Categorias/Musica/Sublime (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -8108,6 +23187,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Musica/SUMO.webp",
       "Tienda (Imagenes)/Categorias/Musica/SUMO (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -8117,7 +23213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/SUMO cassete.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-126",
@@ -8126,7 +23239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Sumo Luca.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-127",
@@ -8135,7 +23265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Doors.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-128",
@@ -8144,7 +23291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Roling Stones.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "MUS-129",
@@ -8153,7 +23317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/The Strokes.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-130",
@@ -8162,7 +23343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/TINI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-131",
@@ -8171,7 +23369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Travis Astro World.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.0 x 29.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.3 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.1 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "MUS-132",
@@ -8180,7 +23395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Viejas Locas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "MUS-133",
@@ -8189,7 +23421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Musica/Vivir solo cuesta vida.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "NUM-001",
@@ -8198,7 +23447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Numeracion/D_NQ_NP_2X_730017-MLA112216507741_052026-F.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "NUM-002",
@@ -8211,6 +23477,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion.png",
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "10.1 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "7.1 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 28.5 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -8224,6 +23507,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion V2.png",
       "Tienda (Imagenes)/Categorias/Numeracion/Numeracion V2 - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.6 x 9.9 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -8233,7 +23533,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/023.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 20.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 14.1 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "14.3 x 9.9 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "PAR-002",
@@ -8242,7 +23559,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos Bienvenidos Familiares Con Cita Previa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-003",
@@ -8251,7 +23585,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Amigos, Vino Y Asado.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-004",
@@ -8260,7 +23611,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Aqui No Entran Borrachos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-005",
@@ -8269,7 +23637,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Area De Asado.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.3 cm",
+        "price": 13900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.8 cm",
+        "price": 6900
+      },
+      {
+        "label": "Chico",
+        "dims": "18.8 x 9.9 cm",
+        "price": 5800
+      }
+    ]
   },
   {
     "id": "PAR-006",
@@ -8278,7 +23663,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Area Exclusiva Del Parrillero.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.3 cm",
+        "price": 13900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.7 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "18.8 x 9.9 cm",
+        "price": 5800
+      }
+    ]
   },
   {
     "id": "PAR-007",
@@ -8287,7 +23689,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado de Selección.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-008",
@@ -8296,7 +23715,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Flia Y Amigos Siempre Bienvendidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-009",
@@ -8305,7 +23741,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Flia Y Amigos Siempre Bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-010",
@@ -8314,7 +23767,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Y Amigos Siempre Bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-011",
@@ -8323,7 +23793,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Asado Y Amigos Siempre Bienvenidos (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.4 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-012",
@@ -8332,7 +23819,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/asado-vino-y-amigos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 20.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 14.2 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "14.2 x 9.9 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "PAR-013",
@@ -8341,7 +23845,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Bienvenidos Quincho Buen Vino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.9 cm",
+        "price": 13500
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.4 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-014",
@@ -8350,7 +23871,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Bodega.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-015",
@@ -8359,7 +23897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Brasas Encendidas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.3 cm",
+        "price": 13900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.7 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "18.8 x 9.9 cm",
+        "price": 5800
+      }
+    ]
   },
   {
     "id": "PAR-016",
@@ -8368,7 +23923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Coffee & Wine.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-017",
@@ -8377,7 +23949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Con Cerveza y Carbon Se Alegra El Corazon.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-018",
@@ -8386,7 +23975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Cortes Oficiales Carnes Argentinas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-019",
@@ -8395,7 +24001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Cucina.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-020",
@@ -8408,6 +24031,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Donde hay asado hay familia.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Donde hay asado hay familia - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.8 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.1 cm",
+        "price": 8900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.0 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -8417,7 +24057,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Asado No Espera.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.0 cm",
+        "price": 13600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.5 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "19.2 x 9.9 cm",
+        "price": 5900
+      }
+    ]
   },
   {
     "id": "PAR-022",
@@ -8426,7 +24083,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Abuelo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-023",
@@ -8435,7 +24109,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Mamá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-024",
@@ -8444,7 +24135,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.5 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.8 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-025",
@@ -8453,7 +24161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Mi Papá (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-026",
@@ -8462,7 +24187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-027",
@@ -8471,7 +24213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Lo Hace Papá (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-028",
@@ -8480,7 +24239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Aca.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-029",
@@ -8489,7 +24265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Acá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-030",
@@ -8498,7 +24291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/El Mejor Asado Se Come Acá (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-031",
@@ -8507,7 +24317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/el-mejor-asado-se-come-aca.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.3 x 20.4 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.0 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.3 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-032",
@@ -8516,7 +24343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Empanadas Argentinas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-033",
@@ -8525,7 +24369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Empanadas Criollas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-034",
@@ -8534,7 +24395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Entre Brasas Y Vino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.3 cm",
+        "price": 13900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.7 cm",
+        "price": 6800
+      },
+      {
+        "label": "Chico",
+        "dims": "18.8 x 9.9 cm",
+        "price": 5800
+      }
+    ]
   },
   {
     "id": "PAR-035",
@@ -8543,7 +24421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Espere A Ser Atendido.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-036",
@@ -8552,7 +24447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Aca Manda La Tradicion.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-037",
@@ -8561,7 +24473,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Aca Se Come Como En Casa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-038",
@@ -8570,7 +24499,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Asado Y Amigos Siempre Bienvenidos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-039",
@@ -8579,7 +24525,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bienvenido Vuelva Mañana.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-040",
@@ -8588,7 +24551,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bienvenidos Los Que Traen Vino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-041",
@@ -8597,7 +24577,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Bodegon Porteño.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-042",
@@ -8606,7 +24603,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Boliche De Amigos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-043",
@@ -8615,7 +24629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Con Vino Y Carbon.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-044",
@@ -8624,7 +24655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado De La Cocina Al Corazon Sin Escalas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-045",
@@ -8633,7 +24681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Donde Hay Asado Hay Familia.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-046",
@@ -8642,7 +24707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado El Que Trae Postre.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-047",
@@ -8651,7 +24733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Entre Brasas Y Vino.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-048",
@@ -8660,7 +24759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado La Dieta Arranca Mañana.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-049",
@@ -8669,7 +24785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Maestro Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-050",
@@ -8678,7 +24811,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Menu Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-051",
@@ -8687,7 +24837,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Mesa Tendida Charla Servida.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-052",
@@ -8696,7 +24863,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Mesa Tendida Charla servida (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-053",
@@ -8705,7 +24889,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fileteado Papa Hace El Asado Con Amor.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-054",
@@ -8714,7 +24915,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Fuego Prendido.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.3 cm",
+        "price": 13900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.8 cm",
+        "price": 6900
+      },
+      {
+        "label": "Chico",
+        "dims": "18.8 x 9.9 cm",
+        "price": 5800
+      }
+    ]
   },
   {
     "id": "PAR-055",
@@ -8723,7 +24941,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Gran Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-056",
@@ -8732,7 +24967,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Gloria Se Cocina Lento.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-057",
@@ -8741,7 +24993,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Mesa De Los Jueves Amigos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-058",
@@ -8750,7 +25019,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Parrilla De Papa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-059",
@@ -8759,7 +25045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Parrilla De Papá.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-060",
@@ -8768,7 +25071,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/La Sede Amigos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-061",
@@ -8777,7 +25097,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En El Quincho.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-062",
@@ -8786,7 +25123,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En El Quincho (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-063",
@@ -8795,7 +25149,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Lo Que Pasa En Lo De Los Abuelos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-064",
@@ -8804,7 +25175,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Maestro Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PAR-065",
@@ -8813,7 +25201,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mantenga Hidratado Al Parrillero (Color Azul).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-066",
@@ -8822,7 +25227,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mantenga Hidratado Al Parrillero (Color Negro).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-067",
@@ -8831,7 +25253,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/mantenga-hidratado-al-parrillero.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-068",
@@ -8840,7 +25279,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Azul).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.6 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.7 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-069",
@@ -8849,7 +25305,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Azul) (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-070",
@@ -8858,7 +25331,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Parrilla (Color Negro).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-071",
@@ -8867,7 +25357,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Mi Quincho.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-072",
@@ -8876,7 +25383,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Papá Es Unico Como Sus Asados.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-073",
@@ -8885,7 +25409,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Papá Funciona Mejor A Carbon.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-074",
@@ -8894,7 +25435,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrella (Blanco).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 10.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 7.6 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "26.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-075",
@@ -8903,7 +25461,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrella (Negro).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 10.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 7.6 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "26.5 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-076",
@@ -8912,7 +25487,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-077",
@@ -8921,7 +25513,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-078",
@@ -8930,7 +25539,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla (V3).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.6 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "PAR-079",
@@ -8939,7 +25565,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla 100% Carne Argentina.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.0 cm",
+        "price": 13600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.5 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "19.2 x 9.9 cm",
+        "price": 5900
+      }
+    ]
   },
   {
     "id": "PAR-080",
@@ -8948,7 +25591,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PAR-081",
@@ -8957,7 +25617,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre Traiga Lo Que Quieras.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-082",
@@ -8966,7 +25643,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Parrilla Libre Traiga Lo Que Quieras (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.0 cm",
+        "price": 13600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.5 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "19.3 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PAR-083",
@@ -8979,6 +25673,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Pausa De Hidratacion Parrilla.png",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/Pausa De Hidratacion Parrilla (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
     ]
   },
   {
@@ -8988,7 +25699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Prohibido Arrojarse Choripanes.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-085",
@@ -8997,7 +25725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Prohibido Arrojarse Choripanes (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.9 x 20.4 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-086",
@@ -9006,7 +25751,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Quincho.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.6 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "PAR-087",
@@ -9015,7 +25777,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Quincho Campeon De America.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-088",
@@ -9024,7 +25803,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Tercer Tiempo Amigos.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-089",
@@ -9033,7 +25829,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-090",
@@ -9042,7 +25855,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Azul).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.6 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.7 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-091",
@@ -9051,7 +25881,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Azul) (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-092",
@@ -9060,7 +25907,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para El Asador (Color Negro).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.7 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.3 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.6 x 9.9 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "PAR-093",
@@ -9069,7 +25933,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para La Asadora.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.6 cm",
+        "price": 6900
+      }
+    ]
   },
   {
     "id": "PAR-094",
@@ -9078,7 +25959,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Un Aplauso Para La Asadora (V2).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "26.8 x 20.4 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.7 x 14.2 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "13.0 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "PAR-095",
@@ -9091,6 +25989,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/un-aplauso-para-el-asador.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/un-aplauso-para-el-asador - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.8 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.3 x 14.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
     ]
   },
   {
@@ -9104,6 +26019,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-cerveza-quincho.jpg",
       "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-cerveza-quincho - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -9113,7 +26045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/vin-nueva-17.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.5 x 20.4 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.1 x 14.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "13.3 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PAR-098",
@@ -9122,7 +26071,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Parrilla y Asado/Welcome Beer Zone.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.8 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "19.5 x 9.9 cm",
+        "price": 6000
+      }
+    ]
   },
   {
     "id": "PER-001",
@@ -9131,7 +26097,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Personalizados/Letrero Negro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.9 x 20.4 cm",
+        "price": 14600
+      },
+      {
+        "label": "Mediano",
+        "dims": "16.0 x 14.2 cm",
+        "price": 7100
+      },
+      {
+        "label": "Chico",
+        "dims": "11.1 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PER-002",
@@ -9140,7 +26123,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Personalizados/Mini Imanes Personalizados/Mini Imanes Personalizados Portada.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.7 x 20.4 cm",
+        "price": 14400
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.8 x 14.2 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "11.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-001",
@@ -9149,7 +26149,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/022.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.3 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.0 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PUB-002",
@@ -9158,7 +26175,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.3 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.1 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "PUB-003",
@@ -9167,7 +26201,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/408490628724141463.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 16.5 cm",
+        "price": 15000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 11.5 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "17.5 x 9.9 cm",
+        "price": 5400
+      }
+    ]
   },
   {
     "id": "PUB-004",
@@ -9176,7 +26227,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Amargo Obrero.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-005",
@@ -9185,7 +26253,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Aperol.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-006",
@@ -9194,7 +26279,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bacardi.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-007",
@@ -9203,7 +26305,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bebida 13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-008",
@@ -9212,7 +26331,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Billa Bong.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-009",
@@ -9221,7 +26357,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Billa Bong Ola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.1 cm",
+        "price": 12800
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.9 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "20.4 x 9.9 cm",
+        "price": 6300
+      }
+    ]
   },
   {
     "id": "PUB-010",
@@ -9230,7 +26383,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/BILLABONG 00S.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 12.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.7 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "23.1 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-011",
@@ -9239,7 +26409,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Brahma Redondo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-012",
@@ -9248,7 +26435,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Branca Animado.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-013",
@@ -9257,7 +26461,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Branca Único.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-014",
@@ -9266,7 +26487,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud Light.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.1 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "25.0 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-015",
@@ -9275,7 +26513,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud New York.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.2 x 29.1 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.5 x 20.4 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.0 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-016",
@@ -9284,7 +26539,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Bud Sapo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-017",
@@ -9293,7 +26565,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/BUDWEISER.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 12.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.7 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "23.1 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-018",
@@ -9302,7 +26591,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/CAMEL.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-019",
@@ -9315,6 +26621,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Chad.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Chad (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.7 cm",
+        "price": 13800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 15.1 cm",
+        "price": 6700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.5 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9324,7 +26647,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Camel Fun.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-021",
@@ -9333,7 +26673,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Chevrolet Michigan.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.7 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.3 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-022",
@@ -9342,7 +26699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Circular.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-023",
@@ -9351,7 +26725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-024",
@@ -9364,6 +26755,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Fefreshing.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Fefreshing (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "22.7 x 20.4 cm",
+        "price": 14400
+      },
+      {
+        "label": "Mediano",
+        "dims": "15.8 x 14.2 cm",
+        "price": 7000
+      },
+      {
+        "label": "Chico",
+        "dims": "11.0 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9373,7 +26781,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Light.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-026",
@@ -9382,7 +26807,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Cola Oso.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-027",
@@ -9391,7 +26833,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coca Vintage.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-028",
@@ -9404,6 +26863,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coffee lover.jpg",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coffee lover - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "16.3 x 29.1 cm",
+        "price": 14800
+      },
+      {
+        "label": "Mediano",
+        "dims": "11.4 x 20.4 cm",
+        "price": 7300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 17.7 cm",
+        "price": 5500
+      }
     ]
   },
   {
@@ -9417,6 +26893,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coquita De Vidrio.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Coquita De Vidrio (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
     ]
   },
   {
@@ -9426,7 +26919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.4 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.4 cm",
+        "price": 6700
+      }
+    ]
   },
   {
     "id": "PUB-031",
@@ -9435,7 +26945,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Extra.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-032",
@@ -9444,7 +26971,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Mexicana.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-033",
@@ -9453,7 +26997,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Redondo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.3 cm",
+        "price": 13500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.8 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.3 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-034",
@@ -9462,7 +27023,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Surf.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-035",
@@ -9471,7 +27049,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Corona Surf (Ilustraciones).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PUB-036",
@@ -9480,7 +27075,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/corona-extra.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.5 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.8 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-037",
@@ -9489,7 +27101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Dickies.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-038",
@@ -9498,7 +27127,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Drink Coca Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-039",
@@ -9507,7 +27153,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Duff.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-040",
@@ -9516,7 +27179,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Enjoy Coca Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-041",
@@ -9525,7 +27205,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fanta.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-042",
@@ -9534,7 +27231,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fernet Branca.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-043",
@@ -9543,7 +27257,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ferrari.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-044",
@@ -9552,7 +27283,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Fido Dido.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-045",
@@ -9561,7 +27309,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/FORD.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-046",
@@ -9570,7 +27335,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ford Genuine.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-047",
@@ -9579,7 +27361,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Gas Monkey.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-048",
@@ -9588,7 +27387,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Circular.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-049",
@@ -9597,7 +27413,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Davidson Aguila.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-050",
@@ -9606,7 +27439,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Fuego.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 12.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.8 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "23.0 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-051",
@@ -9615,7 +27465,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Harley Sirena.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.7 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-052",
@@ -9628,6 +27495,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.0 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.6 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.2 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9637,7 +27521,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Beer.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-054",
@@ -9646,7 +27547,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Psssst.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-055",
@@ -9655,7 +27573,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken Redondo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-056",
@@ -9668,6 +27603,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken trade mark.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Heineken trade mark - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 12.6 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.8 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "22.8 x 9.9 cm",
+        "price": 6990
+      }
     ]
   },
   {
@@ -9677,7 +27629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Indian.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 12.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.8 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "23.0 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-058",
@@ -9686,7 +27655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R1.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-059",
@@ -9695,7 +27681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-060",
@@ -9704,7 +27707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jack Daniels R3.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-061",
@@ -9713,7 +27733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/jack-daniels-whiskey.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "15.5 x 29.1 cm",
+        "price": 14100
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.9 x 20.4 cm",
+        "price": 6900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 18.6 cm",
+        "price": 5700
+      }
+    ]
   },
   {
     "id": "PUB-062",
@@ -9722,7 +27759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jeep.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-063",
@@ -9731,7 +27785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Jordan Air.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.3 x 29.1 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-064",
@@ -9744,6 +27815,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Malboro.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Malboro (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9753,7 +27841,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/MICHELIN.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-066",
@@ -9762,7 +27867,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/MTV.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-067",
@@ -9771,7 +27893,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Mustang.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-068",
@@ -9780,7 +27919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/NIKE Prince.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.5 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.1 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PUB-069",
@@ -9793,6 +27949,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pacifico.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pacifico (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9802,7 +27975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/PEPSI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-071",
@@ -9811,7 +28001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Pepsi Cola.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-072",
@@ -9820,7 +28027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Playboy.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-073",
@@ -9829,7 +28053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/PLAYBOY Avion.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-074",
@@ -9838,7 +28079,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quick Silver SPACE.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.7 x 29.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.8 x 20.4 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.6 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "PUB-075",
@@ -9847,7 +28105,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quicksilver DRAGON.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-076",
@@ -9860,6 +28135,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quik Silver.webp",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quik Silver (Ilustracion).png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9869,7 +28161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Quilmes Redondo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-078",
@@ -9882,6 +28191,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.7 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.6 cm",
+        "price": 8200
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
     ]
   },
   {
@@ -9891,7 +28217,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Naranja.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.2 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "22.0 x 9.9 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "PUB-080",
@@ -9900,7 +28243,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Ola.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "PUB-081",
@@ -9909,7 +28269,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rip Curl Ola (V2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-082",
@@ -9922,6 +28299,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/ROCKSTAR.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/ROCKSTAR (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -9931,7 +28325,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Ron Jon.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-084",
@@ -9940,7 +28351,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Rusty.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.2 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "PUB-085",
@@ -9949,7 +28377,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SEVEN-UP.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-086",
@@ -9958,7 +28403,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SHELL.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-087",
@@ -9967,7 +28429,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Smoking Joe.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "PUB-088",
@@ -9976,7 +28455,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Surfrider.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.0 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.5 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "PUB-089",
@@ -9985,7 +28481,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/SUSUKI.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.2 cm",
+        "price": 16000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.6 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.2 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "PUB-090",
@@ -9998,6 +28511,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher.png",
       "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher (Ilustracion).webp"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.9 cm",
+        "price": 13300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.5 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -10007,7 +28537,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Trasher (Ilustracion 2).webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "PUB-092",
@@ -10016,7 +28563,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Vans.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.8 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.9 x 20.4 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.5 cm",
+        "price": 4500
+      }
+    ]
   },
   {
     "id": "PUB-093",
@@ -10025,7 +28589,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Publicidades Vintage/Wrangler.webp",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "RUT-001",
@@ -10034,7 +28615,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Abbey Road.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-002",
@@ -10043,7 +28641,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Almagro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-003",
@@ -10052,7 +28667,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Amsterdam.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-004",
@@ -10061,7 +28693,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Argentina.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-005",
@@ -10070,7 +28719,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Asuncion.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-006",
@@ -10079,7 +28745,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Baker Street.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-007",
@@ -10088,7 +28771,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Bandera Brasil.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-008",
@@ -10097,7 +28797,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Bandera Italiana.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-009",
@@ -10106,7 +28823,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Bandera Mexico.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-010",
@@ -10115,7 +28849,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Barcelona.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-011",
@@ -10124,7 +28875,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Bariloche.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-012",
@@ -10133,7 +28901,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Bogota.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-013",
@@ -10142,7 +28927,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Broadway.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-014",
@@ -10151,7 +28953,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Buenos Aires.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-015",
@@ -10160,7 +28979,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Carilo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-016",
@@ -10169,7 +29005,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Carnaby Street.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-017",
@@ -10178,7 +29031,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Central Park.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-018",
@@ -10187,7 +29057,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Chapelco.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-019",
@@ -10196,7 +29083,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Ciudades Del Mundo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-020",
@@ -10205,7 +29109,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Con la Ruta que quieras.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.3 cm",
+        "price": 16700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.3 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.8 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "RUT-021",
@@ -10214,7 +29135,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Concordia.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-022",
@@ -10223,7 +29161,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Cordoba.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-023",
@@ -10232,7 +29187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Corrientes.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-024",
@@ -10241,7 +29213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Despensa.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-025",
@@ -10250,7 +29239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Escudo Republica Oriental del Uruguay.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-026",
@@ -10259,7 +29265,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Fifth Ave.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-027",
@@ -10268,7 +29291,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Francia.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-028",
@@ -10277,7 +29317,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Hollywood BLVD.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-029",
@@ -10286,7 +29343,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Hong Kong.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-030",
@@ -10295,7 +29369,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Jujuy.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-031",
@@ -10304,7 +29395,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/La Paz.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-032",
@@ -10313,7 +29421,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Las Vegas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-033",
@@ -10322,7 +29447,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/London.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-034",
@@ -10331,7 +29473,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Londres.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-035",
@@ -10340,7 +29499,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Madrid.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-036",
@@ -10349,7 +29525,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Mar del Plata.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-037",
@@ -10358,7 +29551,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Medellin.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-038",
@@ -10367,7 +29577,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Montevideo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-039",
@@ -10376,7 +29603,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Neuquen.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-040",
@@ -10385,7 +29629,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/New York.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-041",
@@ -10394,7 +29655,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Olavarria.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-042",
@@ -10403,7 +29681,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Orlando.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-043",
@@ -10412,7 +29707,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Paris.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-044",
@@ -10421,7 +29733,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Patagonia.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-045",
@@ -10430,7 +29759,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Penny Lane.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.5 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.5 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "RUT-046",
@@ -10439,7 +29785,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Pinamar.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-047",
@@ -10448,7 +29811,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Puerto Iguazu - comprar online.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-048",
@@ -10457,7 +29837,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Rio Cuarto.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-049",
@@ -10466,7 +29863,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Rio de Janeiro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-050",
@@ -10475,7 +29889,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Rio Negro.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-051",
@@ -10484,7 +29915,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Rosario.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-052",
@@ -10493,7 +29941,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Route 66.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.8 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.7 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "RUT-053",
@@ -10502,7 +29967,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Ruta 3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.3 cm",
+        "price": 16700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.3 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.8 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "RUT-054",
@@ -10511,7 +29993,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Ruta 40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.3 cm",
+        "price": 16700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.3 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.8 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "RUT-055",
@@ -10520,7 +30019,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Ruta 40 chico.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.3 cm",
+        "price": 16700
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.3 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.8 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "RUT-056",
@@ -10529,7 +30045,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/San Francisco.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-057",
@@ -10538,7 +30071,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/San Juan.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-058",
@@ -10547,7 +30097,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/San Luis.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.8 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-059",
@@ -10556,7 +30123,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/San Luis en internet.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.5 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.1 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-060",
@@ -10565,7 +30149,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/San Martin de los Andes.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-061",
@@ -10574,7 +30175,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Santa Cruz.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-062",
@@ -10583,7 +30201,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Santa Fe.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-063",
@@ -10592,7 +30227,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Toilette Baño Bathroom.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "RUT-064",
@@ -10601,7 +30253,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Valeria del Mar.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-065",
@@ -10610,7 +30279,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Victoria.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-066",
@@ -10619,7 +30305,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Villa Gesell.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-067",
@@ -10628,7 +30331,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Villa La Angostura.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.8 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.5 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.8 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-068",
@@ -10637,7 +30357,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Wall St.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "RUT-069",
@@ -10646,7 +30383,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Rutas y Señales/Welcome Las Vegas.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.1 x 20.4 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.1 x 9.9 cm",
+        "price": 4000
+      }
+    ]
   },
   {
     "id": "SEÑ-001",
@@ -10655,7 +30409,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado (Abierto).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "SEÑ-002",
@@ -10664,7 +30435,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado (Carredo).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.3 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "SEÑ-003",
@@ -10677,6 +30465,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/alto voltaje.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/alto voltaje - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10690,6 +30495,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/apague el equipo si no lo utiliza.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/apague el equipo si no lo utiliza - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10703,6 +30525,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/apague la luz cuando no se utilice.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/apague la luz cuando no se utilice - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10716,6 +30555,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Baños.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Baños - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.9 cm",
+        "price": 12600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.8 cm",
+        "price": 6200
+      },
+      {
+        "label": "Chico",
+        "dims": "20.7 x 9.9 cm",
+        "price": 6400
+      }
     ]
   },
   {
@@ -10729,6 +30585,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/botiquin.png",
       "Tienda (Imagenes)/Categorias/Señalitica/botiquin - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.6 x 29.1 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.7 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.7 cm",
+        "price": 4500
+      }
     ]
   },
   {
@@ -10742,6 +30615,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Camara.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Camara - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "23.0 x 20.4 cm",
+        "price": 14600
+      },
+      {
+        "label": "Mediano",
+        "dims": "16.0 x 14.2 cm",
+        "price": 7100
+      },
+      {
+        "label": "Chico",
+        "dims": "11.2 x 9.9 cm",
+        "price": 3500
+      }
     ]
   },
   {
@@ -10755,6 +30645,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/concerbar cerrada esta puerta.png",
       "Tienda (Imagenes)/Categorias/Señalitica/concerbar cerrada esta puerta - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10768,6 +30675,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Cuidado Con El Perro.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Cuidado Con El Perro - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.8 x 29.1 cm",
+        "price": 17100
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.2 x 20.4 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.3 cm",
+        "price": 4700
+      }
     ]
   },
   {
@@ -10781,6 +30705,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/entrada y salida de vehiculos.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/entrada y salida de vehiculos - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.0 x 29.1 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.3 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.2 cm",
+        "price": 4700
+      }
     ]
   },
   {
@@ -10794,6 +30735,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/extintor.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/extintor - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 21.0 cm",
+        "price": 13400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.6 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.2 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -10807,6 +30765,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/higiene.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/higiene - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
     ]
   },
   {
@@ -10820,6 +30795,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/lavarse las manos.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/lavarse las manos - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10833,6 +30825,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/mantener limpio el entorno.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/mantener limpio el entorno - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10846,6 +30855,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/no correr.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/no correr - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.0 cm",
+        "price": 17200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.8 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.1 cm",
+        "price": 4000
+      }
     ]
   },
   {
@@ -10855,7 +30881,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/No Fumar.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.2 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "SEÑ-018",
@@ -10868,6 +30911,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/obligatorio mantener limpieza.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/obligatorio mantener limpieza - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "18.2 x 29.1 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "12.8 x 20.4 cm",
+        "price": 8100
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.8 cm",
+        "price": 4900
+      }
     ]
   },
   {
@@ -10881,6 +30941,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/peligro.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/peligro - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.6 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.2 cm",
+        "price": 6500
+      },
+      {
+        "label": "Chico",
+        "dims": "19.8 x 9.9 cm",
+        "price": 6100
+      }
     ]
   },
   {
@@ -10894,6 +30971,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido consumir alimentos en este lugar.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido consumir alimentos en este lugar - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10907,6 +31001,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido Estacionar.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/Prohibido Estacionar - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.1 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.1 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.3 cm",
+        "price": 4400
+      }
     ]
   },
   {
@@ -10916,7 +31027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/prohibido tirar pape - Ilustracionl.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "SEÑ-023",
@@ -10925,7 +31053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/prohibido tirar papel.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "SEÑ-024",
@@ -10938,6 +31083,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/propiedad privada.png",
       "Tienda (Imagenes)/Categorias/Señalitica/propiedad privada - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 26.8 cm",
+        "price": 17000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.7 cm",
+        "price": 8300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.0 cm",
+        "price": 4000
+      }
     ]
   },
   {
@@ -10951,6 +31113,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Salida de Emergencia.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Salida de Emergencia - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 13.4 cm",
+        "price": 12200
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 9.4 cm",
+        "price": 6000
+      },
+      {
+        "label": "Chico",
+        "dims": "21.6 x 9.9 cm",
+        "price": 6700
+      }
     ]
   },
   {
@@ -10964,6 +31143,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/Sillas de rueda.png",
       "Tienda (Imagenes)/Categorias/Señalitica/Sillas de rueda - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
     ]
   },
   {
@@ -10977,6 +31173,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/solo personal autorizado.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/solo personal autorizado - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.5 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
     ]
   },
   {
@@ -10990,6 +31203,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/uso obligatorio de equipo de proteccion.jpg",
       "Tienda (Imagenes)/Categorias/Señalitica/uso obligatorio de equipo de proteccion - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -11003,6 +31233,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Señalitica/zona restringida.png",
       "Tienda (Imagenes)/Categorias/Señalitica/zona restringida - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 15.5 cm",
+        "price": 14100
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.9 cm",
+        "price": 6900
+      },
+      {
+        "label": "Chico",
+        "dims": "18.6 x 9.9 cm",
+        "price": 5700
+      }
     ]
   },
   {
@@ -11012,7 +31259,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.2 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "SEÑ-031",
@@ -11021,7 +31285,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Abierto y Cerrado - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "SEÑ-032",
@@ -11030,7 +31311,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Señalitica/Cerrado - Ilustracion.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 11.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 8.3 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "24.2 x 9.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "VEH-001",
@@ -11039,7 +31337,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-002",
@@ -11048,7 +31363,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/Ford 1484566.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.3 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-003",
@@ -11057,7 +31389,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/ford-authorized-service.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.1 x 20.4 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.6 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-004",
@@ -11066,7 +31415,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/indian-motorcycle-1934.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VEH-005",
@@ -11075,7 +31441,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/Sin titulo.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.0 x 20.4 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.5 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-006",
@@ -11084,7 +31467,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.5 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-007",
@@ -11093,7 +31493,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-11.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-008",
@@ -11102,7 +31519,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-13.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-009",
@@ -11111,7 +31545,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-14.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-010",
@@ -11120,7 +31571,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-011",
@@ -11129,7 +31597,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-16.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-012",
@@ -11138,7 +31623,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-17.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-013",
@@ -11147,7 +31649,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-18.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-014",
@@ -11156,7 +31675,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-19.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-015",
@@ -11165,7 +31701,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-2.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.0 x 20.4 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.5 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-016",
@@ -11174,7 +31727,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-20.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-017",
@@ -11183,7 +31753,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-21.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-018",
@@ -11192,7 +31779,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-22.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-019",
@@ -11201,7 +31805,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-23.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-020",
@@ -11210,7 +31831,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-24.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-021",
@@ -11219,7 +31857,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-25.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.2 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-022",
@@ -11228,7 +31883,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-26.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-023",
@@ -11237,7 +31909,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-27.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-024",
@@ -11246,7 +31935,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-28.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.7 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-025",
@@ -11255,7 +31961,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-29.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-026",
@@ -11264,7 +31987,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-3.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.0 x 20.4 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.5 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-027",
@@ -11273,7 +32013,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-30.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.0 x 20.4 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.5 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-028",
@@ -11282,7 +32039,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-31.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.0 x 20.4 cm",
+        "price": 17800
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.5 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.6 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-029",
@@ -11291,7 +32065,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-32.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-030",
@@ -11300,7 +32091,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-33.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.7 x 20.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.3 x 14.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-031",
@@ -11309,7 +32117,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-34.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-032",
@@ -11318,7 +32143,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-35.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.2 x 20.4 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.6 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.7 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-033",
@@ -11327,7 +32169,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-36.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-034",
@@ -11336,7 +32195,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-37.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-035",
@@ -11345,7 +32221,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-38.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-036",
@@ -11354,7 +32247,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-39.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-037",
@@ -11363,7 +32273,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-4.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.3 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.7 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.7 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-038",
@@ -11372,7 +32299,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-40.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-039",
@@ -11381,7 +32325,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-41.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-040",
@@ -11390,7 +32351,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-42.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-041",
@@ -11399,7 +32377,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-43.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-042",
@@ -11408,7 +32403,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-44.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-043",
@@ -11417,7 +32429,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-45.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-044",
@@ -11426,7 +32455,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-46.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-045",
@@ -11435,7 +32481,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-47.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.8 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.8 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-046",
@@ -11444,7 +32507,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-48.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.4 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.8 x 14.2 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VEH-047",
@@ -11453,7 +32533,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-49.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.8 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.5 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.1 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-048",
@@ -11462,7 +32559,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-5.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.1 cm",
+        "price": 17900
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.5 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.6 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-049",
@@ -11471,7 +32585,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-50.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-050",
@@ -11480,7 +32611,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-51.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-051",
@@ -11489,7 +32637,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-52.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-052",
@@ -11498,7 +32663,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-53.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-053",
@@ -11507,7 +32689,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-54.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-054",
@@ -11516,7 +32715,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-55.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.5 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-055",
@@ -11525,7 +32741,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-56.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-056",
@@ -11534,7 +32767,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-57.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.5 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.3 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "10.0 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-057",
@@ -11543,7 +32793,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-58.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-058",
@@ -11552,7 +32819,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-59.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-059",
@@ -11561,7 +32845,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-6.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.8 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.3 x 14.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-060",
@@ -11570,7 +32871,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-60.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-061",
@@ -11579,7 +32897,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-7.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.8 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-062",
@@ -11588,7 +32923,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-8.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-063",
@@ -11597,7 +32949,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vehiculos-9.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.9 x 20.4 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.4 x 14.2 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "13.5 x 9.9 cm",
+        "price": 4200
+      }
+    ]
   },
   {
     "id": "VEH-064",
@@ -11606,7 +32975,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/vin-nueva-10.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-065",
@@ -11615,7 +33001,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/YPF (Redondo).png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.6 cm",
+        "price": 13100
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.4 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 10.0 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VEH-066",
@@ -11624,7 +33027,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vehiculos/YPF (Redondo - Ilustracion).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-001",
@@ -11633,7 +33053,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/barra.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.5 cm",
+        "price": 17700
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-002",
@@ -11642,7 +33079,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/california-outatime.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 14.3 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 10.0 cm",
+        "price": 6400
+      },
+      {
+        "label": "Chico",
+        "dims": "20.1 x 9.9 cm",
+        "price": 6200
+      }
+    ]
   },
   {
     "id": "VIN-003",
@@ -11651,7 +33105,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/download (1).jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-004",
@@ -11660,7 +33131,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/ginebra-bols.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "7.2 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "5.1 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "7.2 x 29.1 cm",
+        "price": 6500
+      }
+    ]
   },
   {
     "id": "VIN-005",
@@ -11673,6 +33161,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Vintages/hoy es un buen dia para tener un gran dia.png",
       "Tienda (Imagenes)/Categorias/Vintages/hoy es un buen dia para tener un gran dia - Ilustracion.png"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.3 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.0 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
     ]
   },
   {
@@ -11682,7 +33187,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/junta-nacional-de-carnes.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "28.3 x 20.4 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.7 x 14.2 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "13.8 x 9.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VIN-007",
@@ -11691,7 +33213,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/no-hay-nada-mejor-que-casa.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 7.9 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 5.6 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 7.9 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "VIN-008",
@@ -11700,7 +33239,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/open-24-hours.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 20.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 14.1 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "14.3 x 9.9 cm",
+        "price": 4400
+      }
+    ]
   },
   {
     "id": "VIN-009",
@@ -11713,6 +33269,23 @@ const items = [
     "gallery": [
       "Tienda (Imagenes)/Categorias/Vintages/Siempre que muera volvere a nacer.jpg",
       "Tienda (Imagenes)/Categorias/Vintages/Siempre que muera volvere a nacer - Ilustracion.jpg"
+    ],
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.3 x 29.1 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 20.4 cm",
+        "price": 9000
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.2 cm",
+        "price": 4400
+      }
     ]
   },
   {
@@ -11722,7 +33295,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/tome-coca-cola.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.4 cm",
+        "price": 17400
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.1 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.3 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-011",
@@ -11731,7 +33321,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-botellas.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "14.6 x 29.1 cm",
+        "price": 13200
+      },
+      {
+        "label": "Mediano",
+        "dims": "10.3 x 20.4 cm",
+        "price": 6600
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 19.7 cm",
+        "price": 6100
+      }
+    ]
   },
   {
     "id": "VIN-012",
@@ -11740,7 +33347,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-french-fries.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.3 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.5 cm",
+        "price": 8600
+      },
+      {
+        "label": "Chico",
+        "dims": "14.9 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-013",
@@ -11749,7 +33373,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-gas-station.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 17.5 cm",
+        "price": 15900
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 12.2 cm",
+        "price": 7800
+      },
+      {
+        "label": "Chico",
+        "dims": "16.5 x 9.9 cm",
+        "price": 5100
+      }
+    ]
   },
   {
     "id": "VIN-014",
@@ -11758,7 +33399,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-11.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-015",
@@ -11767,7 +33425,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-12.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.1 x 29.1 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.4 x 20.4 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 15.1 cm",
+        "price": 4700
+      }
+    ]
   },
   {
     "id": "VIN-016",
@@ -11776,7 +33451,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-13.jpg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 8.7 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 6.1 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "29.1 x 8.7 cm",
+        "price": 6990
+      }
+    ]
   },
   {
     "id": "VIN-017",
@@ -11785,7 +33477,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/vin-nueva-15.png",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-018",
@@ -11794,7 +33503,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-019",
@@ -11803,7 +33529,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-020",
@@ -11812,7 +33555,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-021",
@@ -11821,7 +33581,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-022",
@@ -11830,7 +33607,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.38 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-023",
@@ -11839,7 +33633,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.47 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-024",
@@ -11848,7 +33659,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-025",
@@ -11857,7 +33685,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-026",
@@ -11866,7 +33711,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.48 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-027",
@@ -11875,7 +33737,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-028",
@@ -11884,7 +33763,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-029",
@@ -11893,7 +33789,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.49 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-030",
@@ -11902,7 +33815,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-031",
@@ -11911,7 +33841,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-032",
@@ -11920,7 +33867,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-033",
@@ -11929,7 +33893,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.50 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-034",
@@ -11938,7 +33919,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-035",
@@ -11947,7 +33945,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.5 x 20.4 cm",
+        "price": 17500
+      },
+      {
+        "label": "Mediano",
+        "dims": "19.1 x 14.2 cm",
+        "price": 8500
+      },
+      {
+        "label": "Chico",
+        "dims": "13.3 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-036",
@@ -11956,7 +33971,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "VIN-037",
@@ -11965,7 +33997,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.51 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-038",
@@ -11974,7 +34023,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.52 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.5 x 20.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "17.8 x 14.2 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "12.4 x 9.9 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "VIN-039",
@@ -11983,7 +34049,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-040",
@@ -11992,7 +34075,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-041",
@@ -12001,7 +34101,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-042",
@@ -12010,7 +34127,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.53 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-043",
@@ -12019,7 +34153,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-044",
@@ -12028,7 +34179,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-045",
@@ -12037,7 +34205,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-046",
@@ -12046,7 +34231,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.9 x 20.4 cm",
+        "price": 16500
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.0 x 14.2 cm",
+        "price": 8000
+      },
+      {
+        "label": "Chico",
+        "dims": "12.5 x 9.9 cm",
+        "price": 3900
+      }
+    ]
   },
   {
     "id": "VIN-047",
@@ -12055,7 +34257,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.54 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.5 x 20.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "17.8 x 14.2 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "12.4 x 9.9 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "VIN-048",
@@ -12064,7 +34283,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-049",
@@ -12073,7 +34309,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-050",
@@ -12082,7 +34335,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-051",
@@ -12091,7 +34361,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.55 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-052",
@@ -12100,7 +34387,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-053",
@@ -12109,7 +34413,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-054",
@@ -12118,7 +34439,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-055",
@@ -12127,7 +34465,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.56 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-056",
@@ -12136,7 +34491,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-057",
@@ -12145,7 +34517,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-058",
@@ -12154,7 +34543,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.57 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-059",
@@ -12163,7 +34569,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-060",
@@ -12172,7 +34595,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-061",
@@ -12181,7 +34621,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.58 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-062",
@@ -12190,7 +34647,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "19.4 x 29.1 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "13.6 x 20.4 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 14.8 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-063",
@@ -12199,7 +34673,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 28.6 cm",
+        "price": 17990
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 19.9 cm",
+        "price": 8800
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.9 cm",
+        "price": 4300
+      }
+    ]
   },
   {
     "id": "VIN-064",
@@ -12208,7 +34699,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.39.59 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-065",
@@ -12217,7 +34725,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.12 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-066",
@@ -12226,7 +34751,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.12 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-067",
@@ -12235,7 +34777,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-068",
@@ -12244,7 +34803,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-069",
@@ -12253,7 +34829,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-070",
@@ -12262,7 +34855,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.13 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-071",
@@ -12271,7 +34881,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-072",
@@ -12280,7 +34907,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-073",
@@ -12289,7 +34933,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.14 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-074",
@@ -12298,7 +34959,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-075",
@@ -12307,7 +34985,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-076",
@@ -12316,7 +35011,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-077",
@@ -12325,7 +35037,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-078",
@@ -12334,7 +35063,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.15 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-079",
@@ -12343,7 +35089,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-080",
@@ -12352,7 +35115,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-081",
@@ -12361,7 +35141,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-082",
@@ -12370,7 +35167,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.16 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-083",
@@ -12379,7 +35193,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-084",
@@ -12388,7 +35219,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-085",
@@ -12397,7 +35245,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-086",
@@ -12406,7 +35271,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.17 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-087",
@@ -12415,7 +35297,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-088",
@@ -12424,7 +35323,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-089",
@@ -12433,7 +35349,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.18 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-090",
@@ -12442,7 +35375,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-091",
@@ -12451,7 +35401,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-092",
@@ -12460,7 +35427,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-093",
@@ -12469,7 +35453,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.19 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-094",
@@ -12478,7 +35479,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-095",
@@ -12487,7 +35505,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-096",
@@ -12496,7 +35531,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-097",
@@ -12505,7 +35557,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-098",
@@ -12514,7 +35583,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.20 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-099",
@@ -12523,7 +35609,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-100",
@@ -12532,7 +35635,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-101",
@@ -12541,7 +35661,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-102",
@@ -12550,7 +35687,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.21 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-103",
@@ -12559,7 +35713,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-104",
@@ -12568,7 +35739,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-105",
@@ -12577,7 +35765,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-106",
@@ -12586,7 +35791,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.22 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-107",
@@ -12595,7 +35817,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-108",
@@ -12604,7 +35843,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-109",
@@ -12613,7 +35869,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 27.2 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 18.9 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 13.2 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-110",
@@ -12622,7 +35895,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.23 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "25.5 x 20.4 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "17.8 x 14.2 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "12.4 x 9.9 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "VIN-111",
@@ -12631,7 +35921,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 25.5 cm",
+        "price": 16200
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 17.8 cm",
+        "price": 7900
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 12.4 cm",
+        "price": 3800
+      }
+    ]
   },
   {
     "id": "VIN-112",
@@ -12640,7 +35947,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-113",
@@ -12649,7 +35973,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "27.2 x 20.4 cm",
+        "price": 17300
+      },
+      {
+        "label": "Mediano",
+        "dims": "18.9 x 14.2 cm",
+        "price": 8400
+      },
+      {
+        "label": "Chico",
+        "dims": "13.2 x 9.9 cm",
+        "price": 4100
+      }
+    ]
   },
   {
     "id": "VIN-114",
@@ -12658,7 +35999,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.41.24 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "29.1 x 19.4 cm",
+        "price": 17600
+      },
+      {
+        "label": "Mediano",
+        "dims": "20.4 x 13.6 cm",
+        "price": 8700
+      },
+      {
+        "label": "Chico",
+        "dims": "14.8 x 9.9 cm",
+        "price": 4600
+      }
+    ]
   },
   {
     "id": "VIN-115",
@@ -12667,7 +36025,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.1 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.2 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 22.0 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "VIN-116",
@@ -12676,7 +36051,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.1 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.2 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 22.0 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "VIN-117",
@@ -12685,7 +36077,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.15 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.1 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.2 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 22.0 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "VIN-118",
@@ -12694,7 +36103,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "13.1 x 29.1 cm",
+        "price": 11990
+      },
+      {
+        "label": "Mediano",
+        "dims": "9.2 x 20.4 cm",
+        "price": 5990
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 22.0 cm",
+        "price": 6800
+      }
+    ]
   },
   {
     "id": "VIN-119",
@@ -12703,7 +36129,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-120",
@@ -12712,7 +36155,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.16 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-121",
@@ -12721,7 +36181,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-122",
@@ -12730,7 +36207,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-123",
@@ -12739,7 +36233,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-124",
@@ -12748,7 +36259,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.17 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-125",
@@ -12757,7 +36285,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-126",
@@ -12766,7 +36311,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-127",
@@ -12775,7 +36337,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-128",
@@ -12784,7 +36363,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.18 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-129",
@@ -12793,7 +36389,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-130",
@@ -12802,7 +36415,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-131",
@@ -12811,7 +36441,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-132",
@@ -12820,7 +36467,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.19 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-133",
@@ -12829,7 +36493,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-134",
@@ -12838,7 +36519,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-135",
@@ -12847,7 +36545,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-136",
@@ -12856,7 +36571,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.20 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-137",
@@ -12865,7 +36597,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-138",
@@ -12874,7 +36623,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-139",
@@ -12883,7 +36649,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-140",
@@ -12892,7 +36675,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-141",
@@ -12901,7 +36701,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.21 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-142",
@@ -12910,7 +36727,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-143",
@@ -12919,7 +36753,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-144",
@@ -12928,7 +36779,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-145",
@@ -12937,7 +36805,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.22 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-146",
@@ -12946,7 +36831,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-147",
@@ -12955,7 +36857,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-148",
@@ -12964,7 +36883,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-149",
@@ -12973,7 +36909,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.23 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-150",
@@ -12982,7 +36935,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-151",
@@ -12991,7 +36961,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-152",
@@ -13000,7 +36987,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-153",
@@ -13009,7 +37013,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.24 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-154",
@@ -13018,7 +37039,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-155",
@@ -13027,7 +37065,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-156",
@@ -13036,7 +37091,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-157",
@@ -13045,7 +37117,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.25 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-158",
@@ -13054,7 +37143,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-159",
@@ -13063,7 +37169,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-160",
@@ -13072,7 +37195,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (2).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-161",
@@ -13081,7 +37221,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (3).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-162",
@@ -13090,7 +37247,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.26 AM (4).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-163",
@@ -13099,7 +37273,24 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.27 AM.jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   },
   {
     "id": "VIN-164",
@@ -13108,6 +37299,23 @@ const items = [
     "img": "Tienda (Imagenes)/Categorias/Vintages/Revisar/WhatsApp Image 2026-11-17 at 11.42.27 AM (1).jpeg",
     "size": "-",
     "mat": "Metal",
-    "price": "$14.900"
+    "price": "$14.900",
+    "sizes": [
+      {
+        "label": "Grande",
+        "dims": "20.4 x 20.4 cm",
+        "price": 13000
+      },
+      {
+        "label": "Mediano",
+        "dims": "14.2 x 14.2 cm",
+        "price": 6300
+      },
+      {
+        "label": "Chico",
+        "dims": "9.9 x 9.9 cm",
+        "price": 3490
+      }
+    ]
   }
 ];

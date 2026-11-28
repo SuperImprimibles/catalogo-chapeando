@@ -3,6 +3,20 @@
 
 const items = [
   {
+    "id": "TEST-001",
+    "title": "Producto de Prueba",
+    "cat": "argentina",
+    "img": "Tienda (Imagenes)/Categorias/Argentina/Ancho de espada.webp",
+    "size": "-",
+    "mat": "Metal",
+    "price": "$1",
+    "sizes": [
+      { "label": "Grande", "dims": "19.4 x 29.1 cm", "price": 1 },
+      { "label": "Mediano", "dims": "13.6 x 20.4 cm", "price": 1 },
+      { "label": "Chico", "dims": "9.9 x 14.8 cm", "price": 1 }
+    ]
+  },
+  {
     "id": "ARG-001",
     "title": "Ancho de espada",
     "cat": "argentina",

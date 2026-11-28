@@ -1219,6 +1219,7 @@ function waProduct() {
     title: current.title + ' — ' + modalSize,
     qty: modalQty,
     priceNum: priceNum,
+    img: current.img,
   }];
 
   var backendUrl = 'https://catalogo-chapeando-backend.vercel.app/api/checkout';
@@ -1421,7 +1422,7 @@ function waCart() {
   selected.forEach(function(item) {
     var priceNum = parsePrice(item.price);
     if (priceNum === null) { allPriced = false; return; }
-    mpItems.push({ id: item.id, title: item.title, qty: item.qty, priceNum: priceNum });
+    mpItems.push({ id: item.id, title: item.title, qty: item.qty, priceNum: priceNum, img: item.img });
   });
 
   // Si hay productos sin precio, fallback a WhatsApp

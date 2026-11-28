@@ -20,13 +20,17 @@ module.exports = async function handler(req, res) {
     }
 
     const mpItems = items.map(function(item) {
-      return {
+      var mpItem = {
         id: item.id,
         title: item.title,
         quantity: Number(item.qty),
         unit_price: Number(item.priceNum),
         currency_id: 'ARS',
       };
+      if (item.img) {
+        mpItem.picture_url = 'https://superimprimibles.github.io/catalogo-chapeando/' + item.img;
+      }
+      return mpItem;
     });
 
     const preference = await mercadopago.preferences.create({

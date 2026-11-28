@@ -39,7 +39,13 @@ module.exports = async function handler(req, res) {
 
     const itemsHtml = items.length
       ? items.map(function(i) {
-          return '<li>' + i.title + ' x' + i.quantity + ' — $' + Number(i.unit_price).toLocaleString('es-AR') + '</li>';
+          var imgUrl  = i.picture_url ? '<img src="' + i.picture_url + '" style="width:80px;height:80px;object-fit:cover;border-radius:8px;margin-right:12px;vertical-align:middle">' : '';
+          var linkUrl = 'https://superimprimibles.github.io/catalogo-chapeando/#' + i.id;
+          return '<li style="margin-bottom:10px;list-style:none;display:flex;align-items:center">'
+            + imgUrl
+            + '<span>' + i.title + ' x' + i.quantity + ' — $' + Number(i.unit_price).toLocaleString('es-AR')
+            + ' &nbsp;<a href="' + linkUrl + '" style="color:#888;font-size:11px">ver producto</a></span>'
+            + '</li>';
         }).join('')
       : '<li>Sin detalle de items</li>';
 

@@ -42,7 +42,14 @@ module.exports = async function handler(req, res) {
     const envio     = p.external_reference || 'No especificado';
 
     // Convertir saltos de línea del envío a HTML
-    const envioHtml = envio.replace(/\n/g, '<br>').replace(/   /g, '&nbsp;&nbsp;&nbsp;');
+    // Detectar teléfono en el texto de envío y convertirlo en link de WA
+    const envioHtml = envio
+      .replace(/\n/g, '<br>')
+      .replace(/   /g, '&nbsp;&nbsp;&nbsp;')
+      .replace(/📱 Tel: ([+\d\s\-().]+)/g, function(match, tel) {
+        var clean = tel.replace(/[\s\-().]/g, '');
+        return '📱 Tel: <a href="https://wa.me/' + clean + '" style="color:#25d366;font-weight:700">' + tel + '</a>';
+      });
 
     await resend.emails.send({
       from:    'Chapeando VM <onboarding@resend.dev>',

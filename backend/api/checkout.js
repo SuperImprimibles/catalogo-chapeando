@@ -32,12 +32,13 @@ module.exports = async function handler(req, res) {
     const preference = await mercadopago.preferences.create({
       items: mpItems,
       back_urls: {
-        success: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=ok',
-        failure: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=error',
-        pending: 'https://superimprimibles.github.io/catalogo-chapeando/?pago=pendiente',
+        success:  'https://superimprimibles.github.io/catalogo-chapeando/?pago=ok',
+        failure:  'https://superimprimibles.github.io/catalogo-chapeando/?pago=error',
+        pending:  'https://superimprimibles.github.io/catalogo-chapeando/?pago=pendiente',
       },
       auto_return: 'approved',
       statement_descriptor: 'Chapeando VM',
+      notification_url: 'https://catalogo-chapeando-backend.vercel.app/api/webhook',
     });
 
     return res.status(200).json({ init_point: preference.body.init_point });

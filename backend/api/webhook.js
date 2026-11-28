@@ -18,7 +18,6 @@ module.exports = async function handler(req, res) {
   try {
     const { type, data } = req.body;
 
-    // Solo nos interesan los pagos aprobados
     if (type !== 'payment') return;
 
     const paymentId = data && data.id;
@@ -29,7 +28,7 @@ module.exports = async function handler(req, res) {
 
     if (p.status !== 'approved') return;
 
-    // Armar detalle de items
+    // Items
     const items = (p.additional_info && p.additional_info.items) || [];
     const itemsHtml = items.length
       ? items.map(function(i) {
@@ -37,9 +36,13 @@ module.exports = async function handler(req, res) {
         }).join('')
       : '<li>Sin detalle de items</li>';
 
-    const total = '$' + Number(p.transaction_amount).toLocaleString('es-AR');
+    const total     = '$' + Number(p.transaction_amount).toLocaleString('es-AR');
     const comprador = (p.payer && p.payer.email) ? p.payer.email : 'No disponible';
-    const fecha = new Date(p.date_approved).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' });
+    const fecha     = new Date(p.date_approved).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' });
+    const envio     = p.external_reference || 'No especificado';
+
+    // Convertir saltos de línea del envío a HTML
+    const envioHtml = envio.replace(/\n/g, '<br>').replace(/   /g, '&nbsp;&nbsp;&nbsp;');
 
     await resend.emails.send({
       from:    'Chapeando VM <onboarding@resend.dev>',
@@ -53,7 +56,12 @@ module.exports = async function handler(req, res) {
           <div style="background:#fff;border-radius:8px;padding:16px;margin:16px 0;border:1px solid #eee">
             <p style="margin:0 0 8px"><strong>Comprador:</strong> ${comprador}</p>
             <p style="margin:0 0 8px"><strong>Total:</strong> ${total}</p>
-            <p style="margin:0 0 8px"><strong>ID de pago:</strong> ${paymentId}</p>
+            <p style="margin:0 0 0"><strong>ID de pago:</strong> ${paymentId}</p>
+          </div>
+
+          <div style="background:#fff;border-radius:8px;padding:16px;margin:16px 0;border:1px solid #eee">
+            <strong>Entrega:</strong>
+            <p style="margin:8px 0 0;color:#333;line-height:1.6">${envioHtml}</p>
           </div>
 
           <div style="background:#fff;border-radius:8px;padding:16px;border:1px solid #eee">

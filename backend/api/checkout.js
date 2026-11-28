@@ -13,7 +13,7 @@ module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Método no permitido' });
 
   try {
-    const { items } = req.body;
+    const { items, envio } = req.body;
 
     if (!items || !items.length) {
       return res.status(400).json({ error: 'No hay productos en el carrito' });
@@ -31,6 +31,7 @@ module.exports = async function handler(req, res) {
 
     const preference = await mercadopago.preferences.create({
       items: mpItems,
+      external_reference: envio || '',
       back_urls: {
         success:  'https://superimprimibles.github.io/catalogo-chapeando/?pago=ok',
         failure:  'https://superimprimibles.github.io/catalogo-chapeando/?pago=error',
